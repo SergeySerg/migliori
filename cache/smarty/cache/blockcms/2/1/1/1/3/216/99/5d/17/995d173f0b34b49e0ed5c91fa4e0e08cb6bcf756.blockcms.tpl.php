@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:275575ab102e37c0529-15058714%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:231365ab24ac38c1d92-65310519%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '275575ab102e37c0529-15058714',
+  'nocache_hash' => '231365ab24ac38c1d92-65310519',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ab102e5b462b7_33951752',
+  'unifunc' => 'content_5ab24ac8032bf8_23548440',
   'has_nocache_code' => true,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ab102e5b462b7_33951752')) {function content_5ab102e5b462b7_33951752($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5ab24ac8032bf8_23548440')) {function content_5ab24ac8032bf8_23548440($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Информация</h4>

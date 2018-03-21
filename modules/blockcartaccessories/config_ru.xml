@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockcartaccessories</name>
+	<displayName><![CDATA[Cartaccessories]]></displayName>
+	<version><![CDATA[2.1]]></version>
+	<description><![CDATA[Display accessories on the basket page and customize the home page based on the customers navigation]]></description>
+	<author><![CDATA[ckarone]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Do you realy want to uninstal blockcartaccessories?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

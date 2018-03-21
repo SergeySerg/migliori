@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-20 15:35:48
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-20 17:44:36
          compiled from "E:\Webserver\domains\migliori.loc\admin2526queq9\themes\default\template\helpers\list\list_content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:220285ab10e34474b88-53962659%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:132065ab12c649c0fe2-59426601%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '220285ab10e34474b88-53962659',
+  'nocache_hash' => '132065ab12c649c0fe2-59426601',
   'function' => 
   array (
   ),
@@ -48,9 +48,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ab10e347ef197_89195540',
+  'unifunc' => 'content_5ab12c656a0654_80363575',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ab10e347ef197_89195540')) {function content_5ab10e347ef197_89195540($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.counter.php';
+<?php if ($_valid && !is_callable('content_5ab12c656a0654_80363575')) {function content_5ab12c656a0654_80363575($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('tr_count', null, null); ob_start(); ?><?php echo smarty_function_counter(array('name'=>'tr_count'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
@@ -83,13 +83,13 @@ _<?php if (isset($_smarty_tpl->tpl_vars['tr']->value['position']['position'])) {
 						<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['list_id']->value;?>
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
-<?php $_tmp2=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp2,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+<?php $_tmp1=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp1,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 					<?php }?>
 				<?php } else { ?>
 					<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['list_id']->value;?>
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
-<?php $_tmp3=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp3,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+<?php $_tmp2=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp2,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 				<?php }?>
 			</td>
 		<?php }?>

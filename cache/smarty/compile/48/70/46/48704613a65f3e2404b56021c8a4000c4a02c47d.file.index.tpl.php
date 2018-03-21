@@ -1,31 +1,35 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-20 14:47:33
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-21 13:54:22
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:325555ab102e58265f5-57540183%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:80765ab246d89c3052-02102790%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '48704613a65f3e2404b56021c8a4000c4a02c47d' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\index.tpl',
-      1 => 1516645736,
+      1 => 1521633259,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '325555ab102e58265f5-57540183',
+  'nocache_hash' => '80765ab246d89c3052-02102790',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5ab246d89eca79_80559429',
   'variables' => 
   array (
+    'HOOK_HOME' => 0,
     'HOOK_HOME_TAB_CONTENT' => 0,
     'HOOK_HOME_TAB' => 0,
-    'HOOK_HOME' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ab102e58515c8_05314581',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ab102e58515c8_05314581')) {function content_5ab102e58515c8_05314581($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5ab246d89eca79_80559429')) {function content_5ab246d89eca79_80559429($_smarty_tpl) {?>
+<?php if (isset($_smarty_tpl->tpl_vars['HOOK_HOME']->value)&&trim($_smarty_tpl->tpl_vars['HOOK_HOME']->value)) {?>
+	<div class="clearfix"><?php echo $_smarty_tpl->tpl_vars['HOOK_HOME']->value;?>
+</div>
+<?php }?>
 <?php if (isset($_smarty_tpl->tpl_vars['HOOK_HOME_TAB_CONTENT']->value)&&trim($_smarty_tpl->tpl_vars['HOOK_HOME_TAB_CONTENT']->value)) {?>
     <?php if (isset($_smarty_tpl->tpl_vars['HOOK_HOME_TAB']->value)&&trim($_smarty_tpl->tpl_vars['HOOK_HOME_TAB']->value)) {?>
         <ul id="home-page-tabs" class="nav nav-tabs clearfix">
@@ -36,7 +40,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div class="tab-content"><?php echo $_smarty_tpl->tpl_vars['HOOK_HOME_TAB_CONTENT']->value;?>
 </div>
 <?php }?>
-<?php if (isset($_smarty_tpl->tpl_vars['HOOK_HOME']->value)&&trim($_smarty_tpl->tpl_vars['HOOK_HOME']->value)) {?>
-	<div class="clearfix"><?php echo $_smarty_tpl->tpl_vars['HOOK_HOME']->value;?>
-</div>
-<?php }?><?php }} ?>
+<?php }} ?>
