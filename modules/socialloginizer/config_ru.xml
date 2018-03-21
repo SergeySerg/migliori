@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>socialloginizer</name>
+	<displayName><![CDATA[Free Social Login 15 in 1]]></displayName>
+	<version><![CDATA[1.0.1]]></version>
+	<description><![CDATA[Позволяет клиентам войти на сайт с помощью различных социальных платформ.]]></description>
+	<author><![CDATA[Knowband]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Вы уверены, что хотите удалить?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

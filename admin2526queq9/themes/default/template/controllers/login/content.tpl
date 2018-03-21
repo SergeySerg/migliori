@@ -1,59 +1,38 @@
-{*
-* 2007-2016 PrestaShop
-*
-* NOTICE OF LICENSE
-*
-* This source file is subject to the Academic Free License (AFL 3.0)
-* that is bundled with this package in the file LICENSE.txt.
-* It is also available through the world-wide-web at this URL:
-* http://opensource.org/licenses/afl-3.0.php
-* If you did not receive a copy of the license and are unable to
-* obtain it through the world-wide-web, please send an email
-* to license@prestashop.com so we can send you a copy immediately.
-*
-* DISCLAIMER
-*
-* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
-* versions in the future. If you wish to customize PrestaShop for your
-* needs please refer to http://www.prestashop.com for more information.
-*
-*  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2016 PrestaShop SA
-*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
-*  International Registered Trademark & Property of PrestaShop SA
-*}
+
+
 <div id="login-panel">
 	<div id="login-header">
-		<h1 class="text-center">
-			<img id="logo" src="{$img_dir}prestashop@2x.png" width="123px" height="24px" alt="PrestaShop" />
-		</h1>
-		<div class="text-center">{$ps_version}</div>
+
+		<H1 class="text-center">{$shop_name}</H1>
+		<hr>
+		<H4 class="text-center">Admin Panel</h4>
+		<hr>
 		<div id="error" class="hide alert alert-danger">
-		{if isset($errors)}
-			<h4>
-				{if isset($nbErrors) && $nbErrors > 1}
-					{l s='There are %d errors.' sprintf=$nbErrors}
-				{else}
-					{l s='There is %d error.' sprintf=$nbErrors}
-				{/if}
-			</h4>
-			<ol>
-				{foreach from=$errors item="error"}
-				<li>{$error}</li>
-				{/foreach}
-			</ol>
-		{/if}
+			{if isset($errors)}
+				<h4>
+					{if isset($nbErrors) && $nbErrors > 1}
+						{l s='There are %d errors.' sprintf=$nbErrors}
+					{else}
+						{l s='There is %d error.' sprintf=$nbErrors}
+					{/if}
+				</h4>
+				<ol>
+					{foreach from=$errors item="error"}
+						<li>{$error}</li>
+					{/foreach}
+				</ol>
+			{/if}
 		</div>
 
 		{if isset($warningSslMessage)}
-		<div class="alert alert-warning">{$warningSslMessage}</div>
+			<div class="alert alert-warning">{$warningSslMessage}</div>
 		{/if}
 	</div>
-	<div id="shop-img"><img src="{$img_dir}preston-login@2x.png" alt="{$shop_name}" width="69.5px" height="118.5px" /></div>
+	<!--<div id="shop-img"><img src="{$img_dir}truck.png" alt="{$shop_name}" width="69.5px" height="118.5px" /></div>-->
 	<div class="flip-container">
 		<div class="flipper">
 			<div class="front panel">
-				<h4 id="shop_name">{$shop_name}</h4>
+				<!--<h4 id="shop_name">{$shop_name}</h4>-->
 				{if !isset($wrong_folder_name) && !isset($wrong_install_name)}
 				<form action="#" id="login_form" method="post">
 					<input type="hidden" name="redirect" id="redirect" value="{$redirect}"/>
@@ -133,6 +112,7 @@
 		{/if}
 	</div>
 	{hook h="displayAdminLogin"}
+	<!--Соцсети
 	<div id="login-footer">
 		<p class="text-center text-muted">
 			<a href="http://www.prestashop.com/" onclick="return !window.open(this.href);">
@@ -153,5 +133,5 @@
 				<i class="icon-google-plus"></i>
 			</a>
 		</p>
-	</div>
+	</div>-->
 </div>
