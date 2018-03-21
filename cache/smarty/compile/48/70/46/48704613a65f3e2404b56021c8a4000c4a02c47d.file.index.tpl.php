@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-21 13:54:22
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-21 16:58:07
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:80765ab246d89c3052-02102790%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:259975ab272ff22d167-52835917%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '80765ab246d89c3052-02102790',
+  'nocache_hash' => '259975ab272ff22d167-52835917',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ab246d89eca79_80559429',
   'variables' => 
   array (
     'HOOK_HOME' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'HOOK_HOME_TAB' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5ab272ff258744_56253417',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ab246d89eca79_80559429')) {function content_5ab246d89eca79_80559429($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5ab272ff258744_56253417')) {function content_5ab272ff258744_56253417($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['HOOK_HOME']->value)&&trim($_smarty_tpl->tpl_vars['HOOK_HOME']->value)) {?>
 	<div class="clearfix"><?php echo $_smarty_tpl->tpl_vars['HOOK_HOME']->value;?>
 </div>

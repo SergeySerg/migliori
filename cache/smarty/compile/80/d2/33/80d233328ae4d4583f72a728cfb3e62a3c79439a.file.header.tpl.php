@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-20 17:44:38
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-21 16:54:44
          compiled from "E:\Webserver\domains\migliori.loc\admin2526queq9\themes\default\template\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:98845ab12c6644b746-21087830%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:266195ab272342ff5e5-44225869%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '80d233328ae4d4583f72a728cfb3e62a3c79439a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\admin2526queq9\\themes\\default\\template\\header.tpl',
-      1 => 1504515462,
+      1 => 1521643975,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '98845ab12c6644b746-21087830',
+  'nocache_hash' => '266195ab272342ff5e5-44225869',
   'function' => 
   array (
   ),
@@ -59,8 +59,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'matchQuickLink' => 0,
     'quick_access_current_link_name' => 0,
     'quick_access_current_link_icon' => 0,
-    'logged_on_addons' => 0,
-    'display_addons_connection' => 0,
     'base_url' => 0,
     'base_url_tc' => 0,
     'maintenance_mode' => 0,
@@ -75,9 +73,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ab12c66a36e88_44634019',
+  'unifunc' => 'content_5ab272346a0880_25781763',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ab12c66a36e88_44634019')) {function content_5ab12c66a36e88_44634019($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5ab272346a0880_25781763')) {function content_5ab272346a0880_25781763($_smarty_tpl) {?>
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6 " lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
@@ -236,11 +234,12 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 				<button id="header_nav_toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-primary">
 					<i class="icon-reorder"></i>
 				</button>
-				<a id="header_shopversion" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['default_tab_link']->value, ENT_QUOTES, 'UTF-8', true);?>
+				<!--<a id="header_shopversion" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['default_tab_link']->value, ENT_QUOTES, 'UTF-8', true);?>
 ">
 					<span id="shop_version"><?php echo $_smarty_tpl->tpl_vars['version']->value;?>
 </span>
 				</a>
+				-->
 				
 				<?php if (isset($_smarty_tpl->tpl_vars['is_multishop']->value)&&$_smarty_tpl->tpl_vars['is_multishop']->value&&$_smarty_tpl->tpl_vars['shop_list']->value&&(isset($_smarty_tpl->tpl_vars['multishop_context']->value)&&$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_GROUP||$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_SHOP)) {?>
 					<ul id="header_shop">
@@ -256,7 +255,7 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 				<?php }?>
 				<ul id="header_notifs_icon_wrapper">
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_orders']->value;?>
-<?php $_tmp3=ob_get_clean();?><?php if ($_tmp3==1) {?>
+<?php $_tmp1=ob_get_clean();?><?php if ($_tmp1==1) {?>
 					<li id="orders_notif" class="dropdown" data-type="order">
 						<a href="javascript:void(0);" class="dropdown-toggle notifs" data-toggle="dropdown">
 							<i class="icon-shopping-cart"></i>
@@ -286,7 +285,7 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 					</li>
 <?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_customers']->value;?>
-<?php $_tmp4=ob_get_clean();?><?php if ($_tmp4==1) {?>
+<?php $_tmp2=ob_get_clean();?><?php if ($_tmp2==1) {?>
 					<li id="customers_notif" class="dropdown" data-type="customer">
 						<a href="javascript:void(0);" class="dropdown-toggle notifs" data-toggle="dropdown">
 							<i class="icon-user"></i>
@@ -316,7 +315,7 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 					</li>
 <?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_messages']->value;?>
-<?php $_tmp5=ob_get_clean();?><?php if ($_tmp5==1) {?>
+<?php $_tmp3=ob_get_clean();?><?php if ($_tmp3==1) {?>
 					<li id="customer_messages_notif" class="dropdown" data-type="customer_message">
 						<a href="javascript:void(0);" class="dropdown-toggle notifs" data-toggle="dropdown">
 							<i class="icon-envelope"></i>
@@ -358,7 +357,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['quick']->key => $_smarty_tpl->tpl_var
 $_smarty_tpl->tpl_vars['quick']->_loop = true;
 ?>
 								<li <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['quick']->value['link'];?>
-<?php $_tmp6=ob_get_clean();?><?php if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_tmp6)) {?><?php $_smarty_tpl->tpl_vars["matchQuickLink"] = new Smarty_variable($_smarty_tpl->tpl_vars['quick']->value['id_quick_access'], null, 0);?>class="active"<?php }?>>
+<?php $_tmp4=ob_get_clean();?><?php if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_tmp4)) {?><?php $_smarty_tpl->tpl_vars["matchQuickLink"] = new Smarty_variable($_smarty_tpl->tpl_vars['quick']->value['id_quick_access'], null, 0);?>class="active"<?php }?>>
 									<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['quick']->value['link'], ENT_QUOTES, 'UTF-8', true);?>
 "<?php if ($_smarty_tpl->tpl_vars['quick']->value['new_window']) {?> class="_blank"<?php }?>>
 										<?php if (isset($_smarty_tpl->tpl_vars['quick']->value['icon'])) {?>
@@ -449,20 +448,17 @@ $_smarty_tpl->tpl_vars['quick']->_loop = true;
 				</script>
 <?php }?>
 				<ul id="header_employee_box">
-					<?php if ((!isset($_smarty_tpl->tpl_vars['logged_on_addons']->value)||!$_smarty_tpl->tpl_vars['logged_on_addons']->value)&&(isset($_smarty_tpl->tpl_vars['display_addons_connection']->value)&&$_smarty_tpl->tpl_vars['display_addons_connection']->value)) {?>
-						<li class="hidden-sm hidden-xs">
-							<a href="#" class="addons_connect toolbar_btn" data-toggle="modal" data-target="#modal_addons_connect" title="<?php echo smartyTranslate(array('s'=>'Connect to PrestaShop Marketplace account'),$_smarty_tpl);?>
-">
-								<i class="icon-chain-broken"></i>
-								<span class="string-long"><?php echo smartyTranslate(array('s'=>'Connect to PrestaShop Marketplace account'),$_smarty_tpl);?>
-</span>
-								<span class="string-short"><?php echo smartyTranslate(array('s'=>'PrestaShop Marketplace'),$_smarty_tpl);?>
-</span>
-							</a>
-						</li>
-					<?php }?>
+					
+						
+							
+								
+								
+								
+							
+						
+					
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
-<?php $_tmp7=ob_get_clean();?><?php if ($_tmp7) {?>
+<?php $_tmp5=ob_get_clean();?><?php if ($_tmp5) {?>
 					<li>
 						<a href="<?php if (isset($_smarty_tpl->tpl_vars['base_url_tc']->value)) {?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['base_url_tc']->value, ENT_QUOTES, 'UTF-8', true);?>
 <?php } else { ?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['base_url']->value, ENT_QUOTES, 'UTF-8', true);?>
