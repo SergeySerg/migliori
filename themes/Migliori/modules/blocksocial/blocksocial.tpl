@@ -23,15 +23,24 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-<section id="social_block" class="pull-right">
+<section id="social_block" class="col-xs-12 col-sm-2">
 	<ul>
 		{if isset($facebook_url) && $facebook_url != ''}
 			<li class="facebook">
 				<a class="_blank" href="{$facebook_url|escape:html:'UTF-8'}">
-					<span>{l s='Facebook' mod='blocksocial'}</span>
+					{* <span>{l s='Facebook' mod='blocksocial'}</span> *}
+					<i class="fa fa-facebook-square" aria-hidden="true"></i>
 				</a>
 			</li>
 		{/if}
+		{if isset($instagram_url) && $instagram_url != ''}
+        	<li class="instagram">
+        		<a class="_blank" href="{$instagram_url|escape:html:'UTF-8'}">
+        			{* <span>{l s='Instagram' mod='blocksocial'}</span> *}
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+        		</a>
+        	</li>
+        {/if}
 		{if isset($twitter_url) && $twitter_url != ''}
 			<li class="twitter">
 				<a class="_blank" href="{$twitter_url|escape:html:'UTF-8'}">
@@ -42,7 +51,8 @@
 		{if isset($rss_url) && $rss_url != ''}
 			<li class="rss">
 				<a class="_blank" href="{$rss_url|escape:html:'UTF-8'}">
-					<span>{l s='RSS' mod='blocksocial'}</span>
+					{* <span>{l s='RSS' mod='blocksocial'}</span> *}
+					<i class="fa fa-vk" aria-hidden="true"></i>
 				</a>
 			</li>
 		{/if}
@@ -74,14 +84,7 @@
         		</a>
         	</li>
         {/if}
-        {if isset($instagram_url) && $instagram_url != ''}
-        	<li class="instagram">
-        		<a class="_blank" href="{$instagram_url|escape:html:'UTF-8'}">
-        			<span>{l s='Instagram' mod='blocksocial'}</span>
-        		</a>
-        	</li>
-        {/if}
 	</ul>
-    <h4>{l s='Follow us' mod='blocksocial'}</h4>
+    {* <h4>{l s='Follow us' mod='blocksocial'}</h4> *}
 </section>
-<div class="clearfix"></div>
+{* <div class="clearfix"></div> *}

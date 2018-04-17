@@ -234,11 +234,11 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: PTSans, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 1.42857;
-  color: #777777;
-  background-color: #fff; }
+  color: #4d4d4d;
+  background-color: #fee5ac; }
 
 input,
 button,
@@ -255,16 +255,22 @@ textarea {
   background-image: none; }
 
 a {
-  color: #777;
-  text-decoration: none; }
+  color: #4d4d4d;
+  text-decoration: none;
+  transition: all ease .3s; }
   a:hover, a:focus {
-    color: #515151;
-    text-decoration: underline; }
+    color: #c19a6b;
+    text-decoration: underline;
+    transition: all ease .3s; }
   a:focus {
     outline: thin dotted #333;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px; }
+    outline-offset: -2px;
+    transition: all ease .3s; }
 
+#page{
+  max-width: 1220px;
+  margin: 10px auto 0; }
 img {
   vertical-align: middle; }
 
@@ -361,7 +367,7 @@ h1, h2, h3, h4, h5, h6,
   .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
     font-weight: normal;
     line-height: 1;
-    color: #999999; }
+    color: #4d4d4d; }
 
 h1,
 h2,
@@ -2207,6 +2213,7 @@ input[type="button"].btn-block {
 
 .nav {
   margin-bottom: 0;
+  padding-top: 15px;
   padding-left: 0;
   list-style: none; }
   .nav:before, .nav:after {
@@ -5706,8 +5713,8 @@ body {
   min-width: 320px;
   height: 100%;
   line-height: 18px;
-  font-size: 13px;
-  color: #777; }
+  font-size: 16px;
+  color: #4d4d4d; }
   body.content_only {
     background: none;
     min-width: 0px;
@@ -5742,9 +5749,11 @@ header {
     header .banner .row {
       margin: 0px; }
   header .nav {
-    background: #333; }
+    background: inherit; }
     header .nav .row {
-      margin: 0px; }
+      margin: 0px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #f3f3f3; }
     header .nav nav {
       width: 100%; }
   header .row {
@@ -8569,3 +8578,18 @@ div.star.star_hover:after {
   cursor: pointer; }
 
 /*# sourceMappingURL=global.css.map */
+
+/* migliori styles */
+.r-item-cms{
+  display: inline-block;
+  margin-left: 25px;}
+  .r-item-cms:first-child{
+    margin-left: 0;}
+
+#social_block ul li{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 18px;}
+  #social_block ul li:first-child{
+    margin-left: 0;}
+/* END migliori styles */
