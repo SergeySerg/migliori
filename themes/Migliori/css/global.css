@@ -5756,12 +5756,45 @@ header {
       border-bottom: 1px solid #f3f3f3; }
     header .nav nav {
       width: 100%; }
+  header .slogan {
+    float: left;
+    width: 240px;
+    margin: 50px 80px 0 25px;
+    text-align: center;
+    font-size: 20px;
+    line-height: initial; }
+  header #block_contact_infos {
+    padding-left: 0; }
+    header #block_contact_infos ul{
+      width: 200px;
+      margin-top: 43px;
+      position: relative; }
+    header #block_contact_infos li{
+      font-size: 17px;
+      line-height: 20px;
+      padding-left: 20px; }
+        header #block_contact_infos li:last-child{
+          padding: 0; }
+        header #block_contact_infos li:nth-child(2){
+          padding-bottom: 2px; }
+          header #block_contact_infos li:last-child a{
+            display: inline-block;
+            color: #c19a6b;
+            font-size: 14px;
+            padding: 2px 4px;
+            border-top: 1px solid #f3f3f3; }
+      header #block_contact_infos li .fa{
+        position: absolute;
+        left: -5px;
+        top: -4px;
+        font-size: 24px; }
   header .row {
     position: relative; }
     header .row > .container {
       position: relative; }
     header .row #header_logo {
-      padding-top: 15px; }
+      width: auto;
+      padding: 10px 54px 0; }
       @media (max-width: 992px) {
         header .row #header_logo {
           padding-top: 40px; } }
