@@ -75,3 +75,44 @@
         padding: 5px; }
 
 /*# sourceMappingURL=category.css.map */
+
+#subcategories.subcategories-on-main{
+  border: none;
+  padding: 0;}
+  #subcategories.subcategories-on-main ul{
+    margin: 0; }
+    #subcategories.subcategories-on-main ul li{
+      position: relative;
+      width: 49%;
+      height: auto;
+      margin: 0 0 2% 0; }
+    #subcategories.subcategories-on-main ul li:first-child{
+      width: 100%; }
+      #subcategories.subcategories-on-main ul li:first-child a.cat_name-on-main{
+        left: 15% !important;
+        top: 30%; }
+    #subcategories.subcategories-on-main ul li:nth-child(2n){
+      margin-right: 2%; }
+      #subcategories.subcategories-on-main ul li:nth-child(2n) a.cat_name-on-main{
+        right: 20px; }
+      #subcategories.subcategories-on-main ul li:nth-child(2n+1) a.cat_name-on-main{
+        left: 20px; }
+      #subcategories.subcategories-on-main ul li img{
+        width: 100%;
+        height: auto;}
+      #subcategories.subcategories-on-main ul li a.cat_name-on-main{
+        position: absolute;
+        bottom: 20px; 
+        width: 300px;
+        display: table;
+        vertical-align: middle;
+        min-height: 130px;
+        border: 3px solid #5b5b5b;
+        padding: 25px 35px;
+        color: #5b5b5b;
+        font-size: 30px;
+        line-height: 37px;
+        text-transform: uppercase; }
+      #subcategories.subcategories-on-main ul li a.cat_name-on-main span{
+        vertical-align: middle;
+        display: table-cell; }
