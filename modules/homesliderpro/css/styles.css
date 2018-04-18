@@ -70,6 +70,10 @@
 
 .SEslider .se-wrapper {
   clear: both;
+  border: 1px solid #f3efeb; /* stroke */
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,.19); /* drop shadow */
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.19); /* drop shadow */
+  box-shadow: 0 0 5px rgba(0,0,0,.19); /* drop shadow */
 }
 
 .se-wrapper a, .se-wrapper a:hover {
@@ -79,23 +83,23 @@
 /*next prev button*/
 
 .se-next, .se-prev {
-	background:#000;
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+	background:#c19a6b !important;
+  /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6); */
   color: #FFFFFF;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   display: block;
-  height: 32px;
+  height: 42px;
   line-height: 0;
   margin-top: -15px;
-  opacity: 0.6;
-  filter:alpha(opacity=60); /* For IE8 and earlier */
+  opacity: 0.8;
+  filter:alpha(opacity=80);
   overflow: hidden;
   position: absolute;
   text-indent: -999em;
   top: 50%;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
-  width: 32px;
+  width: 42px;
   z-index: 100;
 }
 
@@ -114,7 +118,6 @@
 }
 
 .se-prev:after, .se-next:after {
-  
   content: "\2039";
   display: table-cell;
   font-family: monospace;
@@ -122,7 +125,7 @@
   font-weight: bold;
   height: 100%;
   left: 0;
-  line-height:29px;
+  line-height:38px;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -139,11 +142,11 @@
 
 .se-next {
   background-position:0 -32px;
-  right: 5px;
+  right: -6px;
 }
 
 .se-prev {
-  left: 5px;
+  left: -6px;
 }
 
 /*pager links*/
@@ -166,9 +169,11 @@
 }
 
 .se-pager {
-  bottom: 15%;
-  left: 0;
-  padding: 0 0 0 5%;
+  width: 200px;
+  bottom: 18px;
+  left: calc(50% - 100px);
+  padding: 0;
+  text-align: center;
   position: absolute;
   z-index: 100;
 	-moz-box-sizing: content-box;
@@ -187,10 +192,10 @@
 }
 
 .se-pager-item {
-  border: 3px solid #aaa;
-  border: 3px solid rgba(0,0,0,0.5);
+  /* border: 3px solid #c19a6b;
+  border: 3px solid rgba(193,154,107,1); */
   border-radius: 30px;
-  float: left;
+  float: none;
   height: 20px;
   margin: 0 3px;
   width: 20px;
@@ -207,33 +212,34 @@
 }
 
 .se-pager-item:hover .se-pager-link {
-	background-color:#FFA500;
+	background-color:#c19a6b !important;
 	height: 16px;
 	width: 16px;
-	margin: 2px;
+	/* margin: 2px; */
 }
 
 .se-pager-item:hover {
-	box-shadow:0 0 3px #fff;
-	border:3px solid #fff;
-	color:#fff;
+	box-shadow: none !important;
+	/* border:3px solid #fff;
+	color:#fff; */
 }
 
 .se-pager a {
-  background: none repeat scroll 0 0 #0090F0;
+  background-color: inherit !important;
+  border: 2px solid #c19a6b;
   border-radius: 30px;
   color: #000000;
   display: inline-block;
   font-size: 11px;
   font-weight: bold;
-  height: 10px;
+  height: 16px;
   margin: 5px;
   padding: 0;
   text-decoration: none;
   text-indent: -999em;
   transition: all 0.15s ease 0s;
   -webkit-transition: all 0.15s ease 0s;
-  width: 10px;
+  width: 16px;
   position:absolute;
   left:0;
   top:0;
@@ -259,10 +265,9 @@
 
 /*pager links hover and active states*/
 .se-pager-link.active {
-	background-color:#FFA500;
+	background-color:#c19a6b !important;
 	height: 16px;
 	width: 16px;
-	margin: 2px;
 }
 
 /*captions*/

@@ -5767,7 +5767,8 @@ header {
     padding-left: 0; }
     header #block_contact_infos ul{
       width: 200px;
-      margin-top: 43px;
+      float: right;
+      margin: 43px auto 0;
       position: relative; }
     header #block_contact_infos li{
       font-size: 17px;
