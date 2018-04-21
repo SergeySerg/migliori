@@ -7273,27 +7273,29 @@ div.star a:hover {
     width: 20px; }
 
 .footer-container {
-  background-color: #333; }
-  @media (min-width: 768px) {
+  border-top: 1px solid #fee5ac;
+  background-color: #efd39d; }
+  /* @media (min-width: 768px) {
     .footer-container {
-      background: url(../img/footer-bg.png) repeat-x #333; } }
-  .footer-container .container {
-    padding-bottom: 100px; }
+      background: url(../img/footer-bg.png) repeat-x #333; } } */
+  /* .footer-container .container {
+    padding-bottom: 100px; } */
   .footer-container #footer {
-    color: #777777; }
+    color: #4d4d4d;
+    padding: 25px 0; }
     .footer-container #footer .row {
       position: relative; }
     .footer-container #footer ul.row {
       position: static; }
-    .footer-container #footer .footer-block {
-      margin-top: 45px; }
+    /* .footer-container #footer .footer-block {
+      margin-top: 45px; } */
       @media (max-width: 767px) {
         .footer-container #footer .footer-block {
           margin-top: 20px; } }
     .footer-container #footer a {
-      color: #777777; }
+      color: #4d4d4d; }
       .footer-container #footer a:hover {
-        color: #fff; }
+        color: #c19a6b; }
     .footer-container #footer h4 {
       font: 600 18px/22px "Open Sans", sans-serif;
       color: #fff;
@@ -7317,11 +7319,11 @@ div.star a:hover {
         color: #fff; }
     .footer-container #footer ul li {
       padding-bottom: 8px; }
-      .footer-container #footer ul li a {
+      /* .footer-container #footer ul li a {
         font-weight: bold;
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4); }
-    .footer-container #footer #block_contact_infos {
-      border-left: 1px solid #515151; }
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4); } */
+    /* .footer-container #footer #block_contact_infos {
+      border-left: 1px solid #515151; } */
       @media (max-width: 767px) {
         .footer-container #footer #block_contact_infos {
           border: none; } }
@@ -7332,13 +7334,14 @@ div.star a:hover {
             padding-left: 0; } }
         .footer-container #footer #block_contact_infos > div ul li {
           padding: 0 0 7px 4px;
-          overflow: hidden;
-          line-height: 30px; }
+          overflow: hidden;}
+          /* line-height: 30px; } */
           .footer-container #footer #block_contact_infos > div ul li > span,
           .footer-container #footer #block_contact_infos > div ul li > span a {
-            color: #fff;
+            color: #4d4d4d;
             font-weight: normal; }
           .footer-container #footer #block_contact_infos > div ul li i {
+            display: none;
             font-size: 25px;
             width: 32px;
             text-align: center;
@@ -7349,28 +7352,30 @@ div.star a:hover {
       clear: left; }
     .footer-container #footer #social_block {
       float: left;
-      width: 50%;
-      padding: 22px 15px 0 15px; }
+      /* width: 50%; */
+      padding: 0 15px 0 15px; }
+    .footer-container #footer #social_block ul{
+      margin: 0; }
       @media (max-width: 767px) {
         .footer-container #footer #social_block {
           width: 100%;
           float: left;
           padding-top: 5px; } }
-      .footer-container #footer #social_block ul {
-        float: right; }
+      /* .footer-container #footer #social_block ul {
+        float: right; } */
         @media (max-width: 767px) {
           .footer-container #footer #social_block ul {
             float: none; } }
         .footer-container #footer #social_block ul li {
-          float: left;
-          width: 40px;
+          float: none;
+          /* width: 40px; */
           text-align: center; }
           @media (min-width: 768px) and (max-width: 991px) {
             .footer-container #footer #social_block ul li {
               width: 30px; } }
           .footer-container #footer #social_block ul li a {
             display: inline-block;
-            color: #908f8f;
+            color: #4d4d4d;
             font-size: 28px; }
             @media (min-width: 768px) and (max-width: 991px) {
               .footer-container #footer #social_block ul li a {
@@ -7385,13 +7390,13 @@ div.star a:hover {
               -webkit-font-smoothing: antialiased;
               -moz-osx-font-smoothing: grayscale; }
             .footer-container #footer #social_block ul li a:hover {
-              color: #fff; }
-          .footer-container #footer #social_block ul li.facebook a:before {
-            content: "\f09a"; }
+              color: #c19a6b; }
+          /* .footer-container #footer #social_block ul li.facebook a:before {
+            content: "\f09a"; } */
           .footer-container #footer #social_block ul li.twitter a:before {
             content: "\f099"; }
-          .footer-container #footer #social_block ul li.rss a:before {
-            content: "\f09e"; }
+          /* .footer-container #footer #social_block ul li.rss a:before {
+            content: "\f09e"; } */
           .footer-container #footer #social_block ul li.youtube a:before {
             content: "\f167"; }
           .footer-container #footer #social_block ul li.google-plus a:before {
@@ -7400,8 +7405,8 @@ div.star a:hover {
             content: "\f0d2"; }
           .footer-container #footer #social_block ul li.vimeo a:before {
             content: "\f194"; }
-          .footer-container #footer #social_block ul li.instagram a:before {
-            content: "\f16d"; }
+          /* .footer-container #footer #social_block ul li.instagram a:before {
+            content: "\f16d"; } */
       .footer-container #footer #social_block h4 {
         float: right;
         margin-bottom: 0;
@@ -8622,8 +8627,36 @@ div.star.star_hover:after {
 
 #social_block ul li{
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 8px;
   font-size: 18px;}
   #social_block ul li:first-child{
     margin-left: 0;}
+.copyright{
+  display: none;}
+  #footer .copyright{
+    display: block;
+    color: #4d4d4d;
+    font-size: 18px; }
+#footer #block_various_links_footer{
+  text-align: center;
+  margin-top: 20px; }
+#footer #block_contact_infos{
+  text-align: right;
+  margin-top: 10px; }
+
+#footer .mg-callback{
+  display: none; }
+
+.about-us_content{
+  width: 60%;
+  float: left;
+  padding-right: 15px;
+}
+.about-us_content h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+#blocknewproducts{
+  margin-bottom: 40px;
+}
 /* END migliori styles */

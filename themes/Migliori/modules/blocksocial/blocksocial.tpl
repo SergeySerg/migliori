@@ -24,7 +24,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <section id="social_block" class="col-xs-12 col-sm-2">
-	<ul>
+	<ul class="clearfix">
 		{if isset($facebook_url) && $facebook_url != ''}
 			<li class="facebook">
 				<a class="_blank" href="{$facebook_url|escape:html:'UTF-8'}">
@@ -86,5 +86,6 @@
         {/if}
 	</ul>
     {* <h4>{l s='Follow us' mod='blocksocial'}</h4> *}
+	<div class="copyright">Migliori {$smarty.now|date_format:"%Y"}</div>
 </section>
 {* <div class="clearfix"></div> *}

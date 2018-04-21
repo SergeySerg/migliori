@@ -54,7 +54,7 @@
             		<span>{mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}</span>
             	</li>
             {/if}
-			<li>
+			<li class="mg-callback">
 				<a href="#">Заказать обратный звонок</a>
 			</li>
 
