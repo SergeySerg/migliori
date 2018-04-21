@@ -2,4 +2,6 @@
 *  @author    Miguel Costa for emotionLoop
 *  @copyright emotionLoop
 *}
-{$content|escape:nofilter}
+<div class="about-us_content">  
+    {$content|escape:nofilter}
+</div>

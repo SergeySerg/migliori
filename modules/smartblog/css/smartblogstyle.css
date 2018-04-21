@@ -577,8 +577,8 @@ fieldset.account_creation {
 }
 
 .news_module_image_holder img{
-    padding: 5px;
-    max-width: 95%;
+    /* padding: 5px; */
+    width: 100%;
 }
 .post-page .results{
   float: right;
@@ -591,22 +591,21 @@ fieldset.account_creation {
     width:100%;
 }
 .sdstitle_block{
- background: none repeat scroll 0 0 #F6F6F6;
-    border-top: 5px solid #333333;
-    color: #555454;
-    font: 600 18px/22px "Open Sans",sans-serif;
-    margin-bottom: 20px;
-    padding: 14px 5px 17px 20px;
-    text-transform: uppercase;
-}
+    /* background: none repeat scroll 0 0 #F6F6F6; */
+    /* border-top: 5px solid #333333; */
+    color: #5b5b5b;
+    font: 600 20px/22px "Open Sans",sans-serif;
+    margin: 0 0 15px 0;
+    padding: 0 15px;
+    text-transform: uppercase;}
 
 .sdstitle_block .all_news{
     float:right;
     font-size:10px;
 }
-.sdsblog-box-content{
+/* .sdsblog-box-content{
     padding-top:10px;
-}
+} */
 .sdsbox-content ul {
     list-style-type: none;
     margin-left: 5px;
@@ -686,12 +685,11 @@ fieldset.account_creation {
 #sds_blog_post .sds_post_title{
     background:none;
     border:none;
-    font-size:14px;
+    font-size:20px;
     padding:0px;
+    margin: 0;
     content:none !important;
 }
-
-
 
 #sdssearch_block_top {
   padding-top: 0px;
@@ -793,4 +791,15 @@ form#searchbox .button.button-small i {
     border-radius: 4px;
     margin-bottom: 20px;
     padding: 15px;
+}
+
+.latest-news-on-home{
+    width: 40%;
+    float: right;
+}
+.sds_post_date-main{
+    color: #aca8a8;
+    font-size: 13px;
+    display: inline-block;
+    margin: 10px 0 6px;
 }
