@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-22 16:15:26
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-21 23:25:47
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcontactinfos\blockcontactinfos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:167795ab3ba7e50abb1-46808673%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:205815adb9722f06d20-71797577%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a545f8c3a927d20ac06bacad82b8909d0f8af88c' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\modules\\blockcontactinfos\\blockcontactinfos.tpl',
-      1 => 1521496459,
+      1 => 1524340721,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '167795ab3ba7e50abb1-46808673',
+  'nocache_hash' => '205815adb9722f06d20-71797577',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5adb9723015025_31563529',
   'variables' => 
   array (
     'blockcontactinfos_company' => 0,
@@ -24,10 +26,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'blockcontactinfos_email' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ab3ba7e55a6d8_86267736',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ab3ba7e55a6d8_86267736')) {function content_5ab3ba7e55a6d8_86267736($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.mailto.php';
+<?php if ($_valid && !is_callable('content_5adb9723015025_31563529')) {function content_5adb9723015025_31563529($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.mailto.php';
 ?>
 
 <!-- MODULE Block contact infos -->
@@ -67,7 +67,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </span>
             	</li>
             <?php }?>
-        </ul>
+			<a href="#" class="callme_viewform"><?php echo smartyTranslate(array('s'=>'Request a callback','mod'=>'blockcontactinfos'),$_smarty_tpl);?>
+</a>
+		</ul>
     </div>
 </section>
 <!-- /MODULE Block contact infos -->

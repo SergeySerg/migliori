@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-22 16:15:28
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-21 22:55:16
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcms\blockcms.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:248305ab3ba802a50d6-85357348%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:70085adb9724081fd0-32592411%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '248305ab3ba802a50d6-85357348',
+  'nocache_hash' => '70085adb9724081fd0-32592411',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => true,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ab3ba803b9817_04951627',
+  'unifunc' => 'content_5adb972418eac9_23923739',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ab3ba803b9817_04951627')) {function content_5ab3ba803b9817_04951627($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5adb972418eac9_23923739')) {function content_5adb972418eac9_23923739($_smarty_tpl) {?>
 
 <?php if ($_smarty_tpl->tpl_vars['block']->value==1) {?>
 	<!-- Block CMS module -->
@@ -199,8 +199,8 @@ $_smarty_tpl->tpl_vars['cmslink']->_loop = true;
 	<?php if ($_smarty_tpl->tpl_vars['display_poweredby']->value) {?>
 	<section class="bottom-footer col-xs-12">
 		<div>
-			<?php echo '/*%%SmartyNocache:248305ab3ba802a50d6-85357348%%*/<?php echo smartyTranslate(array(\'s\'=>\'[1] %3$s %2$s - Ecommerce software by %1$s [/1]\',\'mod\'=>\'blockcms\',\'sprintf\'=>array(\'PrestaShop™\',date(\'Y\'),\'©\'),\'tags\'=>array(\'<a class="_blank" href="http://www.prestashop.com">\')),$_smarty_tpl);?>
-/*/%%SmartyNocache:248305ab3ba802a50d6-85357348%%*/';?>
+			<?php echo '/*%%SmartyNocache:70085adb9724081fd0-32592411%%*/<?php echo smartyTranslate(array(\'s\'=>\'[1] %3$s %2$s - Ecommerce software by %1$s [/1]\',\'mod\'=>\'blockcms\',\'sprintf\'=>array(\'PrestaShop™\',date(\'Y\'),\'©\'),\'tags\'=>array(\'<a class="_blank" href="http://www.prestashop.com">\')),$_smarty_tpl);?>
+/*/%%SmartyNocache:70085adb9724081fd0-32592411%%*/';?>
 
 		</div>
 	</section>

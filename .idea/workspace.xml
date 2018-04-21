@@ -2,10 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6030fcf3-4d47-439d-a465-8b6202eb094b" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\Webserver\domains\migliori.loc\cache\smarty\compile\a1\af\e8\a1afe82334c9236d9cb03508f96b260582740e44.file.list_header.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\Webserver\domains\migliori.loc\translations\uk.gzip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/en.gzip" afterPath="$PROJECT_DIR$/translations/en.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/pl.gzip" afterPath="$PROJECT_DIR$/translations/pl.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/ru.gzip" afterPath="$PROJECT_DIR$/translations/ru.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/08/ba/3c/08ba3c0d7eec9d50d96c75ecde3c2605513f2b94.file.javascript.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/08/ba/3c/08ba3c0d7eec9d50d96c75ecde3c2605513f2b94.file.javascript.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/14/18/e5/1418e5730c94ea553fa4c29d47318ca8dbfd9571.file.footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/14/18/e5/1418e5730c94ea553fa4c29d47318ca8dbfd9571.file.footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/14/46/87/14468762775d4292c87a77435b784f533fea95c8.file.list.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/14/46/87/14468762775d4292c87a77435b784f533fea95c8.file.list.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/19/7a/86/197a86ef9e55747aeb2d4e98d1d8c16762eaf37f.file.modal_translation.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/19/7a/86/197a86ef9e55747aeb2d4e98d1d8c16762eaf37f.file.modal_translation.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/1e/f7/bd/1ef7bd01fe24ca5123ac86b353689fd61b2d7525.file.product-list.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/1e/f7/bd/1ef7bd01fe24ca5123ac86b353689fd61b2d7525.file.product-list.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/21/dd/84/21dd84486a80afd91f54f91acdd577d2feb3de5a.file.list_action_enable.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/21/dd/84/21dd84486a80afd91f54f91acdd577d2feb3de5a.file.list_action_enable.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/26/dc/42/26dc4289effac309d43c5ec245dc9030c985a1fc.file.kpi.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/26/dc/42/26dc4289effac309d43c5ec245dc9030c985a1fc.file.kpi.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/27/6a/3d/276a3d5fc9e7a9c19e48384d4a958fc874c71c20.file.js.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/27/6a/3d/276a3d5fc9e7a9c19e48384d4a958fc874c71c20.file.js.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/27/91/fa/2791fa36cb78bb1a99c3ebbb45c8c6a610ec1e1c.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/27/91/fa/2791fa36cb78bb1a99c3ebbb45c8c6a610ec1e1c.file.nav.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/27/9a/19/279a1976e8744c9cef814a41b13e05581b7e43d9.file.page_header_toolbar.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/27/9a/19/279a1976e8744c9cef814a41b13e05581b7e43d9.file.page_header_toolbar.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/31/59/5b/31595ba0515b8596773c43b2955512689f186e80.file.footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/31/59/5b/31595ba0515b8596773c43b2955512689f186e80.file.footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/31/cc/51/31cc510d9d79ca879ac1a047940789b9a523e9e1.file.modal.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/31/cc/51/31cc510d9d79ca879ac1a047940789b9a523e9e1.file.modal.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/3b/7e/a8/3b7ea8f8b08c3b2b1ad43a671bb78a60120bdcc2.file.hook.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/3b/7e/a8/3b7ea8f8b08c3b2b1ad43a671bb78a60120bdcc2.file.hook.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/48/70/46/48704613a65f3e2404b56021c8a4000c4a02c47d.file.index.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/48/70/46/48704613a65f3e2404b56021c8a4000c4a02c47d.file.index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/48/98/a0/4898a050d6164cff841e64fee44707e2032ece12.file.blockcurrencies.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/48/98/a0/4898a050d6164cff841e64fee44707e2032ece12.file.blockcurrencies.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/4b/9c/d7/4b9cd7b0f0c08e1c200d6febe83f28a2c10dedb0.file.blockcart.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/4b/9c/d7/4b9cd7b0f0c08e1c200d6febe83f28a2c10dedb0.file.blockcart.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/4b/aa/71/4baa71abb27eaf17efef90769a63bf080c75c4e5.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/4b/aa/71/4baa71abb27eaf17efef90769a63bf080c75c4e5.file.header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/4e/0c/b6/4e0cb62c5e570e3efe8a2cc4e9b1ab1cd8f4006a.file.modal_not_trusted.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/4e/0c/b6/4e0cb62c5e570e3efe8a2cc4e9b1ab1cd8f4006a.file.modal_not_trusted.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/53/b9/6c/53b96cafff5759b4388b49c89cba65c72ccc6019.file.list.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/53/b9/6c/53b96cafff5759b4388b49c89cba65c72ccc6019.file.list.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/5c/10/5c/5c105cefe3c471444029601e9aba0b1ff5d9a977.file.configure.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/5c/10/5c/5c105cefe3c471444029601e9aba0b1ff5d9a977.file.configure.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/6e/fb/0f/6efb0fdc035ca7336d7e19726811fc56e4e14808.file.blockuserinfo.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/6e/fb/0f/6efb0fdc035ca7336d7e19726811fc56e4e14808.file.blockuserinfo.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/72/9d/cc/729dcc86b275a3049826ccf56f2263a1361b04fd.file.page.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/72/9d/cc/729dcc86b275a3049826ccf56f2263a1361b04fd.file.page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/75/32/ca/7532caf7738474f59f601d58d7827fe38888d763.file.list_footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/75/32/ca/7532caf7738474f59f601d58d7827fe38888d763.file.list_footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/77/a4/2b/77a42b1c5aebb33e7c081527971fef856d0a642d.file.layout.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/77/a4/2b/77a42b1c5aebb33e7c081527971fef856d0a642d.file.layout.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/7d/e7/29/7de7291d94c8d2e08fefc978004f84a506c87cfe.file.blocktopmenu.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/7d/e7/29/7de7291d94c8d2e08fefc978004f84a506c87cfe.file.blocktopmenu.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/80/d2/33/80d233328ae4d4583f72a728cfb3e62a3c79439a.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/80/d2/33/80d233328ae4d4583f72a728cfb3e62a3c79439a.file.header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin2526queq9/themes/default/template/footer.tpl" afterPath="$PROJECT_DIR$/admin2526queq9/themes/default/template/footer.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin2526queq9/themes/default/template/header.tpl" afterPath="$PROJECT_DIR$/admin2526queq9/themes/default/template/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/85/5c/83/855c83a8362314bb5b876fa809c700b4422e650f.file.configuration_bar.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/85/5c/83/855c83a8362314bb5b876fa809c700b4422e650f.file.configuration_bar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/85/63/73/856373ab66c42e060980dc790f1ee11d474b63dd.file.search_form.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/85/63/73/856373ab66c42e060980dc790f1ee11d474b63dd.file.search_form.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/8d/b9/54/8db95429453ec61dc6ece88027a9be3b4b82c182.file.breadcrumb.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/8d/b9/54/8db95429453ec61dc6ece88027a9be3b4b82c182.file.breadcrumb.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/99/5d/17/995d173f0b34b49e0ed5c91fa4e0e08cb6bcf756.file.blockcms.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/99/5d/17/995d173f0b34b49e0ed5c91fa4e0e08cb6bcf756.file.blockcms.tpl.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/99/fd/8f/99fd8f3cc6ce4d01e9976c7ec0584d4a0c56236c.file.modal_not_trusted_country.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/99/fd/8f/99fd8f3cc6ce4d01e9976c7ec0584d4a0c56236c.file.modal_not_trusted_country.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a0/35/e6/a035e6305f7247300fad14040d39a0bff5b6247a.file.filters.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a0/35/e6/a035e6305f7247300fad14040d39a0bff5b6247a.file.filters.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a3/bf/a1/a3bfa1adeb83cf6672cb170a14af56075e464797.file.blocklanguages.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a3/bf/a1/a3bfa1adeb83cf6672cb170a14af56075e464797.file.blocklanguages.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a4/5c/c0/a45cc0618e78995d919e5750718d472cd663bbd7.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a4/5c/c0/a45cc0618e78995d919e5750718d472cd663bbd7.file.nav.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a5/45/f8/a545f8c3a927d20ac06bacad82b8909d0f8af88c.file.blockcontactinfos.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a5/45/f8/a545f8c3a927d20ac06bacad82b8909d0f8af88c.file.blockcontactinfos.tpl.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a6/57/bc/a657bcec71af14bfca46541d634b44afa6fdf9b9.file.content.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a6/57/bc/a657bcec71af14bfca46541d634b44afa6fdf9b9.file.content.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a7/e2/34/a7e23400f5dc51d97be1728a8212a11f23c04302.file.list_action_edit.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a7/e2/34/a7e23400f5dc51d97be1728a8212a11f23c04302.file.list_action_edit.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/ae/26/08/ae2608a3657c46dc84b744aeb115be95b8b89b9a.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/ae/26/08/ae2608a3657c46dc84b744aeb115be95b8b89b9a.file.header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/bf/e2/62/bfe26231ef931d0a16e3a7c56000a5df28c1f8ba.file.warning_module.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/bf/e2/62/bfe26231ef931d0a16e3a7c56000a5df28c1f8ba.file.warning_module.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl" afterPath="$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c0/b6/93/c0b693c36c01c276a14637f83bcfa5ba861285d1.file.errors.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c0/b6/93/c0b693c36c01c276a14637f83bcfa5ba861285d1.file.errors.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c2/07/d5/c207d51926f01a813a39dd291cfcc7aa13aeafc8.file.modal.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c2/07/d5/c207d51926f01a813a39dd291cfcc7aa13aeafc8.file.modal.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c5/21/29/c5212992f537d877e21f52cd260d7e8cd6551470.file.list_content.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c5/21/29/c5212992f537d877e21f52cd260d7e8cd6551470.file.list_content.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/cd/67/e7/cd67e796a98a8fbd5ffe7d4d75d5a15305670deb.file.login_addons.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/cd/67/e7/cd67e796a98a8fbd5ffe7d4d75d5a15305670deb.file.login_addons.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/class_index.php" afterPath="$PROJECT_DIR$/cache/class_index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/themeconfigurator/config.xml" afterPath="$PROJECT_DIR$/modules/themeconfigurator/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/config_ru.xml" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/themeconfigurator/config_ru.xml" afterPath="$PROJECT_DIR$/modules/themeconfigurator/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d7/3d/23/d73d23fbbfd8cb4c7f38a9a68993043237fdb60c.file.layout.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d7/3d/23/d73d23fbbfd8cb4c7f38a9a68993043237fdb60c.file.layout.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/views/templates/hook/dashboard_zone_one.tpl" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/views/templates/hook/dashboard_zone_one.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/dc/23/80/dc2380f89451c0e982e0b66aaf5669773f345898.file.list_action_delete.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/dc/23/80/dc2380f89451c0e982e0b66aaf5669773f345898.file.list_action_delete.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/de.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/de.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/e8/c0/5a/e8c05a1d042f74f70fd4464bf3da993922915e30.file.blocksocial.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/e8/c0/5a/e8c05a1d042f74f70fd4464bf3da993922915e30.file.blocksocial.tpl.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/es.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/es.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f0/1d/d9/f01dd95bdde90d67584a82aca16be8776277b878.file.page_header_toolbar.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f0/1d/d9/f01dd95bdde90d67584a82aca16be8776277b878.file.page_header_toolbar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f4/be/3c/f4be3c30da94da174458315151c9febdd49a52c7.file.row.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f4/be/3c/f4be3c30da94da174458315151c9febdd49a52c7.file.row.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f7/b9/fd/f7b9fd3c3f1d2727ec68eff0431a0c228f0f46ad.file.global.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f7/b9/fd/f7b9fd3c3f1d2727ec68eff0431a0c228f0f46ad.file.global.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/fa/2f/43/fa2f43cd75651fc9a6fad2010eb84db98e8085e7.file.content.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/fa/2f/43/fa2f43cd75651fc9a6fad2010eb84db98e8085e7.file.content.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/fr.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/fr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/Migliori/header.tpl" afterPath="$PROJECT_DIR$/themes/Migliori/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/it.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/it.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/nl.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/nl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/pl.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/pl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/psaddonsconnect.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/psaddonsconnect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/pt.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/pt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcart/translations/ru.php" afterPath="$PROJECT_DIR$/modules/blockcart/translations/ru.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcontactinfos/translations/ru.php" afterPath="$PROJECT_DIR$/modules/blockcontactinfos/translations/ru.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/psaddonsconnect/translations/ru.php" afterPath="$PROJECT_DIR$/modules/psaddonsconnect/translations/ru.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/themeconfigurator/themeconfigurator.php" afterPath="$PROJECT_DIR$/modules/themeconfigurator/themeconfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/untrusted_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/untrusted_modules_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="migliori.loc.iws" />
@@ -28,63 +104,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blockcontactinfos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
+      <file leaf-file-name="blockcontactinfos.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            <state vertical-scroll-proportion="-15.615385">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
+      <file leaf-file-name="blockcontactinfos.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/blockcontactinfos.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+            <state vertical-scroll-proportion="-17.653847">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smartbloghomelatestnews.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
+      <file leaf-file-name="en.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-              <folding>
-                <element signature="n#hookDisplayHome#0;n#smartbloghomelatestnews#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Migliori/index.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state vertical-scroll-proportion="-15.615385">
+              <caret line="57" column="81" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="115" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin2526queq9/themes/default/template/footer.tpl">
+      <file leaf-file-name="blockcart.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcart/blockcart.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="168" column="38" selection-start-line="167" selection-start-column="40" selection-end-line="168" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/override/controllers/front/CategoryController.php">
+      <file leaf-file-name="blockcart.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/blockcart.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="24" />
+            <state vertical-scroll-proportion="-3.2">
+              <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ru.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/ru.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.615385">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uk.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/uk.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.26923">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6033835">
+              <caret line="111" column="91" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Migliori/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1698112">
+              <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/pl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.923077">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,7 +215,6 @@
         <option value="$PROJECT_DIR$/modules/blocksocial/blocksocial.php" />
         <option value="$PROJECT_DIR$/modules/blockcms/blockcms.php" />
         <option value="$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.tpl" />
-        <option value="$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl" />
         <option value="$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php" />
@@ -112,6 +225,23 @@
         <option value="$PROJECT_DIR$/admin2526queq9/themes/default/template/footer.tpl" />
         <option value="$PROJECT_DIR$/admin2526queq9/themes/default/template/header.tpl" />
         <option value="$PROJECT_DIR$/modules/gamification/views/templates/hook/notification_bt.tpl" />
+        <option value="$PROJECT_DIR$/modules/massprice/views/img/index.php" />
+        <option value="$PROJECT_DIR$/callme/js/config.js" />
+        <option value="$PROJECT_DIR$/callme/lib/send.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess" />
+        <option value="$PROJECT_DIR$/modules/blockcontactinfos/translations/en.php" />
+        <option value="$PROJECT_DIR$/modules/blockcontactinfos/translations/uk.php" />
+        <option value="$PROJECT_DIR$/modules/blockcontactinfos/translations/ru.php" />
+        <option value="$PROJECT_DIR$/modules/blockcontactinfos/translations/pl.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/blockcontactinfos.tpl" />
+        <option value="$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl" />
+        <option value="$PROJECT_DIR$/modules/blockcart/translations/en.php" />
+        <option value="$PROJECT_DIR$/modules/blockcart/translations/ru.php" />
+        <option value="$PROJECT_DIR$/modules/blockcart/translations/pl.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/blockcart.tpl" />
+        <option value="$PROJECT_DIR$/modules/blockcart/translations/uk.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.tpl" />
+        <option value="$PROJECT_DIR$/themes/Migliori/header.tpl" />
       </list>
     </option>
   </component>
@@ -155,7 +285,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -185,6 +314,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -199,16 +360,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Migliori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Migliori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Migliori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blockcontactinfos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Migliori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blockcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blockcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blockcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stalker.loc/admin883xrc4gv/themes/default/template/controllers/login/content.tpl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stalker.loc/themes/stalker/header.tpl" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="gitignore&#9;null&#9;null" />
@@ -263,15 +557,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2708018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.295764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32626426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -282,6 +575,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32626426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -306,349 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2526queq9/themes/default/template/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2526queq9/themes/default/template/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-          <folding>
-            <element signature="n#hookDisplayHome#0;n#smartbloghomelatestnews#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2526queq9/themes/default/template/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="2" selection-end-line="99" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcms/blockcms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-          <folding>
-            <element signature="n#hookDisplayHome#0;n#smartbloghomelatestnews#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dump_db/2018-03-21_14-10.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="141" selection-start-line="32" selection-start-column="141" selection-end-line="32" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blocksocial/blocksocial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="34" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcms/blockcms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#hookDisplayHome#0;n#smartbloghomelatestnews#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="141" selection-start-line="32" selection-start-column="141" selection-end-line="32" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blocksocial/blocksocial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="34" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcms/blockcms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="141" selection-start-line="32" selection-start-column="141" selection-end-line="32" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blocksocial/blocksocial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="34" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blocksocial/blocksocial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="34" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcms/blockcms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="141" selection-start-line="32" selection-start-column="141" selection-end-line="32" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smartbloghomelatestnews/smartbloghomelatestnews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-          <folding>
-            <element signature="n#hookDisplayHome#0;n#smartbloghomelatestnews#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1827957">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../stalker.loc/admin883xrc4gv/themes/default/css/admin-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2526queq9/themes/default/template/controllers/login/content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8870432">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2526queq9/themes/default/css/admin-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91122717">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5714286">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dump_db/2018-03-21_14-10.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../stalker.loc/admin883xrc4gv/themes/default/template/controllers/login/content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23809524">
-          <caret line="113" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5245283">
           <caret line="307" column="27" selection-start-line="299" selection-start-column="22" selection-end-line="307" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,21 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66852367">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#header#0;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#section#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,14 +628,412 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.8523677">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/override/controllers/front/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/massprice/views/img/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ecm_feedback/feedback.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ecm_feedback/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ecm_feedback/js/jquery.contactable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ecm_feedback/ecm_feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contentbox/views/templates/front/template.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contentbox/contentbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contentbox/js/contentbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/VERSION">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/magiczoomplus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584313" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/views/js/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/views/js/magiczoomplus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="76101" selection-start-line="26" selection-start-column="76101" selection-end-line="26" selection-end-column="76101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/admin/magictoolbox.settings.editor.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="245" column="57" selection-start-line="245" selection-start-column="57" selection-end-line="245" selection-end-column="57" />
+          <folding>
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524251584303" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/views/js/magicscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/views/css/magicscroll.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/magiczoomplus/views/js/switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="77" selection-start-line="130" selection-start-column="77" selection-end-line="130" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callme/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.653847">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callme/lib/smtp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.576923">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callme/js/callme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callme/js/callme.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callme/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.807693">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callme/lib/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1524337109762" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stalker.loc/themes/stalker/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/blockcontact.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.192307">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/nav.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.3461537">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <marker date="1521557694301" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
+            <marker date="1521557694301" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_headers.c&gt;" />
+            <marker date="1521557694301" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_expires.c&gt;" />
+            <marker date="1521557694301" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_headers.c&gt;" />
+            <marker date="1521557694301" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_deflate.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.25926">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+          <folding>
+            <marker date="1524339040157" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
+            <marker date="1524339040157" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_headers.c&gt;" />
+            <marker date="1524339040157" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_expires.c&gt;" />
+            <marker date="1524339040157" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_headers.c&gt;" />
+            <marker date="1524339040157" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_deflate.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/translations/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/translations/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/translations/uk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/translations/ru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/translations/pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.76923">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.615385">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/blockcontactinfos.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/pl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.923077">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.615385">
+          <caret line="57" column="81" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/blockcart.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2">
+          <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/uk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.26923">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/blockcart/translations/ru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.615385">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcart/blockcart.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="168" column="38" selection-start-line="167" selection-start-column="40" selection-end-line="168" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Migliori/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1698112">
+          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6033835">
+          <caret line="111" column="91" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="91" />
           <folding />
         </state>
       </provider>
