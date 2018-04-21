@@ -62,4 +62,11 @@
         color: #c19a6b; }
 
 /*# sourceMappingURL=blockcurrencies.css.map */
-254 229 172
+@media (max-width: 768px) {
+  #currencies-block-top {
+    width: 50%;
+    float: right;
+    text-align: center;}
+  #currencies-block-top div.current {
+    font-size: 18px;}
+}

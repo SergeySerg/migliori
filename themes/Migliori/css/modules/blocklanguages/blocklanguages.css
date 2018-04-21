@@ -75,3 +75,14 @@
         color: #c19a6b; }
 
 /*# sourceMappingURL=blocklanguages.css.map */
+
+@media (max-width: 768px) {
+  #languages-block-top {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    width: 50%;}
+  #languages-block-top ul li {
+    padding: 0 3px;
+    font-size: 18px;}
+}

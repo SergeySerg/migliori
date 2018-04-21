@@ -8696,13 +8696,50 @@ div.star.star_hover:after {
     margin-right: 5px;}
   .about-us_content iframe{
     height: 225px; }
-    #footer .copyright {
-      display: block;
-      color: #4d4d4d;
-      font-size: 15px; }
+  #footer .copyright {
+    display: block;
+    color: #4d4d4d;
+    font-size: 15px; }
 }
 
 @media (max-width: 768px) {
+  #header #block_various_links_footer {
+    display: none;  }
+  header #social_block {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+    float: left;}
+  header #social_block ul li {
+    font-size: 21px;}
+  header .row #header_logo {
+    width: 50%;
+    padding: 20px 5px 0;}
+  header .slogan {
+    display: none;}
+  header #block_contact_infos ul {
+    width: 100%;
+    margin: 10px auto 0;
+    position: relative;}
+  header #block_contact_infos li:first-child {
+    padding-top: 15px;
+    border-top: 1px solid #f3f3f3;}
+  header #block_contact_infos li {
+    line-height: 24px;
+    margin: 0 15px;
+    padding-left: 0;}
+  header #block_contact_infos li .fa{
+    display: none; }
+  header #block_contact_infos li.mg-callback {
+    position: absolute;
+    width: 160px;
+    top: 21px;
+    right: -10px;
+    text-align: center;
+    line-height: 17px; }
+  header #block_contact_infos li:last-child a{
+    border: none; }
   #footer{
     text-align: center;  }
   #footer #block_contact_infos {

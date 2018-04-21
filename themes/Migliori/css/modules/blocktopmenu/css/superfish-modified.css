@@ -197,26 +197,26 @@ ul.sf-menu li li li.sfHover ul {
       display: block;
       font: 600 18px/22px "Open Sans", sans-serif;
       text-transform: uppercase;
-      color: #484848;
+      color: #4d4d4d;
       display: block;
-      padding: 17px 20px;
-      border-bottom: 3px solid #e9e9e9;
-      background: #f6f6f6;
+      padding: 13px 20px;
+      border: 1px solid #ccc;
+      background: inherit;
       position: relative; }
-      .cat-title:hover {
+      /* .cat-title:hover {
         background: #333;
         border-bottom-color: #666666;
-        color: #fff; }
+        color: #fff; } */
       .cat-title:after {
         display: block;
         font-family: "FontAwesome";
-        content: "\f067";
+        content: "\f0d7";
         position: absolute;
-        right: 15px;
-        top: 18px;
+        right: 25px;
+        top: 13px;
         font-size: 26px; }
       .cat-title.active:after {
-        content: "\f068"; } }
+        content: "\f0d8"; } }
 
 .sf-menu li.sf-search {
   border: none; }
