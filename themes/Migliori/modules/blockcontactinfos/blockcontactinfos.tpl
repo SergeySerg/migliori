@@ -28,7 +28,7 @@
 <section id="block_contact_infos" class="footer-block col-xs-12 col-sm-3">
 	<div>
         {* <h4>{l s='Store Information' mod='blockcontactinfos'}</h4> *}
-        <ul class="toggle-footer">
+        <ul>
             {if $blockcontactinfos_company != ''}
             	<li>
             		<i class="icon-map-marker"></i>{$blockcontactinfos_company|escape:'html':'UTF-8'}{if $blockcontactinfos_address != ''}, {$blockcontactinfos_address|escape:'html':'UTF-8'}{/if}

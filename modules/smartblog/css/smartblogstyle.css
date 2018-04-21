@@ -803,3 +803,12 @@ form#searchbox .button.button-small i {
     display: inline-block;
     margin: 10px 0 6px;
 }
+
+@media (max-width: 768px) {
+    .latest-news-on-home{
+        width: 100%;
+    }
+    .sdstitle_block {
+        text-align: center;
+    }
+}
