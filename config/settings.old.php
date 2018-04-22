@@ -6,7 +6,7 @@ define('_DB_PASSWD_', '');
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
-define('_PS_CACHE_ENABLED_', '0');
+define('_PS_CACHE_ENABLED_', '1');
 define('_COOKIE_KEY_', 'qoDAbX8WCJaFx3LvKXmx3177zmY50WWd9fIITmrr0zJ8KnKNIRgMMI69');
 define('_COOKIE_IV_', 'mrz2hzng');
 define('_PS_CREATION_DATE_', '2018-01-22');
