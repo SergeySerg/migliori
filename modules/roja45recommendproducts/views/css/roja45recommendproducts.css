@@ -1,0 +1,230 @@
+/**
+ * Roja45RecommendProducts
+ *
+ * @category  Roja45RecommendProducts
+ * @author    Roja45 <support@roja45.com>
+ * @copyright 2016 Roja45
+ * @license   license.txt
+ * @link      http://www.roja45.com/
+ *
+ * 2016 ROJA45 - All rights reserved.
+ *
+ * DISCLAIMER
+ * Changing this file will render any support provided by us null and void.
+ */
+
+.roja45_recommend_products  {
+    border: 1px solid #d6d4d4;
+    background: #fbfbfb;
+    margin: 10px 0 10px 0;
+}
+
+.roja45_recommend_products ul {
+	margin-bottom: 0px;
+}
+
+.roja45_recommend_products li {
+}
+
+.roja45_recommend_products li .recommend-product-container {
+	border-bottom: 1px solid #ddd;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.roja45_recommend_products li.first_item {
+}
+
+.roja45_recommend_products li.first_item .recommend-product-container {
+    border-top: 1px solid #ddd;
+}
+
+.roja45_recommend_products li.last_item .recommend-product-container {
+    border-bottom: none;
+}
+.roja45_recommend_products li:hover {
+}
+
+.roja45_recommend_products li.last_item_of_line {
+}
+
+.recommend-product-content {
+	display: block;
+	position: relative;
+}
+
+.recommend-product-image {
+	vertical-align: top;
+}
+
+.recommend-product-image .img-responsive {
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+.recommend-product-detail {
+	vertical-align: top;
+}
+
+.roja45_recommend_products .recommend-product-block {
+	text-align: center;
+	padding: 1px;
+}
+.roja45_recommend_products .recommend-product-block-buttons {
+}
+.roja45_recommend_products .recommend-product-block-buttons h3 {
+    margin-top: 0;
+}
+.roja45_recommend_products .recommend-product-block-buttons .button span {
+	font-size: 16px;
+    padding: 6px 8px;
+    text-align: center;
+}
+
+.recommended-product-title {
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+}
+.recommended-product-price {
+	padding: 5px 0px 5px 5px;
+}
+.roja45_recommend_products h4 {
+	font-weight: 600;
+    text-align: center;
+}
+
+.roja45_recommend_products h5 {
+	margin: 0;
+}
+
+.roja45_recommend_products .no-recommendations {
+	margin-left: 5px;
+}
+
+.roja45_recommend_products .product_image {
+}
+
+.roja45_recommend_products .lnk_more {
+
+}
+
+.roja45_recommend_products .title_container {
+	font-size: 15px;
+    font-weight: 600;
+}
+
+.roja45_recommend_products .price_container {
+}
+
+.roja45_recommend_products .price {
+
+}
+
+.roja45_recommend_products .recommend-product-image {
+}
+
+.roja45_recommend_products .recommend-product-detail {
+}
+
+.box-info-product .roja45_recommend_products p {
+    font-size: 12px;
+    padding: 0;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.roja45_recommend_products .recommended-product-btn .button {
+	width: 100%;
+	margin-top: 5px;
+}
+
+#usefull_link_block .roja45_recommend_products li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#usefull_link_block .roja45_recommend_products li a {
+	padding-left: 0px;
+	font-weight: 400;
+}
+
+#usefull_link_block .roja45_recommend_products li.first_item {
+    margin: 0;
+}
+
+#usefull_link_block .roja45_recommend_products li.last_item {
+
+}
+#usefull_link_block .roja45_recommend_products li:hover {
+}
+
+#usefull_link_block .roja45_recommend_products li.last_item_of_line {
+}
+
+
+.box-cart-bottom .roja45_recommend_products {
+    border-top: 1px solid #d6d4d4;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+
+.box-cart-bottom .roja45_recommend_products .recommend-product-block-buttons .button span {
+	font-size: 12px;
+    padding: 4px 6px;
+}
+
+.box-cart-bottom .roja45_recommend_products .title_container {
+	display: block;
+	font-size: 13px;
+}
+
+.roja45_recommend_products.shopping-cart-footer h2 {
+    margin:0;
+    padding:10px 0;
+    border-bottom:1px solid #ccc;
+    font-size:18px;
+    color:#333
+}
+
+.roja45_recommend_products.shopping-cart-footer {overflow:auto}
+
+.roja45_recommend_products.shopping-cart-footer ul {list-style-type:none}
+.roja45_recommend_products.shopping-cart-footer li {
+    float: left;
+    background: rgb(240, 240, 240);
+    margin: 5px;
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+}
+.roja45_recommend_products.shopping-cart-footer li a.lnk_img {display:block}
+.roja45_recommend_products.shopping-cart-footer li a img {border:1px solid #ccc}
+.roja45_recommend_products.shopping-cart-footer li p.product_name {
+    text-align:center;
+    margin-top: 10px;
+    font-size: 14px;}
+
+.roja45_recommend_products.shopping-cart-footer .recommendproducts_list {
+    float: left;
+    overflow: hidden;
+    width: 96%;
+}
+
+.roja45_recommend_products.shopping-cart-footer .recommendproducts_scroll_left,
+.roja45_recommend_products.shopping-cart-footer .recommendproducts_scroll_right {
+    display: block;
+    width: 9px;
+    height: 18px;
+    float: left;
+    margin-top: 30px
+}
+.roja45_recommend_products.shopping-cart-footer .recommendproducts_scroll_right { }

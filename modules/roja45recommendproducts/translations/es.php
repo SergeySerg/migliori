@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{roja45recommendproducts}prestashop>roja45recommendproducts_af83fb18b3d4b6963be650e14590ee2f'] = 'Roja45: Recomendar Productos';
+$_MODULE['<{roja45recommendproducts}prestashop>roja45recommendproducts_bc140ea75167f19e6738615648c3de40'] = 'Seleccionar productos individuales, o una categoría de producto, que se mostrarán al añadir un elemento al carrito, y cuando se muestra el resumen de la compra.';
+$_MODULE['<{roja45recommendproducts}prestashop>roja45recommendproducts_dd0de17e8450a0fd3248b19c4a4f803b'] = 'Número de productos no válidos.';
+$_MODULE['<{roja45recommendproducts}prestashop>roja45recommendproducts_c888438d14855d7d96a2724ee9c306bd'] = 'Configuración actualizan';
+$_MODULE['<{roja45recommendproducts}prestashop>roja45recommendproducts_42d00bc24fd43cfe3e2e30d01f39ee95'] = 'Filtrar por categoría';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_52f4393e1b52ba63e27310ca92ba098c'] = 'Configuración general';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_b032994e36820bf09bc16a8c10fe0fb2'] = 'Seleccione los productos recomendados por categoría o individualmente';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_3745b57154f593b19ca414333ede2a52'] = 'Método de selección';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_152005a931e35a7e8023a27772a8d56f'] = 'Por categoria';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_1f6046516adcfe04391a28df3a25e366'] = 'Por producto';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_31699295c5eb12a8becca30133cfa6fd'] = 'Predeterminado número de productos para mostrar';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_68feb0793ad7cba0c00801419f19a12d'] = 'Número de productos';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_5f38f7c701174bdefb2ac256c59a44cf'] = 'Mostrar los productos al azar';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_93cba07454f06a4a960172bbd6e2a435'] = 'Si';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_bafd7322c6e97d25b6299b5d6fe8920b'] = 'No';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_94619f158fa2f625de20e1802867bdd2'] = 'Productos de la categor�a seleccionada se mostrará';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_76729937a5eb6b0fd88c42581161facd'] = 'Selecciona una categor�a';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_068f80c7519d0528fb08e82137a72131'] = 'Productos';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_3bf991b18e598b9e8785a3777d9ae1d1'] = 'A�adir a la selección';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_fd348325445a2cd50aa03e6bc888ec2e'] = 'Productos seleccionados';
+$_MODULE['<{roja45recommendproducts}prestashop>displayform_c9cc8cce247e49bae79f15173ce97354'] = 'Guadar';
+$_MODULE['<{roja45recommendproducts}prestashop>hookproductcolumn_704434c0f731c3071ec08b12e88cd835'] = 'Productos Recomendados';
+$_MODULE['<{roja45recommendproducts}prestashop>hookproductcolumn_2d0f6b8300be19cf35e89e66f0677f95'] = 'Añadir';
+$_MODULE['<{roja45recommendproducts}prestashop>hookproductcolumn_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
+$_MODULE['<{roja45recommendproducts}prestashop>hookproductcolumn_e3487fd1b54104e02f7751ed85220fba'] = 'Mas Info';
+$_MODULE['<{roja45recommendproducts}prestashop>hookproductcolumn_0ffa2d698a6d4538fd17e3411a339da5'] = 'No hay productos recomendados';
+$_MODULE['<{roja45recommendproducts}prestashop>hookshoppingcartfooter_704434c0f731c3071ec08b12e88cd835'] = 'Productos Recomendados';
+$_MODULE['<{roja45recommendproducts}prestashop>hookshoppingcartfooter_dd1f775e443ff3b9a89270713580a51b'] = 'Previo';
+$_MODULE['<{roja45recommendproducts}prestashop>hookshoppingcartfooter_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
+$_MODULE['<{roja45recommendproducts}prestashop>hookshoppingcartfooter_e3487fd1b54104e02f7751ed85220fba'] = 'Mas Info';
+$_MODULE['<{roja45recommendproducts}prestashop>hookshoppingcartfooter_2d0f6b8300be19cf35e89e66f0677f95'] = 'A�adir al carrito';
+$_MODULE['<{roja45recommendproducts}prestashop>hookshoppingcartfooter_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Siguiente';

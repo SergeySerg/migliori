@@ -55,7 +55,7 @@
             	</li>
             {/if}
 			<li class="mg-callback">
-				<a href="#">Заказать обратный звонок</a>
+				<a href="#" class="callme_viewform">{l s='Request a callback' mod='blockcontactinfos'}</a>
 			</li>
 
         </ul>
