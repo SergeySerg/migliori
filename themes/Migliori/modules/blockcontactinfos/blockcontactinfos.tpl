@@ -52,7 +52,8 @@
             		<span>{mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}</span>
             	</li>
             {/if}
-        </ul>
+			<a href="#" class="callme_viewform">{l s='Request a callback' mod='blockcontactinfos'}</a>
+		</ul>
     </div>
 </section>
 <!-- /MODULE Block contact infos -->
