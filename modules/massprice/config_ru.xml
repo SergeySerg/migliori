@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>massprice</name>
+	<displayName><![CDATA[Обновление массовые цен]]></displayName>
+	<version><![CDATA[2.1.0]]></version>
+	<description><![CDATA[Обновление массовых цены по категории www.catalogo-onlinersi.net]]></description>
+	<author><![CDATA[RSI]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
