@@ -222,7 +222,7 @@
 
 #cme-back {
   display: none;
-  z-index: 108;
+  z-index: 5004;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -289,6 +289,7 @@
   position: fixed !important;
   top: 130px !important;
   left: 30% !important;
+  Z-INDEX: 5005;
 }
 .cme-form .callme-result {
     bottom: -48px;

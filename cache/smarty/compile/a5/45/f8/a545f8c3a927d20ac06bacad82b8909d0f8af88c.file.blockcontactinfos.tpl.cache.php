@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-21 23:25:47
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-23 22:53:51
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcontactinfos\blockcontactinfos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:205815adb9722f06d20-71797577%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:73245ade39d00004a0-35743419%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '205815adb9722f06d20-71797577',
+  'nocache_hash' => '73245ade39d00004a0-35743419',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5adb9723015025_31563529',
   'variables' => 
   array (
     'blockcontactinfos_company' => 0,
@@ -26,8 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'blockcontactinfos_email' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5ade39d0090849_06679909',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5adb9723015025_31563529')) {function content_5adb9723015025_31563529($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.mailto.php';
+<?php if ($_valid && !is_callable('content_5ade39d0090849_06679909')) {function content_5ade39d0090849_06679909($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.mailto.php';
 ?>
 
 <!-- MODULE Block contact infos -->
