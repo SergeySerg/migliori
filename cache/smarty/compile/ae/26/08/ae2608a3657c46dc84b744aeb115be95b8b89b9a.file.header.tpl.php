@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-21 23:25:47
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-23 17:06:13
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:73815adb97271b6a96-76931824%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-      1 => 1524342344,
+      1 => 1524345981,
       2 => 'file',
     ),
   ),
@@ -210,9 +210,7 @@ if (!empty($_capture_buffer)) {
 "<?php }?><?php if (isset($_smarty_tpl->tpl_vars['logo_image_height']->value)&&$_smarty_tpl->tpl_vars['logo_image_height']->value) {?> height="<?php echo $_smarty_tpl->tpl_vars['logo_image_height']->value;?>
 "<?php }?>/>
 									</a>
-									<?php echo smartyTranslate(array('s'=>'Wrapping test'),$_smarty_tpl);?>
 
-								</
 								</div>
 								<?php if (isset($_smarty_tpl->tpl_vars['HOOK_TOP']->value)) {?><?php echo $_smarty_tpl->tpl_vars['HOOK_TOP']->value;?>
 <?php }?>
