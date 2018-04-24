@@ -135,7 +135,7 @@
     var freeProductTranslation = "{l s='Free!' mod='onepagecheckout'}";
     //]]>
 </script>
-
+    <h2 class="mg-title">{l s='Shopping cart' mod='onepagecheckout'}</h2>
     <div id="opc_checkout" class="{if version_compare($smarty.const._PS_VERSION_,'1.6','>')}ps16{else}ps15{/if}">
     {if $productNumber}
     <!-- Shopping Cart -->
@@ -163,7 +163,7 @@
     {include file="$opc_templates_path/order-payment.tpl"}
     <!-- END Payment -->
         {else}
-    <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2>
+    {* <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2> *}
     <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
             {hook h='displayRoja45ResponsiveCart'}
     {/if}

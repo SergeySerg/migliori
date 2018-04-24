@@ -124,7 +124,7 @@
     {/if}
 <div id="order-detail-content" class="table_block{if isset($addClass)}{$addClass}{/if}">
 <table id="cart_summary" class="std">
-<thead>
+{* <thead>
 <tr>
     <th class="cart_product first_item">{l s='Product' mod='onepagecheckout'}</th>
     <th class="cart_description item">{l s='Description' mod='onepagecheckout'}</th>
@@ -132,9 +132,9 @@
     <th class="cart_unit item">{l s='Unit price' mod='onepagecheckout'}</th>
     <th class="cart_quantity item">{l s='Qty' mod='onepagecheckout'}</th>
     <th class="cart_total last_item">{l s='Total' mod='onepagecheckout'}</th>
-    {*<th class="cart_delete last_item">&nbsp;</th>*}
+    <th class="cart_delete last_item">&nbsp;</th>
 </tr>
-</thead>
+</thead> *}
 <tbody>
     {foreach $products as $product}
         {assign var='productId' value=$product.id_product}
@@ -259,7 +259,7 @@
     {/if}
 <div id="tfoot_static_underlay" class="sticky_underlay"></div>
 <tfoot id="tfoot_static">
-<tr class="cart_voucher_block">
+{* <tr class="cart_voucher_block">
     <td colspan="{$colspan+1}" id="cart_voucher" class="cart_voucher">
         {if $voucherAllowed}
             {if isset($errors_discount) && $errors_discount}
@@ -394,16 +394,16 @@
         <td colspan="{$colspan|intval}">{l s='Total tax:' mod='onepagecheckout'}</td>
         <td class="price" id="total_tax">{displayPrice price=$total_tax}</td>
     </tr>
-{/if}
+{/if} *}
 <tr class="cart_final_price summary-line">
     <td colspan="{$colspan|intval}">{l s='Total:' mod='onepagecheckout'}</td>
-        <td class="price total_price_container" id="total_price_container">
-            {if $use_taxes}
-            <span id="total_price">{displayPrice price=$total_price}</span>
-            {else}
-                <span id="total_price">{displayPrice price=$total_price_without_tax}</span>
-            {/if}
-        </td>
+    <td class="price total_price_container" id="total_price_container">
+        {if $use_taxes}
+        <span id="total_price">{displayPrice price=$total_price}</span>
+        {else}
+            <span id="total_price">{displayPrice price=$total_price_without_tax}</span>
+        {/if}
+    </td>
 </tr>
 </tfoot>
 </table>
