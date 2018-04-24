@@ -161,6 +161,7 @@
 
     <!-- Payment -->
     {include file="$opc_templates_path/order-payment.tpl"}
+            {hook h='displayRoja45ResponsiveCart'}
     <!-- END Payment -->
         {else}
     <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2>

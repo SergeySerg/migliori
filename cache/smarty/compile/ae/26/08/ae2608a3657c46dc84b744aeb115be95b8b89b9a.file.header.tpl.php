@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-23 22:53:59
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-24 20:03:20
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:179505ade39d7d77f55-26575096%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:227905adf6358a5bbc1-97596730%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-      1 => 1524345981,
+      1 => 1524513561,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '179505ade39d7d77f55-26575096',
+  'nocache_hash' => '227905adf6358a5bbc1-97596730',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ade39d82aa487_40553406',
+  'unifunc' => 'content_5adf6358c52416_68058736',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ade39d82aa487_40553406')) {function content_5ade39d82aa487_40553406($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5adf6358c52416_68058736')) {function content_5adf6358c52416_68058736($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>

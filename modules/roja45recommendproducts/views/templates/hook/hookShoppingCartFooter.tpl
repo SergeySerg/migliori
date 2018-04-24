@@ -11,7 +11,7 @@
 *}
 
 <div id="roja45_recommend_products" class="roja45_recommend_products shopping-cart-footer product_column clearfix">
-	<script type="text/javascript">var roja45_middle = {$middlePosition|escape:'html':'UTF-8'};</script>
+	{*<script type="text/javascript">var roja45_middle = {$middlePosition|escape:'html':'UTF-8'};</script>*}
     <h2>{l s='Recommended Products' mod='roja45recommendproducts'}</h2>
     {if isset($products) AND $products}
 
