@@ -4,6 +4,7 @@
 
 .SEslider {
   margin: 0;
+  margin-bottom: 20px !important;
   position: relative;
   z-index:1;
   width:100%;
@@ -672,4 +673,11 @@ box-sizing: content-box;
 
 #header .banner .SEslider {
 	margin-bottom:0;
+}
+
+@media (max-width: 768px){
+  .se-prev {
+    left: 0;}
+  .se-next {
+    right: 0;}
 }

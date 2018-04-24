@@ -67,6 +67,9 @@
     width: 50%;
     float: right;
     text-align: center;}
+  #currencies-block-top ul{
+    left: 41%; }
   #currencies-block-top div.current {
-    font-size: 18px;}
+    font-size: 18px;
+    margin-bottom: 5px;}
 }
