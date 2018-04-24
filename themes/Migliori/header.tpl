@@ -110,6 +110,9 @@
 									</a>
 
 								</div>
+								<div class="slogan">
+									{l s='Internet store of children\'s things «Migliori»'}
+								</div>
 								{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
 							</div>
 						</div>

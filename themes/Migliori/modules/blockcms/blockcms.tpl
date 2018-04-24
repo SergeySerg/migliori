@@ -66,9 +66,9 @@
 	<!-- /Block CMS module -->
 {else}
 	<!-- Block CMS module footer -->
-	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
-		<h4>{l s='Information' mod='blockcms'}</h4>
-		<ul class="toggle-footer">
+	<section class="footer-block col-xs-12 col-sm-7" id="block_various_links_footer">
+		{* <h4>{l s='Information' mod='blockcms'}</h4> *}
+		<ul>
 			{if isset($show_price_drop) && $show_price_drop && !$PS_CATALOG_MODE}
 				<li class="item">
 					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
@@ -106,7 +106,7 @@
 			{/if}
 			{foreach from=$cmslinks item=cmslink}
 				{if $cmslink.meta_title != ''}
-					<li class="item">
+					<li class="item r-item-cms">
 						<a href="{$cmslink.link|escape:'html':'UTF-8'}" title="{$cmslink.meta_title|escape:'html':'UTF-8'}">
 							{$cmslink.meta_title|escape:'html':'UTF-8'}
 						</a>
