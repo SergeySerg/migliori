@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-24 20:03:20
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-24 20:33:44
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcurrencies\blockcurrencies.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:138125adf6358d5cbc4-38042799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4898a050d6164cff841e64fee44707e2032ece12' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\modules\\blockcurrencies\\blockcurrencies.tpl',
-      1 => 1516645737,
+      1 => 1524591132,
       2 => 'file',
     ),
   ),
@@ -15,17 +15,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5adf6358db13f2_77995335',
   'variables' => 
   array (
     'currencies' => 0,
     'request_uri' => 0,
     'cookie' => 0,
     'f_currency' => 0,
-    'currency_name' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5adf6358db13f2_77995335',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5adf6358db13f2_77995335')) {function content_5adf6358db13f2_77995335($_smarty_tpl) {?>
 <!-- Block currencies module -->
@@ -36,8 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="current">
 				<input type="hidden" name="id_currency" id="id_currency" value=""/>
 				<input type="hidden" name="SubmitCurrency" value="" />
-				<span class="cur-label"><?php echo smartyTranslate(array('s'=>'Currency','mod'=>'blockcurrencies'),$_smarty_tpl);?>
- :</span>
+				
 				<?php  $_smarty_tpl->tpl_vars['f_currency'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['f_currency']->_loop = false;
  $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
  $_from = $_smarty_tpl->tpl_vars['currencies']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
@@ -45,8 +43,8 @@ foreach ($_from as $_smarty_tpl->tpl_vars['f_currency']->key => $_smarty_tpl->tp
 $_smarty_tpl->tpl_vars['f_currency']->_loop = true;
  $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['f_currency']->key;
 ?>
-					<?php if ($_smarty_tpl->tpl_vars['cookie']->value->id_currency==$_smarty_tpl->tpl_vars['f_currency']->value['id_currency']) {?><strong><?php echo $_smarty_tpl->tpl_vars['f_currency']->value['iso_code'];?>
-</strong><?php }?>
+					<?php if ($_smarty_tpl->tpl_vars['cookie']->value->id_currency==$_smarty_tpl->tpl_vars['f_currency']->value['id_currency']) {?><?php echo $_smarty_tpl->tpl_vars['f_currency']->value['iso_code'];?>
+<?php }?>
 				<?php } ?>
 			</div>
 			<ul id="first-currencies" class="currencies_ul toogle_content">
@@ -57,17 +55,12 @@ foreach ($_from as $_smarty_tpl->tpl_vars['f_currency']->key => $_smarty_tpl->tp
 $_smarty_tpl->tpl_vars['f_currency']->_loop = true;
  $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['f_currency']->key;
 ?>
-					<?php if (strpos($_smarty_tpl->tpl_vars['f_currency']->value['name'],('(').($_smarty_tpl->tpl_vars['f_currency']->value['iso_code']).(')'))===false) {?>
-						<?php ob_start();?><?php echo smartyTranslate(array('s'=>'%s (%s)','sprintf'=>array($_smarty_tpl->tpl_vars['f_currency']->value['name'],$_smarty_tpl->tpl_vars['f_currency']->value['iso_code'])),$_smarty_tpl);?>
-<?php $_tmp37=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["currency_name"] = new Smarty_variable($_tmp37, null, 0);?>
-					<?php } else { ?>
-						<?php $_smarty_tpl->tpl_vars["currency_name"] = new Smarty_variable($_smarty_tpl->tpl_vars['f_currency']->value['name'], null, 0);?>
-					<?php }?>
+					
 					<li <?php if ($_smarty_tpl->tpl_vars['cookie']->value->id_currency==$_smarty_tpl->tpl_vars['f_currency']->value['id_currency']) {?>class="selected"<?php }?>>
 						<a href="javascript:setCurrency(<?php echo $_smarty_tpl->tpl_vars['f_currency']->value['id_currency'];?>
-);" rel="nofollow" title="<?php echo $_smarty_tpl->tpl_vars['currency_name']->value;?>
+);" rel="nofollow" title="<?php echo $_smarty_tpl->tpl_vars['f_currency']->value['name'];?>
 ">
-							<?php echo $_smarty_tpl->tpl_vars['currency_name']->value;?>
+							<?php echo $_smarty_tpl->tpl_vars['f_currency']->value['iso_code'];?>
 
 						</a>
 					</li>
