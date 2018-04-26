@@ -7544,6 +7544,7 @@ a.price_discount_delete {
     padding: 7px;
     width: 137px; }
     #cart_summary tbody td.cart_product img {
+      max-width: 100%;
       border: 1px solid #e9e9e9; }
   #cart_summary tbody td.cart_unit .price span {
     display: inline-block; }
