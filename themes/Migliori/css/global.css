@@ -260,7 +260,7 @@ a {
   transition: all ease .3s; }
   a:hover, a:focus {
     color: #c19a6b;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: all ease .3s; }
   a:focus {
     outline: thin dotted #333;
