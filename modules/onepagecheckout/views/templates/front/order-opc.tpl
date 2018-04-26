@@ -144,12 +144,6 @@
             {include file="$opc_templates_path/shopping-cart.tpl"}
         {/if}
     <!-- END Shopping Cart -->
-    <!-- Create account / Guest account / Login block -->
-    {include file="$opc_templates_path/order-opc-new-account.tpl"}
-    <!-- END Create account / Guest account / Login block -->
-
-    <div id="shipping-payment-block"> {* closing div in order-payment *}
-        <div class="inner-table"> {* closing div in order-payment *}
     <!-- Carrier -->
         {if $opc_config.default_ps_carriers}
             {include file="$opc_templates_path/order-carrier-def.tpl"}
@@ -158,6 +152,11 @@
         {/if}
 
     <!-- END Carrier -->
+    <!-- Create account / Guest account / Login block -->
+    {include file="$opc_templates_path/order-opc-new-account.tpl"}
+    <!-- END Create account / Guest account / Login block -->
+    <div id="shipping-payment-block"> {* closing div in order-payment *}
+        <div class="inner-table"> {* closing div in order-payment *}
 
     <!-- Payment -->
     {include file="$opc_templates_path/order-payment.tpl"}
