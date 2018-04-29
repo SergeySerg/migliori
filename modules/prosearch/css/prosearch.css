@@ -1,10 +1,13 @@
 #search_block_top {
   float: left;
+  margin-bottom: 15px;
   padding-bottom: 15px;
   padding-top: 10px; }
   #search_block_top #searchbox {
     float: left;
-    width: 100%; }
+    width: 100%; 
+    border-bottom: 1px solid #f4f0ec;
+    padding-bottom: 13px;}
   #search_block_top .btn.button-search {
     background: inherit;
     display: block;

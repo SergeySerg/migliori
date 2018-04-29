@@ -486,16 +486,16 @@ p.cart_navigation_extra, p.cart_navigation {
     clear:  both;
 }
 
-form.std h3, #new_account_form.std h3, #order-opc h2, #payments_section h3, #cart_summary th {
+/* form.std h3, #new_account_form.std h3, #order-opc h2, #payments_section h3, #cart_summary th {
 
-    background: rgb(140,140,140); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(140,140,140,1) 0%, rgba(62,62,62,1) 91%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(140,140,140,1)), color-stop(91%,rgba(62,62,62,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%); /* IE10+ */
-    background: linear-gradient(to bottom, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#3e3e3e',GradientType=0 ); /* IE6-9 */
+    background: rgb(140,140,140); 
+    background: -moz-linear-gradient(top, rgba(140,140,140,1) 0%, rgba(62,62,62,1) 91%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(140,140,140,1)), color-stop(91%,rgba(62,62,62,1)));
+    background: -webkit-linear-gradient(top, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%); 
+    background: -o-linear-gradient(top, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%); 
+    background: -ms-linear-gradient(top, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%);
+    background: linear-gradient(to bottom, rgba(140,140,140,1) 0%,rgba(62,62,62,1) 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#3e3e3e',GradientType=0 );  
     color: #FFFFFF;
     text-shadow: 0px 0px 2px black;
 }
@@ -509,7 +509,7 @@ form.std h3, #new_account_form.std h3, #order-opc h2,#carriers_section h3, #paym
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     box-shadow: 0 0 1px 1px black;
-}
+} */
 
 form.std fieldset {
     margin: 0 0 12px 0;
@@ -527,13 +527,13 @@ form.std h3, #new_account_form.std h3 {
     margin-bottom: 10px;
 }
 
-#cart_summary {
+/* #cart_summary {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     box-shadow: 0 0 2px 3px rgb(128, 127, 127);
     border: 0;
-}
+} */
 
 /*#cart_summary tr td {*/
     /*border-radius: 5px;*/
@@ -552,7 +552,6 @@ form#offer_password fieldset {
 
 #order-opc #opc_checkout #login_form fieldset {
     padding: 0 6px 2px;
-}
 }
 
 #login_form_content > p.lost_password {
@@ -600,13 +599,15 @@ form#offer_password fieldset {
 }
 
 table#cart_summary td {
-    padding: 2px 10px;
-    vertical-align: middle;
+    padding: 15px;
+    /* vertical-align: middle; */
 }
 
 table#cart_summary .cart_total, table#cart_summary .cart_discount_price {
     width: 70px;
     text-align: right;
+    padding-top: 55px;
+    position: relative;
 }
 
 table#cart_summary .cart_description {
@@ -620,6 +621,8 @@ table#cart_summary .cart_unit {
 
 table#cart_summary .cart_quantity {
     width: 40px;
+    padding-top: 55px;
+    text-align: center;
 }
 
 table#cart_summary .cart_delete {
@@ -629,11 +632,15 @@ table#cart_summary .cart_delete {
 .cart_quantity .cart_quantity_button {
     top: 0px;
     white-space: nowrap;
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
 }
 
 
 #cart_summary .cart_quantity_input {
-    border: 1px solid #888888;
+    border: 1px solid #d4d4d4;
+    border-top: none;
+    border-bottom: none;
     font-size: 1.4em;
     height: auto;
     margin: 0 0 0 -2px;
@@ -644,7 +651,7 @@ table#cart_summary .cart_delete {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    display: block;
+    display: inline-block;
 }
 
 form#offer_password p#p_registerme {
@@ -859,24 +866,38 @@ tr.cart_voucher_block .cart_voucher h4 {
 /* quantity and delete buttons */
 
 #cart_summary a.cart_quantity_delete, #cart_summary a.cart_quantity_delete_discount {
-    background: url("../img/trash_16x16.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    height: 16px;
+    /* background: url("../img/trash_16x16.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0); */
+    /* height: 16px; */
     opacity: 0.4;
-    padding: 0;
-    width: 16px;
+    padding: 8px 0;
+    /* width: 16px; */
     transition-duration: 0.7s;
     transition-property: opacity;
     display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #adadad;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 #cart_summary a.cart_quantity_delete:hover, #cart_summary a.cart_quantity_delete_discount:hover {
     opacity: 1;
+    color: #adadad;
 }
 
 #cart_summary div.cart_quantity_button a {
-    opacity: 0.2;
+    /* opacity: 0.2; */
     transition-duration: 0.7s;
     transition-property: opacity;
+    margin-bottom: -10px;
+    font-size: 24px;
+    text-align: center;
 }
 
 #cart_summary div.cart_quantity_button a:hover {
@@ -887,10 +908,21 @@ tr.cart_voucher_block .cart_voucher h4 {
 #cart_summary a.cart_quantity_up, #cart_summary a.cart_quantity_down {
     width: 40px;
     height: 30px;
-    display: block;
+    display: inline-block;
 }
 
 #cart_summary a.cart_quantity_up {
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+#cart_summary a.cart_quantity_down {
+    position: relative;
+    right: 3px;
+    top: 2px;
+}
+/* #cart_summary a.cart_quantity_up {
     background: url("../img/plus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     background-size: 40px 30px;
 }
@@ -898,7 +930,7 @@ tr.cart_voucher_block .cart_voucher h4 {
 #cart_summary a.cart_quantity_down {
     background: url("../img/minus.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
     background-size: 40px 30px;
-}
+} */
 
 
 
@@ -910,10 +942,11 @@ div.breadcrumb {
 #tfoot_static > tr.summary-line td:nth-child(1) {
     text-align: right;
     padding-right: 25px;
+    font-size: 24px;
 }
 
 #tfoot_static > tr.summary-line td {
-    font-size: 1.2em;
+    padding-top: 20px;
 }
 
 #tfoot_static > tr.cart_final_price td {
@@ -922,7 +955,11 @@ div.breadcrumb {
 }
 
 table#cart_summary .cart_total .price {
-    font-size: 1.2em;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d4d4d;
+    display: inline-block;
+    margin-top: 8px;
 }
 
 
@@ -931,8 +968,10 @@ table#cart_summary .cart_total .price {
 }
 
 #cart_summary tbody td.cart_product {
-    padding: 4px;
-    width: 107px;
+    padding: 15px;
+    width: 205px;
+    height: 205px;
+    vertical-align: middle;
 }
 
 #opc_checkout.ps15 table#cart_summary .cart_product {
@@ -1089,12 +1128,13 @@ td.cart_voucher {
 
 #cart_summary tfoot td#total_price_container {
     background: transparent;
+    padding-top: 15px;
 }
 
-#cart_summary tr:hover {
+/* #cart_summary tr:hover {
     background: whitesmoke;
 }
-
+ */
 #new_account_form h3 {
     border: 0;
 }
@@ -1294,4 +1334,12 @@ form.std p span {
         text-align: left;
     }
 
+}
+#cart_summary tbody td.cart_description a{
+    color: #c29b6d;
+    font-size: 20px;
+    font-weight: bold;
+}
+#cart_summary tbody td.cart_description h5{
+    margin-bottom: 30px;
 }
