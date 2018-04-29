@@ -59,40 +59,30 @@
                                         {$carrier.name|escape:'htmlall':'UTF-8'}
                                     </label>
                                 </td>
-                                <!--<td class="carrier_infos">
-                                        <label for="id_carrier{$carrier.id_carrier|intval}">
-                                            {$carrier.delay|escape:'htmlall':'UTF-8'}
-                                        </label>
-                                    </td>
-                                    <td class="carrier_price">
-                                        <label for="id_carrier{$carrier.id_carrier|intval}">
-                                            {if $carrier.price && (!isset($free_shipping) || (isset($free_shipping) && !$free_shipping))}
-                                                <span class="price">
-                                                {if $priceDisplay == 1}{convertPrice price=$carrier.price_tax_exc}{else}{convertPrice price=$carrier.price}{/if}
-                                                 </span>
-                                                {if $use_taxes}{if $priceDisplay == 1} {l s='(tax excl.)' mod='onepagecheckout'}{else} {l s='(tax incl.)' mod='onepagecheckout'}{/if}{/if}
-                                            {else}
-                                                {l s='Free!' mod='onepagecheckout'}
-                                            {/if}
-                                        </label>
-                                    </td>-->
-                            </tr>
-                        {if $carrier.id_carrier == 1300 && $carrier.id_carrier == $checked}
-                            <tr id="city_selector">
-                                <select id="new_post_city" class="js-example-basic-single">
-                                    <option selected disabled>Выберите город</option>
 
-                                </select>
                             </tr>
-                            <div style="margin-top: 10px">
-                                <tr id="department_selector">
-                                    <select id="new_post_department" class="js-example-basic-single">
-                                        <option selected disabled>Выберите отделение</option>
+                            <!--Отображение отделений и городов НОВОЙ ПОЧТЫ-->
+                            {if $carrier.id_carrier == 1300 && $carrier.id_carrier == $checked}
+                                <div id='carrier_np' style="display: none">1</div>
 
-                                    </select>
-                                </tr>
-                            </div>
-                        {/if}
+
+                                {*<div id="np_section">*}
+                                    {*<p class="required text" id="city_selector">*}
+                                        {*<label for="city">Город<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>*}
+                                        {*<select id="new_post_city" class="js-example-basic-single">*}
+                                            {*<option selected disabled>Выберите город</option>*}
+
+                                        {*</select>*}
+                                    {*</p>*}
+                                    {*<p class="required text" id="department_selector">*}
+                                        {*<label for="city">Отделение<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>*}
+                                        {*<select id="new_post_department" class="js-example-basic-single">*}
+                                            {*<option selected disabled>Выберите отделение</option>*}
+
+                                        {*</select>*}
+                                    {*</p>*}
+                                {*</div>*}
+                            {/if}
                         {*{if $carrier.name == 'Интайм' && $carrier.id_carrier == $checked}*}
                             {*<tr >*}
                                 {*<select id="intime_post_city"  class="js-example-basic-single">*}

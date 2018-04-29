@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-26 23:20:32
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-29 23:55:39
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:266375ae2331328b1e9-82684498%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:144745ae6314bc3d3e0-47245707%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-      1 => 1524773989,
+      1 => 1524861410,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '266375ae2331328b1e9-82684498',
+  'nocache_hash' => '144745ae6314bc3d3e0-47245707',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ae233134b0371_52940935',
   'variables' => 
   array (
     'language_code' => 0,
@@ -59,8 +57,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5ae6314bea9a92_65903353',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ae233134b0371_52940935')) {function content_5ae233134b0371_52940935($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5ae6314bea9a92_65903353')) {function content_5ae6314bea9a92_65903353($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -141,13 +141,16 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 
-		<link href="/select/select2.min.css" rel="stylesheet" />
-		<script src="/select/select2.min.js"></script>
+
 
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<!-- add Himself -->
+		<link href="/select/select2.min.css" rel="stylesheet" />
+		<script src="/select/select2.min.js"></script>
 		<script type="text/javascript" src="/callme/js/callme.js"></script>
+		<script type="text/javascript" src="/js/custom_order.js"></script>
 		<![endif]-->
 	</head>
 	<body<?php if (isset($_smarty_tpl->tpl_vars['page_name']->value)) {?> id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['page_name']->value, ENT_QUOTES, 'UTF-8', true);?>

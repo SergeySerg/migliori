@@ -140,6 +140,18 @@ function updateCarrierList(json) {
     /* update hooks for carrier module */
     $('#HOOK_BEFORECARRIER').html(json.HOOK_BEFORECARRIER);
 
+   /*Custom js for NP*/
+    var isNp = $('#carrier_np').text();
+    if(!isNp) {
+        $('p#department_selector').hide();
+        $('p#address_section').show();
+        $('#select2-new_post_department-container').text('');
+    }else{
+        $('p#department_selector').show();
+        $('p#address_section').hide();
+    }
+    /*/Custom js for NP*/
+
     moveTosAndMessage();
 }
 
@@ -1783,6 +1795,23 @@ function setPaymentModuleHandler() {
 }//setPaymentModuleHandler()
 
 function paymentModuleConfirm() {
+
+    /*Custom for NP*/
+    var city  = $('#select2-new_post_city-container').text();
+    $('input[name=city]').val(city);
+    var e = $('#city').val();
+    var address = $('#select2-new_post_department-container').text();
+    var hiddenAddress = $('#address1').val();
+    if(hiddenAddress === ''){
+        $('#address1').val(address);
+    }
+    var hiddenAddress2 = $('#address1').val();
+    console.log('Город',city);
+    console.log('Город после',e);
+    console.log('Адрес',address);
+    console.log('Адрес после',hiddenAddress2);
+    //alert($('#address1').val(address));
+    /*/Custom for NP*/
     var errors = '';
     var link_id = $('input[name=id_payment_method]:checked').val();
     if (link_id === undefined) {

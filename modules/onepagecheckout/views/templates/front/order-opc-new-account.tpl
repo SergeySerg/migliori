@@ -265,13 +265,37 @@
                 <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='Thompson' mod='onepagecheckout'})</span>{/if}
         </p>
 
-        <p class="required text" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if}>
-            <label for="address1">{l s='Address' mod='onepagecheckout'}<sup>*</sup></label>
-            <input type="text" class="text" name="address1" id="address1"
-                   value="{if isset($guestInformations) && isset($guestInformations.address1) &&  $guestInformations.address1}{$guestInformations.address1}{else}{if $isVirtualCart && true} {/if}{/if}"/>{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
-            <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
-                <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='15 High Street' mod='onepagecheckout'})</span>{/if}
-        </p>
+          <div id="np_section">
+              <p class="required text" id="city_selector">
+                  <label for="city">Город<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>
+                  <select id="new_post_city" class="js-example-basic-single">
+                      <option selected disabled>Выберите город</option>
+
+                  </select>
+              </p>
+              <p class="required text" id="department_selector">
+                  <label for="city">Отделение<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>
+                  <select id="new_post_department" class="js-example-basic-single">
+                      <option selected disabled>Выберите отделение</option>
+
+                  </select>
+              </p>
+          </div>
+            <p id="city_section" class="required text" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if} hidden>
+                  <label for="city">{l s='City' mod='onepagecheckout'}<sup>*</sup></label>
+                  <input type="text" class="text" name="city" id="city"
+                         value=""/>{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
+                  <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
+                      <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='Paris' mod='onepagecheckout'})</span>{/if}
+              </p>
+
+            <p id="address_section" class="required text" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if} hidden>
+                <label for="address1">{l s='Address' mod='onepagecheckout'}<sup>*</sup></label>
+                <input type="text" class="text" name="address1" id="address1"
+                       value="{if isset($guestInformations) && isset($guestInformations.address1) &&  $guestInformations.address1}{$guestInformations.address1}{else}{if $isVirtualCart && true} {/if}{/if}"/>{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
+                <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
+                    <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='15 High Street' mod='onepagecheckout'})</span>{/if}
+            </p>
 
         <p class="text is_customer_param" id="p_address2"
            {if !isset($opc_config.address2_delivery) || !$opc_config.address2_delivery || ($isVirtualCart && $opc_config.virtual_no_delivery)}style="display: none;"{/if}>
@@ -289,16 +313,6 @@
             <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
                 <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='90104' mod='onepagecheckout'})</span>{/if}
         </p>
-
-        <p class="required text" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if}>
-            <label for="city">{l s='City' mod='onepagecheckout'}<sup>*</sup></label>
-            <input type="text" class="text" name="city" id="city"
-                   value="{if isset($guestInformations) && isset($guestInformations.city) &&  $guestInformations.city}{$guestInformations.city}{else}{if $isVirtualCart && true} {/if}{/if}"/>{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
-            <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
-                <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='Paris' mod='onepagecheckout'})</span>{/if}
-        </p>
-
-
         {if $isVirtualCart && $opc_config.virtual_no_delivery}
             <input type="hidden" name="id_country" id="id_country"
                    value="{if isset($onlineCountryActive) && $opc_config.online_country_id > 0}{$opc_config.online_country_id}{else}{$sl_country}{/if}"/>
@@ -352,6 +366,16 @@
             <textarea name="other" id="other" cols="26"
                       rows="3">{if isset($guestInformations) && isset($guestInformations.other) &&  $guestInformations.other}{$guestInformations.other}{/if}</textarea>
         </p>
+          <p class="id_gift select">
+              <label for="id_gift">{l s='Подарок' mod='onepagecheckout'}</label>
+              <select name="id_gift" id="id_gift">
+                  <option value="">Выберите свой подарок</option>
+                  </option><option value="AL">Шапочка
+                  </option><option value="AK">Бандана
+                  </option><option value="AZ">Повязка
+              </select>
+          </p>
+
         <input type="hidden" name="alias" id="alias"
                value="{if isset($guestInformations) && isset($guestInformations.alias) &&  $guestInformations.alias}{$guestInformations.alias}{else}{l s='My address' mod='onepagecheckout'}{/if}"/>
         <input type="hidden" name="default_alias" id="default_alias" value="{l s='My address' mod='onepagecheckout'}"/>
