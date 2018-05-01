@@ -128,7 +128,7 @@
 						{$product.description_short|strip_tags:'UTF-8'|truncate:360:'...'}
 					</p>
 					{if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
-					<div class="content_price">
+					<div class="content_price clearfix">
 						{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
 							{hook h="displayProductPriceBlock" product=$product type='before_price'}
 							<span class="price product-price">
@@ -144,6 +144,9 @@
 									<span class="price-percent-reduction">-{$product.specific_prices.reduction * 100}%</span>
 								{/if}
 							{/if}
+							<a class="button lnk_view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" title="{l s='View'}">
+								<span>{if (isset($product.customization_required) && $product.customization_required)}{l s='Customize'}{else}{l s='More'}{/if}</span>
+							</a>
 							{hook h="displayProductPriceBlock" product=$product type="price"}
 							{hook h="displayProductPriceBlock" product=$product type="unit_price"}
 							{hook h="displayProductPriceBlock" product=$product type='after_price'}
@@ -163,13 +166,13 @@
 								</span>
 							{/if}
 						{/if}
-						<a class="button lnk_view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" title="{l s='View'}">
+						<a class="button lnk_view mg-lnk_view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" title="{l s='View'}">
 							<span>{if (isset($product.customization_required) && $product.customization_required)}{l s='Customize'}{else}{l s='More'}{/if}</span>
 						</a>
 					</div>
-					{if isset($product.color_list)}
+					{* {if isset($product.color_list)}
 						<div class="color-list-container">{$product.color_list}</div>
-					{/if}
+					{/if} *}
 					<div class="product-flags">
 						{if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
 							{if isset($product.online_only) && $product.online_only}
@@ -201,7 +204,7 @@
 						{/if}
 					{/if}
 				</div>
-				{if $page_name != 'index'}
+				{* {if $page_name != 'index'}
 					<div class="functional-buttons clearfix">
 						{hook h='displayProductListFunctionalButtons' product=$product}
 						{if isset($comparator_max_item) && $comparator_max_item}
@@ -210,7 +213,7 @@
 							</div>
 						{/if}
 					</div>
-				{/if}
+				{/if} *}
 			</div><!-- .product-container> -->
 		</li>
 	{/foreach}
