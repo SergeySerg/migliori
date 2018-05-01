@@ -55,13 +55,13 @@ ul.product_list.grid  .owl-item li .product-container .product-image-container {
     text-align: center;
 }
 
-.owl-prev{
+/* .owl-prev{
     margin-right: 1px !important;
 }
 
 .owl-next{
     margin-right: 15px !important;
-}
+} */
 
 .owl-buttons .owl-prev:before{
     font-family: "FontAwesome";

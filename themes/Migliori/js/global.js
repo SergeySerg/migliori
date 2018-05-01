@@ -436,12 +436,21 @@ function bindUniform()
 			var owl = $("#blocknewproducts");
 
 			owl.owlCarousel({
-				items : 4, 
+				// items : 4, 
 				autoplay: true,
-				//itemsDesktop : [1000,5], 
-				//itemsDesktopSmall : [900,3], 
-				//itemsTablet: [600,2], 
-				//itemsMobile : false, 
+				responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:4
+                    }
+				},
+				nav : true, 
+				loop: true,
 			});
 
 			// Custom Navigation Events

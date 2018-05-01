@@ -44,9 +44,8 @@
 		<link rel="icon" type="image/vnd.microsoft.icon" href="{$favicon_url}?{$img_update_time}" />
 		<link rel="shortcut icon" type="image/x-icon" href="{$favicon_url}?{$img_update_time}" />
 		<link rel="stylesheet" href="/owl-carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="/owl-carousel/assets/owl.theme.default.css">
+		{* <link rel="stylesheet" href="/owl-carousel/assets/owl.theme.default.css"> *}
 		{literal}<script type="text/javascript" src="/owl-carousel/jquery-1.9.1.min.js"></script>{/literal}
-		{literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
 		{literal}<script type="text/javascript" src="/callme/js/callme.js"></script>{/literal}
 		{if isset($css_files)}
 			{foreach from=$css_files key=css_uri item=media}
@@ -67,6 +66,8 @@
 			<script type="text/javascript" src="{$js_uri|escape:'html':'UTF-8'}"></script>
 			{/foreach}
 		{/if}
+		{literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
+
 		{$HOOK_HEADER}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 
