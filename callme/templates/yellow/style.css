@@ -288,8 +288,9 @@
 #cme-form-main{
   position: fixed !important;
   top: 130px !important;
-  left: 30% !important;
-  Z-INDEX: 5005;
+  left: calc(50% - 250px) !important;
+  z-index: 5005;
+  width: 500px;
 }
 .cme-form .callme-result {
     bottom: -48px;
@@ -322,4 +323,42 @@
 }
 input.cme-name:required, input.cme-phone:required {
   background: url(../yellow/star.png) no-repeat 96% 27%;
+}
+
+/* adaptive raund */
+@media (max-width: 767px) {
+  #cme-form-main{
+    width: 460px;
+    left: calc(50% - 230px) !important;
+  }
+  .cme-fields span:last-child textarea,
+  .cme-btn-place{
+    right: -220px;
+  }
+}
+
+@media (max-width: 480px) {
+  #cme-form-main{
+    width: 300px;
+  }
+  .cme-form .cme-txt {
+    width: 100%;
+  }
+  .cme-fields span:last-child textarea {
+    position: static;
+    width: 100%;
+  }
+  .cme-btn-place {
+    position: static;
+    margin-bottom: 10px;
+  }
+  #cme-form-main {
+    top: 60px !important;
+    left: calc(50% - 150px) !important;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .cme-form .cme-btn {
+    width: 100%;
+  }
 }

@@ -421,8 +421,12 @@
                     class="exclusive" title="{l s='Next' mod='onepagecheckout'}">{l s='Next' mod='onepagecheckout'} &raquo;</a>{/if}
             <a href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, '{$opckt_script_name}')) || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index.php')|escape:'htmlall':'UTF-8'}{else}{$smarty.server.HTTP_REFERER|escape:'htmlall':'UTF-8'|secureReferrer}{/if}"
                title="{l s='Continue shopping' mod='onepagecheckout'}">
-                &laquo; {l s='Continue shopping' mod='onepagecheckout'}</a>{if !isset($onlyCartSummary)}
-            &nbsp; {l s='or fill in the form below to finish your order.' mod='onepagecheckout'}{/if}
+                &laquo; {l s='Continue shopping' mod='onepagecheckout'}</a>
+            {*{if !isset($onlyCartSummary)}*}
+                {*&nbsp; {l s='or fill in the form below to finish your order.' mod='onepagecheckout'}*}
+                {**}
+            {*{/if}*}
+            {if !isset($onlyCartSummary)}<a href="#" id="pay" class="button-in-cart my-checkout">Оформление заказа</a>{/if}
         </b>
     </p>
     <p class="clear"></p>

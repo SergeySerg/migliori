@@ -137,35 +137,44 @@
 </script>
     <h2 class="mg-title">{l s='Shopping cart' mod='onepagecheckout'}</h2>
     <div id="opc_checkout" class="{if version_compare($smarty.const._PS_VERSION_,'1.6','>')}ps16{else}ps15{/if}">
-    {if $productNumber}
-    <!-- Shopping Cart -->
-        {if !$twoStepCheckout && !$opc_config.cart_summary_bottom}
-            <span class="summary-top"></span>
-            {include file="$opc_templates_path/shopping-cart.tpl"}
-        {/if}
-    <!-- END Shopping Cart -->
-    <!-- Create account / Guest account / Login block -->
-    {include file="$opc_templates_path/order-opc-new-account.tpl"}
-    <!-- END Create account / Guest account / Login block -->
+        {if $productNumber}
 
-    <div id="shipping-payment-block"> {* closing div in order-payment *}
-        <div class="inner-table"> {* closing div in order-payment *}
-    <!-- Carrier -->
-        {if $opc_config.default_ps_carriers}
-            {include file="$opc_templates_path/order-carrier-def.tpl"}
+                <!-- Shopping Cart -->
+                    {if !$twoStepCheckout && !$opc_config.cart_summary_bottom}
+                        <span class="summary-top"></span>
+                        {include file="$opc_templates_path/shopping-cart.tpl"}
+                    {/if}
+                <!-- END Shopping Cart -->
+            <div id="order-section" style="display: none">
+                <!-- Carrier -->
+                    {if $opc_config.default_ps_carriers}
+                        {include file="$opc_templates_path/order-carrier-def.tpl"}
+                    {else}
+                        {include file="$opc_templates_path/order-carrier.tpl"}
+                    {/if}
+
+                <!-- END Carrier -->
+                <!-- Create account / Guest account / Login block -->
+                {include file="$opc_templates_path/order-opc-new-account.tpl"}
+                <!-- END Create account / Guest account / Login block -->
+                <div id="shipping-payment-block"> {* closing div in order-payment *}
+                    <div class="inner-table"> {* closing div in order-payment *}
+
+            <!-- Payment -->
+            {include file="$opc_templates_path/order-payment.tpl"}
+                    {hook h='displayRoja45ResponsiveCart'}
+            <!-- END Payment -->
         {else}
-            {include file="$opc_templates_path/order-carrier.tpl"}
+<<<<<<< HEAD
+            <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2>
+            <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
+                    {hook h='displayRoja45ResponsiveCart'}
         {/if}
-
-    <!-- END Carrier -->
-
-    <!-- Payment -->
-    {include file="$opc_templates_path/order-payment.tpl"}
-    <!-- END Payment -->
-        {else}
+=======
     {* <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2> *}
     <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
             {hook h='displayRoja45ResponsiveCart'}
     {/if}
+>>>>>>> bfe9b17c7fabe9a2c497244312bbd2f2f499c59d
         </div>
 {/if}

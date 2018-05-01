@@ -59,7 +59,7 @@
 {/if}
 </div> {* closing div for <div class="inner-table"> *}
 </div> {* closing div for <div id="shipping-payment-block"> *}
-
+</div>{* closing div for div id="order-section" *}
 
 
 
@@ -224,7 +224,7 @@
 {if isset($opc_config.payment_radio_buttons) && $opc_config.payment_radio_buttons}
 
 <div class="confirm_button_div">
-    <input type="button" class="confirm_button" title="{l s='I confirm my order' mod='onepagecheckout'}"
+    <input type="button" id="order_button" class="confirm_button" title="{l s='I confirm my order' mod='onepagecheckout'}"
            value="&raquo;  {l s='I confirm my order' mod='onepagecheckout'}  &laquo;"
            onclick="paymentModuleConfirm();"/>
 </div>

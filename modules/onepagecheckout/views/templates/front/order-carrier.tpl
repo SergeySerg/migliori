@@ -1,27 +1,4 @@
-{*
-* 2007-2015 PrestaShop 
-*
-* NOTICE OF LICENSE
-*
-* This source file is subject to the Academic Free License (AFL 3.0)
-* that is bundled with this package in the file LICENSE.txt.
-* It is also available through the world-wide-web at this URL:
-* http://opensource.org/licenses/afl-3.0.php
-* If you did not receive a copy of the license and are unable to
-* obtain it through the world-wide-web, please send an email
-* to license@prestashop.com so we can send you a copy immediately.
-*
-* DISCLAIMER
-*
-* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
-* versions in the future. If you wish to customize PrestaShop for your
-* needs please refer to http://www.prestashop.com for more information.
-*
-*  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2015 PrestaShop SA
-*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
-*  International Registered Trademark & Property of PrestaShop SA
-*}
+
 {if isset($opc_config) && isset($opc_config.hide_carrier)}
     {assign var=singleCarrier value=$opc_config.hide_carrier=="1" && isset($carriers) && $carriers && count($carriers)==1}
 {else}
@@ -37,8 +14,8 @@
     <fieldset>
 
         {if !isset($isVirtualCart) || !$isVirtualCart}
-            <h3 id="choose_delivery"
-                {if $singleCarrier}style="display:none;"{/if}>{l s='Choose your delivery method' mod='onepagecheckout'}</h3>
+            <h1 id="choose_delivery"
+                {if $singleCarrier}style="display:none;"{/if}>{l s='Choose your delivery method' mod='onepagecheckout'}</h1>
         {/if}
 
         <div id="opc_delivery_methods" class="opc-main-block">
@@ -49,11 +26,13 @@
             {else}
                 <div id="HOOK_BEFORECARRIER">{if isset($carriers)}{$HOOK_BEFORECARRIER}{/if}</div>
                 {if isset($isVirtualCart) && $isVirtualCart}
-                {*	<p class="warning">{l s='No carrier needed for this order' mod='onepagecheckout'}</p> *}
+                    {*	<p class="warning">{l s='No carrier needed for this order' mod='onepagecheckout'}</p> *}
                 {else}
                     <p class="warning" id="noCarrierWarning"
                        {if isset($carriers) && $carriers && count($carriers)}style="display:none;"{/if}>{l s='There are no carriers available that deliver to this address.' mod='onepagecheckout'}</p>
-                    <table id="carrierTable" class="std"
+
+
+                    <table id="carrierTable" class="payment-check"
                            {if !isset($carriers) || !$carriers || !count($carriers) || $singleCarrier}style="display:none;"{/if}>
                         {*<thead>
                         <tr>
@@ -65,43 +44,75 @@
                         </thead>*}
                         <tbody>
                         {if isset($carriers)}
-                            {foreach from=$carriers item=carrier name=myLoop}
-                                <tr class="{if $smarty.foreach.myLoop.first}first_item{elseif $smarty.foreach.myLoop.last}last_item{/if} {if $smarty.foreach.myLoop.index % 2}alternate_item{else}item{/if}">
-                                    <td class="carrier_action radio">
-                                        <input type="radio" name="id_carrier" value="{$carrier.id_carrier|intval}"
-                                               id="id_carrier{$carrier.id_carrier|intval}"
-                                               onclick="updateCarrierSelectionAndGift();"
-                                               {if $carrier.id_carrier == $checked || $carriers|@count == 1}checked="checked"{/if} />
-                                    </td>
-                                    <td class="carrier_name">
-                                        <label for="id_carrier{$carrier.id_carrier|intval}">
-                                            {if $carrier.img}<img src="{$carrier.img|escape:'htmlall':'UTF-8'}"
-                                                                  alt="{$carrier.name|escape:'htmlall':'UTF-8'}"/>{else}{$carrier.name|escape:'htmlall':'UTF-8'}{/if}
-                                        </label>
-                                    </td>
-                                    <td class="carrier_infos">
-                                        <label for="id_carrier{$carrier.id_carrier|intval}">
-                                            {$carrier.delay|escape:'htmlall':'UTF-8'}
-                                        </label>
-                                    </td>
-                                    <td class="carrier_price">
-                                        <label for="id_carrier{$carrier.id_carrier|intval}">
-                                            {if $carrier.price && (!isset($free_shipping) || (isset($free_shipping) && !$free_shipping))}
-                                                <span class="price">
-                                                {if $priceDisplay == 1}{convertPrice price=$carrier.price_tax_exc}{else}{convertPrice price=$carrier.price}{/if}
-                                                 </span>
-                                                {if $use_taxes}{if $priceDisplay == 1} {l s='(tax excl.)' mod='onepagecheckout'}{else} {l s='(tax incl.)' mod='onepagecheckout'}{/if}{/if}
-                                            {else}
-                                                {l s='Free!' mod='onepagecheckout'}
-                                            {/if}
-                                        </label>
-                                    </td>
-                                </tr>
-                            {/foreach}
+                        {foreach from=$carriers item=carrier name=myLoop}
+                            <tr class="{if $smarty.foreach.myLoop.first}first_item{elseif $smarty.foreach.myLoop.last}last_item{/if} {if $smarty.foreach.myLoop.index % 2}alternate_item{else}item{/if}">
+                                <td hidden>
+                                    <!-- <label>-->
+                                    <input type="radio" name="id_carrier" value="{$carrier.id_carrier|intval}"
+                                           id="id_carrier{$carrier.id_carrier|intval}"
+                                           onclick="updateCarrierSelectionAndGift();"
+                                           {if $carrier.id_carrier == $checked || $carriers|@count == 1}checked="checked"{/if} />
+                                    <!-- </label>-->
+                                </td>
+                                <td class="carierses_names">
+                                    <label for="id_carrier{$carrier.id_carrier|intval}" {if $carrier.id_carrier == $checked || $carriers|@count == 1} class="checked"{/if}>
+                                        {$carrier.name|escape:'htmlall':'UTF-8'}
+                                    </label>
+                                </td>
+
+                            </tr>
+                            <!--Отображение отделений и городов НОВОЙ ПОЧТЫ-->
+                            {if $carrier.id_carrier == 1300 && $carrier.id_carrier == $checked}
+                                <div id='carrier_np' style="display: none">1</div>
+
+
+                                {*<div id="np_section">*}
+                                    {*<p class="required text" id="city_selector">*}
+                                        {*<label for="city">Город<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>*}
+                                        {*<select id="new_post_city" class="js-example-basic-single">*}
+                                            {*<option selected disabled>Выберите город</option>*}
+
+                                        {*</select>*}
+                                    {*</p>*}
+                                    {*<p class="required text" id="department_selector">*}
+                                        {*<label for="city">Отделение<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>*}
+                                        {*<select id="new_post_department" class="js-example-basic-single">*}
+                                            {*<option selected disabled>Выберите отделение</option>*}
+
+                                        {*</select>*}
+                                    {*</p>*}
+                                {*</div>*}
+                            {/if}
+                        {*{if $carrier.name == 'Интайм' && $carrier.id_carrier == $checked}*}
+                            {*<tr >*}
+                                {*<select id="intime_post_city"  class="js-example-basic-single">*}
+                                    {*<option selected disabled>Выберите город</option>*}
+
+                                {*</select>*}
+                            {*</tr>*}
+                            {*<div style="margin-top: 10px">*}
+                                {*<tr id="intime_department_selector">*}
+                                    {*<select id="intime_post_department" class="js-example-basic-single">*}
+                                        {*<option selected disabled>Адрес отделения</option>*}
+
+                                    {*</select>*}
+                                {*</tr>*}
+                            {*</div>*}
+                        {*{/if}*}
+
+                        {/foreach}
                             <tr id="HOOK_EXTRACARRIER">{$HOOK_EXTRACARRIER}</tr>
+
+                            <script type="text/javascript">
+                                $(document).ready(function() {
+                                    $(".js-example-basic-single").select2();
+                                });
+                            </script>
                         {/if}
                         </tbody>
                     </table>
+
+
                     <div style="display: none;" id="extra_carrier"></div>
                     {if $recyclablePackAllowed && !isset($onlyCartSummary)}
                         <p class="checkbox">
@@ -136,19 +147,19 @@
                     {/if}
                 {/if}
             {/if}
-            <div id="message_container">
-            {if isset($opc_config.order_msg) && $opc_config.order_msg && !isset($onlyCartSummary)}
-                {if !isset($opc_config.compact_form) || !$opc_config.compact_form}
-                    <h4>{l s='Leave a message' mod='onepagecheckout'}</h4>
-                {/if}
-                <div>
-                    <p id="order_msg_placeholder_fallback">{l s='If you would like to add a comment about your order, please write it below.' mod='onepagecheckout'}</p>
+            <div id="message_container" style="display: none">
+                {if isset($opc_config.order_msg) && $opc_config.order_msg && !isset($onlyCartSummary)}
+                    {if !isset($opc_config.compact_form) || !$opc_config.compact_form}
+                        <h4>{l s='Leave a message' mod='onepagecheckout'}</h4>
+                    {/if}
+                    <div>
+                        <p id="order_msg_placeholder_fallback">{l s='If you would like to add a comment about your order, please write it below.' mod='onepagecheckout'}</p>
 
-                    <p><div class="textarea-wrapper"><textarea rows="3" name="message" id="message"
-                                 placeholder="{l s='If you would like to add a comment about your order, please write it here.' mod='onepagecheckout'}">{if isset($oldMessage)}{$oldMessage}{/if}</textarea></div>
-                    </p>
-                </div>
-            {/if}
+                        <p><div class="textarea-wrapper"><textarea rows="3" name="message" id="message"
+                                                                   placeholder="{l s='If you would like to add a comment about your order, please write it here.' mod='onepagecheckout'}"></textarea></div>
+                        </p>
+                    </div>
+                {/if}
             </div>
 
 
