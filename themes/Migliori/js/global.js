@@ -451,6 +451,7 @@ function bindUniform()
 				},
 				nav : true, 
 				loop: true,
+				margin: 30,
 			});
 
 			// Custom Navigation Events
