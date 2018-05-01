@@ -43,6 +43,10 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<link rel="icon" type="image/vnd.microsoft.icon" href="{$favicon_url}?{$img_update_time}" />
 		<link rel="shortcut icon" type="image/x-icon" href="{$favicon_url}?{$img_update_time}" />
+		<link rel="stylesheet" href="/owl-carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="/owl-carousel/assets/owl.theme.default.css">
+		{literal}<script type="text/javascript" src="/owl-carousel/jquery-1.9.1.min.js"></script>{/literal}
+		{literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
 		{literal}<script type="text/javascript" src="/callme/js/callme.js"></script>{/literal}
 		{if isset($css_files)}
 			{foreach from=$css_files key=css_uri item=media}
