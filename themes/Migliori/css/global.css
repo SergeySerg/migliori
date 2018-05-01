@@ -7273,16 +7273,16 @@ div.star a:hover {
       z-index: 99;
       line-height: 22px;
       display: inline-block;
-      height: 25px; }
-      .breadcrumb a.home i {
-        vertical-align: -1px; }
+      height: 25px; } */
+      /* .breadcrumb a.home i {
+        vertical-align: -1px; } */
       .breadcrumb a.home:before {
-        border: none; } */
+        border: none; }
     .breadcrumb a:after {
       display: inline-block;
       content: ".";
       position: absolute;
-      right: 0;
+      right: -4px;
       top: 4px;
       width: 7px;
       height: 7px;
@@ -7300,7 +7300,7 @@ div.star a:hover {
       content: ".";
       position: absolute;
       left: 0px;
-      top: 3px;
+      top: 4px;
       width: 7px;
       height: 7px;
       background: transparent;
@@ -7314,9 +7314,9 @@ div.star a:hover {
       transform: rotate(45deg); }
     /* .breadcrumb a:hover {
       color: #777777; } */
-    .breadcrumb a.home:before,
+    /* .breadcrumb a.home:before,
     .breadcrumb a.home:after {
-      display: none; }
+      display: none; } */
 
 .ie8 .breadcrumb {
   min-height: 1px; }
