@@ -69,6 +69,7 @@
 		{literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
 
 		{$HOOK_HEADER}
+		<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 
 
@@ -113,7 +114,7 @@
 							</div>
 						</div>
 					{/if}
-					<div>
+					<div style="background-color: #f8efd9;">
 						<div class="container">
 							<div class="row">
 								<div id="header_logo">
@@ -129,6 +130,12 @@
 							</div>
 						</div>
 					</div>
+					{if $page_name =='index'}
+					{* {if (isset($header) && $page_name =='index') } *}
+						<div class="mg_slider_wrap">
+							{hook h="displaySlidersPro" slider="sample"}
+						</div>
+					{/if}
 				</header>
 			</div>
 			<div class="columns-container">

@@ -6,8 +6,9 @@
   #search_block_top #searchbox {
     float: left;
     width: 100%; 
-    border-bottom: 1px solid #f4f0ec;
-    padding-bottom: 13px;}
+    /* border-bottom: 1px solid #f4f0ec;
+    padding-bottom: 13px; */
+  }
   #search_block_top .btn.button-search {
     background: inherit;
     display: block;
@@ -36,7 +37,7 @@
     padding: 12px 60px 13px 20px;
     height: 30px;
     border-radius: 25px;
-    background: inherit;
+    background: #fdf9f0;
     margin-right: 1px; }
 
 .ac_results {
@@ -73,4 +74,6 @@ form#searchbox {
 @media (max-width: 768px) {
   #search_block_top {
     float: none;}
+  #search_block_top #searchbox {
+    margin-bottom: 15px;  }  
 }
