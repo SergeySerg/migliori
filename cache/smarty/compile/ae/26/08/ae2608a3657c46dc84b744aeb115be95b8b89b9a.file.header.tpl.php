@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-29 23:55:39
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-02 17:34:03
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:144745ae6314bc3d3e0-47245707%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:163975ae6423e6ce215-59569724%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-      1 => 1524861410,
+      1 => 1525271636,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '144745ae6314bc3d3e0-47245707',
+  'nocache_hash' => '163975ae6423e6ce215-59569724',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5ae6423e953515_29213063',
   'variables' => 
   array (
     'language_code' => 0,
@@ -57,10 +59,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ae6314bea9a92_65903353',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ae6314bea9a92_65903353')) {function content_5ae6314bea9a92_65903353($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5ae6423e953515_29213063')) {function content_5ae6423e953515_29213063($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -166,6 +166,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 </span><?php }?></p>
 			</div>
 		<?php }?>
+
 		<div id="page">
 			<div class="header-container">
 				<header id="header">
@@ -229,6 +230,14 @@ if (!empty($_capture_buffer)) {
 						</div>
 					</div>
 				</header>
+				<?php $_smarty_tpl->_capture_stack[0][] = array('displayTopColumn', null, null); ob_start(); ?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayTopColumn'),$_smarty_tpl);?>
+<?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
+if (!empty($_capture_buffer)) {
+ if (isset($_capture_assign)) $_smarty_tpl->assign($_capture_assign, ob_get_contents());
+ if (isset( $_capture_append)) $_smarty_tpl->append( $_capture_append, ob_get_contents());
+ Smarty::$_smarty_vars['capture'][$_capture_buffer]=ob_get_clean();
+} else $_smarty_tpl->capture_error();?>
+
 			</div>
 			<div class="columns-container">
 				<div id="columns" class="container">
@@ -259,4 +268,6 @@ if (!empty($_capture_buffer)) {
 						<div id="center_column" class="center_column col-xs-12 col-sm-<?php echo intval($_smarty_tpl->tpl_vars['cols']->value);?>
 ">
 	<?php }?>
+
+
 <?php }} ?>

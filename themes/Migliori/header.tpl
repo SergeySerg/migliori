@@ -85,6 +85,7 @@
 				<p>{l s='You cannot place a new order from your country.'}{if isset($geolocation_country) && $geolocation_country} <span class="bold">{$geolocation_country|escape:'html':'UTF-8'}</span>{/if}</p>
 			</div>
 		{/if}
+
 		<div id="page">
 			<div class="header-container">
 				<header id="header">
@@ -125,6 +126,8 @@
 						</div>
 					</div>
 				</header>
+				{capture name='displayTopColumn'}{hook h='displayTopColumn'}{/capture}
+
 			</div>
 			<div class="columns-container">
 				<div id="columns" class="container">
@@ -144,3 +147,5 @@
 						{if isset($left_column_size) && isset($right_column_size)}{assign var='cols' value=(12 - $left_column_size - $right_column_size)}{else}{assign var='cols' value=12}{/if}
 						<div id="center_column" class="center_column col-xs-12 col-sm-{$cols|intval}">
 	{/if}
+
+

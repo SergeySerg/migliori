@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-29 23:55:36
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-30 01:05:03
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcart\blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:33395ae63148a5ebe0-29353413%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:298035ae6418fdca5c8-41551162%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4b9cd7b0f0c08e1c200d6febe83f28a2c10dedb0' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\modules\\blockcart\\blockcart.tpl',
-      1 => 1524591132,
+      1 => 1525039131,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '33395ae63148a5ebe0-29353413',
+  'nocache_hash' => '298035ae6418fdca5c8-41551162',
   'function' => 
   array (
   ),
@@ -55,14 +55,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ae63149473383_98891796',
+  'unifunc' => 'content_5ae64190abfe30_10759959',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ae63149473383_98891796')) {function content_5ae63149473383_98891796($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5ae64190abfe30_10759959')) {function content_5ae64190abfe30_10759959($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <!-- MODULE Block cart -->
 <?php if (isset($_smarty_tpl->tpl_vars['blockcart_top']->value)&&$_smarty_tpl->tpl_vars['blockcart_top']->value) {?>
-<div class="col-sm-3 clearfix<?php if ($_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?> header_user_catalog<?php }?>">
+<div class="col-sm-3 mg_shopping_cart_wrap clearfix<?php if ($_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?> header_user_catalog<?php }?>">
 <?php }?>
 	<div class="shopping_cart">
 		<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink($_smarty_tpl->tpl_vars['order_process']->value,true), ENT_QUOTES, 'UTF-8', true);?>
