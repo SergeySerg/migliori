@@ -8966,6 +8966,19 @@ a.bx-next {text-decoration:none}
   #header .r-item-cms:nth-child(4){
     margin-right: 0;}
 
+/* siteheart */
+.sh_btn_right_center {
+  background: #c19a6b !important;
+  border-radius: 20px 0 0 20px !important;
+}
+.sh_logo_btn{
+  display: none;
+}
+.sh_btn_left .sh_title_text, .sh_btn_right .sh_title_text {
+  border-top: none !important;
+}
+/* END siteheart */
+
 #social_block ul li{
   display: inline-block;
   margin-left: 8px;
