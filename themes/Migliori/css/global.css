@@ -9003,6 +9003,12 @@ a.bx-next {text-decoration:none}
 #blocknewproducts .lnk_view{
   display: none;
 }
+#blocknewproducts .price.product-price{
+  float: none;
+}
+#categories_block_left{
+  margin-bottom: 15px;
+}
 .mg_is_logged{
   float: left;
 }
