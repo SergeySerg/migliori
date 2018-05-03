@@ -9011,11 +9011,38 @@ a.bx-next {text-decoration:none}
   background: #c19a6b !important;
   border-radius: 20px 0 0 20px !important;
 }
-.sh_logo_btn{
+.sh_logo_btn,
+.sh_chat_logo{
   display: none;
 }
-.sh_btn_left .sh_title_text, .sh_btn_right .sh_title_text {
+.sh_btn_left .sh_title_text, 
+.sh_btn_right .sh_title_text {
   border-top: none !important;
+}
+.sh_chat{
+  border: none !important;
+  box-shadow: 0 0 10px rgba(254,229,172,1);
+}
+.sh_header{
+  background: #c19a6b !important; 
+}
+.sh_header_info{
+  padding-left: 20px !important;
+  background: #c19a6b !important; 
+}
+.sh_top_buttons{
+  border-left: none !important;
+}
+.sh_scrollbar{
+  background: #f8efd9 !important;
+}
+.sh_button{
+  background: #c19a6b !important;
+  border: none !important;
+}
+.sh_copyright{
+  display: none !important;
+  background: #f8efd9 !important;
 }
 /* END siteheart */
 
