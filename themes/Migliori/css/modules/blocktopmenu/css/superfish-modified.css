@@ -166,12 +166,14 @@ ul.sf-menu li li li.sfHover ul {
     font: 500 15px/19px "Open Sans", sans-serif;
     color: #333; }
     .sf-menu > li > ul > li > a:hover {
-      color: #515151; }
+      color: #c19a6b; }
 
 .sf-menu > li > ul > li {
   float: left;
-  width: 20%;
-  padding-right: 15px; }
+  width: 50%;
+  padding-right: 15px;
+  margin-bottom: 3px;
+  text-align: left; }
   @media (max-width: 767px) {
     .sf-menu > li > ul > li {
       width: 100%;
