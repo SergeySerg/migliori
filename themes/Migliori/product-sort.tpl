@@ -55,7 +55,7 @@ $(document).ready(function(){
 </script>
 {/if}
 <form id="productsSortForm{if isset($paginationId)}_{$paginationId}{/if}" action="{$request|escape:'htmlall':'UTF-8'}" class="productsSortForm">
-	<p class="select">
+	{* <p class="select">
 		<label for="selectPrductSort{if isset($paginationId)}_{$paginationId}{/if}">{l s='Sort by'}</label>
 		<select id="selectPrductSort{if isset($paginationId)}_{$paginationId}{/if}" class="selectProductSort">
 			<option value="{$orderbydefault|escape:'htmlall':'UTF-8'}:{$orderwaydefault|escape:'htmlall':'UTF-8'}" {if $orderby eq $orderbydefault}selected="selected"{/if}>{l s='--'}</option>
@@ -74,7 +74,21 @@ $(document).ready(function(){
 			<option value="reference:asc" {if $orderby eq 'reference' AND $orderway eq 'asc'}selected="selected"{/if}>{l s='Reference: Lowest first'}</option>
 			<option value="reference:desc" {if $orderby eq 'reference' AND $orderway eq 'desc'}selected="selected"{/if}>{l s='Reference: Highest first'}</option>
 		</select>
-	</p>
+	</p> *}
+	<ul id="mg_sort" class="mg_sort_list clearfix">
+		<li {if $orderby eq 'quantity' AND $orderway eq 'desc'}class="mg_selected"{/if}>
+			<label for="mg_quantity{if isset($paginationId)}_{$paginationId}{/if}">{l s='In stock'}</label>
+			<input id="mg_quantity{if isset($paginationId)}_{$paginationId}{/if}" type="checkbox" value="quantity:desc" class="selectProductSort">
+		</li>
+		<li {if $orderby eq 'price' AND $orderway eq 'asc'}class="mg_selected"{/if}>
+			<label for="mg_asc{if isset($paginationId)}_{$paginationId}{/if}">{l s='Price: Lowest first'}</label>
+			<input id="mg_asc{if isset($paginationId)}_{$paginationId}{/if}" type="checkbox" value="price:asc" class="selectProductSort">
+		</li>
+		<li {if $orderby eq 'price' AND $orderway eq 'desc'}class="mg_selected"{/if}>
+			<label for="mg_desc{if isset($paginationId)}_{$paginationId}{/if}">{l s='Price: Highest first'}</label>
+			<input id="mg_desc{if isset($paginationId)}_{$paginationId}{/if}" type="checkbox" value="price:desc" class="selectProductSort">
+		</li>
+	</ul>
 </form>
 <!-- /Sort products -->
 {/if}

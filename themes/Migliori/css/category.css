@@ -85,7 +85,9 @@
       position: relative;
       width: 49%;
       height: auto;
-      margin: 0 0 2% 0; }
+      margin: 0 0 2% 0;
+      max-height: 400px;
+      overflow: hidden; }
     #subcategories.subcategories-on-main ul li:first-child{
       width: 100%; }
       #subcategories.subcategories-on-main ul li:first-child a.cat_name-on-main{

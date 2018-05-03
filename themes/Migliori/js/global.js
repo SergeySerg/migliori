@@ -468,5 +468,10 @@ function bindUniform()
 			//	owl.trigger('owl.stop');
 			//})
 
+			$('#mg_sort li').click(function(){
+				$('#mg_sort li').removeClass('mg_selected');
+				$(this).addClass('mg_selected');
+			})
+
 		});
 

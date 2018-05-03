@@ -8949,6 +8949,46 @@ a.bx-next {text-decoration:none}
   }
 .new-label{display:block}
 
+/* product sort */
+.mg_sort_list{
+  width: auto;
+}
+.mg_sort_list li{
+  float: left;
+  width: 210px;
+  margin-right: -1px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#productsSortForm .mg_sort_list li label{
+  float: none;
+  padding: 12px 10px;
+  margin-bottom: 0;
+}
+.mg_sort_list li:first-child{
+  border-radius: 20px 0 0 20px;
+}
+.mg_sort_list li:last-child{
+  border-radius: 0 20px 20px 0;
+}
+.mg_sort_list li.mg_selected,
+.mg_sort_list li:hover{
+  background-color: #c19a6b;
+  cursor: pointer;
+}
+.mg_sort_list li.mg_selected{
+  cursor: auto;
+}
+.mg_sort_list li.mg_selected label,
+.mg_sort_list li:hover label{
+  color: #fff;
+  cursor: pointer;
+}
+.mg_sort_list li input{
+  display: none;
+}
+/* END product sort */
+
 .mg-title{
   margin: 0 0 15px;
   color: #5b5b5b;
@@ -9126,7 +9166,7 @@ ul.product_list.grid .owl-item li .product-container .availability{
   header #block_contact_infos {
     padding-right: 0;  }
   .r-item-cms {
-    margin-left: 7px;  }
+    margin-right: 7px;  }
   header .nav {
     font-size: 14px;}
   header #social_block {
@@ -9137,6 +9177,15 @@ ul.product_list.grid .owl-item li .product-container .availability{
     margin-right: 5px;}
   .about-us_content iframe{
     height: 225px; }
+  .mg_sort_list li{
+    width: 160px;
+    display: inline-table; }
+  #productsSortForm .mg_sort_list li label{
+    height: 60px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    width: 100%;  }
   #footer .copyright {
     display: block;
     color: #4d4d4d;
@@ -9168,8 +9217,7 @@ ul.product_list.grid .owl-item li .product-container .availability{
     margin: 10px auto 0;
     position: relative;}
   header #block_contact_infos li:first-child {
-    padding-top: 15px;
-    border-top: 1px solid #f3f3f3;}
+    padding-top: 15px;}
   header #block_contact_infos li {
     line-height: 24px;
     margin: 0 15px;
@@ -9185,6 +9233,10 @@ ul.product_list.grid .owl-item li .product-container .availability{
     line-height: 17px; }
   header #block_contact_infos li:last-child a{
     border: none; }
+  .mg_sort_list li {
+    width: 100%;
+    display: inline-table;
+    border-radius: 0 !important;}
   #footer{
     text-align: center;  }
   #footer #block_contact_infos {
