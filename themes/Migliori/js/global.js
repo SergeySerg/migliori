@@ -430,3 +430,33 @@ function bindUniform()
 	if (!!$.prototype.uniform)
 		$("select.form-control,input[type='radio'],input[type='checkbox']").not(".not_uniform").uniform();
 }
+
+		$(document).ready(function() {
+
+			var owl = $("#blocknewproducts");
+
+			owl.owlCarousel({
+				items : 4, 
+				autoplay: true,
+				//itemsDesktop : [1000,5], 
+				//itemsDesktopSmall : [900,3], 
+				//itemsTablet: [600,2], 
+				//itemsMobile : false, 
+			});
+
+			// Custom Navigation Events
+			//$(".next").click(function(){
+			//	owl.trigger('owl.next');
+			//})
+			//$(".prev").click(function(){
+			//	owl.trigger('owl.prev');
+			//})
+			//$(".play").click(function(){
+			//	owl.trigger('owl.play',1000); 
+			//})
+			//$(".stop").click(function(){
+			//	owl.trigger('owl.stop');
+			//})
+
+		});
+

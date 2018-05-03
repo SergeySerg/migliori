@@ -86,6 +86,7 @@ ul.product_list.grid  .owl-item li .product-container .product-image-container {
 Product list(Grid) Styles 
 ********************************************************/
 ul.product_list.grid   .owl-item li {
+    width: 100%;
     padding-bottom: 2px;
     text-align: center; 
     margin-left: 3px;
@@ -93,7 +94,8 @@ ul.product_list.grid   .owl-item li {
     }
 ul.product_list.grid   .owl-item li .product-container {
     background: white;
-    padding: 0;
+    padding: 0 0 10px 0;
+    border: 1px solid #f4f0ec;
     position: relative; }
 ul.product_list.grid   .owl-item li .product-container .product-image-container {
     padding:  0;
@@ -117,6 +119,12 @@ ul.product_list.grid   .owl-item li .product-container .product-image-container 
 ul.product_list.grid   .owl-item li .product-container .product-image-container .content_price span.old-price {
     color: #b1b0b0; }
 ul.product_list.grid   .owl-item li .product-container h5 {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
   }
 @media (min-width: 1200px) {
     ul.product_list.grid   .owl-item li .product-container .comments_note {
@@ -137,14 +145,16 @@ ul.product_list.grid   .owl-item li .product-container .product-flags {
 ul.product_list.grid   .owl-item li .product-container .old-price {
     margin-right: 5px; }
 ul.product_list.grid   .owl-item li .product-container .button-container {
-    padding-bottom: 1px; }
+    padding: 5px 0 0 0; }
 @media (min-width: 1200px) {
     ul.product_list.grid   .owl-item li .product-container .button-container {
      } }
 ul.product_list.grid   .owl-item li .product-container .button-container .ajax_add_to_cart_button,
 ul.product_list.grid   .owl-item li .product-container .button-container span.button,
 ul.product_list.grid   .owl-item li .product-container .button-container .lnk_view {
-    margin: 0 6px 10px 6px; }
+    margin: 0; }
+ul.product_list.grid   .owl-item li .product-container .button-container .lnk_view {
+    display: none; }
 ul.product_list.grid   .owl-item li .product-container .functional-buttons {
     background: url(../img/functional-bt-shadow.png) repeat-x;
     padding: 11px 0 5px; }
