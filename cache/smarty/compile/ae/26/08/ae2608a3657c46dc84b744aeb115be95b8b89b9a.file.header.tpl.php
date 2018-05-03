@@ -1,22 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-02 17:34:03
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:10:37
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:163975ae6423e6ce215-59569724%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:27325aeb6d8c0616a2-48405056%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-      1 => 1525271636,
+      1 => 1525381655,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '163975ae6423e6ce215-59569724',
+  'nocache_hash' => '27325aeb6d8c0616a2-48405056',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ae6423e953515_29213063',
+  'unifunc' => 'content_5aeb6d8c488661_59878127',
   'variables' => 
   array (
     'language_code' => 0,
@@ -60,7 +60,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ae6423e953515_29213063')) {function content_5ae6423e953515_29213063($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5aeb6d8c488661_59878127')) {function content_5aeb6d8c488661_59878127($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -95,7 +95,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $_smarty_tpl->tpl_vars['favicon_url']->value;?>
 ?<?php echo $_smarty_tpl->tpl_vars['img_update_time']->value;?>
 " />
+		<link rel="stylesheet" href="/owl-carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="/owl-carousel/assets/owl.theme.default.css">
+		<script type="text/javascript" src="/owl-carousel/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="/callme/js/callme.js"></script>
+	
 		<?php if (isset($_smarty_tpl->tpl_vars['css_files']->value)) {?>
 			<?php  $_smarty_tpl->tpl_vars['media'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['media']->_loop = false;
  $_smarty_tpl->tpl_vars['css_uri'] = new Smarty_Variable;
@@ -165,7 +170,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 <?php if (isset($_smarty_tpl->tpl_vars['geolocation_country']->value)&&$_smarty_tpl->tpl_vars['geolocation_country']->value) {?> <span class="bold"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['geolocation_country']->value, ENT_QUOTES, 'UTF-8', true);?>
 </span><?php }?></p>
 			</div>
-		<?php }?>
+		<?php }?>		
 
 		<div id="page">
 			<div class="header-container">

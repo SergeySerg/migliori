@@ -48,6 +48,7 @@
 		{literal}<script type="text/javascript" src="/owl-carousel/jquery-1.9.1.min.js"></script>{/literal}
 		{literal}<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>{/literal}
 		{literal}<script type="text/javascript" src="/callme/js/callme.js"></script>{/literal}
+	
 		{if isset($css_files)}
 			{foreach from=$css_files key=css_uri item=media}
 				{if $css_uri == 'lteIE9'}
@@ -88,7 +89,7 @@
 			<div id="restricted-country">
 				<p>{l s='You cannot place a new order from your country.'}{if isset($geolocation_country) && $geolocation_country} <span class="bold">{$geolocation_country|escape:'html':'UTF-8'}</span>{/if}</p>
 			</div>
-		{/if}
+		{/if}		
 
 		<div id="page">
 			<div class="header-container">

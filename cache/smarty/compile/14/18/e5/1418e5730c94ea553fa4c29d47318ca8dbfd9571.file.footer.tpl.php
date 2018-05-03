@@ -1,22 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-02 17:35:17
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:10:37
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5265ae6423ec7db17-82548484%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4975aeb6d8c8c8eb9-75098995%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1418e5730c94ea553fa4c29d47318ca8dbfd9571' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\footer.tpl',
-      1 => 1525271715,
+      1 => 1525381831,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5265ae6423ec7db17-82548484',
+  'nocache_hash' => '4975aeb6d8c8c8eb9-75098995',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ae6423eccacc1_23844896',
+  'unifunc' => 'content_5aeb6d8c9253f5_74127400',
   'variables' => 
   array (
     'content_only' => 0,
@@ -26,7 +26,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ae6423eccacc1_23844896')) {function content_5ae6423eccacc1_23844896($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aeb6d8c9253f5_74127400')) {function content_5aeb6d8c9253f5_74127400($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 					</div><!-- #center_column -->
 					<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
@@ -53,7 +53,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 	<!-- Start SiteHeart code -->
 	<script>
-		(function(){
+	window.addEventListener('message', function(event) { 
+
+    // IMPORTANT: Check the origin of the data! 
+    if (~event.origin.indexOf('http://migliori.loc')) { 
+        (function(){
 			var widget_id = 895297;
 			_shcp =[{widget_id : widget_id}];
 			var lang =(navigator.language || navigator.systemLanguage
@@ -68,6 +72,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			var s = document.getElementsByTagName("script")[0];
 			s.parentNode.insertBefore(hcc, s.nextSibling);
 		})();
+        console.log(event.data); 
+    } else { 
+        // The data hasn't been sent from your site! 
+        // Be careful! Do not use it. 
+        return; 
+    } 
+}); 
+		
+		
 	</script>
 	<!-- End SiteHeart code -->
 
