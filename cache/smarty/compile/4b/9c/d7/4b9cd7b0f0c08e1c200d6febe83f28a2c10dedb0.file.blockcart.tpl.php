@@ -1,30 +1,20 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:22:40
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-03 23:13:59
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 16:25:12
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcart\blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:253635aeb6d87c65ce2-47836654%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:221745aec5f384388c9-72981516%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4b9cd7b0f0c08e1c200d6febe83f28a2c10dedb0' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\modules\\blockcart\\blockcart.tpl',
-<<<<<<< HEAD
       1 => 1525382166,
-=======
-      1 => 1525377129,
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '253635aeb6d87c65ce2-47836654',
+  'nocache_hash' => '221745aec5f384388c9-72981516',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aeb6d883f02e8_92055509',
   'variables' => 
   array (
     'blockcart_top' => 0,
@@ -62,13 +52,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'img_dir' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
-=======
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aeb6d883f02e8_92055509',
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
+  'unifunc' => 'content_5aec5f3903f028_04328161',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aeb6d883f02e8_92055509')) {function content_5aeb6d883f02e8_92055509($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5aec5f3903f028_04328161')) {function content_5aec5f3903f028_04328161($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <!-- MODULE Block cart -->

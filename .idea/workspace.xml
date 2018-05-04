@@ -37,6 +37,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/socialloginizer/views/img/manual_steps/wordpress/wordpress3.jpg" afterPath="$PROJECT_DIR$/modules/socialloginizer/views/img/manual_steps/wordpress/wordpress3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/socialloginizer/views/img/manual_steps/yahoo/yahoo3.jpg" afterPath="$PROJECT_DIR$/modules/socialloginizer/views/img/manual_steps/yahoo/yahoo3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/08/ba/3c/08ba3c0d7eec9d50d96c75ecde3c2605513f2b94.file.javascript.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/08/ba/3c/08ba3c0d7eec9d50d96c75ecde3c2605513f2b94.file.javascript.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/14/18/e5/1418e5730c94ea553fa4c29d47318ca8dbfd9571.file.footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/14/18/e5/1418e5730c94ea553fa4c29d47318ca8dbfd9571.file.footer.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/27/91/fa/2791fa36cb78bb1a99c3ebbb45c8c6a610ec1e1c.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/27/91/fa/2791fa36cb78bb1a99c3ebbb45c8c6a610ec1e1c.file.nav.tpl.php" />
@@ -55,10 +56,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a4/5c/c0/a45cc0618e78995d919e5750718d472cd663bbd7.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a4/5c/c0/a45cc0618e78995d919e5750718d472cd663bbd7.file.nav.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a6/57/bc/a657bcec71af14bfca46541d634b44afa6fdf9b9.file.content.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a6/57/bc/a657bcec71af14bfca46541d634b44afa6fdf9b9.file.content.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/ae/26/08/ae2608a3657c46dc84b744aeb115be95b8b89b9a.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/ae/26/08/ae2608a3657c46dc84b744aeb115be95b8b89b9a.file.header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c2/07/d5/c207d51926f01a813a39dd291cfcc7aa13aeafc8.file.modal.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c2/07/d5/c207d51926f01a813a39dd291cfcc7aa13aeafc8.file.modal.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/cd/67/e7/cd67e796a98a8fbd5ffe7d4d75d5a15305670deb.file.login_addons.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/cd/67/e7/cd67e796a98a8fbd5ffe7d4d75d5a15305670deb.file.login_addons.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom_order.js" afterPath="$PROJECT_DIR$/js/custom_order.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d7/3d/23/d73d23fbbfd8cb4c7f38a9a68993043237fdb60c.file.layout.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d7/3d/23/d73d23fbbfd8cb4c7f38a9a68993043237fdb60c.file.layout.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/translations/en.php" afterPath="$PROJECT_DIR$/modules/onepagecheckout/translations/en.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f7/b9/fd/f7b9fd3c3f1d2727ec68eff0431a0c228f0f46ad.file.global.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f7/b9/fd/f7b9fd3c3f1d2727ec68eff0431a0c228f0f46ad.file.global.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/Migliori/header.tpl" afterPath="$PROJECT_DIR$/themes/Migliori/header.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier.tpl" />
@@ -87,35 +89,23 @@
     <favorites_list name="migliori.loc" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3408488">
+    <splitter split-orientation="horizontal" split-proportion="0.44626594">
       <split-first>
         <leaf>
-          <file leaf-file-name="custom_order.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/custom_order.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="175" column="15" selection-start-line="175" selection-start-column="15" selection-end-line="175" selection-end-column="15" />
-                  <folding>
-                    <marker date="1525383190825" expanded="true" signature="6415:6514" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="order-opc.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+                <state vertical-scroll-proportion="-23.73077">
+                  <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="order-carrier.tpl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="order-carrier.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-0.0">
                   <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
                   <folding />
                 </state>
@@ -132,11 +122,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+          <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.htaccess">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.6618037">
+                  <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -152,15 +142,98 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="custom_order.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/custom_order.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.034483">
+                  <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="891" column="0" selection-start-line="891" selection-start-column="0" selection-end-line="891" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="order-opc-new-account.tpl" pinned="false" current-in-tab="false">
+          <file leaf-file-name="order-opc-new-account.tpl" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="291" column="47" selection-start-line="291" selection-start-column="47" selection-end-line="291" selection-end-column="47" />
+                <state vertical-scroll-proportion="0.7567954">
+                  <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
+                  <folding>
+                    <element signature="n#style#0;n#p#2;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#4;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#5;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#1;n#p#5;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#6;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#7;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#8;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#10;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#11;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#12;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#14;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#5;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#8;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#9;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#10;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#11;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#12;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#13;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="en.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/translations/en.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-10.545455">
+                  <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="107" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form-elements.html" pinned="false" current-in-tab="false">
+            <entry file="file://E:/Сайти/Админка/form-elements.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="7.8545456">
+                  <caret line="1016" column="91" selection-start-line="1008" selection-start-column="56" selection-end-line="1016" selection-end-column="91" />
+                  <folding>
+                    <marker date="1374860927059" expanded="true" signature="56377:56485" placeholder="..." />
+                    <marker date="1374860927059" expanded="true" signature="60363:60395" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.4074073">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -169,24 +242,14 @@
           <file leaf-file-name="order-opc.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+                <state vertical-scroll-proportion="-8.310345">
+                  <caret line="1820" column="48" selection-start-line="1820" selection-start-column="48" selection-end-line="1820" selection-end-column="48" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-                    <marker date="1525382367868" expanded="true" signature="68782:68807" placeholder="..." />
-                    <marker date="1525382367868" expanded="true" signature="69313:69364" placeholder="..." />
-                    <marker date="1525382367868" expanded="true" signature="69853:69878" placeholder="..." />
+                    <marker date="1525444907484" expanded="true" signature="68784:68809" placeholder="..." />
+                    <marker date="1525444907484" expanded="true" signature="69315:69366" placeholder="..." />
+                    <marker date="1525444907484" expanded="true" signature="69855:69880" placeholder="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.15474643">
-                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -208,7 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/blocksocial/blocksocial.php" />
         <option value="$PROJECT_DIR$/modules/blockcms/blockcms.php" />
         <option value="$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.tpl" />
         <option value="$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php" />
@@ -250,14 +312,16 @@
         <option value="$PROJECT_DIR$/themes/Migliori/footer.tpl" />
         <option value="$PROJECT_DIR$/themes/Migliori/product.tpl" />
         <option value="$PROJECT_DIR$/modules/magiczoomplus/magicscroll.module.core.class.php" />
-        <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl" />
         <option value="E:/Сайти/Магазин/База з сервера з товарами/citymoto_migli (2).sql" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-carrier.tpl" />
-        <option value="$PROJECT_DIR$/js/custom_order.js" />
-        <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl" />
-        <option value="$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl" />
+        <option value="$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css" />
+        <option value="$PROJECT_DIR$/js/custom_order.js" />
+        <option value="$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/modules/onepagecheckout/translations/en.php" />
+        <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl" />
       </list>
     </option>
   </component>
@@ -348,20 +412,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migliori.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migliori.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,6 +551,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onepagecheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onepagecheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -574,12 +672,13 @@
     <frame x="-1928" y="-310" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1401919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122068234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10822511" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15367965" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15367965" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,7 +689,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1539735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -629,7 +727,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -638,9 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="177" column="15" selection-start-line="177" selection-start-column="15" selection-end-line="177" selection-end-column="15" />
-          <folding>
-            <marker date="1525383190825" expanded="true" signature="6415:6514" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +784,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="290" column="47" selection-start-line="290" selection-start-column="47" selection-end-line="290" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#p#2;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#p#5;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#7;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#8;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#10;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#11;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#12;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#14;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#8;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#9;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#10;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#11;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#12;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#13;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -698,9 +824,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1525382367868" expanded="true" signature="68782:68807" placeholder="..." />
-            <marker date="1525382367868" expanded="true" signature="69313:69364" placeholder="..." />
-            <marker date="1525382367868" expanded="true" signature="69853:69878" placeholder="..." />
+            <marker date="1525444907484" expanded="true" signature="68784:68809" placeholder="..." />
+            <marker date="1525444907484" expanded="true" signature="69315:69366" placeholder="..." />
+            <marker date="1525444907484" expanded="true" signature="69855:69880" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -741,9 +867,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1525383190825" expanded="true" signature="6415:6514" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -810,13 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Сайти/Админка/form-elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/select/select2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="85.655174">
@@ -868,44 +985,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/Migliori/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="291" column="47" selection-start-line="291" selection-start-column="47" selection-end-line="291" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom_order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="175" column="15" selection-start-line="175" selection-start-column="15" selection-end-line="175" selection-end-column="15" />
-          <folding>
-            <marker date="1525383190825" expanded="true" signature="6415:6514" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,24 +1000,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.73077">
+          <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Сайти/Админка/form-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.8545456">
+          <caret line="1016" column="91" selection-start-line="1008" selection-start-column="56" selection-end-line="1016" selection-end-column="91" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1525382367868" expanded="true" signature="68782:68807" placeholder="..." />
-            <marker date="1525382367868" expanded="true" signature="69313:69364" placeholder="..." />
-            <marker date="1525382367868" expanded="true" signature="69853:69878" placeholder="..." />
+            <marker date="1374860927059" expanded="true" signature="56377:56485" placeholder="..." />
+            <marker date="1374860927059" expanded="true" signature="60363:60395" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/js/bo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15474643">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33289126">
+          <caret line="173" column="66" selection-start-line="173" selection-start-column="66" selection-end-line="173" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="891" column="0" selection-start-line="891" selection-start-column="0" selection-end-line="891" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/js/order-opc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.310345">
+          <caret line="1820" column="48" selection-start-line="1820" selection-start-column="48" selection-end-line="1820" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1525444907484" expanded="true" signature="68784:68809" placeholder="..." />
+            <marker date="1525444907484" expanded="true" signature="69315:69366" placeholder="..." />
+            <marker date="1525444907484" expanded="true" signature="69855:69880" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom_order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.034483">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6618037">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/translations/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.545455">
+          <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7567954">
+          <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#p#2;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#p#5;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#7;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#8;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#10;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#11;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#12;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#14;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#8;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#9;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#10;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#11;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#12;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#13;n#div#1;n#fieldset#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

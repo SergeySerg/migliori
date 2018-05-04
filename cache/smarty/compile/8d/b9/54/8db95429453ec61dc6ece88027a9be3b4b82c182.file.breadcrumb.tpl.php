@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:22:48
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-03 23:14:04
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 16:25:16
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\breadcrumb.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:96245aeb6d8c778694-11682279%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:26635aec5f3cd16585-93961163%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -15,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '96245aeb6d8c778694-11682279',
+  'nocache_hash' => '26635aec5f3cd16585-93961163',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aeb6d8c873fb2_43508073',
   'variables' => 
   array (
     'force_ssl' => 0,
@@ -31,13 +25,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'navigationPipe' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
-=======
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aeb6d8c873fb2_43508073',
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
+  'unifunc' => 'content_5aec5f3cdeef08_29550486',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aeb6d8c873fb2_43508073')) {function content_5aeb6d8c873fb2_43508073($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5aec5f3cdeef08_29550486')) {function content_5aec5f3cdeef08_29550486($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_modifier_regex_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.regex_replace.php';
 ?>
 

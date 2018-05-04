@@ -165,32 +165,12 @@
                     {hook h='displayRoja45ResponsiveCart'}
             <!-- END Payment -->
         {else}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
 
             <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2>
             <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
                     {hook h='displayRoja45ResponsiveCart'}
         {/if}
 
-<<<<<<< HEAD
->>>>>>> cart
-=======
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
-    {* <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2> *}
-    <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
-            {hook h='displayRoja45ResponsiveCart'}
-    {/if}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> cart
-=======
-
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
-        </div>
+{/if}
+    </div>
 

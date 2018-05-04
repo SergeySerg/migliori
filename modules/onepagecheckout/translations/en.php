@@ -76,3 +76,8 @@ $_MODULE['<{onepagecheckout}prestashop>shopping-cart_e0aa021e21dddbd6d8cecec71e9
 $_MODULE['<{onepagecheckout}prestashop>shopping-cart_30efeba472c0bc4d0747d0109948a714'] = 'Send available products first';
 $_MODULE['<{onepagecheckout}prestashop>shopping-cart_ecba3578d8cd65126d4a47c76b3c9c2d'] = 'Free Shipping!';
 $_MODULE['<{onepagecheckout}prestashop>shopping-cart_300225ee958b6350abc51805dab83c24'] = 'Continue shopping';
+$_MODULE['<{onepagecheckout}prestashop>shopping-cart_1d17cb9923b99f823da9f5a16dc460e5'] = 'Department';
+$_MODULE['<{onepagecheckout}prestashop>shopping-cart_09f3d53643b458fcb413bd3c2dbb7350'] = 'Select a city';
+$_MODULE['<{onepagecheckout}prestashop>shopping-cart_aa4fd23252b4fcf84f40febb6271bf2b'] = 'Select a department';
+$_MODULE['<{onepagecheckout}prestashop>shopping-cart_46eb2ebca102bd82d41f9d0a59ac11d6'] = 'Choose your gift';
+

@@ -1,30 +1,20 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:22:48
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:10:37
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 16:25:16
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4975aeb6d8c8c8eb9-75098995%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:205aec5f3ce131b8-74604494%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1418e5730c94ea553fa4c29d47318ca8dbfd9571' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\footer.tpl',
-<<<<<<< HEAD
       1 => 1525381880,
-=======
-      1 => 1525381831,
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '4975aeb6d8c8c8eb9-75098995',
+  'nocache_hash' => '205aec5f3ce131b8-74604494',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aeb6d8c9253f5_74127400',
   'variables' => 
   array (
     'content_only' => 0,
@@ -33,8 +23,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'HOOK_FOOTER' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5aec5f3ce971b9_35862029',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aeb6d8c9253f5_74127400')) {function content_5aeb6d8c9253f5_74127400($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aec5f3ce971b9_35862029')) {function content_5aec5f3ce971b9_35862029($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 					</div><!-- #center_column -->
 					<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
@@ -57,40 +49,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</div><!-- #page -->
 <?php }?>
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./global.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
-
-	<!-- Start SiteHeart code -->
-	<script>
-	window.addEventListener('message', function(event) { 
-
-    // IMPORTANT: Check the origin of the data! 
-    if (~event.origin.indexOf('http://migliori.loc')) { 
-        (function(){
-			var widget_id = 895297;
-			_shcp =[{widget_id : widget_id}];
-			var lang =(navigator.language || navigator.systemLanguage
-			|| navigator.userLanguage ||"en")
-					.substr(0,2).toLowerCase();
-			var url ="widget.siteheart.com/widget/sh/"+ widget_id +"/"+ lang +"/widget.js";
-			var hcc = document.createElement("script");
-			hcc.type ="text/javascript";
-			hcc.async =true;
-			hcc.src =("https:"== document.location.protocol ?"https":"http")
-					+"://"+ url;
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hcc, s.nextSibling);
-		})();
-        console.log(event.data); 
-    } else { 
-        // The data hasn't been sent from your site! 
-        // Be careful! Do not use it. 
-        return; 
-    } 
-}); 
-		
-		
-	</script>
-	<!-- End SiteHeart code -->
 
 	</body>
 </html><?php }} ?>

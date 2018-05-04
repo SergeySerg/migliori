@@ -151,7 +151,7 @@ function updateCarrierList(json) {
         $('p#address_section').hide();
     }
     var isUkrPost = $('#carrier_ukrpost').text();
-    console.log('Укрпошта=====>',isUkrPost );
+    //console.log('Укрпошта=====>',isUkrPost );
     if(isUkrPost){
         $('p.postcode').show();
     }else{
@@ -1812,11 +1812,14 @@ function paymentModuleConfirm() {
     if(hiddenAddress === ''){
         $('#address1').val(address);
     }
+    var gift = $( "#id_gift option:selected" ).text();
+    $('#other').text('Выбран подарок к заказу - ' + gift);
     var hiddenAddress2 = $('#address1').val();
-    console.log('Город',city);
-    console.log('Город после',e);
-    console.log('Адрес',address);
-    console.log('Адрес после',hiddenAddress2);
+    //console.log('Город',city);
+    //console.log('Город после',e);
+    //console.log('Адрес',address);
+    //console.log('Адрес после',hiddenAddress2);
+    //console.log('Подарунок',gift);
     //alert($('#address1').val(address));
     /*/Custom for NP*/
     var errors = '';

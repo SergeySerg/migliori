@@ -1,30 +1,20 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:22:48
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 00:10:37
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-04 16:25:16
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:27325aeb6d8c0616a2-48405056%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:288115aec5f3c7cbb40-36423716%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-<<<<<<< HEAD
       1 => 1525382368,
-=======
-      1 => 1525381655,
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '27325aeb6d8c0616a2-48405056',
+  'nocache_hash' => '288115aec5f3c7cbb40-36423716',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aeb6d8c488661_59878127',
   'variables' => 
   array (
     'language_code' => 0,
@@ -67,8 +57,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5aec5f3c9dc923_33062019',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aeb6d8c488661_59878127')) {function content_5aeb6d8c488661_59878127($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5aec5f3c9dc923_33062019')) {function content_5aec5f3c9dc923_33062019($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -104,14 +96,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 ?<?php echo $_smarty_tpl->tpl_vars['img_update_time']->value;?>
 " />
 		<link rel="stylesheet" href="/owl-carousel/assets/owl.carousel.min.css">
-<<<<<<< HEAD
 		
 		<script type="text/javascript" src="/owl-carousel/jquery-1.9.1.min.js"></script>
-=======
-		<link rel="stylesheet" href="/owl-carousel/assets/owl.theme.default.css">
-		<script type="text/javascript" src="/owl-carousel/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="/owl-carousel/owl.carousel.min.js"></script>
->>>>>>> 63d8e5824e9e6bc1e8534ebb8ba25bc3c431f89e
 		<script type="text/javascript" src="/callme/js/callme.js"></script>
 	
 		<?php if (isset($_smarty_tpl->tpl_vars['css_files']->value)) {?>

@@ -267,21 +267,22 @@
 
           <div id="np_section">
               <p class="required text" id="city_selector">
-                  <label for="city">Город<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>
-                  <select id="new_post_city" class="js-example-basic-single">
-                      <option selected disabled>Выберите город</option>
+                  <label>{l s='City' mod='onepagecheckout'}<sup>*</sup></label>
+                  <select id="new_post_city" name ='city' class="js-example-basic-single">
+                      <option selected disabled>{l s='Select a city' mod='onepagecheckout'}</option>
 
                   </select>
               </p>
               <p class="required text" id="department_selector">
-                  <label for="city">Отделение<!--{l s='City' mod='onepagecheckout'}--><sup>*</sup></label>
-                  <select id="new_post_department" class="js-example-basic-single">
-                      <option selected disabled>Выберите отделение</option>
+                  <label >{l s='Department' mod='onepagecheckout'}<sup>*</sup></label>
+                  <select id="new_post_department" name="address1" class="js-example-basic-single">
+                      <option selected disabled>{l s='Select a department' mod='onepagecheckout'}</option>
 
                   </select>
               </p>
           </div>
-            <p id="city_section" class="required text" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if} hidden>
+            <p id="city_section" class="required text hidden_field"
+               {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if}>
                   <label for="city">{l s='City' mod='onepagecheckout'}<sup>*</sup></label>
                   <input type="text" class="text" name="city" id="city"
                          value=""/>{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
@@ -302,7 +303,6 @@
                 <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
                     <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='15 High Street' mod='onepagecheckout'})</span>{/if}
             </p>
-
         <p class="text is_customer_param" id="p_address2"
            {if !isset($opc_config.address2_delivery) || !$opc_config.address2_delivery || ($isVirtualCart && $opc_config.virtual_no_delivery)}style="display: none;"{/if}>
             <label for="address2">{l s='Address (Line 2)' mod='onepagecheckout'}<sup>&nbsp;&nbsp;</sup></label>
@@ -360,16 +360,16 @@
                 <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='555-100200' mod='onepagecheckout'})</span>{/if}
         </p>
 
-        <p class="textarea is_customer_param"
+        <p class="textarea is_customer_param hidden_field" id="other_section"
            {if !isset($opc_config.additional_info_delivery) || !$opc_config.additional_info_delivery}style="display: none;"{/if}>
             <label for="other">{l s='Additional information' mod='onepagecheckout'}</label>
             <textarea name="other" id="other" cols="26"
                       rows="3">{if isset($guestInformations) && isset($guestInformations.other) &&  $guestInformations.other}{$guestInformations.other}{/if}</textarea>
         </p>
           <p class="id_gift select">
-              <label for="id_gift">{l s='Подарок' mod='onepagecheckout'}</label>
+              <label for="id_gift">{l s='Gift' mod='onepagecheckout'}</label>
               <select name="id_gift" id="id_gift">
-                  <option value="">Выберите свой подарок</option>
+                  <option value="" disabled>{l s='Choose your gift' mod='onepagecheckout'}</option>
                   </option><option value="AL">Шапочка
                   </option><option value="AK">Бандана
                   </option><option value="AZ">Повязка
