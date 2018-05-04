@@ -165,9 +165,22 @@
                     {hook h='displayRoja45ResponsiveCart'}
             <!-- END Payment -->
         {else}
+<<<<<<< HEAD
+=======
+
+            <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2>
+            <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
+                    {hook h='displayRoja45ResponsiveCart'}
+        {/if}
+
+>>>>>>> cart
     {* <h2>{l s='Your shopping cart' mod='onepagecheckout'}</h2> *}
     <p class="warning">{l s='Your shopping cart is empty.' mod='onepagecheckout'}</p>
             {hook h='displayRoja45ResponsiveCart'}
     {/if}
+<<<<<<< HEAD
+=======
+
+>>>>>>> cart
         </div>
-{/if}
+

@@ -288,7 +288,13 @@
                   <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
                       <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='Paris' mod='onepagecheckout'})</span>{/if}
               </p>
-
+            <p class="required postcode text" style="display: none;" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if}>
+                <label for="postcode">{l s='Zip / Postal code' mod='onepagecheckout'}<sup>*</sup></label>
+                <input type="text" class="text" name="postcode" id="postcode"
+                    value="{if isset($guestInformations) && isset($guestInformations.postcode) &&  $guestInformations.postcode}{$guestInformations.postcode}{/if}"/>{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
+                <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
+                    <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='90104' mod='onepagecheckout'})</span>{/if}
+             </p>
             <p id="address_section" class="required text" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if} hidden>
                 <label for="address1">{l s='Address' mod='onepagecheckout'}<sup>*</sup></label>
                 <input type="text" class="text" name="address1" id="address1"
@@ -306,13 +312,7 @@
                 <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='Room no.304' mod='onepagecheckout'})</span>{/if}
         </p>
 
-        <p class="required postcode text" {if $isVirtualCart && $opc_config.virtual_no_delivery}style="display: none;"{/if}>
-            <label for="postcode">{l s='Zip / Postal code' mod='onepagecheckout'}<sup>*</sup></label>
-            <input type="text" class="text" name="postcode" id="postcode"
-                   value="{if isset($guestInformations) && isset($guestInformations.postcode) &&  $guestInformations.postcode}{$guestInformations.postcode}{/if}"/>{if isset($opc_config.validation_checkboxes) && $opc_config.validation_checkboxes}
-            <span class="validity valid_blank"></span>{/if}{if isset($opc_config.sample_values) && $opc_config.sample_values}
-                <span class="sample_text ex_blur">({l s='e.g.' mod='onepagecheckout'} {l s='90104' mod='onepagecheckout'})</span>{/if}
-        </p>
+        
         {if $isVirtualCart && $opc_config.virtual_no_delivery}
             <input type="hidden" name="id_country" id="id_country"
                    value="{if isset($onlineCountryActive) && $opc_config.online_country_id > 0}{$opc_config.online_country_id}{else}{$sl_country}{/if}"/>

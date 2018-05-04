@@ -2,7 +2,8 @@
  * Created by Serg on 27.04.2018.
  */
 
-$(function(){
+$(document).ready(function() {
+
    /*Init NP when click on link*/
     $('div#opc_checkout').on('click','label[for="id_carrier1300"]', function(){
         prepare_content();
@@ -27,7 +28,7 @@ $(function(){
                 "CityName": city,
                 "CityRef": ref
             },
-            "apiKey": "43d0a135b86d9ee3624351e1c8caf817"
+            "apiKey": "224cbdf8ce6f2102fb2b64f6cbba78e7"
         };
         $.ajax({
             url: 'https://api.novaposhta.ua/v2.0/json/?' + $.param(data),
@@ -114,7 +115,7 @@ function init_np(){
     var params = {
         "modelName": "Address",
         "calledMethod": "getCities",
-        "apiKey": "43d0a135b86d9ee3624351e1c8caf817"
+        "apiKey": "224cbdf8ce6f2102fb2b64f6cbba78e7"
     };
 
     var addingNewPostCityIteration = 0;
@@ -187,6 +188,7 @@ function init_np(){
 
 }
 function prepare_content(){
+    $('p.postcode').hide();
     //$('p#city_section').hide();
     //$('p#address_section').hide();
 }

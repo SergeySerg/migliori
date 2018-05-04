@@ -150,6 +150,13 @@ function updateCarrierList(json) {
         $('p#department_selector').show();
         $('p#address_section').hide();
     }
+    var isUkrPost = $('#carrier_ukrpost').text();
+    console.log('Укрпошта=====>',isUkrPost );
+    if(isUkrPost){
+        $('p.postcode').show();
+    }else{
+        $('p.postcode').hide();
+    }
     /*/Custom js for NP*/
 
     moveTosAndMessage();
