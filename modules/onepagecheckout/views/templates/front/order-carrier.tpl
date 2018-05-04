@@ -83,6 +83,9 @@
                                     {*</p>*}
                                 {*</div>*}
                             {/if}
+                             {if $carrier.id_carrier == 1500 && $carrier.id_carrier == $checked}
+                                <div id='carrier_ukrpost' style="display: none">1</div>                               
+                            {/if}
                         {*{if $carrier.name == 'Интайм' && $carrier.id_carrier == $checked}*}
                             {*<tr >*}
                                 {*<select id="intime_post_city"  class="js-example-basic-single">*}
