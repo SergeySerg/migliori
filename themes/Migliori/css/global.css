@@ -6117,12 +6117,13 @@ span.exclusive {
 
 .btn.button-plus,
 .btn.button-minus {
-  font-size: 14px;
-  line-height: 14px;
-  color: #c0c0c0;
+  font-size: 24px;
+  line-height: 30px;
+  width: 40px;
+  /* color: #c0c0c0; */
   text-shadow: 1px -1px rgba(0, 0, 0, 0.05);
   padding: 0;
-  border: 1px solid;
+  border: none;
   border-color: #dedcdc #c1bfbf #b5b4b4 #dad8d8;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;

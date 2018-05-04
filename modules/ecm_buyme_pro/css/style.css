@@ -23,21 +23,17 @@
     color: #202020;
 }
 .b1c-submit, .b1c {
-    padding: 4px 4px;
-    font-size: 12px;
-    font-weight: 600;
-    cursor: pointer;
-    color: #e2e2e2;
-    background:#558cd2;
-
-    border: 0;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
+    font: 700 15px/18px Arial, Helvetica, sans-serif;
+    color: #fff;
+    /* text-shadow: 1px 1px rgba(0, 0, 0, 0.2); */
+    padding: 7px 15px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background: #c1996b;
 }
 #b1c:hover, .b1c:hover, .b1c-submit:hover {
-    color: #FFFFFF;
-    background: ##0093CA;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.2);
 }
 #b1c-request {
 	margin: 15px 0 0 0;
