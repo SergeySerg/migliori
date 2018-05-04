@@ -30,6 +30,7 @@
       font-size: 18px;
       line-height: 18px;
       color: #fff;
+      margin-left: 3px;
       vertical-align: -2px;}
       @media (max-width: 479px) {
         #currencies-block-top div.current:after {
