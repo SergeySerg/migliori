@@ -160,25 +160,7 @@
 				<label>{l s='Reference:'} </label>
 				<span class="editable" itemprop="sku"{if !empty($product->reference) && $product->reference} content="{$product->reference}"{/if}>{if !isset($groups)}{$product->reference|escape:'html':'UTF-8'}{/if}</span>
 			</p>
-								<div class="product_attributes clearfix">
-						<!-- quantity wanted -->
-						{if !$PS_CATALOG_MODE}
-						<p id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
-							<label for="quantity_wanted">{l s='Quantity'}</label>
-							<input type="number" min="1" name="qty" id="quantity_wanted" class="text" value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" />
-							<a href="#" data-field-qty="qty" class="btn btn-default button-minus product_quantity_down">
-								<span><i class="icon-minus"></i></span>
-							</a>
-							<a href="#" data-field-qty="qty" class="btn btn-default button-plus product_quantity_up">
-								<span><i class="icon-plus"></i></span>
-							</a>
-							<span class="clearfix"></span>
-						</p>
-						{/if}
-						<!-- minimal quantity wanted -->
-						<p id="minimal_quantity_wanted_p"{if $product->minimal_quantity <= 1 || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
-							{l s='The minimum purchase order quantity for the product is'} <b id="minimal_quantity_label">{$product->minimal_quantity}</b>
-						</p>
+					<div class="product_attributes clearfix">
 						{if isset($groups)}
 							<!-- attributes -->
 							<div id="attributes">
@@ -273,6 +255,25 @@
 					{/if}-->
 				</div> <!-- end short_description_block -->
 			{/if}
+						<!-- quantity wanted -->
+			{if !$PS_CATALOG_MODE}
+				<p id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
+					<label for="quantity_wanted">{l s='Quantity'}</label>
+					<input type="number" min="1" name="qty" id="quantity_wanted" class="text" value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" />
+					<a href="#" data-field-qty="qty" class="btn btn-default button-minus product_quantity_down">
+						<span><i class="icon-minus"></i></span>
+					</a>
+					<a href="#" data-field-qty="qty" class="btn btn-default button-plus product_quantity_up">
+						<span><i class="icon-plus"></i></span>
+					</a>
+					<span class="clearfix"></span>
+				</p>
+			{/if}
+			<!-- minimal quantity wanted -->
+			<p id="minimal_quantity_wanted_p"{if $product->minimal_quantity <= 1 || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
+				{l s='The minimum purchase order quantity for the product is'} <b id="minimal_quantity_label">{$product->minimal_quantity}</b>
+			</p>
+
 			{if ($display_qties == 1 && !$PS_CATALOG_MODE && $PS_STOCK_MANAGEMENT && $product->available_for_order)}
 				<!-- number of item in stock -->
 				<p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if}>
