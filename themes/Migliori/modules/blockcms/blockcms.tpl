@@ -66,7 +66,7 @@
 	<!-- /Block CMS module -->
 {else}
 	<!-- Block CMS module footer -->
-	<section class="footer-block col-xs-12 col-sm-7" id="block_various_links_footer">
+	<section class="footer-block col-xs-12 col-sm-7 col-md-6" id="block_various_links_footer">
 		{* <h4>{l s='Information' mod='blockcms'}</h4> *}
 		<ul>
 			{if isset($show_price_drop) && $show_price_drop && !$PS_CATALOG_MODE}

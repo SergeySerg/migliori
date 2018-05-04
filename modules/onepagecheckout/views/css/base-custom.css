@@ -974,6 +974,14 @@ table#cart_summary .cart_total .price {
     vertical-align: middle;
 }
 
+#cart_summary tbody td.cart_product a{
+    display: table-cell;
+    width: 175px;
+    height: 175px;
+    vertical-align: middle;
+    border: 1px solid #e9e9e9;
+}
+
 #opc_checkout.ps15 table#cart_summary .cart_product {
     width: 54px;
 }
