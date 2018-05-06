@@ -470,18 +470,20 @@
 		{/if}
 		{if isset($features) && $features}
 			<!-- Data sheet -->
-			<section class="page-product-box">
+			<section class="page-product-box mg-data-sheet">
 				<h3 class="page-product-heading">{l s='Data sheet'}</h3>
-				<table class="table-data-sheet">
+				<ul class="table-data-sheet">
 					{foreach from=$features item=feature}
-					<tr class="{cycle values="odd,even"}">
+					{* <tr class="{cycle values="odd,even"}"> *}
+					<li class="mg_feature_item">
 						{if isset($feature.value)}
-						<td>{$feature.name|escape:'html':'UTF-8'}</td>
-						<td>{$feature.value|escape:'html':'UTF-8'}</td>
+						<span>{$feature.name|escape:'html':'UTF-8'}</span>: 
+						<span>{$feature.value|escape:'html':'UTF-8'}</span>
 						{/if}
-					</tr>
+					{* </tr> *}
+					</li>
 					{/foreach}
-				</table>
+				</ul>
 			</section>
 			<!--end Data sheet -->
 		{/if}

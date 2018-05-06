@@ -6557,6 +6557,17 @@ li.hovered .price.product-price {
 .page-product-box {
   padding-bottom: 10px; }
 
+.mg-data-sheet{
+  width: 45%;
+  margin-left: 60px;  }
+
+  .mg_feature_item{
+    color: #a37e52;
+    font-size: 17px;
+    list-style: disc;
+    margin-left: 20px;
+  }
+
 .product-box {
   width: 178px;
   float: left;
@@ -6772,19 +6783,18 @@ li.hovered .price.product-price {
   border-bottom: 1px solid #d6d4d4; }
 
 h3.page-product-heading {
-  color: #555454;
-  text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 20px;
-  padding: 14px 20px 17px;
-  margin: 0 0 20px;
-  position: relative;
-  border: 1px solid #d6d4d4;
-  border-bottom: none;
-  background: #fbfbfb; }
-
+    /* color: #555454; */
+    /* text-transform: uppercase; */
+    /* font-family: "Open Sans", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 24px;
+    /* line-height: 26px; */
+    /* padding: 14px 20px 17px; */
+    margin: 0 0 15px;
+    position: relative;
+    /* border: 1px solid #d6d4d4; */
+    border-bottom: none;
+    /* background: #fbfbfb; */}
 ul.footer_links {
   padding: 20px 0 0px 0;
   border-top: 1px solid #d6d4d4;
