@@ -59,6 +59,15 @@
 {/if}
 </div> {* closing div for <div class="inner-table"> *}
 </div> {* closing div for <div id="shipping-payment-block"> *}
+{if isset($opc_config.payment_radio_buttons) && $opc_config.payment_radio_buttons}
+
+    <div class="confirm_button_div">
+        <input type="button" id="order_button" class="confirm_button" title="{l s='I confirm my order' mod='onepagecheckout'}"
+            value="&raquo;  {l s='I confirm my order' mod='onepagecheckout'}  &laquo;"
+            onclick="paymentModuleConfirm();"/>
+    </div>
+
+{/if}
 </div>{* closing div for div id="order-section" *}
 
 
@@ -221,15 +230,6 @@
     <div id="above_confirmation_msg">{l s='above confirmation button msg' mod='onepagecheckout'}</div>
     {/if}
 
-{if isset($opc_config.payment_radio_buttons) && $opc_config.payment_radio_buttons}
-
-<div class="confirm_button_div">
-    <input type="button" id="order_button" class="confirm_button" title="{l s='I confirm my order' mod='onepagecheckout'}"
-           value="&raquo;  {l s='I confirm my order' mod='onepagecheckout'}  &laquo;"
-           onclick="paymentModuleConfirm();"/>
-</div>
-
-{/if}
 
 {if isset($opc_config.payment_radio_buttons) && $opc_config.payment_radio_buttons}
     {if isset($HOOK_PAYMENT.orig_hook) && $HOOK_PAYMENT.orig_hook}
