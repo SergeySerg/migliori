@@ -14,7 +14,7 @@ function b1c($s) {
 <div class="b1c-form">
 	<div class="b1c-tl">
 		<div class="b1c-close">
-			<img class="b1c-close b1c-opct" src='/modules/ecm_buyme/templates/blank.gif' alt='"Закрыть"' />
+			<img class="b1c-close b1c-opct" src='/modules/ecm_buyme_pro/templates/blank.gif' alt='"Закрыть"' />
 		</div>
 		<span class="b1c-title-name"><?php b1c('title'); ?></span>
 	</div>
