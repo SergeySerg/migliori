@@ -414,14 +414,14 @@
 <div id="HOOK_SHOPPING_CART">{$HOOK_SHOPPING_CART}</div>
 
     {if !$opc_config.two_column_opc && (!$opc_config.cart_summary_bottom || ($order_process_type==0 && (!$smarty.get.step || $smarty.get.step != '1')))}
-            <p class="cart_navigation">
+            <p class="cart_navigation mg_cart_navigation clearfix">
         <b>
             {if isset($onlyCartSummary)}<a
                     href="{$link->getPageLink('order.php', true)|escape:'htmlall':'UTF-8'}?step=1{if $back}&amp;back={$back}{/if}"
                     class="exclusive" title="{l s='Next' mod='onepagecheckout'}">{l s='Next' mod='onepagecheckout'} &raquo;</a>{/if}
-            <a href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, '{$opckt_script_name}')) || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index.php')|escape:'htmlall':'UTF-8'}{else}{$smarty.server.HTTP_REFERER|escape:'htmlall':'UTF-8'|secureReferrer}{/if}"
+            <a class="mg_continue_shopping" href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, '{$opckt_script_name}')) || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index.php')|escape:'htmlall':'UTF-8'}{else}{$smarty.server.HTTP_REFERER|escape:'htmlall':'UTF-8'|secureReferrer}{/if}"
                title="{l s='Continue shopping' mod='onepagecheckout'}">
-                &laquo; {l s='Continue shopping' mod='onepagecheckout'}</a>
+                {l s='Continue shopping' mod='onepagecheckout'}</a>
             {*{if !isset($onlyCartSummary)}*}
                 {*&nbsp; {l s='or fill in the form below to finish your order.' mod='onepagecheckout'}*}
                 {**}
