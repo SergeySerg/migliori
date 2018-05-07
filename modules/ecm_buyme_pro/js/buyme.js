@@ -89,8 +89,8 @@ function showForm(){
 	var leftMargin = (jQuery(window).width() - jQuery( '.b1c-form' ).width()) / 2;
 	jQuery('.b1c-form').css('top', topMargin + 'px'); // set top margin
 	jQuery('.b1c-form').css('left', leftMargin + 'px'); // set left margin
-	jQuery('.b1c-txt').width(jQuery( '.b1c-form' ).width() - 27); // set text fields width
-	jQuery('.b1c-form select').width(jQuery( '.b1c-form' ).width() - 20); // set text fields width
+	jQuery('.b1c-txt').width(jQuery( '.b1c-form' ).width() - 40); // set text fields width
+	jQuery('.b1c-form select').width(jQuery( '.b1c-form' ).width() - 40); // set text fields width
 	jQuery('.b1c-form').fadeIn( 'fast' );
 	jQuery('.b1c-bg').height( jQuery(document).height() );
 	jQuery('.b1c-bg').fadeIn('fast');
