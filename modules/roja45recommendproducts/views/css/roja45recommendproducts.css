@@ -14,8 +14,8 @@
  */
 
 .roja45_recommend_products  {
-    border: 1px solid #d6d4d4;
-    background: #fbfbfb;
+    /* border: 1px solid #d6d4d4;
+    background: #fbfbfb; */
     margin: 10px 0 10px 0;
 }
 
@@ -121,7 +121,9 @@
 }
 
 .roja45_recommend_products .price {
-
+    display: inline-block;
+    float: none;
+    padding: 0 10px 15px;
 }
 
 .roja45_recommend_products .recommend-product-image {
@@ -188,11 +190,13 @@
 }
 
 .roja45_recommend_products.shopping-cart-footer h2 {
-    margin:0;
-    padding:10px 0;
-    border-bottom:1px solid #ccc;
-    font-size:18px;
-    color:#333
+    margin: 0;
+    padding: 10px 0 20px;
+    text-align: center;
+    /* border-bottom: 1px solid #ccc; */
+    font-size: 20px;
+    /* color: #333; */
+    text-transform: uppercase;
 }
 
 .roja45_recommend_products.shopping-cart-footer {overflow:auto}
@@ -200,18 +204,26 @@
 .roja45_recommend_products.shopping-cart-footer ul {list-style-type:none}
 .roja45_recommend_products.shopping-cart-footer li {
     float: left;
-    background: rgb(240, 240, 240);
-    margin: 5px;
-    padding: 5px 20px;
+    /* background: rgb(240, 240, 240); */
+    /* margin: 5px; */
+    /* padding: 5px 20px; */
     text-align: center;
-    border: 1px solid #dcdcdc;
+    border: 1px solid #f4f0ec;
+    /* height: 300px; */
+    width: 100%;
 }
+.roja45_recommend_products.shopping-cart-footer li:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0 0 13px;}
 .roja45_recommend_products.shopping-cart-footer li a.lnk_img {display:block}
-.roja45_recommend_products.shopping-cart-footer li a img {border:1px solid #ccc}
+/* .roja45_recommend_products.shopping-cart-footer li a img {border:1px solid #ccc} */
 .roja45_recommend_products.shopping-cart-footer li p.product_name {
-    text-align:center;
+    text-align: center;
     margin-top: 10px;
-    font-size: 14px;}
+    font-size: 20px;
+    line-height: 22px;
+    height: 45px;
+    overflow: hidden;
+}
 
 .roja45_recommend_products.shopping-cart-footer .recommendproducts_list {
     float: left;
@@ -228,3 +240,7 @@
     margin-top: 30px
 }
 .roja45_recommend_products.shopping-cart-footer .recommendproducts_scroll_right { }
+
+#recommendproducts_list .owl-carousel .owl-nav button.owl-next, recommendproducts_list .owl-carousel .owl-nav button.owl-prev{
+    top: 40%;
+}

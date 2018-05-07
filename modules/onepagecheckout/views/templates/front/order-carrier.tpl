@@ -14,7 +14,7 @@
     <fieldset>
 
         {if !isset($isVirtualCart) || !$isVirtualCart}
-            <h1 id="choose_delivery"
+            <h3 id="choose_delivery"
                 {if $singleCarrier}style="display:none;"{/if}>{l s='Choose your delivery method' mod='onepagecheckout'}</h1>
         {/if}
 
@@ -45,7 +45,7 @@
                         <tbody>
                         {if isset($carriers)}
                         {foreach from=$carriers item=carrier name=myLoop}
-                            <tr class="{if $smarty.foreach.myLoop.first}first_item{elseif $smarty.foreach.myLoop.last}last_item{/if} {if $smarty.foreach.myLoop.index % 2}alternate_item{else}item{/if}">
+                            <tr class="{if $smarty.foreach.myLoop.first}first_item{elseif $smarty.foreach.myLoop.last}last_item{/if} {if $smarty.foreach.myLoop.index % 2}alternate_item{else}item{/if}{if $carrier.id_carrier == $checked || $carriers|@count == 1} mg_checked{/if}">
                                 <td hidden>
                                     <!-- <label>-->
                                     <input type="radio" name="id_carrier" value="{$carrier.id_carrier|intval}"

@@ -18,26 +18,32 @@
         <div id="{if count($products) > 5}recommendproducts_scroll{else}recommendproducts_noscroll{/if}">
             {if count($products) > 5}<a id="recommendproducts_scroll_left" title="{l s='Previous' mod='roja45recommendproducts'}" href="javascript:{ldelim}{rdelim}"><i class="fa fa-chevron-left"></i>{l s='Previous' mod='roja45recommendproducts'}</a>{/if}
             <div id="recommendproducts_list">
-                <ul class="clearfix">
+                <ul id="mg_recommend_products_list" class="owl-carousel clearfix">
                     {foreach from=$products item='product' name=product}
                         <li>
-                            <a href="{$product.link|escape:'htmlall':'UTF-8'}" title="{$product.name|htmlspecialchars}" class="lnk_img"><img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'cart_default')|escape:'html':'UTF-8'}" alt="{$product.legend|escape:'html':'UTF-8'}" /></a>
-                            <p class="product_name"><a href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}">{$product.name|escape:'html':'UTF-8'}</a></p>
-                            {if $displayPrice AND $product.show_price == 1 AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
-                                <span class="price_display">
-                                <span class="price">{displayPrice price=$product.price_tax_exc}</span>
-                            </span>
-                            {/if}
-                            <p class="no-print">
-                                <button type="button" class="button lnk_view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" title="{l s='View' mod='roja45recommendproducts'}"><span>{l s='More Info' mod='roja45recommendproducts'}</span></button>
-                            </p>
-                            <p class="no-print">
-                                {if ($product.quantity > 0 OR $product.allow_oosp)}
-                                    <button type="button" class="button ajax_add_to_cart_button btn btn-default" data-id-product="{$product.id_product|intval|escape:'html':'UTF-8'}" title="{l s='Add to cart' mod='roja45recommendproducts'}"><span>{l s='Add to cart' mod='roja45recommendproducts'}</span></button>
-                                {else}
-                                    <span class="exclusive">{l s='Add to cart' mod='roja45recommendproducts'}</span>
-                                {/if}
-                            </p>
+                            <a href="{$product.link|escape:'htmlall':'UTF-8'}" title="{$product.name|htmlspecialchars}">
+                                <a href="{$product.link|escape:'htmlall':'UTF-8'}" title="{$product.name|htmlspecialchars}" class="lnk_img"><img class="replace-2x img-responsive" src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{$product.legend|escape:'html':'UTF-8'}" /></a>
+                                <p class="product_name"><a href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}">{$product.name|escape:'html':'UTF-8'}</a></p>
+                                <span class="price product-price">
+                                    {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+                                </span>
+
+                                {* {if $displayPrice AND $product.show_price == 1 AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
+                                    <span class="price_display">
+                                    <span class="price">{displayPrice price=$product.price_tax_exc}</span>
+                                </span> *}
+                                {* {/if} *}
+                                {* <p class="no-print">
+                                    <button type="button" class="button lnk_view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" title="{l s='View' mod='roja45recommendproducts'}"><span>{l s='More Info' mod='roja45recommendproducts'}</span></button>
+                                </p>
+                                <p class="no-print">
+                                    {if ($product.quantity > 0 OR $product.allow_oosp)}
+                                        <button type="button" class="button ajax_add_to_cart_button btn btn-default" data-id-product="{$product.id_product|intval|escape:'html':'UTF-8'}" title="{l s='Add to cart' mod='roja45recommendproducts'}"><span>{l s='Add to cart' mod='roja45recommendproducts'}</span></button>
+                                    {else}
+                                        <span class="exclusive">{l s='Add to cart' mod='roja45recommendproducts'}</span>
+                                    {/if}
+                                </p> *}
+                            </a>
                         </li>
                     {/foreach}
                 </ul>

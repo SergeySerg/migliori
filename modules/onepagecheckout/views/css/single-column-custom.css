@@ -8,9 +8,9 @@
     text-align: center;
 }
 
-#opc_checkout #opc_new_account fieldset h3 {
+/* #opc_checkout #opc_new_account fieldset h3 {
     text-align: left;
-}
+} */
 
 #opc_checkout #opc_new_account div.account_fields, #opc_checkout #opc_new_account div.address_fields {
     margin: 0 auto;
@@ -19,7 +19,10 @@
     border: 0;
 }
 
-
+#opc_checkout #opc_new_account p.text input, #opc_checkout #opc_new_account p.select select, #opc_checkout #opc_new_account p.textarea textarea {
+    height: 37px;
+    border-radius: 30px;
+}
 
 /* Wide screens */
 @media (min-width: 1200px) {
@@ -54,17 +57,36 @@
 #login_form_content > p.lost_password > a {
     color: #999;
 }
-fieldset {
-}
 
 #carrierTable tr, #paymentsTable tr {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 0 0 0 30px;
+}
+#carrierTable tr span, #paymentsTable tr span{
+    top: 0;
+}
+#carrierTable tr.mg_checked, #paymentsTable tr.mg_checked {
+    border: 1px solid #c19a6b;
+}
+#carrierTable tr:hover, #paymentsTable tr:hover {
+    border: 1px solid #c19a6b;
+    cursor: pointer;
+    background: none;
 }
 
-#carrierTable tr.alternate_item td {
+/* #carrierTable tr.alternate_item td {
     border-top: 1px solid red;
-}
+} */
 #paymentMethodsTable tr {
     padding-left: 16px !important;
+    border: 1px solid #ccc;
+    display: block;
+    /* height: 37px; */
+    margin-bottom: 20px;
+    border-radius: 30px;
 }
 #paymentMethodsTable tr td {
     vertical-align: middle !important;

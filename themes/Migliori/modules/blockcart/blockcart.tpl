@@ -280,7 +280,7 @@
 						</span>
 					</div>
 				{/if}
-				<div class="layer_cart_row">
+				{* <div class="layer_cart_row">
 					<strong class="dark{if $shipping_cost_float == 0 && (!$cart_qties || $cart->isVirtualCart() || !isset($cart->id_address_delivery) || !$cart->id_address_delivery)} unvisible{/if}">
 						{l s='Total shipping' mod='blockcart'}&nbsp;{if $use_taxes && $display_tax_label && $show_tax}{if $priceDisplay == 1}{l s='(tax excl.)' mod='blockcart'}{else}{l s='(tax incl.)' mod='blockcart'}{/if}{/if}
 					</strong>
@@ -291,7 +291,7 @@
 							{$shipping_cost}
 						{/if}
 					</span>
-				</div>
+				</div> *}
 				{if $show_tax && isset($tax_cost)}
 					<div class="layer_cart_row">
 						<strong class="dark">{l s='Tax' mod='blockcart'}</strong>
@@ -320,12 +320,12 @@
 					</span>
 				</div>
 				<div class="button-container">
-					<span class="continue btn btn-default button exclusive-medium" title="{l s='Continue shopping' mod='blockcart'}">
+					<span class="continue btn btn-default button exclusive-medium mg_btn_buy mg_btn_buy_next" title="{l s='Continue shopping' mod='blockcart'}">
 						<span>
 							<i class="icon-chevron-left left"></i>{l s='Continue shopping' mod='blockcart'}
 						</span>
 					</span>
-					<a class="btn btn-default button button-medium"	href="{$link->getPageLink("$order_process", true)|escape:"html":"UTF-8"}" title="{l s='Proceed to checkout' mod='blockcart'}" rel="nofollow">
+					<a class="btn btn-default button button-medium mg_btn_buy"	href="{$link->getPageLink("$order_process", true)|escape:"html":"UTF-8"}" title="{l s='Proceed to checkout' mod='blockcart'}" rel="nofollow">
 						<span>
 							{l s='Proceed to checkout' mod='blockcart'}<i class="icon-chevron-right right"></i>
 						</span>

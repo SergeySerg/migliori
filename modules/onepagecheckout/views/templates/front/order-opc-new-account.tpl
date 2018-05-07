@@ -200,23 +200,23 @@
         {if !$invoice_first}{$smarty.capture.account_block}{/if}
 
 
-        <div class="address-type-header delivery">{l s='Delivery address' mod='onepagecheckout'}
-        <div id="dlv_addresses_div"
-             style="float: right;{if !isset($addresses) || $addresses|@count == 0}display:none;{elseif $addresses|@count == 1 AND $addresses[0].id_address==$cart->id_address_delivery}display:none;{else}display:block;{/if}">
-            <span style="font-size: 0.7em;">{l s='Choose another address' mod='onepagecheckout'}:</span>
-            <select id="dlv_addresses" style="width: 100px; margin-left: 0px;" onchange="updateAddressSelection_1();" title="{l s='Choose another address' mod='onepagecheckout'}">
-                {if isset($addresses)}
-                    {foreach from=$addresses item=address}
-                        <option value="{$address.id_address|intval}"
-                                {if $address.id_address == $cart->id_address_delivery}{assign "selOk" "1"}selected="selected"{/if}>{$address.alias|regex_replace:"/^dlv\-/":""}</option>
-                    {/foreach}
-                    {if !$selOk}
-                        <option value="{$addresses[0].id_address|intval}" selected="selected"> -- </option>
+        {* <div class="address-type-header delivery">{l s='Delivery address' mod='onepagecheckout'}
+            <div id="dlv_addresses_div"
+                style="float: right;{if !isset($addresses) || $addresses|@count == 0}display:none;{elseif $addresses|@count == 1 AND $addresses[0].id_address==$cart->id_address_delivery}display:none;{else}display:block;{/if}">
+                <span style="font-size: 0.7em;">{l s='Choose another address' mod='onepagecheckout'}:</span>
+                <select id="dlv_addresses" style="width: 100px; margin-left: 0px;" onchange="updateAddressSelection_1();" title="{l s='Choose another address' mod='onepagecheckout'}">
+                    {if isset($addresses)}
+                        {foreach from=$addresses item=address}
+                            <option value="{$address.id_address|intval}"
+                                    {if $address.id_address == $cart->id_address_delivery}{assign "selOk" "1"}selected="selected"{/if}>{$address.alias|regex_replace:"/^dlv\-/":""}</option>
+                        {/foreach}
+                        {if !$selOk}
+                            <option value="{$addresses[0].id_address|intval}" selected="selected"> -- </option>
+                        {/if}
                     {/if}
-                {/if}
-            </select>
-        </div>
-        </div>
+                </select>
+            </div>
+        </div> *}
 
 
 
@@ -580,8 +580,10 @@
     <form action="{$link->getPageLink('authentication.php', true)|escape:'htmlall':'UTF-8'}?back=order-opc.php" method="post" id="login_form"
           class="std" {if ($isLogged && !$isGuest)}style="display:none;"{/if}>
         <fieldset>
-            <h3><div id="closeLoginFormContainer"><img src="{$modules_dir|escape:'html':'UTF-8'}onepagecheckout/views/img/close_icon.png" id="closeLoginFormBlock" /></div>{l s='Already registered?' mod='onepagecheckout'} <a href="#"
-                                                                                                                                                                                                          id="openLoginFormBlock">{l s='Log-in' mod='onepagecheckout'}</a>
+            <h3>
+                {* <div id="closeLoginFormContainer"><img src="{$modules_dir|escape:'html':'UTF-8'}onepagecheckout/views/img/close_icon.png" id="closeLoginFormBlock" /></div> *}
+                {l s='Already registered?' mod='onepagecheckout'} 
+                <a href="#" id="openLoginFormBlock">{l s='Log-in' mod='onepagecheckout'}</a>
             </h3>
 
             <div id="login_form_content" style="display:none;" class="address_fields">
@@ -602,7 +604,6 @@
                 <p class="submit">
                     {if isset($back)}<input type="hidden" class="hidden" name="back"
                                             value="{$back|escape:'htmlall':'UTF-8'}"/>{/if}
-                    <label>&nbsp;</label>
                     <input type="submit" id="SubmitLoginOpc" name="SubmitLogin" class="button"
                            value="{l s='Log in' mod='onepagecheckout'}"/>
                 </p>
