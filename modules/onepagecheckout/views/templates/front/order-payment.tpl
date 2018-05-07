@@ -63,7 +63,7 @@
 
     <div class="confirm_button_div">
         <input type="button" id="order_button" class="confirm_button" title="{l s='I confirm my order' mod='onepagecheckout'}"
-            value="&raquo;  {l s='I confirm my order' mod='onepagecheckout'}  &laquo;"
+            value="{l s='I confirm my order' mod='onepagecheckout'}"
             onclick="paymentModuleConfirm();"/>
     </div>
 

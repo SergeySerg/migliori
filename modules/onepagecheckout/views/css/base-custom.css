@@ -137,8 +137,12 @@ input.ok_field, select.ok_field, textarea.ok_field,
 
 #carrierTable,
 #paymentMethodsTable {
-    border: 1px solid rgb(245, 245, 245);
+    border: none;
     width: 100%;
+    margin-bottom: 0;
+}
+#HOOK_EXTRACARRIER{
+    display: none !important;
 }
 
 #carrierTable tbody {
@@ -151,6 +155,10 @@ input.ok_field, select.ok_field, textarea.ok_field,
     border: 0px;
     height: 37px;
     vertical-align: middle;
+}
+#carrierTable td.carierses_names,
+#paymentMethodsTable td.carierses_names {
+    width: 100%;
 }
 
 #carrierTable td.carrier_action,
@@ -166,6 +174,7 @@ input.ok_field, select.ok_field, textarea.ok_field,
 #carrierTable td.carrier_infos,
 #carrierTable td.carrier_price,
 #paymentMethodsTable td.payment_description {
+    width: 100%;
     padding: 0;
     font-weight: bold;
 }
@@ -187,7 +196,8 @@ input.ok_field, select.ok_field, textarea.ok_field,
 }
 
 #carrierTable tr input, #paymentMethodsTable tr input {
-   vertical-align: bottom;
+   vertical-align: middle;
+   margin: 0;
 }
 
 #carrierTable tr label, #paymentMethodsTable tr label {
@@ -195,23 +205,16 @@ input.ok_field, select.ok_field, textarea.ok_field,
 }
 
 #paymentMethodsTable .payment_description label {
-    padding: 1.5em 0.5em 1.5em 0.5em;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 13px;
 }
 
-#carrierTable tr, #paymentMethodsTable tr {
-    background: none;
-}
-
+#carrierTable tr, #paymentMethodsTable tr,
 #carrierTable tr:hover, #paymentMethodsTable tr:hover {
-    background: rgb(249,249,249); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
-
+    background: none;
+    border: 1px solid #c19a6b;
 }
 
 #carrierTable td.carrier_action.radio, #paymentMethodsTable td.payment_action.radio {
@@ -219,7 +222,7 @@ input.ok_field, select.ok_field, textarea.ok_field,
 }
 
 #carrierTable tr td, #paymentMethodsTable tr td {
-    border-top: 1px solid #DDDDDD !important;
+    border-top: none;
     margin: 0;
     padding: 0;
 }
@@ -239,18 +242,16 @@ div.confirm_button_div {
 }
 
 input.confirm_button, #free_order_confirm {
-
-    background: rgb(105,211,88); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(105,211,88,1) 0%, rgba(35,127,25,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(105,211,88,1)), color-stop(100%,rgba(35,127,25,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69d358', endColorstr='#237f19',GradientType=0 ); /* IE6-9 */
-
+    background: rgb(105,211,88);
+    background: -moz-linear-gradient(top, rgba(105,211,88,1) 0%, rgba(35,127,25,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(105,211,88,1)), color-stop(100%,rgba(35,127,25,1)));
+    background: -webkit-linear-gradient(top, rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%);
+    background: -o-linear-gradient(top, rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%);
+    background: -ms-linear-gradient(top, rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%);
+    background: linear-gradient(to bottom, rgba(105,211,88,1) 0%,rgba(35,127,25,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69d358', endColorstr='#237f19',GradientType=0 );
     display: block;
-    border: 1px solid green;
+    border: none;
     color: white;
     font-weight: bold;
     padding: 14px 0px;
@@ -259,22 +260,17 @@ input.confirm_button, #free_order_confirm {
     width: 45%;
     min-width: 250px;
     font-size: 20px;
-    text-shadow: 0 0 2px darkgreen;
+    /* text-shadow: 0 0 2px darkgreen; */
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-}
+    border-radius: 30px;
+    background: #c1996b;
+    text-transform: uppercase;
+    font-weight: normal;}
 
 input.confirm_button:hover, #free_order_confirm:hover {
-    background: rgb(111,236,62); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(111,236,62,1) 0%, rgba(55,202,14,1) 68%, rgba(58,185,39,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(111,236,62,1)), color-stop(68%,rgba(55,202,14,1)), color-stop(100%,rgba(58,185,39,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(111,236,62,1) 0%,rgba(55,202,14,1) 68%,rgba(58,185,39,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(111,236,62,1) 0%,rgba(55,202,14,1) 68%,rgba(58,185,39,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(111,236,62,1) 0%,rgba(55,202,14,1) 68%,rgba(58,185,39,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(111,236,62,1) 0%,rgba(55,202,14,1) 68%,rgba(58,185,39,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fec3e', endColorstr='#3ab927',GradientType=0 ); /* IE6-9 */
-
+    box-shadow: 1px 2px 5px rgba(0,0,0,.2);
 
     cursor: pointer;
     padding: 14px 0px;
@@ -377,7 +373,7 @@ div.opc-overlay {
     height: 100%;
     top: 0;
     left: 0;
-    background: url('../img/ajax-loader.gif') #666 no-repeat center center;
+    background: url('../img/ajax-loader.gif') #c19a6b no-repeat center center;
     opacity: 0.7;
     filter : alpha(opacity=70); /* IE < 8 */
     -moz-opacity : 0.7; 
@@ -512,19 +508,22 @@ form.std h3, #new_account_form.std h3, #order-opc h2,#carriers_section h3, #paym
 } */
 
 form.std fieldset {
-    margin: 0 0 12px 0;
+    margin: 0;
     clear: none !important;
-    -webkit-box-shadow: inset 0 0 1px 1px #aaa;
+    /* -webkit-box-shadow: inset 0 0 1px 1px #aaa;
     -moz-box-shadow: inset 0 0 1px 1px #aaa;
-    box-shadow: inset 0 0 1px 1px #aaa;
+    box-shadow: inset 0 0 1px 1px #aaa; */
     padding: 0 6px 2px 6px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
+    text-align: center;
 }
 
 form.std h3, #new_account_form.std h3 {
     margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 /* #cart_summary {
@@ -562,6 +561,10 @@ form#offer_password fieldset {
     clear: both;
     margin: 10px 0px 10px 0px;
 }
+#order-opc #login_form fieldset p.submit,
+#order-opc #login_form fieldset p.lost_password{
+    text-align: center;
+}
 
 #order-opc #login_form fieldset p.submit input {
     text-align: center;
@@ -575,6 +578,11 @@ form#offer_password fieldset {
 
 #order-opc #login_form a#openLoginFormBlock {
     margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+#order-opc #login_form a#openLoginFormBlock:hover {
+    color: #c19a6b;
 }
 
 #login_form p.lost_password {
@@ -843,7 +851,7 @@ div.below-carrier-content {
 
 
 #opc_checkout #opc_new_account p.text input:hover, #opc_checkout #opc_new_account p.select select:hover, #opc_checkout #opc_new_account p.textarea textarea:hover, textarea#message:hover, input.discount_name:hover {
-    box-shadow: 0 0 6px 0px blue;
+    box-shadow: 0 0 6px 0px #c19a6b;
 }
 
 
@@ -1031,7 +1039,13 @@ form#voucher .button, form#voucher #discount_name,  #opc_checkout #opc_new_accou
 
 form#voucher .button, #opc_checkout #opc_new_account #login_form_content .button {
     padding: 0 2em;
-    border-radius: 3px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #c19a6b;
+}
+form#voucher .button:hover, #opc_checkout #opc_new_account #login_form_content .button:hover {
+    box-shadow: 1px 2px 5px rgba(0,0,0,.2);
 }
 
 #order-opc form#voucher .button {
@@ -1076,10 +1090,10 @@ div.address-type-header.invoice {
 }
 
 #opc_account_errors, #opc_account_errors_invoice, #opc_login_errors, #opc_payment_errors, #opc_tos_errors {
-    background: none repeat scroll 0 0 #FFF5F5;
-    border: 1px solid #C20606;
     margin: 10px 10px 15px;
     padding: 3px 5px;
+    text-align: center;
+    color: red;
 }
 
 td.cart_voucher {
