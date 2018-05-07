@@ -139,7 +139,7 @@ img.b1c-close {
 	font-weight: 700;
 	padding: 8px 10px;
 	margin: 5px 0 5px;
-	border-top: 1px solid #ccc;
+	/* border-top: 1px solid #ccc; */
 	color: #555;
 }
 .b1c-result .b1c-ok {
@@ -148,9 +148,9 @@ img.b1c-close {
 	background: #c8ed9c;
 }
 .b1c-result .b1c-err {
-	border-top: 1px solid #ffadad;
+	/* border-top: 1px solid #ffadad; */
 	color: darkred;
-	background: #ffebeb;
+	/* background: #ffebeb; */
 }
 .b1c-result .b1c-send {
 	background: #efefef url(loading.gif) 10px no-repeat;
