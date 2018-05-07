@@ -12,7 +12,14 @@ $(document).ready(function() {
     //Init NP when click on button Order
     $('#pay').on('click',function(){
         /*Open order-section*/
-        $('div#order-section').fadeIn('1000');
+        if($('div#order-section').hasClass('mg_active')) {
+            $('div#order-section').removeClass('mg_active');
+            $('div#order-section').fadeOut('300');
+        } else 
+        {
+            $('div#order-section').addClass('mg_active');
+            $('div#order-section').fadeIn('300');
+        }
         prepare_content();
         init_np();
     });
