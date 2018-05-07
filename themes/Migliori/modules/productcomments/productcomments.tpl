@@ -22,6 +22,7 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+<h3 id="#idTab5" class="idTabHrefShort page-product-heading">{l s='Reviews' mod='productcomments'}</h3> 
 <div id="idTab5">
 	<div id="product_comments_block_tab">
 		{if $comments}
