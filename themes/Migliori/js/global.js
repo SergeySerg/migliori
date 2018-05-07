@@ -435,6 +435,7 @@ function bindUniform()
 
 			var owl = $("#blocknewproducts");
 			var owlRecommended = $("#mg_recommend_products_list");
+			var owlAccessories = $("#mg_accessories");
 
 			owl.owlCarousel({
 				// items : 4, 
@@ -455,6 +456,25 @@ function bindUniform()
 				margin: 30,
 			});
 			owlRecommended.owlCarousel({
+				// items : 4, 
+				autoplay: true,
+				responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:4
+                    }
+				},
+				nav : true, 
+				loop: true,
+				margin: 30,
+			});
+
+			owlAccessories.owlCarousel({
 				// items : 4, 
 				autoplay: true,
 				responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
