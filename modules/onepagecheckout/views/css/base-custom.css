@@ -1378,10 +1378,7 @@ form.std p span {
     text-transform: uppercase;
     font-weight: normal;
 }
-.mg_continue_shopping:hover{
-    color: inherit;
-    box-shadow: 1px 2px 5px rgba(0,0,0,.2);
-}
+.mg_continue_shopping:hover,
 .my-checkout:hover,
 .my-checkout:focus{
     color: #fff;;
@@ -1396,5 +1393,6 @@ form.std p span {
 .mg_continue_shopping{
     float: left;
     margin-left: 15px;
-    border: 1px solid #adadad;
+    background: #c19a6b;
+    color: #fff;
  }

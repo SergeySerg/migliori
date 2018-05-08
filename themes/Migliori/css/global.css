@@ -9209,6 +9209,9 @@ h3.mg_viewed_title{
   height: 45px;
   overflow: hidden; 
 }
+.mg_total_price{
+  margin-left: 5px;
+}
 
 /* owl */
 .owl-carousel .owl-stage-outer{

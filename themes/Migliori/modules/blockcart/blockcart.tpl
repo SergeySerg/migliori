@@ -29,7 +29,7 @@
 	<div class="shopping_cart">
 		<a href="{$link->getPageLink($order_process, true)|escape:'html':'UTF-8'}" title="{l s='View my shopping cart' mod='blockcart'}" rel="nofollow">
 			<i class="fa fa-suitcase" aria-hidden="true"></i>
-			<b>{l s='Cart' mod='blockcart'}</b>
+			<b>{l s='Cart' mod='blockcart'}<span class="mg_total_price ajax_block_cart_total">{$total}</span></b>
 			<div class="cart-surprise">В корзине Вас ждет ПОДАРОК</div>
 			<span class="cart-quant ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
 			{* <span class="ajax_cart_product_txt{if $cart_qties != 1} unvisible{/if}">{l s='Product' mod='blockcart'}</span>

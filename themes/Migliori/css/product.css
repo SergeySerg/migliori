@@ -532,6 +532,7 @@ span.view_scroll_spacer {
   .box-info-product p {
     float: left; }
   .box-info-product .exclusive {
+    width: 200px;
     font: 700 15px/18px Arial, Helvetica, sans-serif;
     color: #fff;
     /* text-shadow: 1px 1px rgba(0, 0, 0, 0.2); */
