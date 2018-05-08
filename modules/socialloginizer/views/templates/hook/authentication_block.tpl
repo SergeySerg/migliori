@@ -1,5 +1,5 @@
 <style>
-        .form-style
+        /*.form-style
         {
                 font-size: 15px !important;
                 color: black !important;
@@ -9,7 +9,7 @@
                 float:none !important;
                 margin-top: 10px;
                 
-        }
+        }*/
         .ul-form-style
         {
                 float:left !important;

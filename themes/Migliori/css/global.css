@@ -6776,12 +6776,13 @@ li.hovered .price.product-price {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  color: #555454;
+  /* color: #555454; */
   font-size: 18px;
-  padding: 0 0 15px;
+  /* padding: 0 0 15px; */
   line-height: normal;
   margin-bottom: 12px;
-  border-bottom: 1px solid #d6d4d4; }
+  /* border-bottom: 1px solid #d6d4d4;  */
+}
 
 h3.page-product-heading {
     /* color: #555454; */
@@ -9212,7 +9213,32 @@ h3.mg_viewed_title{
 .mg_total_price{
   margin-left: 5px;
 }
-
+#authentication .form-group .form-control{
+  max-width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 15px;
+  height: 32px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.mg_auth_wrap #output li{
+  display: block;
+}
+.mg_auth_wrap #head{
+  position: absolute;
+  right: -300px;
+  top: 15%;
+}
+.mg_auth_wrap #head a.hover-link{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
+  color: inherit;
+  float: none;
+  text-shadow: none;
+}
 /* owl */
 .owl-carousel .owl-stage-outer{
   padding: 8px 0 55px;
