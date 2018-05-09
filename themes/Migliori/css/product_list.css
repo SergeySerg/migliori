@@ -39,7 +39,7 @@ ul.product_list .product-image-container {
       display: none; }
       @media (max-width: 1199px) {
         ul.product_list .product-image-container .quick-view-wrapper-mobile .quick-view-mobile {
-          display: block;
+          display: none;
           position: relative;
           background-color: rgba(208, 208, 211, 0.57);
           height: 130px;

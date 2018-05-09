@@ -1070,10 +1070,10 @@ Quick View Styles
     #product.content_only div.primary_block div.pb-left-column #thumbs_list {
       width: 392px; }
   #product.content_only div.primary_block div.pb-center-column {
-    padding: 20px 20px 60px 0px;
-    width: 27.5%;
+    padding: 20px;
+    width: 50%;
     margin-bottom: 0;
-    min-height: 623px;
+    /* min-height: 623px; */
     height: 100%; }
     @media (max-width: 991px) {
       #product.content_only div.primary_block div.pb-center-column {
@@ -1095,29 +1095,29 @@ Quick View Styles
       position: absolute;
       bottom: 8px; }
   #product.content_only div.primary_block div.pb-right-column {
-    width: 25.5%;
-    padding-right: 15px;
-    padding-left: 0; }
+    width: 50%;
+    /* padding-right: 15px; */
+    padding: 20px; }
     #product.content_only div.primary_block div.pb-right-column .box-info-product {
       border-top-width: 0px;
       border-right: none;
       border-bottom: none;
-      min-height: 623px;
+      /* min-height: 623px; */
       height: 100%;
       -moz-border-radius: 0 4px 4px 0;
       -webkit-border-radius: 0;
       border-radius: 0 4px 4px 0;
       position: relative;
-      padding-bottom: 125px; }
+      padding-bottom: 25px; }
       @media (max-width: 991px) {
         #product.content_only div.primary_block div.pb-right-column .box-info-product {
           -moz-border-radius: 0;
           -webkit-border-radius: 0;
           border-radius: 0;
           border: 1px solid #d6d4d4; } }
-      #product.content_only div.primary_block div.pb-right-column .box-info-product #add_to_cart .exclusive {
+      /* #product.content_only div.primary_block div.pb-right-column .box-info-product #add_to_cart .exclusive {
         display: block;
-        width: 100%; }
+        width: 100%; } */
         #product.content_only div.primary_block div.pb-right-column .box-info-product #add_to_cart .exclusive:before, #product.content_only div.primary_block div.pb-right-column .box-info-product #add_to_cart .exclusive:after {
           display: block; }
         #product.content_only div.primary_block div.pb-right-column .box-info-product #add_to_cart .exclusive span {
