@@ -69,17 +69,17 @@ class="page-heading {if !isset($instant_search) || (isset($instant_search) && !$
                 {include file="./nbr-product-page.tpl"}
             {/if}
         </div>
-    	<div class="top-pagination-content clearfix">
+    	{* <div class="top-pagination-content clearfix">
             {include file="./product-compare.tpl"}
             {if !isset($instant_search) || (isset($instant_search) && !$instant_search)}
                 {include file="$tpl_dir./pagination.tpl" no_follow=1}
             {/if}
-        </div>
+        </div> *}
 	</div>
 	{include file="$tpl_dir./product-list.tpl" products=$search_products}
     <div class="content_sortPagiBar">
     	<div class="bottom-pagination-content clearfix">
-        	{include file="./product-compare.tpl"}
+        	{* {include file="./product-compare.tpl"} *}
         	{if !isset($instant_search) || (isset($instant_search) && !$instant_search)}
                 {include file="$tpl_dir./pagination.tpl" paginationId='bottom' no_follow=1}
             {/if}
