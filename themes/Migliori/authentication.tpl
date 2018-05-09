@@ -28,7 +28,7 @@
 		<span class="navigation-pipe">{$navigationPipe}</span>{l s='Create your account'}
 	{/if}
 {/capture}
-<h1 class="page-heading">{if !isset($email_create)}{l s='Authentication'}{else}{l s='Create an account'}{/if}</h1>
+{* <h1 class="page-heading">{if !isset($email_create)}{l s='Authentication'}{else}{l s='Create an account'}{/if}</h1> *}
 {if isset($back) && preg_match("/^http/", $back)}{assign var='current_step' value='login'}{include file="$tpl_dir./order-steps.tpl"}{/if}
 {include file="$tpl_dir./errors.tpl"}
 {assign var='stateExist' value=false}
@@ -51,7 +51,7 @@
 	{/if}-->
 	<div class="row">
 		<div class="col-xs-12 col-sm-7">
-			<div class="mg_auth_wrap"
+			<div class="mg_auth_wrap">
 				<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="login_form" class="">
 					<h3 class="page-subheading">{l s='Already registered?'}</h3>
 					<div class="form_content clearfix">
@@ -426,12 +426,12 @@
 		</ol>
 	</div>
 	{/if}-->
-	<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="account-creation_form" class="std box">
+	<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="account-creation_form" class="std">
 		{$HOOK_CREATE_ACCOUNT_TOP}
 		<div class="account_creation">
 			<h3 class="page-subheading">{l s='Your personal information'}</h3>
-			<p class="required"><sup>*</sup>{l s='Required field'}</p>
-			<div class="clearfix">
+			{* <p class="required"><sup>*</sup>{l s='Required field'}</p> *}
+			{* <div class="clearfix">
 				<label>{l s='Title'}</label>
 				<br />
 				{foreach from=$genders key=k item=gender}
@@ -442,25 +442,25 @@
 						</label>
 					</div>
 				{/foreach}
+			</div> *}
+			<div class="required form-group">
+				{* <label for="customer_firstname">{l s='First name'} <sup>*</sup></label> *}
+				<input onkeyup="$('#firstname').val(this.value);" placeholder="{l s='First name'}*" type="text" class="is_required validate form-control" data-validate="isName" id="customer_firstname" name="customer_firstname" value="{if isset($smarty.post.customer_firstname)}{$smarty.post.customer_firstname}{/if}" />
 			</div>
 			<div class="required form-group">
-				<label for="customer_firstname">{l s='First name'} <sup>*</sup></label>
-				<input onkeyup="$('#firstname').val(this.value);" type="text" class="is_required validate form-control" data-validate="isName" id="customer_firstname" name="customer_firstname" value="{if isset($smarty.post.customer_firstname)}{$smarty.post.customer_firstname}{/if}" />
+				{* <label for="customer_lastname">{l s='Last name'} <sup>*</sup></label> *}
+				<input onkeyup="$('#lastname').val(this.value);" placeholder="{l s='Last name'}*" type="text" class="is_required validate form-control" data-validate="isName" id="customer_lastname" name="customer_lastname" value="{if isset($smarty.post.customer_lastname)}{$smarty.post.customer_lastname}{/if}" />
 			</div>
 			<div class="required form-group">
-				<label for="customer_lastname">{l s='Last name'} <sup>*</sup></label>
-				<input onkeyup="$('#lastname').val(this.value);" type="text" class="is_required validate form-control" data-validate="isName" id="customer_lastname" name="customer_lastname" value="{if isset($smarty.post.customer_lastname)}{$smarty.post.customer_lastname}{/if}" />
-			</div>
-			<div class="required form-group">
-				<label for="email">{l s='Email'} <sup>*</sup></label>
-				<input type="email" class="is_required validate form-control" data-validate="isEmail" id="email" name="email" value="{if isset($smarty.post.email)}{$smarty.post.email}{/if}" />
+				{* <label for="email">{l s='Email'} <sup>*</sup></label> *}
+				<input type="email" placeholder="{l s='Email'}*" class="is_required validate form-control" data-validate="isEmail" id="email" name="email" value="{if isset($smarty.post.email)}{$smarty.post.email}{/if}" />
 			</div>
 			<div class="required password form-group">
-				<label for="passwd">{l s='Password'} <sup>*</sup></label>
-				<input type="password" class="is_required validate form-control" data-validate="isPasswd" name="passwd" id="passwd" />
+				{* <label for="passwd">{l s='Password'} <sup>*</sup></label> *}
+				<input type="password" placeholder="{l s='Password'}*" class="is_required validate form-control" data-validate="isPasswd" name="passwd" id="passwd" />
 				<span class="form_info">{l s='(Five characters minimum)'}</span>
 			</div>
-			<div class="form-group">
+			{* <div class="form-group">
 				<label>{l s='Date of Birth'}</label>
 				<div class="row">
 					<div class="col-xs-4">
@@ -470,7 +470,6 @@
 								<option value="{$day}" {if ($sl_day == $day)} selected="selected"{/if}>{$day}&nbsp;&nbsp;</option>
 							{/foreach}
 						</select>
-						{*
 							{l s='January'}
 							{l s='February'}
 							{l s='March'}
@@ -483,7 +482,6 @@
 							{l s='October'}
 							{l s='November'}
 							{l s='December'}
-						*}
 					</div>
 					<div class="col-xs-4">
 						<select id="months" name="months" class="form-control">
@@ -502,9 +500,9 @@
 						</select>
 					</div>
 				</div>
-			</div>
+			</div> *}
 			{if isset($newsletter) && $newsletter}
-				<div class="checkbox">
+				<div class="checkbox clearfix">
 					<input type="checkbox" name="newsletter" id="newsletter" value="1" {if isset($smarty.post.newsletter) AND $smarty.post.newsletter == 1} checked="checked"{/if} />
 					<label for="newsletter">{l s='Sign up for our newsletter!'}</label>
 					{if array_key_exists('newsletter', $field_required)}
@@ -513,7 +511,7 @@
 				</div>
 			{/if}
 			{if isset($optin) && $optin}
-				<div class="checkbox">
+				<div class="checkbox clearfix">
 					<input type="checkbox" name="optin" id="optin" value="1" {if isset($smarty.post.optin) AND $smarty.post.optin == 1} checked="checked"{/if} />
 					<label for="optin">{l s='Receive special offers from our partners!'}</label>
 					{if array_key_exists('optin', $field_required)}
@@ -664,10 +662,10 @@
 			<input type="hidden" name="email_create" value="1" />
 			<input type="hidden" name="is_new_customer" value="1" />
 			{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'html':'UTF-8'}" />{/if}
-			<button type="submit" name="submitAccount" id="submitAccount" class="btn btn-default button button-medium">
-				<span>{l s='Register'}<i class="icon-chevron-right right"></i></span>
+			<button type="submit" name="submitAccount" id="submitAccount" class="btn btn-default button mg_btn_reg mg_btn_reg_min">
+				{l s='Register'}
 			</button>
-			<p class="pull-right required"><span><sup>*</sup>{l s='Required field'}</span></p>
+			{* <p class="pull-right required"><span><sup>*</sup>{l s='Required field'}</span></p> *}
 		</div>
 	</form>
 {/if}
