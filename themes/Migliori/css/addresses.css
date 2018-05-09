@@ -13,4 +13,15 @@
   .address li.address_update a {
     margin: 0 10px 0 0; }
 
+.address_update .mg_btn{
+  width: auto;
+  padding: 6px 10px;}
+
+#addresses ul.footer_links{
+  margin-top: 20px;  }
+  #addresses ul.footer_links li:last-child{
+    float: right;  }
+.bloc_adresses h3.page-subheading{
+  margin-top: 0;
+}
 /*# sourceMappingURL=addresses.css.map */
