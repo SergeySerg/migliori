@@ -764,9 +764,9 @@ class SocialLoginizer extends Module
 				$instagram2 = '<a href="'.$link.$append_with.'type=insta" type="insta" title="Instagram">';
 				$instagram3 = '<img src="'.$module_dir.'socialloginizer';
 				if ($plugin_data[$page_name]['size'] == 0)
-					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/google_log.png"></a></li>';
+					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/instagram_log.png"></a></li>';
 				else
-					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/google_log.png"></a></li>';
+					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/instagram_log.png"></a></li>';
 			}
 			else
 				$instagram = '';
