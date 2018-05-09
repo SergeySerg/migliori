@@ -198,9 +198,9 @@
   background: #fff;
   box-shadow: 0 0 20px rgba(254,229,172,1);
   border-radius: 10px;}
-  @media (max-width: 480px) {
+  /* @media (max-width: 480px) {
     #header .cart_block {
-      width: 100%; } }
+      width: 100%; } } */
   /* @media (max-width: 1200px) {
     #header .cart_block {
       width: 280px; } } */

@@ -6651,6 +6651,7 @@ li.hovered .price.product-price {
         display: none !important; }}
   @media (max-width: 767px) {
     .block .block_content {
+      display: block !important;
       margin-bottom: 20px; } }
 
 .block .title_block,
@@ -9477,8 +9478,8 @@ h3.mg_viewed_title{
   .mg_sort_list li {
     width: 100%;
     display: inline-table;
-    margin-top: -1px;
-    border-radius: 0 !important;}
+    margin-top: 10px;
+    border-radius: 20px !important;}
   #footer{
     text-align: center;  }
   #footer #block_contact_infos {
