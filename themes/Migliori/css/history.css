@@ -37,4 +37,18 @@
   #sendOrderMessage select.form-control {
     width: 263px; }
 
+#history .table > thead > tr > th{
+  background: #f8efd9;}
+
+#history #center_column ul.footer_links li:last-child {
+  float: right;}
+
+.history_detail .mg_btn{
+  width: auto;
+  padding: 6px 10px;}
+
+.history_detail .mg_btn:hover{
+  background-color: #c29b6d;
+  color: #fff;
+}
 /*# sourceMappingURL=history.css.map */

@@ -23,7 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 {if isset($order)}
-<div class="box box-small clearfix">
+{* <div class="box box-small clearfix">
 	{if isset($reorderingAllowed) && $reorderingAllowed}
 	<form id="submitReorder" action="{if isset($opc) && $opc}{$link->getPageLink('order-opc', true)}{else}{$link->getPageLink('order', true)}{/if}" method="post" class="submit">
 		<input type="hidden" value="{$order->id}" name="id_order"/>
@@ -35,7 +35,7 @@
 	<p class="dark">
 		<strong>{l s='Order Reference %s - placed on' sprintf=$order->getUniqReference()} {dateFormat date=$order->date_add full=0}</strong>
 	</p>
-</div>
+</div> *}
 <div class="info-order box">
 	{if $carrier->id}<p><strong class="dark">{l s='Carrier'}</strong> {if $carrier->name == "0"}{$shop_name|escape:'html':'UTF-8'}{else}{$carrier->name|escape:'html':'UTF-8'}{/if}</p>{/if}
 	<p><strong class="dark">{l s='Payment method'}</strong> <span class="color-myaccount">{$order->payment|escape:'html':'UTF-8'}</span></p>
@@ -460,7 +460,7 @@
 		<div class="submit">
 			<input type="hidden" name="id_order" value="{$order->id|intval}" />
 			<input type="submit" class="unvisible" name="submitMessage" value="{l s='Send'}"/>
-			<button type="submit" name="submitMessage" class="button btn btn-default button-medium"><span>{l s='Send'}<i class="icon-chevron-right right"></i></span></button>
+			<button type="submit" name="submitMessage" class="button btn btn-default mg_btn">{l s='Send'}</button>
 		</div>
 	</form>
 {else}

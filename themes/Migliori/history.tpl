@@ -30,8 +30,8 @@
 	<span class="navigation_page">{l s='Order history'}</span>
 {/capture}
 {include file="$tpl_dir./errors.tpl"}
-<h1 class="page-heading bottom-indent">{l s='Order history'}</h1>
-<p class="info-title">{l s='Here are the orders you\'ve placed since your account was created.'}</p>
+<h1 class="page-heading text-center">{l s='Order history'}</h1>
+<p class="info-title text-center">{l s='Here are the orders you\'ve placed since your account was created.'}</p>
 {if $slowValidation}
 	<p class="alert alert-warning">{l s='If you have just placed an order, it may take a few minutes for it to be validated. Please refresh this page if your order is missing.'}</p>
 {/if}
@@ -86,10 +86,8 @@
 							{/if}
 						</td>
 						<td class="history_detail">
-							<a class="btn btn-default button button-small" href="javascript:showOrder(1, {$order.id_order|intval}, '{$link->getPageLink('order-detail', true, NULL, "id_order={$order.id_order|intval}")|escape:'html':'UTF-8'}');">
-								<span>
-									{l s='Details'}<i class="icon-chevron-right right"></i>
-								</span>
+							<a class="btn btn-default mg_btn" href="javascript:showOrder(1, {$order.id_order|intval}, '{$link->getPageLink('order-detail', true, NULL, "id_order={$order.id_order|intval}")|escape:'html':'UTF-8'}');">
+									{l s='Details'}
 							</a>
 							{if isset($opc) && $opc}
 								<a class="link-button" href="{$link->getPageLink('order-opc', true, NULL, "submitReorder&id_order={$order.id_order|intval}")|escape:'html':'UTF-8'}" title="{l s='Reorder'}">
@@ -112,15 +110,13 @@
 </div>
 <ul class="footer_links clearfix">
 	<li>
-		<a class="btn btn-default button button-small" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">
-			<span>
-				<i class="icon-chevron-left"></i> {l s='Back to Your Account'}
-			</span>
+		<a class="btn btn-default mg_btn" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">
+			{l s='Back to Your Account'}
 		</a>
 	</li>
 	<li>
-		<a class="btn btn-default button button-small" href="{$base_dir}">
-			<span><i class="icon-chevron-left"></i> {l s='Home'}</span>
+		<a class="btn btn-default mg_btn" href="{$base_dir}">
+			{l s='Home'}
 		</a>
 	</li>
 </ul>
