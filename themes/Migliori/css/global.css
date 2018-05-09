@@ -5729,8 +5729,13 @@ textarea {
 
 .columns-container {
   padding-top: 20px;
-  background: #fff; }
-
+  background: #fff;
+  min-height: 530px; }
+  @media (max-width:1400px){
+    .columns-container {
+    padding-top: 20px;
+    background: #fff;
+    min-height: 530px; }}
 #columns {
   position: relative;
   padding-bottom: 25px;
