@@ -126,8 +126,7 @@
         font-size: 13px;
         color: #000; }
   #new_comment_form .new_comment_form_content {
-    padding: 15px 25px 15px 15px;
-    background: #f8f8f8; }
+    padding: 15px 25px 15px 15px; }
     @media (max-width: 767px) {
       #new_comment_form .new_comment_form_content {
         padding-left: 25px; } }
@@ -169,7 +168,10 @@
   #new_comment_form #new_comment_form_footer {
     margin-top: 20px;
     font-size: 12px; }
-
+  .comment_details ul li .mg_btn{
+    width: auto;
+    padding: 6px 15px;
+  }
 /* TAB COMMENTS ******************************************************************************** */
 #product_comments_block_tab {
   margin: 0 0 20px 0; }

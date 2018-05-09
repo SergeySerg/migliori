@@ -9337,7 +9337,7 @@ h3.mg_viewed_title{
   
 /* owl */
 .owl-carousel .owl-stage-outer{
-  padding: 8px 0 55px;
+  padding: 8px 0 15px;
 }
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
