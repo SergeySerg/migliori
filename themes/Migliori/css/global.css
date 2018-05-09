@@ -9276,6 +9276,12 @@ h3.mg_viewed_title{
   background-color: #c29b6d;
   border: none;
   color: #fff;}
+
+#order-slip ul.footer_links{
+  margin-top: 20px;  }
+  #order-slip ul.footer_links li:last-child{
+    float: right;  }
+  
 /* owl */
 .owl-carousel .owl-stage-outer{
   padding: 8px 0 55px;
