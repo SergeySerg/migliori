@@ -34,8 +34,8 @@
         {l s='Your personal information'}
     </span>
 {/capture}
-<div class="box">
-    <h1 class="page-subheading">
+<div class="mg_personal_info_wrap">
+    <h1 class="page-heading text-center">
         {l s='Your personal information'}
     </h1>
 
@@ -47,15 +47,15 @@
             {if isset($pwd_changed)}<br />{l s='Your password has been sent to your email:'} {$email}{/if}
         </p>
     {else}
-        <p class="info-title">
+        <p class="info-title text-center">
             {l s='Please be sure to update your personal information if it has changed.'}
         </p>
-        <p class="required">
+        {* <p class="required">
             <sup>*</sup>{l s='Required field'}
-        </p>
+        </p> *}
         <form action="{$link->getPageLink('identity', true)|escape:'html':'UTF-8'}" method="post" class="std">
             <fieldset>
-                <div class="clearfix">
+                {* <div class="clearfix">
                     <label>{l s='Social title'}</label>
                     <br />
                     {foreach from=$genders key=k item=gender}
@@ -65,26 +65,26 @@
                             {$gender->name}</label>
                         </div>
                     {/foreach}
-                </div>
+                </div> *}
                 <div class="required form-group">
-                    <label for="firstname" class="required">
+                    {* <label for="firstname" class="required">
                         {l s='First name'}
-                    </label>
-                    <input class="is_required validate form-control" data-validate="isName" type="text" id="firstname" name="firstname" value="{$smarty.post.firstname}" />
+                    </label> *}
+                    <input class="is_required validate form-control" placeholder="{l s='First name'}*" data-validate="isName" type="text" id="firstname" name="firstname" value="{$smarty.post.firstname}" />
                 </div>
                 <div class="required form-group">
-                    <label for="lastname" class="required">
+                    {* <label for="lastname" class="required">
                         {l s='Last name'}
-                    </label>
-                    <input class="is_required validate form-control" data-validate="isName" type="text" name="lastname" id="lastname" value="{$smarty.post.lastname}" />
+                    </label> *}
+                    <input class="is_required validate form-control" placeholder="{l s='Last name'}*" data-validate="isName" type="text" name="lastname" id="lastname" value="{$smarty.post.lastname}" />
                 </div>
                 <div class="required form-group">
-                    <label for="email" class="required">
+                    {* <label for="email" class="required">
                         {l s='E-mail address'}
-                    </label>
+                    </label> *}
                     <input class="is_required validate form-control" data-validate="isEmail" type="email" name="email" id="email" value="{$smarty.post.email}" />
                 </div>
-                <div class="form-group">
+                {* <div class="form-group">
                     <label>
                         {l s='Date of Birth'}
                     </label>
@@ -98,7 +98,6 @@
                             </select>
                         </div>
                         <div class="col-xs-4">
-							{*
 								{l s='January'}
 								{l s='February'}
 								{l s='March'}
@@ -111,7 +110,6 @@
 								{l s='October'}
 								{l s='November'}
 								{l s='December'}
-							*}
                             <select id="months" name="months" class="form-control">
                                 <option value="">-</option>
                                 {foreach from=$months key=k item=v}
@@ -128,27 +126,27 @@
                             </select>
                         </div>
                     </div>
-                </div>
+                </div> *}
                 <div class="required form-group">
-                    <label for="old_passwd" class="required">
+                    {* <label for="old_passwd" class="required">
                         {l s='Current Password'}
-                    </label>
-                    <input class="is_required validate form-control" type="password" data-validate="isPasswd" name="old_passwd" id="old_passwd" />
+                    </label> *}
+                    <input class="is_required validate form-control" placeholder="{l s='Current Password'}*" type="password" data-validate="isPasswd" name="old_passwd" id="old_passwd" />
                 </div>
                 <div class="password form-group">
-                    <label for="passwd">
+                    {* <label for="passwd">
                         {l s='New Password'}
-                    </label>
-                    <input class="is_required validate form-control" type="password" data-validate="isPasswd" name="passwd" id="passwd" />
+                    </label> *}
+                    <input class="is_required validate form-control" placeholder="{l s='New Password'}*" type="password" data-validate="isPasswd" name="passwd" id="passwd" />
                 </div>
                 <div class="password form-group">
-                    <label for="confirmation">
+                    {* <label for="confirmation">
                         {l s='Confirmation'}
-                    </label>
-                    <input class="is_required validate form-control" type="password" data-validate="isPasswd" name="confirmation" id="confirmation" />
+                    </label> *}
+                    <input class="is_required validate form-control" placeholder="{l s='New Password'}*" type="password" data-validate="isPasswd" name="confirmation" id="confirmation" />
                 </div>
                 {if isset($newsletter) && $newsletter}
-                    <div class="checkbox">
+                    <div class="checkbox clearfix">
                         <label for="newsletter">
                             <input type="checkbox" id="newsletter" name="newsletter" value="1" {if isset($smarty.post.newsletter) && $smarty.post.newsletter == 1} checked="checked"{/if}/>
                             {l s='Sign up for our newsletter!'}
@@ -159,7 +157,7 @@
                     </div>
                 {/if}
                 {if isset($optin) && $optin}
-                    <div class="checkbox">
+                    <div class="checkbox clearfix">
                         <label for="optin">
                             <input type="checkbox" name="optin" id="optin" value="1" {if isset($smarty.post.optin) && $smarty.post.optin == 1} checked="checked"{/if}/>
                             {l s='Receive special offers from our partners!'}
@@ -193,9 +191,9 @@
                 {if isset($HOOK_CUSTOMER_IDENTITY_FORM)}
 			{$HOOK_CUSTOMER_IDENTITY_FORM}
 		{/if}
-                <div class="form-group">
-                    <button type="submit" name="submitIdentity" class="btn btn-default button button-medium">
-                        <span>{l s='Save'}<i class="icon-chevron-right right"></i></span>
+                <div class="form-group text-center">
+                    <button type="submit" name="submitIdentity" class="btn btn-default button mg_btn">
+                        {l s='Save'}
                     </button>
                 </div>
             </fieldset>
@@ -204,17 +202,13 @@
 </div>
 <ul class="footer_links clearfix">
 	<li>
-        <a class="btn btn-default button button-small" href="{$link->getPageLink('my-account', true)}">
-            <span>
-                <i class="icon-chevron-left"></i>{l s='Back to your account'}
-            </span>
+        <a class="btn btn-default mg_btn" href="{$link->getPageLink('my-account', true)}">
+            {l s='Back to your account'}
         </a>
     </li>
 	<li>
-        <a class="btn btn-default button button-small" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}">
-            <span>
-                <i class="icon-chevron-left"></i>{l s='Home'}
-            </span>
+        <a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}">
+            {l s='Home'}
         </a>
     </li>
 </ul>

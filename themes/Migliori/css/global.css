@@ -8097,13 +8097,13 @@ p.cheque-indent {
 #opc_account_form .form-group,
 #authentication .form-group {
   margin-bottom: 4px; }
-  #address .form-group .form-control,
+  /* #address .form-group .form-control,
   #identity .form-group .form-control,
   #account-creation_form .form-group .form-control,
   #new_account_form .form-group .form-control,
   #opc_account_form .form-group .form-control,
   #authentication .form-group .form-control {
-    max-width: 271px; }
+    max-width: 271px; } */
     #address .form-group .form-control#adress_alias,
     #identity .form-group .form-control#adress_alias,
     #account-creation_form .form-group .form-control#adress_alias,
