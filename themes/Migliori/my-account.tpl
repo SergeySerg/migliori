@@ -25,13 +25,13 @@
 
 {capture name=path}{l s='My account'}{/capture}
 
-<h1 class="page-heading">{l s='My account'}</h1>
+<h1 class="page-heading text-center">{l s='My account'}</h1>
 {if isset($account_created)}
 	<p class="alert alert-success">
 		{l s='Your account has been created.'}
 	</p>
 {/if}
-<p class="info-account">{l s='Welcome to your account. Here you can manage all of your personal information and orders.'}</p>
+<p class="info-account text-center">{l s='Welcome to your account. Here you can manage all of your personal information and orders.'}</p>
 <div class="row addresses-lists">
 	<div class="col-xs-12 col-sm-6 col-lg-4">
 		<ul class="myaccount-link-list">
@@ -59,5 +59,9 @@
 {/if}
 </div>
 <ul class="footer_links clearfix">
-<li><a class="btn btn-default button button-small" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home'}"><span><i class="icon-chevron-left"></i> {l s='Home'}</span></a></li>
+    <li class="mg_home">
+        <a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home'}">
+            {l s='Home'}
+        </a>
+    </li>
 </ul>
