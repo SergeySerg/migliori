@@ -9419,6 +9419,7 @@ h3.mg_viewed_title{
   .mg_sort_list li {
     width: 100%;
     display: inline-table;
+    margin-top: -1px;
     border-radius: 0 !important;}
   #footer{
     text-align: center;  }

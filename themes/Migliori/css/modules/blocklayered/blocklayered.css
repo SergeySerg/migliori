@@ -82,7 +82,11 @@
   margin-left: 2px; }
 
 #layered_block_left ul li .disabled {
-  color: #666; }
+  text-decoration: line-through;
+  cursor: not-allowed; }
+
+#layered_block_left ul li label.disabled {
+  padding-left: 10px;}
 
 #layered_block_left .color-option {
   border: 1px solid #666666;
@@ -97,7 +101,8 @@
   -moz-opacity: 0.5; }
 
 #layered_block_left .nomargin a {
-  display: inline; }
+  display: inline;
+  padding-left: 10px; }
 
 #layered_form .select {
   width: 165px; }
@@ -123,7 +128,7 @@
   margin-right: 7px; }
 
 .layered_slider_container {
-  margin: 6px 0 6px 10px;
+  margin: 20px 0 10px;
   width: 91%; }
 
 .layered_slider {
@@ -159,7 +164,7 @@
   font-weight: bold; }
 
 #layered_form div div ul {
-  max-height: 200px;
+  max-height: 195px;
   overflow-x: auto; }
 
 /* .layered_filter {
@@ -170,7 +175,8 @@
     font-size: 1.2 em; }
 
 #layered_block_left ul li {
-  min-width: 50%;
+  /* min-width: 50%; */
+  display: table;
   width: auto; }
 
 /*# sourceMappingURL=blocklayered.css.map */
@@ -178,9 +184,43 @@
 div.checker span {
   background: none;
   position: relative;
-  top: 0;
+  top: 1px;
   border-radius: 50%;
   width: 15px;
   height: 15px;
   border: 1px solid #717171;
 }
+
+/*price slider*/
+#layered_block_left .ui-state-default,
+#layered_block_left .ui-widget-content .ui-state-default,
+#layered_block_left .ui-widget-header .ui-state-default {
+  border: 2px solid #aa865b;
+  background: #fff;
+  font-weight: normal;
+  color: #555555;
+  border-radius: 50%;
+  margin-top: -5px;}
+#layered_block_left .ui-widget-content {
+  border: 1px solid #fde2ad;
+  height: 3px;
+  margin-top: 14px;}
+#layered_block_left .ui-widget-header {
+  background: #fde2ad;
+  height: 3px;
+  top: -1px;}
+.layered_price ul label{
+  display: none;}
+#layered_price_range{
+  text-align: center;
+  display: inherit;}
+#layered_form div div.layered_price ul{
+  margin-top: -30px;}
+/*END price slider*/
+
+div.checker span.checked,
+.layered_filter li:hover div.checker span {
+  background: #aa865b;
+  border: none;}
+li.mg_disabled{
+  cursor: not-allowed;}
