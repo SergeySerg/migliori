@@ -6445,6 +6445,7 @@ li.hovered .price.product-price {
     -ms-transform: rotate(135deg);
     transform: rotate(135deg); } */
 .new-label {
+  border-radius: 15px 0 0 15px;
   opacity: .65;
   background-color: #fbcf1f;
   -moz-box-shadow: 2px 2px 3px rgba(0,0,0,.12);
@@ -6473,6 +6474,7 @@ li.hovered .price.product-price {
 }
 
 .sale-label {
+  border-radius: 0 15px 15px 0;
   font: 700 14px/12px Arial, Helvetica, sans-serif;
   color: #fff;
   background: #f13340;
