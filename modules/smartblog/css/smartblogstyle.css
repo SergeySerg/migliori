@@ -525,10 +525,10 @@ div.relProduct .price-new {
     max-width: 98.5%;
     padding: 4px;
 }
-#sdsblogCategory p, #sdsblogArticle p {
+/* #sdsblogCategory p, #sdsblogArticle p {
     line-height: 18px;
     margin-bottom: 10px;
-}
+} */
 .sdsarticleHeader span{
     font-size: 12px;
     line-height: 18px;
@@ -536,13 +536,14 @@ div.relProduct .price-new {
 .sdsarticle-des{
     margin: 10px 0px;
 }
-.sdsarticle-des p{
+/* .sdsarticle-des p{
     font-size: 12px;
     line-height: 18px;
     padding-bottom: 0px;
-}
+} */
 .sdsarticle-des ol{
-    list-style-type: none;
+    list-style-type: decimal;
+    padding-left: 20px;
 }
 .sdsreadMore .more a {
     float: right;
