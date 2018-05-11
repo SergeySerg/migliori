@@ -9332,7 +9332,11 @@ h3.mg_viewed_title{
     margin-bottom: 5px;
     color: inherit;
     font-weight: normal;  }
-    
+
+  #product.content_only jdiv,
+  #product.content_only .jivo-state-widget {
+    display: none;
+  }
 /* owl */
 .owl-carousel .owl-stage-outer{
   padding: 8px 0 55px;
