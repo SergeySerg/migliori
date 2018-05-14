@@ -52,3 +52,5 @@
         <li><button type="submit" class="button btn btn-default mg_btn">{l s='I confirm my order' mod='cashondelivery'}</button></li>
     </ul>
 </form>
+{hook h='displayRoja45ResponsiveCart'}
+

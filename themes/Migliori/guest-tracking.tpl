@@ -118,3 +118,4 @@
 		</fieldset>
 	</form>
 {/if}
+{hook h='displayRoja45ResponsiveCart'}

@@ -36,11 +36,13 @@
 {$HOOK_PAYMENT_RETURN}
 {if $is_guest}
 	<p class="text-center">{l s='Your order ID is:'} <span class="bold">{$id_order_formatted}</span> . {l s='Your order ID has been sent via email.'}</p>
-    <p class="cart_navigation exclusive">
+    <p class="cart_navigation exclusive mg_exclusive">
 		<a class="btn btn-default mg_btn" href="{$link->getPageLink('guest-tracking', true, NULL, "id_order={$reference_order|urlencode}&email={$email|urlencode}")|escape:'html':'UTF-8'}" title="{l s='Follow my order'}">{l s='Follow my order'}</a>
+		<a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home'}">{l s='Home page'}</a>
     </p>
 {else}
 	<p class="cart_navigation exclusive">
 		<a class="btn btn-default mg_btn" href="{$link->getPageLink('history', true)|escape:'html':'UTF-8'}" title="{l s='Go to your order history page'}"><i class="icon-chevron-left"></i>{l s='View your order history'}</a>
 	</p>
 {/if}
+{hook h='displayRoja45ResponsiveCart'}
