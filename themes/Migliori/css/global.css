@@ -188,7 +188,8 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  cursor: pointer; }
+  cursor: pointer; 
+  outline: none;}
 
 button[disabled],
 html input[disabled] {
@@ -1641,6 +1642,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
     outline-offset: -2px; }
   .btn:hover, .btn:focus {
     color: #333;
+    outline: none;
     text-decoration: none; }
   .btn:active, .btn.active {
     outline: 0;
@@ -9266,8 +9268,8 @@ h3.mg_viewed_title{
   margin: 15px auto;
 }
 .mg_btn {
-  width: 250px;
-  padding: 6px 0;
+  min-width: 250px;
+  padding: 6px 10px;
   border-radius: 20px;
   height: 30px;
   background-color: #c29b6d;
@@ -9399,7 +9401,7 @@ h3.mg_viewed_title{
   padding: 0;
   margin: 0;
   font-family: 'Lobster', cursive;
-  font-size: 12px;
+  font-size: 14px;
   color: #987349;
   width: 100%;
   display: block;
@@ -9408,6 +9410,34 @@ h3.mg_viewed_title{
 }
 div.selector1 > div {
   float: left !important;
+  background-image: url('/img/admin/down.gif');
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  background-position: 80% center !important;
+  cursor: pointer;
+}
+div.selector1 > div:hover,
+div.selector1 > div.focus {
+  border: 1px solid #DAB986;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(193, 154, 107, 0.6);
+}
+div.selector1 > div span {
+  background-image: none;
+  padding-left: 8px;
+}
+.b1c-close span.cross {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.b1c-close span.cross:before {
+  content: "\f057";
+  display: block;
+  font-family: "FontAwesome";
+  font-size: 25px;
+  line-height: 25px;
+  cursor: pointer;
 }
 /* owl */
 .owl-carousel .owl-stage-outer{

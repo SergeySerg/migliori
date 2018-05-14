@@ -1168,6 +1168,7 @@ td.cart_voucher {
 
 form.std p span {
     width: auto;
+    outline: none;
 }
 
 #new_account_form p.select span.validity {
