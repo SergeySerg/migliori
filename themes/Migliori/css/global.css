@@ -9438,6 +9438,7 @@ div.selector1 > div span {
   font-size: 25px;
   line-height: 25px;
   cursor: pointer;
+  color: #4d4d4d;
 }
 /* owl */
 .owl-carousel .owl-stage-outer{
