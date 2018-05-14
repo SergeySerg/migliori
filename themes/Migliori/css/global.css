@@ -6835,7 +6835,10 @@ ul.footer_links {
     .content_sortPagiBar .sortPagiBar #productsSortForm .selector {
       float: left; }
   .content_sortPagiBar .sortPagiBar .nbrItemPage {
-    float: left; }
+    float: none;
+    width: 300px;
+    display: block;
+    margin: 0 auto 10px; }
     .content_sortPagiBar .sortPagiBar .nbrItemPage select {
       max-width: 59px;
       float: left; }
@@ -9402,6 +9405,9 @@ h3.mg_viewed_title{
   display: block;
   text-align: center;
   margin-top: -5px;
+}
+div.selector1 > div {
+  float: left !important;
 }
 /* owl */
 .owl-carousel .owl-stage-outer{

@@ -98,7 +98,7 @@
 			<div class="content_sortPagiBar clearfix">
             	<div class="sortPagiBar clearfix">
             		{include file="./product-sort.tpl"}
-                	{* {include file="./nbr-product-page.tpl"} *}
+                	{include file="./nbr-product-page.tpl"}
 				</div>
                 {* <div class="top-pagination-content clearfix">
                 	{include file="./product-compare.tpl"}
