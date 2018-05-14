@@ -36,13 +36,13 @@
                     {assign var="activeimgincat" value='0'}
                     {$activeimgincat = $smartshownoimg} 
                     {if ($post.post_img != "no" && $activeimgincat == 0) || $activeimgincat == 1}
-              <img itemprop="image" alt="{$post.meta_title}" src="{$modules_dir}/smartblog/images/{$post.post_img}-single-default.jpg" class="imageFeatured">
+                        <img itemprop="image" alt="{$post.meta_title}" src="{$modules_dir}/smartblog/images/{$post.post_img}-single-default.jpg" class="imageFeatured">
                     {/if}
           </a>
     </div>
            <div class="sdsarticle-des">
           <span itemprop="description" class="clearfix"><div id="lipsum">
-	{$post.short_description|truncate:300:'...'}</div></span>
+	{$post.short_description|truncate:200:'...'}</div></span>
          </div>
         <div class="sdsreadMore">
                   {assign var="options" value=null}

@@ -125,7 +125,6 @@
 		</div>
 		</div>
 </div>
-
 <script type="text/javascript">
 $('#submitComment').bind('click',function(event) {
 event.preventDefault();
@@ -251,6 +250,7 @@ var data = { 'action':'postcomment',
 </script>
 {/if}
 {/if}
+{hook h='displayRoja45ResponsiveCart'}
 {if isset($smartcustomcss)}
     <style>
         {$smartcustomcss}
