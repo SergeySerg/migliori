@@ -92,7 +92,11 @@
 			<div id="restricted-country">
 				<p>{l s='You cannot place a new order from your country.'}{if isset($geolocation_country) && $geolocation_country} <span class="bold">{$geolocation_country|escape:'html':'UTF-8'}</span>{/if}</p>
 			</div>
-		{/if}		
+		{/if}	
+
+		<div id="mg_guest_tracking">
+			<a href="/guest-tracking"><i class="fa fa-search"></i>{l s='Tracking your order'}</a></p>
+		</div>
 
 		<div id="page">
 			<div class="header-container">

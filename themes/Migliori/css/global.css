@@ -9440,6 +9440,34 @@ div.selector1 > div span {
   cursor: pointer;
   color: #4d4d4d;
 }
+#mg_guest_tracking{
+  position: fixed;
+  left: -82px;
+  bottom: 44%;
+  height: 38px;
+  width: 200px;
+  font-size: 14px;
+  font-family: Arial;
+  color: #fff;
+  border-radius: 0 0 30px 3px;
+  background: #C19A6B;
+  z-index: 5555;
+  transform: rotate(-90deg);
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 0 0px 15px 6px rgba(0,0,0,.17);
+  cursor: pointer;
+}
+#mg_guest_tracking .fa{
+  margin-right: 10px;
+  font-size: 16px;
+}
+#mg_guest_tracking a{
+  color: #fff;
+}
+#mg_guest_tracking a:hover{
+  color: #fff;
+}
 /* owl */
 .owl-carousel .owl-stage-outer{
   padding: 8px 0 55px;
