@@ -45,10 +45,25 @@
 
 .history_detail .mg_btn{
   width: auto;
-  padding: 6px 10px;}
+  min-width: auto;
+  padding: 6px 15px;
+  font-weight: normal;}
 
 .history_detail .mg_btn:hover{
   background-color: #c29b6d;
   color: #fff;
+}
+
+td.history_price .price{
+  font-size: inherit;
+  color: inherit;
+}
+.table tbody > tr > td .label{
+  border-radius: 20px;
+  padding: 6px 15px;
+}
+
+#sendOrderMessage .form-control{
+  border-radius: 20px;
 }
 /*# sourceMappingURL=history.css.map */
