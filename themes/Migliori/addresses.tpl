@@ -52,7 +52,7 @@
         </div>
 	{if $smarty.foreach.myLoop.index % 2 && !$smarty.foreach.myLoop.last}
 	</div>
-	<div class="bloc_adresses row">
+	<div class="bloc_adresses text-center row">
 	{/if}
 	{/foreach}
 	</div>

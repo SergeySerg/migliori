@@ -48,18 +48,18 @@
 		{assign var="mobilePhoneExist" value=false}
 		{assign var="atLeastOneExists" value=false}
 		{foreach from=$ordered_adr_fields item=field_name}
-			{if $field_name eq 'company'}
+			{* {if $field_name eq 'company'}
 				<div class="form-group">
 					<label for="company">{l s='Company'}{if isset($required_fields) && in_array($field_name, $required_fields)} <sup>*</sup>{/if}</label>
 					<input class="form-control validate" data-validate="{$address_validation.$field_name.validate}" type="text" id="company" name="company" value="{if isset($smarty.post.company)}{$smarty.post.company}{else}{if isset($address->company)}{$address->company|escape:'html':'UTF-8'}{/if}{/if}" />
 				</div>
-			{/if}
+			{/if} *}
 			{if $field_name eq 'vat_number'}
 				<div id="vat_area">
 					<div id="vat_number">
 						<div class="form-group">
-							<label for="vat-number">{l s='VAT number'}{if isset($required_fields) && in_array($field_name, $required_fields)} <sup>*</sup>{/if}</label>
-							<input type="text" class="form-control validate" data-validate="{$address_validation.$field_name.validate}" id="vat-number" name="vat_number" value="{if isset($smarty.post.vat_number)}{$smarty.post.vat_number}{else}{if isset($address->vat_number)}{$address->vat_number|escape:'html':'UTF-8'}{/if}{/if}" />
+							{* <label for="vat-number">{l s='VAT number'}{if isset($required_fields) && in_array($field_name, $required_fields)} <sup>*</sup>{/if}</label> *}
+							<input placeholder="{l s='VAT number'}" type="text" class="form-control validate" data-validate="{$address_validation.$field_name.validate}" id="vat-number" name="vat_number" value="{if isset($smarty.post.vat_number)}{$smarty.post.vat_number}{else}{if isset($address->vat_number)}{$address->vat_number|escape:'html':'UTF-8'}{/if}{/if}" />
 						</div>
 					</div>
 				</div>
@@ -67,8 +67,8 @@
 			{if $field_name eq 'dni'}
 			{assign var="dniExist" value=true}
 			<div class="required form-group dni">
-				<label for="dni">{l s='Identification number'} <sup>*</sup></label>
-				<input class="form-control" data-validate="{$address_validation.$field_name.validate}" type="text" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{else}{if isset($address->dni)}{$address->dni|escape:'html':'UTF-8'}{/if}{/if}" />
+				{* <label for="dni">{l s='Identification number'} <sup>*</sup></label> *}
+				<input placeholder="{l s='Identification number'}" class="form-control" data-validate="{$address_validation.$field_name.validate}" type="text" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{else}{if isset($address->dni)}{$address->dni|escape:'html':'UTF-8'}{/if}{/if}" />
 				<span class="form_info">{l s='DNI / NIF / NIE'}</span>
 			</div>
 			{/if}
@@ -90,17 +90,17 @@
 					<input placeholder="{l s='Address'}*" class="is_required validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" id="address1" name="address1" value="{if isset($smarty.post.address1)}{$smarty.post.address1}{else}{if isset($address->address1)}{$address->address1|escape:'html':'UTF-8'}{/if}{/if}" />
 				</div>
 			{/if}
-			{if $field_name eq 'address2'}
+			{* {if $field_name eq 'address2'}
 				<div class="required form-group">
 					<label for="address2">{l s='Address (Line 2)'}{if isset($required_fields) && in_array($field_name, $required_fields)} <sup>*</sup>{/if}</label>
 					<input class="validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" id="address2" name="address2" value="{if isset($smarty.post.address2)}{$smarty.post.address2}{else}{if isset($address->address2)}{$address->address2|escape:'html':'UTF-8'}{/if}{/if}" />
 				</div>
-			{/if}
+			{/if} *}
 			{if $field_name eq 'postcode'}
 				{assign var="postCodeExist" value=true}
 				<div class="required postcode form-group unvisible">
-					<label for="postcode">{l s='Zip/Postal Code'} <sup>*</sup></label>
-					<input class="is_required validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" id="postcode" name="postcode" value="{if isset($smarty.post.postcode)}{$smarty.post.postcode}{else}{if isset($address->postcode)}{$address->postcode|escape:'html':'UTF-8'}{/if}{/if}" />
+					{* <label for="postcode">{l s='Zip/Postal Code'} <sup>*</sup></label> *}
+					<input placeholder="{l s='Zip/Postal Code'}*" class="is_required validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" id="postcode" name="postcode" value="{if isset($smarty.post.postcode)}{$smarty.post.postcode}{else}{if isset($address->postcode)}{$address->postcode|escape:'html':'UTF-8'}{/if}{/if}" />
 				</div>
 			{/if}
 			{if $field_name eq 'city'}
@@ -147,8 +147,8 @@
 		{/foreach}
 		{if !$postCodeExist}
 			<div class="required postcode form-group unvisible">
-				<label for="postcode">{l s='Zip/Postal Code'} <sup>*</sup></label>
-				<input class="is_required validate form-control" data-validate="{$address_validation.postcode.validate}" type="text" id="postcode" name="postcode" value="{if isset($smarty.post.postcode)}{$smarty.post.postcode}{else}{if isset($address->postcode)}{$address->postcode|escape:'html':'UTF-8'}{/if}{/if}" />
+				{* <label for="postcode">{l s='Zip/Postal Code'} <sup>*</sup></label> *}
+				<input placeholder="{l s='Zip/Postal Code'}" class="is_required validate form-control" data-validate="{$address_validation.postcode.validate}" type="text" id="postcode" name="postcode" value="{if isset($smarty.post.postcode)}{$smarty.post.postcode}{else}{if isset($address->postcode)}{$address->postcode|escape:'html':'UTF-8'}{/if}{/if}" />
 			</div>
 		{/if}
 		{if !$stateExist}
@@ -161,8 +161,8 @@
 		{/if}
 		{if !$dniExist}
 			<div class="required dni form-group unvisible">
-				<label for="dni">{l s='Identification number'} <sup>*</sup></label>
-				<input class="is_required form-control" data-validate="{$address_validation.dni.validate}" type="text" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{else}{if isset($address->dni)}{$address->dni|escape:'html':'UTF-8'}{/if}{/if}" />
+				{* <label for="dni">{l s='Identification number'} <sup>*</sup></label> *}
+				<input placeholder="{l s='Identification number'}" class="is_required form-control" data-validate="{$address_validation.dni.validate}" type="text" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{else}{if isset($address->dni)}{$address->dni|escape:'html':'UTF-8'}{/if}{/if}" />
 				<span class="form_info">{l s='DNI / NIF / NIE'}</span>
 			</div>
 		{/if}

@@ -49,6 +49,7 @@
   padding: 6px 15px;
   font-weight: normal;}
 
+.history_detail .mg_btn:focus,
 .history_detail .mg_btn:hover{
   background-color: #c29b6d;
   color: #fff;
@@ -65,5 +66,9 @@ td.history_price .price{
 
 #sendOrderMessage .form-control{
   border-radius: 20px;
+}
+#block-history .price{
+  font-size: inherit;
+  color: inherit;
 }
 /*# sourceMappingURL=history.css.map */

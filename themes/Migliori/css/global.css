@@ -9303,6 +9303,9 @@ h3.mg_viewed_title{
       margin: 0 auto;
       margin-bottom: 15px;
   }
+  .mg_address_wrap #other{
+      min-height: 50px;
+  }
   .mg_address_wrap .selector {
     border: 1px solid #ccc;
     background: none;
