@@ -38,19 +38,26 @@
             	<li>
             		<i class="fa fa-mobile" aria-hidden="true"></i>
 					{* {l s='Call us now:' mod='blockcontactinfos'}  *}
-            		<span>{$blockcontactinfos_phone|escape:'html':'UTF-8'}</span>
+            		<a href="tel:{$blockcontactinfos_phone|escape:'html':'UTF-8'}">{$blockcontactinfos_phone|escape:'html':'UTF-8'}</a>
             	</li>
             {/if}
 			{if $blockcontactinfos_phone2 != ''}
 				<li>
 					{* <i class="icon-phone"></i>
 					{l s='Call us now:' mod='blockcontactinfos'} *}
-					<span>{$blockcontactinfos_phone2|escape:'html':'UTF-8'}</span>
+					<a href="tel:{$blockcontactinfos_phone2|escape:'html':'UTF-8'}">{$blockcontactinfos_phone2|escape:'html':'UTF-8'}</a>
+				</li>
+			{/if}
+			{if $blockcontactinfos_phone3 != ''}
+				<li>
+					{* <i class="icon-phone"></i>
+					{l s='Call us now:' mod='blockcontactinfos'} *}
+					<a href="tel:{$blockcontactinfos_phone3|escape:'html':'UTF-8'}">{$blockcontactinfos_phone3|escape:'html':'UTF-8'}</a>
 				</li>
 			{/if}
             {if $blockcontactinfos_email != ''}
             	<li>
-            		<i class="icon-envelope-alt"></i>{l s='Email:' mod='blockcontactinfos'} 
+            		{* <i class="icon-envelope-alt"></i>{l s='Email:' mod='blockcontactinfos'} *}
             		<span>{mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}</span>
             	</li>
             {/if}

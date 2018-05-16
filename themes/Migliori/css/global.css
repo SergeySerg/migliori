@@ -5780,7 +5780,7 @@ header {
     header #block_contact_infos ul{
       width: 200px;
       float: right;
-      margin: 43px auto 0;
+      margin: 30px auto 0;
       position: relative; }
     header #block_contact_infos li{
       font-size: 17px;
@@ -9454,7 +9454,7 @@ div.selector1 > div span {
   z-index: 5555;
   transform: rotate(-90deg);
   text-align: center;
-  padding-top: 10px;
+  padding-top: 7px;
   box-shadow: 0 0px 15px 6px rgba(0,0,0,.17);
   cursor: pointer;
 }
@@ -9588,9 +9588,11 @@ div.selector1 > div span {
   header #block_contact_infos {
     width: 100%;  }  
   header #block_contact_infos ul {
+    float: none;
     width: 100%;
     margin: 10px auto 0;
-    position: relative;}
+    position: relative;
+    text-align: center;}
   header #block_contact_infos li:first-child {
     padding-top: 15px;}
   header #block_contact_infos li {
@@ -9599,13 +9601,13 @@ div.selector1 > div span {
     padding-left: 0;}
   header #block_contact_infos li .fa{
     display: none; }
-  header #block_contact_infos li.mg-callback {
+  /* header #block_contact_infos li.mg-callback {
     position: absolute;
     width: 160px;
     top: 21px;
     right: -10px;
     text-align: center;
-    line-height: 17px; }
+    line-height: 17px; } */
   header #block_contact_infos li:last-child a{
     border: none; }
   .mg_sort_list li {
