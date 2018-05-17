@@ -437,6 +437,7 @@ function bindUniform()
 			var owlRecommended = $("#mg_recommend_products_list");
 			var owlAccessories = $("#mg_accessories");
 			var owlViewed = $("#mg_viewed");
+			var owlLatestNews = $("#mg_last_news");
 
 			owl.owlCarousel({
 				// items : 4, 
@@ -510,6 +511,13 @@ function bindUniform()
 				nav : true, 
 				loop: true,
 				margin: 30,
+			});
+			owlLatestNews.owlCarousel({
+				items : 1, 
+				autoplay: true,
+				autoplayTimeout: 4000,
+				nav : false, 
+				loop: true,
 			});
 
 			// Custom Navigation Events

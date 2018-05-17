@@ -1,6 +1,6 @@
 <div class="block latest-news-on-home">
     <h2 class='sdstitle_block'><a href="{smartblog::GetSmartBlogLink('smartblog')}">{l s='Latest News' mod='smartbloghomelatestnews'}</a></h2>
-    <div class="sdsblog-box-content">
+    <div id="mg_last_news" class="sdsblog-box-content owl-carousel">
         {if isset($view_data) AND !empty($view_data)}
             {assign var='i' value=1}
             {foreach from=$view_data item=post}
@@ -10,7 +10,7 @@
                     {$options.slug = $post.link_rewrite}
                     <div id="sds_blog_post" class="col-xs-12">
                         <span class="news_module_image_holder">
-                             <a href="{smartblog::GetSmartBlogLink('smartblog_post',$options)}"><img alt="{$post.title}" class="feat_img_small" src="{$modules_dir}smartblog/images/{$post.post_img}-home-default.jpg"></a>
+                             <a href="{smartblog::GetSmartBlogLink('smartblog_post',$options)}"><img alt="{$post.title}" class="feat_img_small" src="{$modules_dir}smartblog/images/{$post.post_img}-home-post.jpg"></a>
                         </span>
                         <span class="sds_post_date-main">{$post.date_added}</span>
                         <h2 class="sds_post_title"><a href="{smartblog::GetSmartBlogLink('smartblog_post',$options)}">{$post.title}</a></h4>
