@@ -9614,6 +9614,24 @@ div.selector1 > div span {
     line-height: 17px; } */
   header #block_contact_infos li:last-child a{
     border: none; }
+  #mg_guest_tracking{
+    left: auto;
+    right: 20px;
+    bottom: 95px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    transform: rotate(0);
+    box-shadow: none;
+  }
+  #mg_guest_tracking .fa{
+    margin-right: 0;
+    margin-top: 8px;
+    font-size: 30px;
+  }
+  #mg_guest_tracking a span{
+    display: none;
+  }
   .mg_sort_list li {
     width: 100%;
     display: inline-table;

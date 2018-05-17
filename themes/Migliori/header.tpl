@@ -95,7 +95,7 @@
 		{/if}	
 
 		<div id="mg_guest_tracking">
-			<a href="/guest-tracking"><i class="fa fa-search"></i>{l s='Tracking your order'}</a></p>
+			<a href="/guest-tracking"><i class="fa fa-search"></i><span>{l s='Tracking your order'}</span></a></p>
 		</div>
 
 		<div id="page">
