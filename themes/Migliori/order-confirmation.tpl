@@ -41,8 +41,9 @@
 		<a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home'}">{l s='Home page'}</a>
     </p>
 {else}
-	<p class="cart_navigation exclusive">
-		<a class="btn btn-default mg_btn" href="{$link->getPageLink('history', true)|escape:'html':'UTF-8'}" title="{l s='Go to your order history page'}"><i class="icon-chevron-left"></i>{l s='View your order history'}</a>
+	<p class="cart_navigation exclusive mg_exclusive">
+		<a class="btn btn-default mg_btn" href="{$link->getPageLink('history', true)|escape:'html':'UTF-8'}" title="{l s='Go to your order history page'}">{l s='View your order history'}</a>
+		<a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home'}">{l s='Home page'}</a>
 	</p>
 {/if}
 {hook h='displayRoja45ResponsiveCart'}
