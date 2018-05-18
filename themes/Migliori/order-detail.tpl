@@ -368,7 +368,8 @@
 {if !$is_guest}</form>{/if}
 {assign var='carriers' value=$order->getShipping()}
 {if $carriers|count > 0 && isset($carriers.0.carrier_name) && $carriers.0.carrier_name}
-	<table class="table table-bordered footab">
+<div class="table-responsive">
+	<table class="table table-bordered footab table-responsive">
 		<thead>
 			<tr>
 				<th class="first_item">{l s='Date'}</th>
@@ -392,6 +393,7 @@
 			{/foreach}
 		</tbody>
 	</table>
+</div>
 {/if}
 {if !$is_guest}
 	{if count($messages)}

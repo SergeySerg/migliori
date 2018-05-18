@@ -6811,7 +6811,7 @@ h3.page-product-heading {
 ul.footer_links {
   padding: 20px 0 0px 0;
   border-top: 1px solid #d6d4d4;
-  height: 65px; }
+  min-height: 65px; }
   ul.footer_links li {
     float: left; }
     ul.footer_links li + li {
@@ -7267,6 +7267,13 @@ div.star a:hover {
   background: transparent none repeat scroll 0 0; }
   #page .rte em {
     font-style: italic !important; }
+  #page .rte,
+  #page .rte p,
+  #page .rte span{
+    margin: 0;
+    font-family: 'PTSans', Helvetica, sans-serif !important;
+    font-size: 17px !important;
+    line-height: 22px !important; }
 
 .listcomment {
   list-style-type: none;
@@ -9277,6 +9284,7 @@ h3.mg_viewed_title{
   border: none;
   color: #fff;
   font-size: 14px;
+  font-weight: normal;
   text-align: center;
   text-transform: uppercase;
 }
@@ -9632,6 +9640,12 @@ div.selector1 > div span {
   #mg_guest_tracking a span{
     display: none;
   }
+  .mg_address_wrap .form-control {
+    max-width: 95%; }
+  ul.footer_links {
+    text-align: center;}
+  ul.footer_links li {
+    float: none;}
   .mg_sort_list li {
     width: 100%;
     display: inline-table;

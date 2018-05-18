@@ -71,4 +71,22 @@ td.history_price .price{
   font-size: inherit;
   color: inherit;
 }
+
+@media (max-width: 768px){
+  #history  #center_column ul.footer_links li,
+  #history  #center_column ul.footer_links li:last-child {
+      float: none; 
+      margin-bottom: 10px;}
+  ul.footer_links li + li {
+      margin-left: 0; }
+  #sendOrderMessage select.form-control{
+    width: 100%; }
+  #sendOrderMessage .submit{
+    text-align: center; }
+  .footable-row-detail-value .mg_btn{
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
 /*# sourceMappingURL=history.css.map */

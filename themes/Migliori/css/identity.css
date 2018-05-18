@@ -26,7 +26,19 @@
     padding: 20px 0 0px 0;
     border-top: 1px solid #d6d4d4;
     margin-top: 20px;
-    height: 65px;}
+    min-height: 65px;}
 
 #identity #center_column ul.footer_links li:last-child {
     float: right;}
+
+@media (max-width: 768px){
+    .mg_personal_info_wrap .form-control {
+        max-width: 95%;    }
+    #identity #center_column ul.footer_links li,
+    #identity #center_column ul.footer_links li:last-child {
+        float: none; 
+        margin-bottom: 10px;}
+    ul.footer_links li + li {
+        margin-left: 0; }
+}
+      
