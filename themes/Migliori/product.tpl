@@ -274,7 +274,25 @@
 			<!-- availability or doesntExist -->
 			<p id="availability_statut"{if !$PS_STOCK_MANAGEMENT || ($product->quantity <= 0 && !$product->available_later && $allow_oosp) || ($product->quantity > 0 && !$product->available_now) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
 				{*<span id="availability_label">{l s='Availability:'}</span>*}
-				<span id="availability_value" class="label{if $product->quantity <= 0 && !$allow_oosp} label-danger{elseif $product->quantity <= 0} label-warning{else} label-success{/if}">{if $product->quantity <= 0}{if $PS_STOCK_MANAGEMENT && $allow_oosp}{$product->available_later}{else}{l s='This product is no longer in stock'}{/if}{elseif $PS_STOCK_MANAGEMENT}{$product->available_now}{/if}</span>
+				<span id="availability_value" 
+					class="label
+					{if $product->quantity <= 0 && !$allow_oosp}
+						 label-danger
+					{elseif $product->quantity <= 0}
+						 label-warning
+					{else}
+						 label-success
+					{/if}">
+					{if $product->quantity <= 0}
+						{if $PS_STOCK_MANAGEMENT && $allow_oosp}
+							{$product->available_later}
+						{else}
+							{l s='This product is no longer in stock'}
+						{/if}
+					{elseif $PS_STOCK_MANAGEMENT}
+						{$product->available_now}
+					{/if}
+				</span>
 			</p>
 			{* {if $PS_STOCK_MANAGEMENT}
 				{if !$product->is_virtual}{hook h="displayProductDeliveryTime" product=$product}{/if}

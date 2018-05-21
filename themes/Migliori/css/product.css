@@ -1049,6 +1049,10 @@ ul#text_fields {
 #customizedDatas {
   float: right; }
 
+#availability_value.label-success{
+  display: none !important;
+}
+
 /******************************************************************
 Quick View Styles
 ******************************************************************/
