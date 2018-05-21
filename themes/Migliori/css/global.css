@@ -9527,7 +9527,7 @@ div.selector1 > div span {
   }
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel .owl-nav button.owl-prev{
-    top: 33%;
+    top: 33% !important;
   }
   #footer #block_contact_infos {
     width: 25%; }
@@ -9636,6 +9636,9 @@ div.selector1 > div span {
     margin-right: 0;
     margin-top: 8px;
     font-size: 30px;
+  }
+  #guestTracking .form-control {
+    max-width: 95%;
   }
   #mg_guest_tracking a span{
     display: none;
