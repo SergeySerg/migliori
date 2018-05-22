@@ -537,7 +537,13 @@ function bindUniform()
 			$('#mg_sort li').click(function(){
 				$('#mg_sort li').removeClass('mg_selected');
 				$(this).addClass('mg_selected');
-			})
+			});
+
+			$('#mg_more').click(function(){
+				$(this).toggleClass('active');
+				$('#mg_more .fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up');
+				$('.about-us_content').toggleClass('active');
+			});
 
 		});
 

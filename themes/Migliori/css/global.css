@@ -9064,6 +9064,7 @@ a.bx-next {text-decoration:none}
   text-transform: uppercase;
 }
 #index .mg-tab-content{
+  position: relative;
   margin: 0;
 }
 .r-item-cms{
@@ -9135,11 +9136,41 @@ a.bx-next {text-decoration:none}
 
 #footer .mg-callback{
   display: none; }
-
+.latest-news-on-home .owl-carousel .owl-stage-outer{
+  padding: 0;
+}
 .about-us_content{
   width: 60%;
   float: left;
   padding-right: 15px;
+  margin-bottom: 15px;
+  height: 507px;
+  overflow: hidden;
+  transition: all ease .3s;
+}
+.about-us_content.active{
+  height: auto;
+  padding-bottom: 20px;
+  transition: all ease .3s;
+}
+#mg_more{
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  transition: all ease .3s;
+}
+#mg_more .fa{
+  font-weight: bold;
+  transition: all ease .3s;
+}
+#mg_more:hover{
+  color: #c19a6b;
+  cursor: pointer;
+  transition: all ease .3s;
+}
+#mg_more:hover .fa{
+  color: #c19a6b;
+  transition: all ease .3s;
 }
 .about-us_content video,
 .about-us_content iframe{
@@ -9519,6 +9550,12 @@ div.selector1 > div span {
     width: 200px;
     margin: 50px 40px 0 15px;
   }
+  .about-us_content video, .about-us_content iframe{
+    min-height: 320px !important;
+  } 
+  .about-us_content {
+    height: 460px;
+  }
   .footer-container #footer {
     padding: 25px 10px 15px;
   }
@@ -9559,6 +9596,10 @@ div.selector1 > div span {
   header #social_block {
     padding: 0;
     margin-left: -50px;}
+  .about-us_content video, .about-us_content iframe {
+    min-height: 240px !important;}
+  .about-us_content {
+    height: 400px;}
   #languages-block-top {
     margin-left: -25px;
     margin-right: 5px;}
@@ -9622,6 +9663,10 @@ div.selector1 > div span {
     line-height: 17px; } */
   header #block_contact_infos li:last-child a{
     border: none; }
+  .about-us_content {
+    height: auto;}
+  #mg_more{
+    display: none;  }
   #mg_guest_tracking{
     left: auto;
     right: 20px;
