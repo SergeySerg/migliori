@@ -128,13 +128,13 @@
     #subcategories.subcategories-on-main ul li:nth-child(2n) {
       margin-right: 0;}
       #subcategories.subcategories-on-main ul li a.cat_name-on-main {
-        bottom: 15px;
-        width: 90%;
+        bottom: 10%;
+        width: 50%;
         min-height: auto;
         height: auto;
         border: 3px solid #5b5b5b;
-        padding: 10px;
-        font-size: 18px;
+        padding: 6px 10px;
+        font-size: 17px;
         font-weight: bold;
         line-height: initial; }
       #subcategories.subcategories-on-main ul li:nth-child(2n+1) a.cat_name-on-main {
