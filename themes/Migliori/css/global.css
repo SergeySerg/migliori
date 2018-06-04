@@ -5717,7 +5717,8 @@ body {
   height: 100%;
   line-height: 18px;
   font-size: 16px;
-  color: #4d4d4d; }
+  color: #4d4d4d;
+  user-select: none; }
   body.content_only {
     background: none;
     min-width: 0px;
@@ -9171,6 +9172,12 @@ a.bx-next {text-decoration:none}
 #mg_more:hover .fa{
   color: #c19a6b;
   transition: all ease .3s;
+}
+.mg_more_desc{
+  font-weight: bold;
+}
+.mg_more_desc .fa{
+  font-weight: bold;
 }
 .about-us_content video,
 .about-us_content iframe{
