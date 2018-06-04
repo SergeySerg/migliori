@@ -76,10 +76,10 @@ $(document).ready(function(){
 		</select>
 	</p> *}
 	<ul id="mg_sort" class="mg_sort_list clearfix">
-		<li {if $orderby eq 'quantity' AND $orderway eq 'desc'}class="mg_selected"{/if}>
+		{* <li {if $orderby eq 'quantity' AND $orderway eq 'desc'}class="mg_selected"{/if}>
 			<label for="mg_quantity{if isset($paginationId)}_{$paginationId}{/if}">{l s='In stock'}</label>
 			<input id="mg_quantity{if isset($paginationId)}_{$paginationId}{/if}" type="checkbox" value="quantity:desc" class="selectProductSort">
-		</li>
+		</li> *}
 		<li {if $orderby eq 'price' AND $orderway eq 'asc'}class="mg_selected"{/if}>
 			<label for="mg_asc{if isset($paginationId)}_{$paginationId}{/if}">{l s='Price: Lowest first'}</label>
 			<input id="mg_asc{if isset($paginationId)}_{$paginationId}{/if}" type="checkbox" value="price:asc" class="selectProductSort">
