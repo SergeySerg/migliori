@@ -160,12 +160,14 @@
 				<label>{l s='Reference:'} </label>
 				<span class="editable" itemprop="sku"{if !empty($product->reference) && $product->reference} content="{$product->reference}"{/if}>{if !isset($groups)}{$product->reference|escape:'html':'UTF-8'}{/if}</span>
 			</p>
-			<div id="mg_table_size">
-				<span>{l s='Table size'}</span>
-				<div id="mg_table_size_img">
-					<img src="/img/table_size.png">
+			{if (!(($product->id_category_default == 33) || ($product->id_category_default == 34) || ($product->id_category_default == 35) || ($product->id_category_default == 83) || ($product->id_category_default == 84) || ($product->id_category_default == 85) || ($product->id_category_default == 86) || ($product->id_category_default == 21)))}
+				<div id="mg_table_size">
+					<span>{l s='Table size'}</span>
+					<div id="mg_table_size_img">
+						<img src="/img/table_size.png">
+					</div>
 				</div>
-			</div>
+			{/if}
 					<div class="product_attributes clearfix">
 						{if isset($groups)}
 							<!-- attributes -->
