@@ -18,7 +18,7 @@
   padding: 6px 10px;}
 
 #addresses ul.footer_links{
-  margin-top: 20px;  }
+  border-top: 0; }
   #addresses ul.footer_links li:last-child{
     float: right;  }
 .bloc_adresses h3.page-subheading{

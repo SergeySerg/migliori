@@ -1,5 +1,8 @@
 #my-account .addresses-lists {
   margin-bottom: 30px; }
+#my-account ul.myaccount-link-list {
+  width: 50%;
+  margin: 0 auto; }
 #my-account ul.myaccount-link-list li {
   overflow: hidden;
   padding-bottom: 10px; }
@@ -65,4 +68,9 @@ ul.footer_links li.mg_home{
   float: none;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  #my-account ul.myaccount-link-list {
+    width: 90%; }
+  }
 /*# sourceMappingURL=my-account.css.map */

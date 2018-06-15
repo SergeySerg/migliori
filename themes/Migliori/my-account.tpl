@@ -33,7 +33,8 @@
 {/if}
 <p class="info-account text-center">{l s='Welcome to your account. Here you can manage all of your personal information and orders.'}</p>
 <div class="row addresses-lists">
-	<div class="col-xs-12 col-sm-6 col-lg-4">
+	{* <div class="col-xs-12 col-sm-6 col-lg-4"> *}
+	<div class="col-xs-12">
 		<ul class="myaccount-link-list">
             {if $has_customer_an_address}
             <li><a href="{$link->getPageLink('address', true)|escape:'html':'UTF-8'}" title="{l s='Add my first address'}"><i class="icon-building"></i><span>{l s='Add my first address'}</span></a></li>
@@ -47,7 +48,7 @@
             <li><a href="{$link->getPageLink('identity', true)|escape:'html':'UTF-8'}" title="{l s='Information'}"><i class="icon-user"></i><span>{l s='My personal information'}</span></a></li>
         </ul>
 	</div>
-{if $voucherAllowed || isset($HOOK_CUSTOMER_ACCOUNT) && $HOOK_CUSTOMER_ACCOUNT !=''}
+{* {if $voucherAllowed || isset($HOOK_CUSTOMER_ACCOUNT) && $HOOK_CUSTOMER_ACCOUNT !=''}
 	<div class="col-xs-12 col-sm-6 col-lg-4">
         <ul class="myaccount-link-list">
             {if $voucherAllowed}
@@ -56,7 +57,7 @@
             {$HOOK_CUSTOMER_ACCOUNT}
         </ul>
     </div>
-{/if}
+{/if} *}
 </div>
 <ul class="footer_links clearfix">
     <li class="mg_home">

@@ -46,8 +46,9 @@
                     </li>
                 {/foreach}
                 <li class="address_update">
-                <a class="btn btn-default mg_btn" href="{$link->getPageLink('address', true, null, "id_address={$address.object.id|intval}")|escape:'html':'UTF-8'}" title="{l s='Update'}">{l s='Update'}</a>
-                <a class="btn btn-default mg_btn" href="{$link->getPageLink('address', true, null, "id_address={$address.object.id|intval}&delete")|escape:'html':'UTF-8'}" data-id="addresses_confirm" title="{l s='Delete'}">{l s='Delete'}</a></li>
+					<a class="btn btn-default mg_btn" href="{$link->getPageLink('address', true, null, "id_address={$address.object.id|intval}")|escape:'html':'UTF-8'}" title="{l s='Update'}">{l s='Update'}</a>
+					{* <a class="btn btn-default mg_btn" href="{$link->getPageLink('address', true, null, "id_address={$address.object.id|intval}&delete")|escape:'html':'UTF-8'}" data-id="addresses_confirm" title="{l s='Delete'}">{l s='Delete'}</a> *}
+				</li>
             </ul>
         </div>
 	{if $smarty.foreach.myLoop.index % 2 && !$smarty.foreach.myLoop.last}
@@ -60,9 +61,9 @@
 {else}
 	<p class="alert alert-warning">{l s='No addresses are available.'}&nbsp;<a href="{$link->getPageLink('address', true)|escape:'html':'UTF-8'}">{l s='Add a new address'}</a></p>
 {/if}
-<div class="clearfix main-page-indent text-center">
+{* <div class="clearfix main-page-indent text-center">
 	<a href="{$link->getPageLink('address', true)|escape:'html':'UTF-8'}" title="{l s='Add an address'}" class="btn btn-default mg_btn">{l s='Add a new address'}</a>
-</div>
+</div> *}
 <ul class="footer_links clearfix">
 	<li>
 		<a class="btn btn-default mg_btn" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">
