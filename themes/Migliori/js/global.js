@@ -556,4 +556,10 @@ $(document).ready(function() {
 		$('.about-us_content').toggleClass('active');
 	});
 
+	$('#subcategories .inline_list li .img img').each(function (){
+		var h=this.offsetHeight;
+		$(this).parent().parent().find('.cat_name-on-main').css('height',h);
+	});
+		
+
 });
