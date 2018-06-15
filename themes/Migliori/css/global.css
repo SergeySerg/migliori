@@ -6346,7 +6346,7 @@ table.table_block td {
 
 .price {
   font-size: 13px;
-  color: #777;
+  /* color: #777; */
   white-space: nowrap; }
 
 li.hovered .price.product-price {
@@ -9115,6 +9115,18 @@ a.bx-next {text-decoration:none}
 }
 /* END siteheart */
 
+table.std td.cart_discount_name{
+  font-size: 18px;
+  text-align: right;
+  font-weight: bold;}
+table#cart_summary .cart_discount .cart_discount_price{
+  padding-top: 0;}
+table#cart_summary tr.cart_discount  td.cart_discount_price:not(:last-child) span{
+  opacity: 0;}
+.cart_discount.last_item .cart_discount_price span.price{
+  font-size: 20px;
+  font-weight: bold;}
+
 #social_block ul li{
   display: inline-block;
   margin-left: 8px;
@@ -9129,7 +9141,7 @@ a.bx-next {text-decoration:none}
     font-size: 18px; }
 #footer #block_various_links_footer{
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 5px; }
 #footer #block_contact_infos{
   width: 16.66667%;
   text-align: right;
@@ -9137,6 +9149,13 @@ a.bx-next {text-decoration:none}
 
 #footer .mg-callback{
   display: none; }
+.mg_partners{
+  margin-top: -70px;
+  text-align: center;
+}
+.mg_partners img{
+  height: 40px;
+}
 .latest-news-on-home .owl-carousel .owl-stage-outer{
   padding: 0;
 }
@@ -9388,10 +9407,17 @@ h3.mg_viewed_title{
     color: inherit;
     font-weight: normal;  }
 
+  .label_39._bottom_3v .copy_2W,
+  .label_39._left_2d .copy_2W,
+  .label_39._right_1y .copy_2W,  
   #product.content_only jdiv,
   #product.content_only .jivo-state-widget {
-    display: none;
+    display: none !important;
   }
+  .leaf_25._bottom_DW .cssLeaf_1k svg path:first-child, .leaf_25._left_MI .cssLeaf_1k svg path:first-child, .leaf_25._right_3d .cssLeaf_1k svg path:first-child {
+    fill: #CFB08B !important;}
+  .jivo-bottom-left-square{
+    background-color: #CFB08B !important;}
 
 .cart_navigation.footer_links{
   margin-top: 20px;}
@@ -9575,6 +9601,8 @@ div.selector1 > div span {
   }
   #footer #block_contact_infos {
     width: 25%; }
+  .mg_partners{
+    margin-top: -60px;}    
 }
 
 @media (min-width: 992px) {
@@ -9625,6 +9653,8 @@ div.selector1 > div span {
     display: block;
     color: #4d4d4d;
     font-size: 15px; }
+  .mg_partners{
+    margin-left: -60px;}      
 }
 
 @media (max-width: 768px) {
@@ -9744,7 +9774,11 @@ div.selector1 > div span {
     
   .mg_pass_rec .form-group .form-control {
     max-width: 90%;  }
-    
+
+  .mg_partners{
+    margin-left: 0;
+    margin-top: 0;}     
+  
 }
 
 @media (max-width: 425px) {
