@@ -5786,7 +5786,16 @@ header {
     header #block_contact_infos li{
       font-size: 17px;
       line-height: 20px;
-      padding-left: 20px; }
+      padding-left: 20px; 
+      padding-right: 20px; }
+    header #block_contact_infos li:nth-child(1),
+    header #block_contact_infos li:nth-child(2){
+      background: url(/img/viber_mg.png) 97% 2px no-repeat;
+      background-size: 15px;}
+    #footer #block_contact_infos li:nth-child(1),
+    #footer #block_contact_infos li:nth-child(2){
+      background: url(/img/viber_mg.png) 0 2px no-repeat;
+      background-size: 15px;}
         header #block_contact_infos li:last-child{
           text-align: center;
           padding: 0; }
@@ -9679,12 +9688,16 @@ div.selector1 > div span {
     width: 100%;  }  
   header #block_contact_infos ul {
     float: none;
-    width: 100%;
+    width: 230px;
     margin: 10px auto 0;
     position: relative;
     text-align: center;}
-  header #block_contact_infos li:first-child {
-    padding-top: 15px;}
+  header #block_contact_infos li:nth-child(1), header #block_contact_infos li:nth-child(2) {
+    background: url(/img/viber_mg.png) 97% 5px no-repeat;
+    background-size: 15px;}
+    header #block_contact_infos li:first-child {
+      padding-top: 15px;
+      background-position-y: 18px;}  
   header #block_contact_infos li {
     line-height: 24px;
     margin: 0 15px;
