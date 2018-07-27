@@ -251,9 +251,9 @@
 
 .cme-fields span:last-child textarea{
   position: relative;
-  top: -132px;
+  top: -120px;
   right: -240px;
-  height: 76px; 
+  height: 73px; 
   padding-top: 3px; 
 }
 
@@ -279,7 +279,7 @@
 .cme-btn-place{
   position: relative;
   right: -240px;
-  top: -128px;
+  top: -121px;
   height: 37px;
 }
 .cme-btn-place span a{
@@ -362,3 +362,8 @@ input.cme-name:required, input.cme-phone:required {
     width: 100%;
   }
 }
+
+.cme-fields span:nth-child(2n+1){
+	display: none;
+}
+
