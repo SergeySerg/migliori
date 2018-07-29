@@ -71,6 +71,7 @@
 		{l s='This page does not exist.'}
 	</div>
 {/if}
+{hook h='displayRoja45ResponsiveCart'}
 <br />
 {strip}
 {if isset($smarty.get.ad) && $smarty.get.ad}

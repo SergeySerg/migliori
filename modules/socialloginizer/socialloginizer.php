@@ -673,9 +673,9 @@ class SocialLoginizer extends Module
 				$facebook2 = '<a type="fb" href="'.$link.$append_with.'type=fb" title="Facebook">';
 				$facebook3 = '<img src="'.$module_dir.'socialloginizer';
 				if ($plugin_data[$page_name]['size'] == 0)
-					$facebook = $facebook1.$facebook2.$facebook3.'/views/img/buttons/fb_small.png"></a></li>';
+					$facebook = $facebook1.$facebook2.$facebook3.'/views/img/buttons/fb_log.png"></a></li>';
 				else
-					$facebook = $facebook1.$facebook2.$facebook3.'/views/img/buttons/fb_large.png"></a></li>';
+					$facebook = $facebook1.$facebook2.$facebook3.'/views/img/buttons/fb_log.png"></a></li>';
 			}
 			else
 				$facebook = '';
@@ -764,9 +764,9 @@ class SocialLoginizer extends Module
 				$instagram2 = '<a href="'.$link.$append_with.'type=insta" type="insta" title="Instagram">';
 				$instagram3 = '<img src="'.$module_dir.'socialloginizer';
 				if ($plugin_data[$page_name]['size'] == 0)
-					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/instagram_small.png"></a></li>';
+					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/instagram_log.png"></a></li>';
 				else
-					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/instagram_large.png"></a></li>';
+					$instagram = $instagram1.$instagram2.$instagram3.'/views/img/buttons/instagram_log.png"></a></li>';
 			}
 			else
 				$instagram = '';
@@ -829,9 +829,9 @@ class SocialLoginizer extends Module
 				$vk2 = '<a href="'.$link.$append_with.'type=vk" type="vk" title="vk">';
 				$vk3 = '<img src="'.$module_dir.'socialloginizer';
 				if ($plugin_data[$page_name]['size'] == 0)
-					$vk = $vk1.$vk2.$vk3.'/views/img/buttons/vk_small.png"></a></li>';
+					$vk = $vk1.$vk2.$vk3.'/views/img/buttons/vk_log.png"></a></li>';
 				else
-					$vk = $vk1.$vk2.$vk3.'/views/img/buttons/vk_large.png"></a></li>';
+					$vk = $vk1.$vk2.$vk3.'/views/img/buttons/vk_log.png"></a></li>';
 			}
 			else
 				$vk = '';

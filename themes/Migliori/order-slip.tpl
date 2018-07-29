@@ -25,10 +25,10 @@
 
 {capture name=path}<a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">{l s='My account'}</a><span class="navigation-pipe">{$navigationPipe}</span><span class="navigation_page">{l s='Credit slips'}</span>{/capture}
 
-<h1 class="page-heading bottom-indent">
+<h1 class="page-heading text-center">
 	{l s='Credit slips'}
 </h1>
-<p class="info-title">
+<p class="info-title text-center">
 	{l s='Credit slips you have received after canceled orders'}.
 </p>
 <div class="block-center" id="block-history">
@@ -75,17 +75,13 @@
 
 <ul class="footer_links clearfix">
 	<li>
-		<a class="btn btn-default button button-small" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">
-			<span>
-				<i class="icon-chevron-left"></i> {l s='Back to your account'}
-			</span>
+		<a class="btn btn-default mg_btn" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">
+			{l s='Back to your account'}
 		</a>
 	</li>
 	<li>
-		<a class="btn btn-default button button-small" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}">
-			<span>
-				<i class="icon-chevron-left"></i> {l s='Home'}
-			</span>
+		<a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}">
+			{l s='Home'}
 		</a>
 	</li>
 </ul>

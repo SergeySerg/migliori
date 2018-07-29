@@ -8,9 +8,20 @@
          {assign var="catOptions" value=null}
                         {$catOptions.id_category = $id_category}
                         {$catOptions.slug = $cat_link_rewrite}
-                     <span>
-               {l s='Posted by ' mod='smartblog'} {if $smartshowauthor ==1}&nbsp;<i class="icon icon-user"></i><span itemprop="author">{if $smartshowauthorstyle != 0}{$firstname} {$lastname}{else}{$lastname} {$firstname}{/if}</span>&nbsp;<i class="icon icon-calendar"></i>&nbsp;<span itemprop="dateCreated">{$created|date_format}</span>{/if}&nbsp;&nbsp;<i class="icon icon-tags"></i>&nbsp;<span itemprop="articleSection"><a href="{smartblog::GetSmartBlogLink('smartblog_category',$catOptions)}">{$title_category}</a></span> &nbsp;<i class="icon icon-comments"></i>&nbsp; {if $countcomment != ''}{$countcomment}{else}{l s='0' mod='smartblog'}{/if}{l s=' Comments' mod='smartblog'}</span>
-                  <a title="" style="display:none" itemprop="url" href="#"></a>
+			<span>
+			{l s='Posted by ' mod='smartblog'} 					<span itemprop="dateCreated">{$created}</span>
+				{* {if $smartshowauthor ==1}&nbsp;<i class="icon icon-user"></i>
+					<span itemprop="author">{if $smartshowauthorstyle != 0}{$firstname} {$lastname}{else}{$lastname} {$firstname}{/if}</span>
+					&nbsp;<i class="icon icon-calendar"></i>&nbsp;
+					<span itemprop="dateCreated">{$created|date_format}</span>
+				{/if}&nbsp;&nbsp;<i class="icon icon-tags"></i>&nbsp;
+				<span itemprop="articleSection">
+					<a href="{smartblog::GetSmartBlogLink('smartblog_category',$catOptions)}">{$title_category}</a>
+				</span> 
+				 &nbsp;<i class="icon icon-comments"></i>&nbsp; 
+				{if $countcomment != ''}{$countcomment}{else}{l s='0' mod='smartblog'}{/if}{l s=' Comments' mod='smartblog'}*}
+			</span>
+					<a title="" style="display:none" itemprop="url" href="#"></a>
       </div>
       <div itemprop="articleBody">
             <div id="lipsum" class="articleContent">
@@ -73,30 +84,30 @@
 		<tbody><tr>
 	<td><span class="required">*</span> <b>{l s="Name:"  mod="smartblog"} </b></td>
 		<td>
-	<input type="text" tabindex="1" class="inputName form-control grey" value="" name="name">																	
+	<input type="text" tabindex="1" class="inputName form-control" value="" name="name">																	
 		</td>
 	</tr>
         <tr>
 		<td><span class="required">*</span> <b>{l s="E-mail:"  mod="smartblog"} </b><span class="note">{l s="(Not Published)"  mod="smartblog"}</span></td>
 			<td>
-		<input type="text" tabindex="2" class="inputMail form-control grey" value="" name="mail">
+		<input type="text" tabindex="2" class="inputMail form-control" value="" name="mail">
 			</td>
 		</tr>
-		<tr>
+		{* <tr>
 			<td>&nbsp;&nbsp;&nbsp;<b>{l s="Website:"  mod="smartblog"} </b><span class="note"> {l s="(Site url with"  mod="smartblog"}http://)</span></td>
-		<td><input type="text" tabindex="3" value="" name="website" class="form-control grey"></td>
-		</tr>
+		<td><input type="text" tabindex="3" value="" name="website" class="form-control"></td>
+		</tr> *}
 			<tr>
 			<td><span class="required">*</span> <b> {l s="Comment:"  mod="smartblog"}</b></td>
 		<td>
-		<textarea tabindex="4" class="inputContent form-control grey" rows="8" cols="50" name="comment"></textarea>
+		<textarea tabindex="4" class="inputContent form-control" rows="8" cols="50" name="comment"></textarea>
 	</td>
 	</tr>
 	{if Configuration::get('smartcaptchaoption') == '1'}
 		<tr>
 			<td></td><td><img src="{$modules_dir}smartblog/classes/CaptchaSecurityImages.php?width=100&height=40&characters=5"></td>
 		</tr><tr>
-		<td><b>{l s="Type Code" mod="smartblog"}</b></td><td><input type="text" tabindex="" value="" name="smartblogcaptcha" class="smartblogcaptcha form-control grey"></td>
+		<td><b>{l s="Type Code" mod="smartblog"}</b></td><td><input type="text" tabindex="" value="" name="smartblogcaptcha" class="smartblogcaptcha form-control"></td>
 		</tr>
 	{/if}
 	</tbody></table>
@@ -104,17 +115,16 @@
                   <input type='hidden' name='id_post' value='{$id_post}' id='id_post' />
 
                 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-	<div class="right">
+	<div class="text-left">
       
         <div class="submit">
-            <input type="submit" name="addComment" id="submitComment" class="bbutton btn btn-default button-medium" value="Submit">
+            <input type="submit" name="addComment" id="submitComment" class="bbutton btn btn-default mg_btn" value="Submit">
 		</div>
 
         </form>
 		</div>
 		</div>
 </div>
-
 <script type="text/javascript">
 $('#submitComment').bind('click',function(event) {
 event.preventDefault();
@@ -240,6 +250,7 @@ var data = { 'action':'postcomment',
 </script>
 {/if}
 {/if}
+{hook h='displayRoja45ResponsiveCart'}
 {if isset($smartcustomcss)}
     <style>
         {$smartcustomcss}

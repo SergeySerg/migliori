@@ -22,7 +22,10 @@
       display: none;
       padding: 13px 20px;
       border: 1px solid #ccc;
-      border-top: none;} }
+      border-top: none;
+      background: none;
+      box-shadow: none;
+      border-radius: 0;} }
 
 .sf-menu ul {
   position: absolute;
@@ -30,6 +33,7 @@
   background: #fff; }
   @media (max-width: 767px) {
     .sf-menu ul {
+      background: none;
       position: relative; } }
 
 .sf-menu ul li {
@@ -55,9 +59,13 @@
       float: none;
       position: relative;
       border-right: none;
+      border-left: none;
       padding: 15px 10px;
-      margin: 0 20px;
-      border-top: 1px solid #f4f0ec;}
+      margin: 0;
+      text-align: left;
+      border-top: 1px solid #d9c5b0;}
+    .sf-menu > li:first-child {
+      padding-left: 10px;}
       .sf-menu > li span {
         position: absolute;
         right: 6px;
@@ -84,8 +92,10 @@
     @media (max-width: 991px) {
       .sf-menu > li > a {
         display: inline-block;
-        font: 600 15px/22px "Open Sans", sans-serif;}
-    }
+        font: 600 15px/22px "Open Sans", sans-serif;}    }
+    @media (max-width: 767px) {
+      .sf-menu > li > a {
+        color: inherit;}  }
   .sf-menu > li.sfHover > a,
   .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
     /* background: #333;
@@ -269,4 +279,9 @@ ul.sf-menu li li li.sfHover ul {
 #block_top_menu li.category-thumbnail {
   padding-right: 0; }
 
+  @media (max-width: 991px) {
+    .sf-menu > li > a {
+      display: inline-block;
+      font: 600 15px/22px "Open Sans", sans-serif;}
+  }
 /*# sourceMappingURL=superfish-modified.css.map */

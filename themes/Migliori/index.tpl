@@ -31,5 +31,5 @@
 			{$HOOK_HOME_TAB}
 		</ul>
 	{/if}
-	<div class="tab-content mg-tab-content">{$HOOK_HOME_TAB_CONTENT}</div>
+	<div class="tab-content mg-tab-content clearfix">{$HOOK_HOME_TAB_CONTENT}</div>
 {/if}

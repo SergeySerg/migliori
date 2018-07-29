@@ -29,8 +29,12 @@
 		<a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute)|escape:'htmlall':'UTF-8'}"><img src="{$link->getImageLink($product.link_rewrite, $product.id_image)}" alt="{$product.name|escape:'htmlall':'UTF-8'}"/></a>
 	</td>
 	<td class="cart_description">
-		<h5><a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute)|escape:'htmlall':'UTF-8'}">{$product.name|escape:'htmlall':'UTF-8'}</a></h5>
-		{if isset($product.attributes) && $product.attributes}<a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute)|escape:'htmlall':'UTF-8'}">{$product.attributes|escape:'htmlall':'UTF-8'}</a>{/if}
+		<h5>
+			<a href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute)|escape:'htmlall':'UTF-8'}">{$product.name|escape:'htmlall':'UTF-8'}</a>
+		</h5>
+		{if isset($product.attributes) && $product.attributes}
+			<a class="mg_cart_attr" href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute)|escape:'htmlall':'UTF-8'}">{$product.attributes|escape:'htmlall':'UTF-8'}</a>
+		{/if}
 		<span class="mg_cart_text">{l s='Unit price' mod='onepagecheckout'}:</span>
 		<span class="mg_cart_text_value">
 			{* {convertPrice price=$product.price} *}
@@ -119,7 +123,7 @@
 		</span> *}
 	</td>
 	<td class="cart_quantity"{if isset($customizedDatas.$productId.$productAttributeId) AND $quantityDisplayed == 0} style="text-align: center;"{/if}>
-		<span class="mg_cart_quantity_text">количество</span>
+		<span class="mg_cart_quantity_text">{l s='Quantity' mod='onepagecheckout'}</span>
 		{if isset($cannotModify) AND $cannotModify == 1}
 			<span style="float:left">
 				{if $quantityDisplayed == 0 AND isset($customizedDatas.$productId.$productAttributeId)}{$customizedDatas.$productId.$productAttributeId|@count}
@@ -148,10 +152,10 @@
 		{/if}
 	</td>
 	<td class="cart_total">
-		<span class="mg_cart_quantity_text">сумма</span>
+		<span class="mg_cart_quantity_text">{l s='Sum' mod='onepagecheckout'}</span>
         {if !isset($noDeleteButton) || !$noDeleteButton}
             {if (!isset($customizedDatas.$productId.$productAttributeId) OR $quantityDisplayed) > 0 && empty($product.gift)}
-                <a rel="nofollow" class="cart_quantity_delete" id="{$product.id_product}_{$product.id_product_attribute}_0_{$product.id_address_delivery|intval}" href="{$link->getPageLink('cart', true, NULL, "delete=1&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_address_delivery={$product.id_address_delivery|intval}&amp;token={$token_cart}")}">удалить</a><br />
+                <a rel="nofollow" class="cart_quantity_delete" id="{$product.id_product}_{$product.id_product_attribute}_0_{$product.id_address_delivery|intval}" href="{$link->getPageLink('cart', true, NULL, "delete=1&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;id_address_delivery={$product.id_address_delivery|intval}&amp;token={$token_cart}")}"><span>{l s='Delete' mod='onepagecheckout'}</span><i class="fa fa-close"></i></a><br />
             {/if}
         {/if}
 		<span class="price" id="total_product_price_{$product.id_product}_{$product.id_product_attribute}_{$product.id_address_delivery|intval}{if !empty($product.gift)}_gift{/if}">

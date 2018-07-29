@@ -13,4 +13,28 @@
   .address li.address_update a {
     margin: 0 10px 0 0; }
 
+.address_update .mg_btn{
+  width: auto;
+  padding: 6px 10px;}
+
+#addresses ul.footer_links{
+  border-top: 0; }
+  #addresses ul.footer_links li:last-child{
+    float: right;  }
+.bloc_adresses h3.page-subheading{
+  margin-top: 0;
+}
+
+@media (max-width: 768px){
+  .address li.address_update a {
+    margin-bottom: 10px; }
+  #addresses ul.footer_links{
+    text-align: center;  }    
+  #addresses ul.footer_links li,
+  #addresses ul.footer_links li:last-child{
+    float: none;
+    margin-bottom: 10px;  }  
+  #addresses ul.footer_links li +li{
+    margin-left: 0;  }  
+}
 /*# sourceMappingURL=addresses.css.map */

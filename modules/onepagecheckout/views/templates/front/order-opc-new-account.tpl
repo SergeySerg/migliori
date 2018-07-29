@@ -81,6 +81,16 @@
 
     {if isset($opc_config.offer_password_top) && $opc_config.offer_password_top}{$smarty.capture.password_checkbox}{/if}
 
+    <p class="id_gift select">
+        <label for="id_gift">{l s='Gift' mod='onepagecheckout'}</label>
+        <select name="id_gift" id="id_gift">
+            <option value="" disabled>{l s='Choose your gift' mod='onepagecheckout'}</option>
+            </option><option value="AL">Шапочка
+            </option><option value="AK">Бандана
+            </option><option value="AZ">Повязка
+        </select>
+    </p>
+
     <p class="required text">
         <label for="email">{l s='E-mail' mod='onepagecheckout'}<sup>*</sup></label>
         <input type="text"
@@ -366,15 +376,6 @@
             <textarea name="other" id="other" cols="26"
                       rows="3">{if isset($guestInformations) && isset($guestInformations.other) &&  $guestInformations.other}{$guestInformations.other}{/if}</textarea>
         </p>
-          <p class="id_gift select">
-              <label for="id_gift">{l s='Gift' mod='onepagecheckout'}</label>
-              <select name="id_gift" id="id_gift">
-                  <option value="" disabled>{l s='Choose your gift' mod='onepagecheckout'}</option>
-                  </option><option value="AL">Шапочка
-                  </option><option value="AK">Бандана
-                  </option><option value="AZ">Повязка
-              </select>
-          </p>
 
         <input type="hidden" name="alias" id="alias"
                value="{if isset($guestInformations) && isset($guestInformations.alias) &&  $guestInformations.alias}{$guestInformations.alias}{else}{l s='My address' mod='onepagecheckout'}{/if}"/>

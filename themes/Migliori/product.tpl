@@ -160,6 +160,14 @@
 				<label>{l s='Reference:'} </label>
 				<span class="editable" itemprop="sku"{if !empty($product->reference) && $product->reference} content="{$product->reference}"{/if}>{if !isset($groups)}{$product->reference|escape:'html':'UTF-8'}{/if}</span>
 			</p>
+			{if (!(($product->id_category_default == 33) || ($product->id_category_default == 34) || ($product->id_category_default == 35) || ($product->id_category_default == 83) || ($product->id_category_default == 84) || ($product->id_category_default == 85) || ($product->id_category_default == 86) || ($product->id_category_default == 21)))}
+				<div id="mg_table_size">
+					<span>{l s='Table size'}</span>
+					<div id="mg_table_size_img">
+						<img src="/img/table_size.png">
+					</div>
+				</div>
+			{/if}
 					<div class="product_attributes clearfix">
 						{if isset($groups)}
 							<!-- attributes -->
@@ -268,7 +276,25 @@
 			<!-- availability or doesntExist -->
 			<p id="availability_statut"{if !$PS_STOCK_MANAGEMENT || ($product->quantity <= 0 && !$product->available_later && $allow_oosp) || ($product->quantity > 0 && !$product->available_now) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
 				{*<span id="availability_label">{l s='Availability:'}</span>*}
-				<span id="availability_value" class="label{if $product->quantity <= 0 && !$allow_oosp} label-danger{elseif $product->quantity <= 0} label-warning{else} label-success{/if}">{if $product->quantity <= 0}{if $PS_STOCK_MANAGEMENT && $allow_oosp}{$product->available_later}{else}{l s='This product is no longer in stock'}{/if}{elseif $PS_STOCK_MANAGEMENT}{$product->available_now}{/if}</span>
+				<span id="availability_value" 
+					class="label
+					{if $product->quantity <= 0 && !$allow_oosp}
+						 label-danger
+					{elseif $product->quantity <= 0}
+						 label-warning
+					{else}
+						 label-success
+					{/if}">
+					{if $product->quantity <= 0}
+						{if $PS_STOCK_MANAGEMENT && $allow_oosp}
+							{$product->available_later}
+						{else}
+							{l s='This product is no longer in stock'}
+						{/if}
+					{elseif $PS_STOCK_MANAGEMENT}
+						{$product->available_now}
+					{/if}
+				</span>
 			</p>
 			{* {if $PS_STOCK_MANAGEMENT}
 				{if !$product->is_virtual}{hook h="displayProductDeliveryTime" product=$product}{/if}
@@ -496,6 +522,7 @@
 			</section>
 			<!--end  More info -->
 		{/if}
+<<<<<<< HEAD
 
 		{if isset($packItems) && $packItems|@count > 0}
 		<section id="blockpack">
@@ -512,6 +539,8 @@
 		</section>
 		<!--end HOOK_PRODUCT_TAB -->
 		{/if}
+=======
+>>>>>>> 5b9a03bfd3270309eab8f621c490553341a7fbcc
 		{if isset($accessories) && $accessories}
 			<!--Accessories -->
 			<section class="page-product-box">
@@ -571,9 +600,13 @@
 			</section>
 			<!--end Accessories -->
 		{/if}
+<<<<<<< HEAD
 
 		{*{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}*}
 
+=======
+		{*{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}*}
+>>>>>>> 5b9a03bfd3270309eab8f621c490553341a7fbcc
 
 		{if isset($packItems) && $packItems|@count > 0}
 		<section id="blockpack">
@@ -590,7 +623,6 @@
 		<!--end HOOK_PRODUCT_TAB -->
 		{/if}
 		{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}
->>>>>>> 824e0d0083d45ae3337d14ef2ac822cc7d5e8979
 		<!-- description & features -->
 		{if (isset($product) && $product->description) || (isset($features) && $features) || (isset($accessories) && $accessories) || (isset($HOOK_PRODUCT_TAB) && $HOOK_PRODUCT_TAB) || (isset($attachments) && $attachments) || isset($product) && $product->customizable}
 			{if isset($attachments) && $attachments}

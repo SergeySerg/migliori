@@ -22,6 +22,7 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+<h3 id="#idTab5" class="idTabHrefShort page-product-heading">{l s='Reviews' mod='productcomments'}</h3> 
 <div id="idTab5">
 	<div id="product_comments_block_tab">
 		{if $comments}
@@ -64,10 +65,10 @@
 								{if !$comment.customer_advice}
 								<li>
 									{l s='Was this comment useful to you?' mod='productcomments'}
-									<button class="usefulness_btn btn btn-default button button-small" data-is-usefull="1" data-id-product-comment="{$comment.id_product_comment}">
+									<button class="usefulness_btn btn btn-default button mg_btn" data-is-usefull="1" data-id-product-comment="{$comment.id_product_comment}">
 										<span>{l s='Yes' mod='productcomments'}</span>
 									</button>
-									<button class="usefulness_btn btn btn-default button button-small" data-is-usefull="0" data-id-product-comment="{$comment.id_product_comment}">
+									<button class="usefulness_btn btn btn-default button mg_btn" data-is-usefull="0" data-id-product-comment="{$comment.id_product_comment}">
 										<span>{l s='No' mod='productcomments'}</span>
 									</button>
 								</li>
@@ -88,7 +89,7 @@
 			{/foreach}
 			{if (!$too_early AND ($is_logged OR $allow_guests))}
 			<p class="align_center">
-				<a id="new_comment_tab_btn" class="btn btn-default button button-small open-comment-form" href="#new_comment_form">
+				<a id="new_comment_tab_btn" class="btn btn-default mg_btn open-comment-form" href="#new_comment_form">
 					<span>{l s='Write your review!' mod='productcomments'}</span>
 				</a>
 			</p>
@@ -96,7 +97,7 @@
 		{else}
 			{if (!$too_early AND ($is_logged OR $allow_guests))}
 			<p class="align_center">
-				<a id="new_comment_tab_btn" class="btn btn-default button button-small open-comment-form" href="#new_comment_form">
+				<a id="new_comment_tab_btn" class="btn btn-default mg_btn open-comment-form" href="#new_comment_form">
 					<span>{l s='Be the first to write your review!' mod='productcomments'}</span>
 				</a>
 			</p>
@@ -165,7 +166,7 @@
 						<input id="id_product_comment_send" name="id_product" type="hidden" value='{$id_product_comment_form}' />
 						<p class="fl required"><sup>*</sup> {l s='Required fields' mod='productcomments'}</p>
 						<p class="fr">
-							<button id="submitNewMessage" name="submitMessage" type="submit" class="btn button button-small">
+							<button id="submitNewMessage" name="submitMessage" type="submit" class="btn button mg_btn">
 								<span>{l s='Submit' mod='productcomments'}</span>
 							</button>&nbsp;
 							{l s='or' mod='productcomments'}&nbsp;

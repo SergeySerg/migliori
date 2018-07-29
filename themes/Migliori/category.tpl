@@ -98,7 +98,7 @@
 			<div class="content_sortPagiBar clearfix">
             	<div class="sortPagiBar clearfix">
             		{include file="./product-sort.tpl"}
-                	{* {include file="./nbr-product-page.tpl"} *}
+                	{include file="./nbr-product-page.tpl"}
 				</div>
                 {* <div class="top-pagination-content clearfix">
                 	{include file="./product-compare.tpl"}
@@ -112,6 +112,15 @@
                     {include file="./pagination.tpl" paginationId='bottom'}
 				</div>
 			</div>
+			{if Tools::strlen($category->description) > 350}
+				<div id="category_description_short" class="rte">{$description_short}</div>
+				<div id="category_description_full" class="unvisible rte">{$category->description}</div>
+				<a href="{$link->getCategoryLink($category->id_category, $category->link_rewrite)|escape:'html':'UTF-8'}" class="lnk_more mg_more_desc">
+					{l s='More about'} <i class="fa fa-angle-down" aria-hidden="true"></i>
+				</a>
+			{else}
+				<div class="rte">{$category->description}</div>
+			{/if}
 		{/if}
 	{elseif $category->id}
 		<p class="alert alert-warning">{l s='This category is currently unavailable.'}</p>

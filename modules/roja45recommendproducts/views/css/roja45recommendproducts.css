@@ -219,6 +219,7 @@
 .roja45_recommend_products.shopping-cart-footer li p.product_name {
     text-align: center;
     margin-top: 10px;
+    padding: 0 5px 9px;
     font-size: 20px;
     line-height: 22px;
     height: 45px;

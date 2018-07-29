@@ -92,7 +92,11 @@
 			<div id="restricted-country">
 				<p>{l s='You cannot place a new order from your country.'}{if isset($geolocation_country) && $geolocation_country} <span class="bold">{$geolocation_country|escape:'html':'UTF-8'}</span>{/if}</p>
 			</div>
-		{/if}		
+		{/if}	
+
+		<div id="mg_guest_tracking">
+			<a href="/guest-tracking"><i class="fa fa-search"></i><span>{l s='Tracking your order'}</span></a></p>
+		</div>
 
 		<div id="page">
 			<div class="header-container">
@@ -123,8 +127,9 @@
 								<div id="header_logo">
 									<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
 										<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
+										<span class="mg_under_logo">{l s='Means the best'}</span>
 									</a>
-
+								
 								</div>
 								<div class="slogan">
 									{l s='Internet store of children\'s things «Migliori»'}

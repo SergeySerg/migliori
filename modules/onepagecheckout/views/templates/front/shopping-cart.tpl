@@ -246,7 +246,7 @@
             <td class="cart_discount_price"><span class="price-discount">
                 {if !$priceDisplay}{displayPrice price=$discount.value_real*-1}{else}{displayPrice price=$discount.value_tax_exc*-1}{/if}
             </span></td>
-            <td class="cart_discount_delete">1</td>
+            <td class="cart_discount_delete"><span style="opacity:0">1</span></td>
             <td class="cart_discount_price">
                 {if strlen($discount.code)}<a
                     href="{if $opc}{$link->getPageLink('order-opc', true)|escape:'htmlall':'UTF-8'}{else}{$link->getPageLink('order', true)|escape:'htmlall':'UTF-8'}{/if}?deleteDiscount={$discount.id_discount}"

@@ -25,13 +25,13 @@
 
 {capture name=path}{l s='Shipping' mod='cashondelivery'}{/capture}
 
-<h1 class="page-heading">{l s='Order summary' mod='cashondelivery'}</h1>
+<h1 class="page-heading text-center">{l s='Order summary' mod='cashondelivery'}</h1>
 
 {assign var='current_step' value='payment'}
 {include file="$tpl_dir./order-steps.tpl"}
 
 <form action="{$link->getModuleLink('cashondelivery', 'validation', [], true)|escape:'html'}" method="post">
-	<div class="box">
+	<div class="mg_cash_validation text-center">
         <input type="hidden" name="confirm" value="1" />
         <h3 class="page-subheading">{l s='Cash on delivery (COD) payment' mod='cashondelivery'}</h3>
         <p>
@@ -47,8 +47,10 @@
             <b>{l s='Please confirm your order by clicking \'I confirm my order\'.' mod='cashondelivery'}.</b>
         </p>        
     </div>
-    <p class="cart_navigation" id="cart_navigation">
-        <a href="{$link->getPageLink('order', true)}?step=3" class="button-exclusive btn btn-default"><i class="icon-chevron-left"></i>{l s='Other payment methods' mod='cashondelivery'}</a>
-        <button type="submit" class="button btn btn-default button-medium">{l s='I confirm my order' mod='cashondelivery'}</button>
-    </p>
+    <ul class="cart_navigation footer_links" id="cart_navigation">
+        <li><a href="{$link->getPageLink('order', true)}?step=3" class="btn btn-default mg_btn">{l s='Other payment methods' mod='cashondelivery'}</a></li>
+        <li><button type="submit" class="button btn btn-default mg_btn">{l s='I confirm my order' mod='cashondelivery'}</button></li>
+    </ul>
 </form>
+{hook h='displayRoja45ResponsiveCart'}
+

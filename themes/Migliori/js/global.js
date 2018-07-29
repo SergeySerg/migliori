@@ -431,86 +431,135 @@ function bindUniform()
 		$("select.form-control,input[type='radio'],input[type='checkbox']").not(".not_uniform").uniform();
 }
 
-		$(document).ready(function() {
+function imgNotDownload()
+{
+	var img = document.getElementsByTagName('img');
+	for(var i in img){
+		img[i].oncontextmenu = function(){
+			return false;
+		}
+	}
+}
 
-			var owl = $("#blocknewproducts");
-			var owlRecommended = $("#mg_recommend_products_list");
-			var owlAccessories = $("#mg_accessories");
+$(document).ready(function() {
 
-			owl.owlCarousel({
-				// items : 4, 
-				autoplay: true,
-				responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:2
-                    },
-                    1000:{
-                        items:4
-                    }
-				},
-				nav : true, 
-				loop: true,
-				margin: 30,
-			});
-			owlRecommended.owlCarousel({
-				// items : 4, 
-				autoplay: true,
-				responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:2
-                    },
-                    1000:{
-                        items:4
-                    }
-				},
-				nav : true, 
-				loop: true,
-				margin: 30,
-			});
+	imgNotDownload();
+	var owl = $("#blocknewproducts");
+	var owlRecommended = $("#mg_recommend_products_list");
+	var owlAccessories = $("#mg_accessories");
+	var owlViewed = $("#mg_viewed");
+	var owlLatestNews = $("#mg_last_news");
 
-			owlAccessories.owlCarousel({
-				// items : 4, 
-				autoplay: true,
-				responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:2
-                    },
-                    1000:{
-                        items:4
-                    }
-				},
-				nav : true, 
-				loop: true,
-				margin: 30,
-			});
+	owl.owlCarousel({
+		// items : 4, 
+		autoplay: true,
+		responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:4
+			}
+		},
+		nav : true, 
+		loop: true,
+		margin: 30,
+	});
+	owlRecommended.owlCarousel({
+		// items : 4, 
+		autoplay: true,
+		responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:4
+			}
+		},
+		nav : true, 
+		loop: true,
+		margin: 30,
+	});
 
-			// Custom Navigation Events
-			//$(".next").click(function(){
-			//	owl.trigger('owl.next');
-			//})
-			//$(".prev").click(function(){
-			//	owl.trigger('owl.prev');
-			//})
-			//$(".play").click(function(){
-			//	owl.trigger('owl.play',1000); 
-			//})
-			//$(".stop").click(function(){
-			//	owl.trigger('owl.stop');
-			//})
+	owlAccessories.owlCarousel({
+		// items : 4, 
+		autoplay: true,
+		responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:4
+			}
+		},
+		nav : true, 
+		loop: true,
+		margin: 30,
+	});
+	owlViewed.owlCarousel({
+		// items : 4, 
+		autoplay: true,
+		responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:4
+			}
+		},
+		nav : true, 
+		loop: true,
+		margin: 30,
+	});
+	owlLatestNews.owlCarousel({
+		items : 1, 
+		autoplay: true,
+		autoplayTimeout: 4000,
+		nav : false, 
+		loop: true,
+	});
 
-			$('#mg_sort li').click(function(){
-				$('#mg_sort li').removeClass('mg_selected');
-				$(this).addClass('mg_selected');
-			})
+	// Custom Navigation Events
+	//$(".next").click(function(){
+	//	owl.trigger('owl.next');
+	//})
+	//$(".prev").click(function(){
+	//	owl.trigger('owl.prev');
+	//})
+	//$(".play").click(function(){
+	//	owl.trigger('owl.play',1000); 
+	//})
+	//$(".stop").click(function(){
+	//	owl.trigger('owl.stop');
+	//})
 
-		});
+	$('#mg_sort li').click(function(){
+		$('#mg_sort li').removeClass('mg_selected');
+		$(this).addClass('mg_selected');
+	});
 
+	$('#mg_more').click(function(){
+		$(this).toggleClass('active');
+		$('#mg_more .fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up');
+		$('.about-us_content').toggleClass('active');
+	});
+
+	// $('#subcategories .inline_list li .img img').each(function(){
+	// 	var h = $(this).height();
+	// 	$(this).parent().parent().find('.cat_name-on-main').css('height', h);
+	// });
+		
+
+});

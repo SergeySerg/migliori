@@ -35,16 +35,34 @@
 				<div class="footer-container">
 					<footer id="footer"  class="container">
 						<div class="row">{$HOOK_FOOTER}</div>
+						<div class="row">						
+							<div class="col-md-12">
+								<div class="mg_partners">
+									<span>{l s='Partners'}</span>
+									<a href="https://pamami.pl/" target="_blank">
+										<img src="/img/pamami.svg" alt="Producent czapek damskich i męskich PaMaMi">
+									</a>
+								</div>
+							</div>
+						</div>						
 					</footer>
 				</div><!-- #footer -->
 			{/if}
 		</div><!-- #page -->
 {/if}
 {include file="$tpl_dir./global.tpl"}
+<<<<<<< HEAD
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
 	(function(){ var widget_id = 'ioBBkNpYVk';var d=document;var w=window;function l(){
 		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 <!-- {/literal} END JIVOSITE CODE -->
 </body>
+=======
+{literal}
+<script type='text/javascript'>
+(function(){ var widget_id = 'ioBBkNpYVk';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>{/literal}
+	</body>
+>>>>>>> 5b9a03bfd3270309eab8f621c490553341a7fbcc
 </html>

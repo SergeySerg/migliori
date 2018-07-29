@@ -25,7 +25,7 @@
 
 {capture name=path}{l s='Order confirmation'}{/capture}
 
-<h1 class="page-heading">{l s='Order confirmation'}</h1>
+<h1 class="page-heading text-center mg_for_box">{l s='Order confirmation'}</h1>
 
 {assign var='current_step' value='payment'}
 {include file="$tpl_dir./order-steps.tpl"}
@@ -35,12 +35,15 @@
 {$HOOK_ORDER_CONFIRMATION}
 {$HOOK_PAYMENT_RETURN}
 {if $is_guest}
-	<p>{l s='Your order ID is:'} <span class="bold">{$id_order_formatted}</span> . {l s='Your order ID has been sent via email.'}</p>
-    <p class="cart_navigation exclusive">
-	<a class="button-exclusive btn btn-default" href="{$link->getPageLink('guest-tracking', true, NULL, "id_order={$reference_order|urlencode}&email={$email|urlencode}")|escape:'html':'UTF-8'}" title="{l s='Follow my order'}"><i class="icon-chevron-left"></i>{l s='Follow my order'}</a>
+	<p class="text-center">{l s='Your order ID is:'} <span class="bold">{$id_order_formatted}</span> . {l s='Your order ID has been sent via email.'}</p>
+    <p class="cart_navigation exclusive mg_exclusive">
+		<a class="btn btn-default mg_btn" href="{$link->getPageLink('guest-tracking', true, NULL, "id_order={$reference_order|urlencode}&email={$email|urlencode}")|escape:'html':'UTF-8'}" title="{l s='Follow my order'}">{l s='Follow my order'}</a>
+		<a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home'}">{l s='Home page'}</a>
     </p>
 {else}
-<p class="cart_navigation exclusive">
-	<a class="button-exclusive btn btn-default" href="{$link->getPageLink('history', true)|escape:'html':'UTF-8'}" title="{l s='Go to your order history page'}"><i class="icon-chevron-left"></i>{l s='View your order history'}</a>
-</p>
+	<p class="cart_navigation exclusive mg_exclusive">
+		<a class="btn btn-default mg_btn" href="{$link->getPageLink('history', true)|escape:'html':'UTF-8'}" title="{l s='Go to your order history page'}">{l s='View your order history'}</a>
+		<a class="btn btn-default mg_btn" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home'}">{l s='Home page'}</a>
+	</p>
 {/if}
+{hook h='displayRoja45ResponsiveCart'}

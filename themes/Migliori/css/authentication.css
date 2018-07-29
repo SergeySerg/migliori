@@ -13,14 +13,17 @@
   #create-account_form .form-group {
     margin: 0 0 20px 0; }
 
-#login_form {
-  min-height: 297px; }
+/* #login_form {
+  min-height: 297px; } */
   #login_form .form-group {
     margin: 0 0 3px 0; }
     #login_form .form-group.lost_password {
       margin: 14px 0 15px 0; }
       #login_form .form-group.lost_password a {
-        text-decoration: underline; }
+        text-decoration: underline;
+        font-size: 12px;
+        margin-top: -13px;
+        display: table; }
         #login_form .form-group.lost_password a:hover {
           text-decoration: none; }
 
@@ -28,3 +31,71 @@
   max-width: 271px; }
 
 /*# sourceMappingURL=authentication.css.map */
+
+.mg_auth_wrap{
+  padding-left: 70px;
+}
+.mg_btn_reg{
+  width: 45%;
+  border-radius: 20px;
+  height: 30px;
+  background-color: #c29b6d;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.mg_btn_reg_min{
+  width: 200px;
+}
+.mg_btn_reg:hover,
+.mg_btn_reg:focus{
+  box-shadow: 1px 2px 5px rgba(0,0,0,.2);
+  background-color: #c29b6d;
+  border: none;
+  color: #fff;
+}
+#account-creation_form{
+  text-align: center;
+}
+#account-creation_form .form-group .form-control{
+  max-width: 35%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#account-creation_form .form_info{
+  margin-top: -13px;
+  display: block;
+  font-size: 12px;}
+#account-creation_form .checkbox{
+  display: table;
+  margin: 10px auto;
+  font-size: 14px;}
+
+@media (max-width: 767px) {
+  .mg_auth_wrap #head {
+    position: static;
+    float: none !important;
+    margin: 30px auto 15px; }
+  #output.ul-form-style{
+    float: none !important;
+  }
+  .mg_auth_wrap{
+    text-align: center;
+    padding-left: 0;
+  }
+  #authentication .form-group .form-control{
+    max-width: 90%;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  #login_form .form-group.lost_password a{
+    margin: 0 auto;
+  }
+  .mg_btn_reg {
+    width: 70%;
+  }
+  #create-account_form .alert-danger {
+    max-width: 100%;
+  }
+} 

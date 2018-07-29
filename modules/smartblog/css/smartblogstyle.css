@@ -4,9 +4,17 @@
     overflow: hidden;
 }
 .sdsarticleCat {
+    width: 32%;
+    height: 445px;
+    overflow: hidden;
+    margin-right: 2%;
     border-bottom: 1px solid #E1E1E1;
     margin-bottom: 10px;
     padding-bottom: 8px;
+    float: left;
+}
+.sdsarticleCat:nth-child(3n){
+    margin-right: 0;
 }
 .sdsarticleHeader {
     margin: 6px 0 10px;
@@ -30,6 +38,8 @@
 .articleContent img{
     max-width: 98%;
     padding: 5px;
+    display: block;
+    margin: 0 auto;
 }
 
 .articleContent .sdsreadMore {
@@ -525,29 +535,38 @@ div.relProduct .price-new {
     max-width: 98.5%;
     padding: 4px;
 }
-#sdsblogCategory p, #sdsblogArticle p {
+/* #sdsblogCategory p, #sdsblogArticle p {
     line-height: 18px;
     margin-bottom: 10px;
-}
+} */
 .sdsarticleHeader span{
     font-size: 12px;
     line-height: 18px;
 }
+#smartblogcat .sdsarticle-des{
+    height: 95px;
+    overflow: hidden;
+}
 .sdsarticle-des{
     margin: 10px 0px;
 }
-.sdsarticle-des p{
+/* .sdsarticle-des p{
     font-size: 12px;
     line-height: 18px;
     padding-bottom: 0px;
-}
+} */
 .sdsarticle-des ol{
-    list-style-type: none;
+    list-style-type: decimal;
+    padding-left: 20px;
 }
 .sdsreadMore .more a {
-    float: right;
-    padding: 0px 10px;
-    font-weight: bold;
+    float: none;
+    /* padding: 0px 10px; */
+    /* font-weight: bold; */
+    display: block;
+    margin: 5px auto;
+    width: auto;
+    padding: 6px 15px;
 }
 .sdsreadMore .comment a{
     text-decoration: none;
@@ -594,11 +613,12 @@ fieldset.account_creation {
     /* background: none repeat scroll 0 0 #F6F6F6; */
     /* border-top: 5px solid #333333; */
     color: #5b5b5b;
-    font: 600 20px/22px "Open Sans",sans-serif;
+    font: 600 18px/22px "Open Sans",sans-serif;
     margin: 0 0 15px 0;
-    padding: 0 15px;
-    text-transform: uppercase;}
-
+    padding: 0;
+    text-transform: uppercase;
+    height: 45px;
+    overflow: hidden;}
 .sdstitle_block .all_news{
     float:right;
     font-size:10px;
@@ -803,12 +823,44 @@ form#searchbox .button.button-small i {
     display: inline-block;
     margin: 10px 0 6px;
 }
+#commentInput .form-control{
+    border-radius: 20px;
+    padding: 3px 15px;
+}
 
+#commentInput .mg_btn{
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    #smartblogcat .sdsarticle-des {
+        height: 130px;
+    }
+}
+@media (max-width: 991px) {
+    #smartblogcat .sdsarticle-des {
+        height: 155px;
+    }
+}
 @media (max-width: 768px) {
     .latest-news-on-home{
         width: 100%;
     }
     .sdstitle_block {
         text-align: center;
+        height: auto;
+    }
+    .sdsarticleCat {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+    #smartblogcat .sdsarticle-des {
+        height: auto;
+    }
+}
+@media (max-width: 425px) {
+    .sdsarticleCat {
+        height: 450px;
     }
 }

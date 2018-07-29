@@ -25,7 +25,7 @@ $_MODULE['<{socialloginizer}prestashop>socialloginizer_ec9377b52a060cbb273770451
 $_MODULE['<{socialloginizer}prestashop>socialloginizer_3501c7e67e0150900b3671b71c9e567e'] = 'для';
 $_MODULE['<{socialloginizer}prestashop>socialloginizer_7e7e076a81fa5dc64f44b8ff14199cbf'] = 'из';
 $_MODULE['<{socialloginizer}prestashop>socialloginizer_005b6a831f978012c573da7428397c01'] = 'страницы';
-$_MODULE['<{socialloginizer}prestashop>socialloginizer_d67850bd126f070221dcfd5fa6317043'] = 'Зарегистрироваться';
+$_MODULE['<{socialloginizer}prestashop>socialloginizer_d67850bd126f070221dcfd5fa6317043'] = 'Войти с помощью';
 $_MODULE['<{socialloginizer}prestashop>github_89abc3d6a6443bc9645974c55a58c3dc'] = 'E-mail уже существует, пожалуйста, выберите другой';
 $_MODULE['<{socialloginizer}prestashop>instagram_89abc3d6a6443bc9645974c55a58c3dc'] = 'E-mail уже существует, пожалуйста, выберите другой';
 $_MODULE['<{socialloginizer}prestashop>twitter_89abc3d6a6443bc9645974c55a58c3dc'] = 'E-mail уже существует, пожалуйста, выберите другой';

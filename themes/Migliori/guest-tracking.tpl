@@ -25,7 +25,7 @@
 
 {capture name=path}{l s='Guest Tracking'}{/capture}
 
-<h1 class="page-heading">{l s='Guest Tracking'}</h1>
+<h1 class="page-heading text-center">{l s='Guest Tracking'}</h1>
 
 {if isset($order_collection)}
 	{foreach $order_collection as $order}
@@ -100,21 +100,22 @@
 	{if isset($show_login_link) && $show_login_link}
 		<p><img src="{$img_dir}icon/userinfo.gif" alt="{l s='Information'}" class="icon" /><a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">{l s='Click here to log in to your customer account.'}</a><br /><br /></p>
 	{/if}
-	<form method="post" action="{$action|escape:'html':'UTF-8'}" class="std" id="guestTracking">
-		<fieldset class="description_box box">
+	<form method="post" action="{$action|escape:'html':'UTF-8'}" class="std text-center" id="guestTracking">
+		<fieldset class="description_box">
 			<h2 class="page-subheading">{l s='To track your order, please enter the following information:'}</h2>
                     <div class="text form-group">
-                        <label>{l s='Order Reference:'} </label>
-                        <input class="form-control" type="text" name="order_reference" value="{if isset($smarty.get.id_order)}{$smarty.get.id_order|escape:'html':'UTF-8'}{else}{if isset($smarty.post.id_order)}{$smarty.post.id_order|escape:'html':'UTF-8'}{/if}{/if}" size="8" />
-                        <i>{l s='For example: QIIXJXNUI or QIIXJXNUI#1'}</i>
+                        {* <label>{l s='Order Reference:'} </label> *}
+                        <input placeholder="{l s='Order Reference:'}" class="form-control" type="text" name="order_reference" value="{if isset($smarty.get.id_order)}{$smarty.get.id_order|escape:'html':'UTF-8'}{else}{if isset($smarty.post.id_order)}{$smarty.post.id_order|escape:'html':'UTF-8'}{/if}{/if}" size="8" />
+                        {* <i>{l s='For example: QIIXJXNUI or QIIXJXNUI#1'}</i> *}
                     </div>
                     <div class="text form-group">
-                        <label>{l s='Email:'}</label>
-                        <input class="form-control" type="email" name="email" value="{if isset($smarty.get.email)}{$smarty.get.email|escape:'html':'UTF-8'}{else}{if isset($smarty.post.email)}{$smarty.post.email|escape:'html':'UTF-8'}{/if}{/if}" />
+                        {* <label>{l s='Email:'}</label> *}
+                        <input placeholder="{l s='Email:'}" class="form-control" type="email" name="email" value="{if isset($smarty.get.email)}{$smarty.get.email|escape:'html':'UTF-8'}{else}{if isset($smarty.post.email)}{$smarty.post.email|escape:'html':'UTF-8'}{/if}{/if}" />
                     </div>
 			<p>
-                <button type="submit" name="submitGuestTracking" class="button btn btn-default button-medium"><span>{l s='Send'}<i class="icon-chevron-right right"></i></span></button>
+                <button type="submit" name="submitGuestTracking" class="button btn btn-default mg_btn">{l s='Send'}</button>
             </p>
 		</fieldset>
 	</form>
 {/if}
+{hook h='displayRoja45ResponsiveCart'}

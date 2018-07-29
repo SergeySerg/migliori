@@ -1,0 +1,44 @@
+.mg_personal_info_wrap .form-control {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 15px;
+    height: 32px;
+    color: inherit;
+    font-size: 14px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    max-width: 35%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.mg_personal_info_wrap .form-control:focus {
+    border-color: #c19a6b;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(193, 154, 107, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(193, 154, 107, 0.6);}
+.mg_personal_info_wrap .checkbox {
+    text-align: center;
+    display: table;
+    margin: 10px auto;
+    font-size: 14px;}
+
+#identity #center_column ul.footer_links {
+    padding: 20px 0 0px 0;
+    border-top: 1px solid #d6d4d4;
+    margin-top: 20px;
+    min-height: 65px;}
+
+#identity #center_column ul.footer_links li:last-child {
+    float: right;}
+
+@media (max-width: 768px){
+    .mg_personal_info_wrap .form-control {
+        max-width: 95%;    }
+    #identity #center_column ul.footer_links li,
+    #identity #center_column ul.footer_links li:last-child {
+        float: none; 
+        margin-bottom: 10px;}
+    ul.footer_links li + li {
+        margin-left: 0; }
+}
+      

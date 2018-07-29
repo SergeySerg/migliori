@@ -37,4 +37,56 @@
   #sendOrderMessage select.form-control {
     width: 263px; }
 
+#history .table > thead > tr > th{
+  background: #f8efd9;}
+
+#history #center_column ul.footer_links li:last-child {
+  float: right;}
+
+.history_detail .mg_btn{
+  width: auto;
+  min-width: auto;
+  padding: 6px 15px;
+  font-weight: normal;}
+
+.history_detail .mg_btn:focus,
+.history_detail .mg_btn:hover{
+  background-color: #c29b6d;
+  color: #fff;
+}
+
+td.history_price .price{
+  font-size: inherit;
+  color: inherit;
+}
+.table tbody > tr > td .label{
+  border-radius: 20px;
+  padding: 6px 15px;
+}
+
+#sendOrderMessage .form-control{
+  border-radius: 20px;
+}
+#block-history .price{
+  font-size: inherit;
+  color: inherit;
+}
+
+@media (max-width: 768px){
+  #history  #center_column ul.footer_links li,
+  #history  #center_column ul.footer_links li:last-child {
+      float: none; 
+      margin-bottom: 10px;}
+  ul.footer_links li + li {
+      margin-left: 0; }
+  #sendOrderMessage select.form-control{
+    width: 100%; }
+  #sendOrderMessage .submit{
+    text-align: center; }
+  .footable-row-detail-value .mg_btn{
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
 /*# sourceMappingURL=history.css.map */

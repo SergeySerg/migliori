@@ -5,7 +5,7 @@
 
 //require("smtp.php");
 header ("Content-Type: text/html; charset=utf-8"); //кодировка
-$to = "webtestingstudio@gmail.com"; //получатель уведомлений
+$to = "sales@migliori.shop"; //получатель уведомлений
 
 // не трогать
 
@@ -100,17 +100,17 @@ if ($interval < 1) { // интервал отправки (сек)
 		$cs = $_POST["cs"];
 		$ip = $_SERVER["REMOTE_ADDR"];
 
-		$title 	= "CallMe: обратный звонок";
+		$title 	= "Migliori: обратный звонок";
 		$title 	= "=?UTF-8?B?".base64_encode($title)."?=";
 		$mess 	= "";
 
 		$mess .= getOptions(1);
 		$mess = $mess."<div style=\"background:#bfd4ac;border:1px solid #999;padding:10px;margin: 10px 0;\">IP: ".$ip." / <a href='http://dedushka.org/whois/#".$ip."'>Определить город</a></div>";
 
-		$mess = $mess."<a href='http://dedushka.org/tag/callme/'>Следите</a> за обновлениями.<br>Спасибо за использование Callme.";
+		$mess = $mess."Замовлення з сайту <a href='https://migliori.shop/'>migliori.shop</a>.";
 		
 		$headers	 = "Content-type: text/html; charset=utf-8\r\n"; 
-		$headers	.= "From: Callme 2.3 <".$from.">\r\n"; 
+		$headers	.= "From: migliori.shop <".$from.">\r\n"; 
 
 		$sms['msg'] = translit((getOptions(0)));
 		$sms['msg'] = substr($sms['msg'], 0, 160);
