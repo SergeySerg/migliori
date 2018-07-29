@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-27 00:29:10
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-30 00:21:50
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcart\blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:293365b5a3d265e2219-06463291%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:222695b5e2fee89c517-59050451%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4b9cd7b0f0c08e1c200d6febe83f28a2c10dedb0' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\modules\\blockcart\\blockcart.tpl',
-      1 => 1525719478,
+      1 => 1532856963,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '293365b5a3d265e2219-06463291',
+  'nocache_hash' => '222695b5e2fee89c517-59050451',
   'function' => 
   array (
   ),
@@ -21,6 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'PS_CATALOG_MODE' => 0,
     'order_process' => 0,
     'link' => 0,
+    'total' => 0,
     'cart_qties' => 0,
     'priceDisplay' => 0,
     'blockcart_cart_flag' => 0,
@@ -43,7 +44,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cart_flag' => 0,
     'show_tax' => 0,
     'tax_cost' => 0,
-    'total' => 0,
     'use_taxes' => 0,
     'display_tax_label' => 0,
     'active_overlay' => 0,
@@ -51,9 +51,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b5a3d26d80209_33350028',
+  'unifunc' => 'content_5b5e2feed37b08_22317336',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b5a3d26d80209_33350028')) {function content_5b5a3d26d80209_33350028($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5b5e2feed37b08_22317336')) {function content_5b5e2feed37b08_22317336($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <!-- MODULE Block cart -->
@@ -66,7 +66,8 @@ if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\mi
 " rel="nofollow">
 			<i class="fa fa-suitcase" aria-hidden="true"></i>
 			<b><?php echo smartyTranslate(array('s'=>'Cart','mod'=>'blockcart'),$_smarty_tpl);?>
-</b>
+<span class="mg_total_price ajax_block_cart_total"><?php echo $_smarty_tpl->tpl_vars['total']->value;?>
+</span></b>
 			<div class="cart-surprise">В корзине Вас ждет ПОДАРОК</div>
 			<span class="cart-quant ajax_cart_quantity<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value==0) {?> unvisible<?php }?>"><?php echo $_smarty_tpl->tpl_vars['cart_qties']->value;?>
 </span>

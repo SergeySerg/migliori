@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6030fcf3-4d47-439d-a465-8b6202eb094b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/en.gzip" afterPath="$PROJECT_DIR$/translations/en.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/pl.gzip" afterPath="$PROJECT_DIR$/translations/pl.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/ru.gzip" afterPath="$PROJECT_DIR$/translations/ru.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/uk.gzip" afterPath="$PROJECT_DIR$/translations/uk.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="DELETED" beforePath="E:\Webserver\domains\migliori.loc\config\xml\customer_modules_list.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/08/ba/3c/08ba3c0d7eec9d50d96c75ecde3c2605513f2b94.file.javascript.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/08/ba/3c/08ba3c0d7eec9d50d96c75ecde3c2605513f2b94.file.javascript.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/14/18/e5/1418e5730c94ea553fa4c29d47318ca8dbfd9571.file.footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/14/18/e5/1418e5730c94ea553fa4c29d47318ca8dbfd9571.file.footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_1_0.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_1_0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_1_1.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_1_1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_2_0.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_2_0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_2_2.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_2_2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_2_3.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_2_3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_3_0.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_3_0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_4_0.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_4_0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_5_0.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_5_0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_5_2.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/1_5_2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/27/91/fa/2791fa36cb78bb1a99c3ebbb45c8c6a610ec1e1c.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/27/91/fa/2791fa36cb78bb1a99c3ebbb45c8c6a610ec1e1c.file.nav.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/27/9a/19/279a1976e8744c9cef814a41b13e05581b7e43d9.file.page_header_toolbar.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/27/9a/19/279a1976e8744c9cef814a41b13e05581b7e43d9.file.page_header_toolbar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/2_1_0.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/2_1_0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/31/59/5b/31595ba0515b8596773c43b2955512689f186e80.file.footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/31/59/5b/31595ba0515b8596773c43b2955512689f186e80.file.footer.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/31/cc/51/31cc510d9d79ca879ac1a047940789b9a523e9e1.file.modal.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/31/cc/51/31cc510d9d79ca879ac1a047940789b9a523e9e1.file.modal.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/3b/7e/a8/3b7ea8f8b08c3b2b1ad43a671bb78a60120bdcc2.file.hook.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/3b/7e/a8/3b7ea8f8b08c3b2b1ad43a671bb78a60120bdcc2.file.hook.tpl.php" />
@@ -21,243 +27,435 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/80/d2/33/80d233328ae4d4583f72a728cfb3e62a3c79439a.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/80/d2/33/80d233328ae4d4583f72a728cfb3e62a3c79439a.file.header.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/85/63/73/856373ab66c42e060980dc790f1ee11d474b63dd.file.search_form.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/85/63/73/856373ab66c42e060980dc790f1ee11d474b63dd.file.search_form.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/8d/b9/54/8db95429453ec61dc6ece88027a9be3b4b82c182.file.breadcrumb.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/8d/b9/54/8db95429453ec61dc6ece88027a9be3b4b82c182.file.breadcrumb.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/controllers/admin/AdminDatakickFullController.php" afterPath="$PROJECT_DIR$/modules/datakick/controllers/admin/AdminDatakickFullController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a3/bf/a1/a3bfa1adeb83cf6672cb170a14af56075e464797.file.blocklanguages.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a3/bf/a1/a3bfa1adeb83cf6672cb170a14af56075e464797.file.blocklanguages.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a4/5c/c0/a45cc0618e78995d919e5750718d472cd663bbd7.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a4/5c/c0/a45cc0618e78995d919e5750718d472cd663bbd7.file.nav.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a6/57/bc/a657bcec71af14bfca46541d634b44afa6fdf9b9.file.content.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a6/57/bc/a657bcec71af14bfca46541d634b44afa6fdf9b9.file.content.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/account.html" afterPath="$PROJECT_DIR$/mails/uk/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/account.txt" afterPath="$PROJECT_DIR$/mails/uk/account.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/uk/admin.php" afterPath="$PROJECT_DIR$/translations/uk/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/add.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/address.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/address.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/ae/26/08/ae2608a3657c46dc84b744aeb115be95b8b89b9a.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/ae/26/08/ae2608a3657c46dc84b744aeb115be95b8b89b9a.file.header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/backoffice_order.html" afterPath="$PROJECT_DIR$/mails/uk/backoffice_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/backoffice_order.txt" afterPath="$PROJECT_DIR$/mails/uk/backoffice_order.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/bankwire.html" afterPath="$PROJECT_DIR$/mails/uk/bankwire.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/bankwire.txt" afterPath="$PROJECT_DIR$/mails/uk/bankwire.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php" afterPath="$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl" afterPath="$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/alias.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/alias.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/allow.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/allow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/allowed-chars.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/allowed-chars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/analyze-datasource.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/analyze-datasource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/and.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/and.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/arithmetic.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/arithmetic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/asset-manager.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/asset-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/asset.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/asset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/attribute-value.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/attribute-value.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/attribute.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/attribute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/css/back.css" afterPath="$PROJECT_DIR$/modules/datakick/views/css/back.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/backup-db.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/backup-db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/backup-db.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/backup-db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/base.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/batch.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/batch.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c2/07/d5/c207d51926f01a813a39dd291cfcc7aa13aeafc8.file.modal.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c2/07/d5/c207d51926f01a813a39dd291cfcc7aa13aeafc8.file.modal.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/cache.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/callback.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/carrier.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/carrier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/cart.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/cart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/category-image.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/category-image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/category-url.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/category-url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/category.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/cd/67/e7/cd67e796a98a8fbd5ffe7d4d75d5a15305670deb.file.login_addons.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/cd/67/e7/cd67e796a98a8fbd5ffe7d4d75d5a15305670deb.file.login_addons.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/cheque.html" afterPath="$PROJECT_DIR$/mails/uk/cheque.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/cheque.txt" afterPath="$PROJECT_DIR$/mails/uk/cheque.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/ceil.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/ceil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/chain.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/chain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/change-owner.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/change-owner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/cipher.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/cipher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/cipher.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/cipher.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/class_index.php" afterPath="$PROJECT_DIR$/cache/class_index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/contact.html" afterPath="$PROJECT_DIR$/mails/uk/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/contact.txt" afterPath="$PROJECT_DIR$/mails/uk/contact.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/contact_form.html" afterPath="$PROJECT_DIR$/mails/uk/contact_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/contact_form.txt" afterPath="$PROJECT_DIR$/mails/uk/contact_form.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/credit_slip.html" afterPath="$PROJECT_DIR$/mails/uk/credit_slip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/credit_slip.txt" afterPath="$PROJECT_DIR$/mails/uk/credit_slip.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/customer_qty.html" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/customer_qty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/customer_qty.txt" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/customer_qty.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/classes.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/clean.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/clean.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/cms-category-url.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/cms-category-url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/cms-category.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/cms-category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/cms-url.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/cms-url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/cms.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/cms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/coalesce.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/coalesce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/collect-visitor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/collect-visitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/collection.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/combination-attribute-value.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/combination-attribute-value.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/combination.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/combination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/component.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/concat.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/concat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/config.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/config.xml" afterPath="$PROJECT_DIR$/modules/datakick/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/config_ru.xml" afterPath="$PROJECT_DIR$/modules/datakick/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/socialloginizer/config_ru.xml" afterPath="$PROJECT_DIR$/modules/socialloginizer/config_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/configuration.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/connection.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/connection.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/constant.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/constant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/contains.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/contains.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/templates/admin/content.tpl" afterPath="$PROJECT_DIR$/modules/datakick/views/templates/admin/content.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/context.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/context.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/convert-currency.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/convert-currency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/convert-to-type.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/convert-to-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/country.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/country.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/create-association.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/create-association.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/cron.php" afterPath="$PROJECT_DIR$/modules/datakick/cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/cron.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/translations/cs.php" afterPath="$PROJECT_DIR$/modules/datakick/translations/cs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/csv-column-extractor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/csv-column-extractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/csv-feed-factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/csv-feed-factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/csv-feed.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/csv-feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/csv-file-factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/csv-file-factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/csv-file.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/csv-file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/csv-output-stream.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/csv-output-stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/csv-resultset.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/csv-resultset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/currency-format.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/currency-format.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/currency.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/currency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/currency.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/currency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/custom-field.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/custom-field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/customer.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/customization.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/customization.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/customization.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/customization.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d7/3d/23/d73d23fbbfd8cb4c7f38a9a68993043237fdb60c.file.layout.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d7/3d/23/d73d23fbbfd8cb4c7f38a9a68993043237fdb60c.file.layout.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/css/datakick.css" afterPath="$PROJECT_DIR$/modules/datakick/views/css/datakick.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/datakick.php" afterPath="$PROJECT_DIR$/modules/datakick/datakick.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/date-add.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/date-add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/date-diff.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/date-diff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/db-executor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/db-executor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/db.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/decode.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/decode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/download-product.tpl" afterPath="$PROJECT_DIR$/mails/uk/download-product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/download_product.html" afterPath="$PROJECT_DIR$/mails/uk/download_product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/download_product.txt" afterPath="$PROJECT_DIR$/mails/uk/download_product.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/employee_password.html" afterPath="$PROJECT_DIR$/mails/uk/employee_password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/employee_password.txt" afterPath="$PROJECT_DIR$/mails/uk/employee_password.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/uk/errors.php" afterPath="$PROJECT_DIR$/translations/uk/errors.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/defaults-to.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/defaults-to.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-association.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-association.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-condition.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-condition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-dependent.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-dependent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-record.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete-record.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/delete-record.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/delete-record.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/delete-visitor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/delete-visitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/deny.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/deny.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/dictionary.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/dictionary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/dir.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/dir.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/divide.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/divide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/download.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/download.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/dry-run-executor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/dry-run-executor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/edit-records.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/edit-records.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/email-service.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/email-service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/email-service.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/email-service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/email.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/places/email.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/places/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/employees.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/employees.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/enable-cron.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/enable-cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/encrypt.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/encrypt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/controllers/front/endpoint.php" afterPath="$PROJECT_DIR$/modules/datakick/controllers/front/endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/endpoint.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/ends-with.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/ends-with.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/engine.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/engine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/enum.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/enum.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/equals.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/equals.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/equals.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/equals.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/error.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/error.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/evaluate.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/evaluate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/execute.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/execute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/executions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/executions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/expression.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/expression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/expressions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/expressions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/extract-and-transform.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/extract-and-transform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/extract-xml-attribute.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/extract-xml-attribute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/extract-xml-node-value.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/extract-xml-node-value.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/extractor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/extractor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f7/b9/fd/f7b9fd3c3f1d2727ec68eff0431a0c228f0f46ad.file.global.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f7/b9/fd/f7b9fd3c3f1d2727ec68eff0431a0c228f0f46ad.file.global.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/uk/fields.php" afterPath="$PROJECT_DIR$/translations/uk/fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_1.html" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_1.txt" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_2.html" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_2.txt" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_3.html" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_3.txt" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_4.html" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/mails/uk/followup_4.txt" afterPath="$PROJECT_DIR$/modules/followup/mails/uk/followup_4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/footer.html" afterPath="$PROJECT_DIR$/mails/uk/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/feature-value.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/feature-value.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/feature.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/feature.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fetch/fetch.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fetch/fetch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/field.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/floor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/floor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/Migliori/footer.tpl" afterPath="$PROJECT_DIR$/themes/Migliori/footer.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/footer.txt" afterPath="$PROJECT_DIR$/mails/uk/footer.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/forward_msg.html" afterPath="$PROJECT_DIR$/mails/uk/forward_msg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/forward_msg.txt" afterPath="$PROJECT_DIR$/mails/uk/forward_msg.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/guest_to_customer.html" afterPath="$PROJECT_DIR$/mails/uk/guest_to_customer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/guest_to_customer.txt" afterPath="$PROJECT_DIR$/mails/uk/guest_to_customer.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/header.html" afterPath="$PROJECT_DIR$/mails/uk/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/header.txt" afterPath="$PROJECT_DIR$/mails/uk/header.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/header_order_conf.html" afterPath="$PROJECT_DIR$/mails/uk/header_order_conf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/header_order_conf.txt" afterPath="$PROJECT_DIR$/mails/uk/header_order_conf.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/in_transit.html" afterPath="$PROJECT_DIR$/mails/uk/in_transit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/in_transit.txt" afterPath="$PROJECT_DIR$/mails/uk/in_transit.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/lang.php" afterPath="$PROJECT_DIR$/mails/uk/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/emailgenerator/templates_translations/uk/lang_content.php" afterPath="$PROJECT_DIR$/modules/emailgenerator/templates_translations/uk/lang_content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/log_alert.html" afterPath="$PROJECT_DIR$/mails/uk/log_alert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/log_alert.txt" afterPath="$PROJECT_DIR$/mails/uk/log_alert.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/foreign-key-matcher.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/foreign-key-matcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/format-currency.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/format-currency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/format-date.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/format-date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/places/ftp.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/places/ftp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/function.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/get-currency-id.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/get-currency-id.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-list.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-permissions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-record.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-record.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-restrictions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-restrictions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-xml.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/get-xml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/greater-than.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/greater-than.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/group.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/group.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/head.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/htaccess.allow.txt" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/htaccess.allow.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/htaccess.deny.txt" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/htaccess.deny.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/identity.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/identity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/identity.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/identity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/if-else.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/if-else.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/templates/admin/iframe.tpl" afterPath="$PROJECT_DIR$/modules/datakick/views/templates/admin/iframe.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/image-handler.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/image-handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/image-path.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/image-path.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/image.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/import-datasource.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/import-datasource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/import-definition.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/import-definition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/import-executor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/import-executor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/import-factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/import-factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/import-manager.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/import-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/import-transformer.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/import-transformer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/import-validate-matching.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/import-validate-matching.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/import-validate-transformation.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/import-validate-transformation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/import.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/import.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/in-category.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/in-category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/in.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/in.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/index.php" afterPath="$PROJECT_DIR$/modules/datakick/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/controllers/index.php" afterPath="$PROJECT_DIR$/modules/datakick/controllers/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/controllers/admin/index.php" afterPath="$PROJECT_DIR$/modules/datakick/controllers/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/controllers/front/index.php" afterPath="$PROJECT_DIR$/modules/datakick/controllers/front/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/assets/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fetch/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fetch/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/fs/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/record/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/record/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/permissions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/permissions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/places/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/places/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/types/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/types/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/versions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/permissions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/permissions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/restrictions/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/restrictions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/index.php" afterPath="$PROJECT_DIR$/modules/datakick/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/css/index.php" afterPath="$PROJECT_DIR$/modules/datakick/views/css/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/templates/index.php" afterPath="$PROJECT_DIR$/modules/datakick/views/templates/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/templates/admin/index.php" afterPath="$PROJECT_DIR$/modules/datakick/views/templates/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/init.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/input-value.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/input-value.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/insert-missing.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/insert-missing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/insert.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/insert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/is-child-of.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/is-child-of.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/is-empty.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/is-empty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/join-field.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/join-field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/join.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/join.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/js-app-translation.php" afterPath="$PROJECT_DIR$/modules/datakick/js-app-translation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/languages.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/languages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/last.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/last.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/layered-block.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/layered-block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/layered-block.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/layered-block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/length.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/length.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/less-than.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/less-than.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/license.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/license.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/license.txt" afterPath="$PROJECT_DIR$/modules/datakick/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/link.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/dictionary/link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-builder.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-executor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-executor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-output-in-memory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-output-in-memory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-output.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/list/export/list-output.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/list.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/places/local.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/places/local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/logical.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/logical.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/lookup.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/lookup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/lru.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/lru.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/manufacturer-url.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/manufacturer-url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/manufacturer.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/manufacturer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/map.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/extractor/map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/mass-update-factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/mass-update-factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/mass-update.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/mass-update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/mass-update.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/mass-update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/md5.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/md5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/migration-manager.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/migration-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/modification.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/modification.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/modulo.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/modulo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/new_order.html" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/new_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/new_order.txt" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/new_order.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/newsletter.html" afterPath="$PROJECT_DIR$/mails/uk/newsletter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/newsletter.txt" afterPath="$PROJECT_DIR$/mails/uk/newsletter.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_conf.html" afterPath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_conf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_conf.txt" afterPath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_conf.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_verif.html" afterPath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_verif.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_verif.txt" afterPath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_verif.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_voucher.html" afterPath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_voucher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_voucher.txt" afterPath="$PROJECT_DIR$/modules/blocknewsletter/mails/uk/newsletter_voucher.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_canceled.html" afterPath="$PROJECT_DIR$/mails/uk/order_canceled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_canceled.txt" afterPath="$PROJECT_DIR$/mails/uk/order_canceled.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_changed.html" afterPath="$PROJECT_DIR$/mails/uk/order_changed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/order_changed.html" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/order_changed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_changed.txt" afterPath="$PROJECT_DIR$/mails/uk/order_changed.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/order_changed.txt" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/order_changed.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_conf.html" afterPath="$PROJECT_DIR$/mails/uk/order_conf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_conf.txt" afterPath="$PROJECT_DIR$/mails/uk/order_conf.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_conf_cart_rules.tpl" afterPath="$PROJECT_DIR$/mails/uk/order_conf_cart_rules.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_conf_cart_rules.txt" afterPath="$PROJECT_DIR$/mails/uk/order_conf_cart_rules.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_conf_product_list.tpl" afterPath="$PROJECT_DIR$/mails/uk/order_conf_product_list.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_conf_product_list.txt" afterPath="$PROJECT_DIR$/mails/uk/order_conf_product_list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_customer_comment.html" afterPath="$PROJECT_DIR$/mails/uk/order_customer_comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_customer_comment.txt" afterPath="$PROJECT_DIR$/mails/uk/order_customer_comment.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_merchant_comment.html" afterPath="$PROJECT_DIR$/mails/uk/order_merchant_comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_merchant_comment.txt" afterPath="$PROJECT_DIR$/mails/uk/order_merchant_comment.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_return_state.html" afterPath="$PROJECT_DIR$/mails/uk/order_return_state.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/order_return_state.txt" afterPath="$PROJECT_DIR$/mails/uk/order_return_state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/outofstock.html" afterPath="$PROJECT_DIR$/mails/uk/outofstock.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/outofstock.txt" afterPath="$PROJECT_DIR$/mails/uk/outofstock.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/password.html" afterPath="$PROJECT_DIR$/mails/uk/password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/password.txt" afterPath="$PROJECT_DIR$/mails/uk/password.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/password_query.html" afterPath="$PROJECT_DIR$/mails/uk/password_query.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/password_query.txt" afterPath="$PROJECT_DIR$/mails/uk/password_query.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/payment.html" afterPath="$PROJECT_DIR$/mails/uk/payment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/payment.txt" afterPath="$PROJECT_DIR$/mails/uk/payment.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/payment_error.html" afterPath="$PROJECT_DIR$/mails/uk/payment_error.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/payment_error.txt" afterPath="$PROJECT_DIR$/mails/uk/payment_error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/uk/pdf.php" afterPath="$PROJECT_DIR$/translations/uk/pdf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/preparation.html" afterPath="$PROJECT_DIR$/mails/uk/preparation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/preparation.txt" afterPath="$PROJECT_DIR$/mails/uk/preparation.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/not.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/not.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/now.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/now.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/null-check.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/null-check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/offers-all.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/offers-all.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/or.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/or.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/or.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions/or.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/order.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/ordered-products-count.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/ordered-products-count.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/ordered_product.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/ordered_product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/page-view.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/page-view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/parameter-provider.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/parameter-provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/parameter-provider.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/parameter-provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/parameter.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/parameter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/permission-error.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/permission-error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/permissions/permissions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/permissions/permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/permissions/permissions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/permissions/permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/persistent-config.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/persistent-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/places/place.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/places/place.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/place.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/place.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/places.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/places.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/polyfill.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/polyfill.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/primary-key-matcher.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/primary-key-matcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-attribute-values.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-attribute-values.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-feature-value.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-feature-value.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-image.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-images.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-images.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-price.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-price.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-url.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/product-url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/product.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/Migliori/product.tpl" afterPath="$PROJECT_DIR$/themes/Migliori/product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productcoverage.html" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productcoverage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productcoverage.txt" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productcoverage.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productoutofstock.html" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productoutofstock.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productoutofstock.txt" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/productoutofstock.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-congratulations.html" afterPath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-congratulations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-congratulations.txt" afterPath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-congratulations.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-invitation.html" afterPath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-invitation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-invitation.txt" afterPath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-invitation.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-voucher.html" afterPath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-voucher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-voucher.txt" afterPath="$PROJECT_DIR$/modules/referralprogram/mails/uk/referralprogram-voucher.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/refund.html" afterPath="$PROJECT_DIR$/mails/uk/refund.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/refund.txt" afterPath="$PROJECT_DIR$/mails/uk/refund.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/reply_msg.html" afterPath="$PROJECT_DIR$/mails/uk/reply_msg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/reply_msg.txt" afterPath="$PROJECT_DIR$/mails/uk/reply_msg.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/return_slip.html" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/return_slip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/mails/uk/return_slip.txt" afterPath="$PROJECT_DIR$/modules/mailalerts/mails/uk/return_slip.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/sendtoafriend/mails/uk/send_to_a_friend.html" afterPath="$PROJECT_DIR$/modules/sendtoafriend/mails/uk/send_to_a_friend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/sendtoafriend/mails/uk/send_to_a_friend.txt" afterPath="$PROJECT_DIR$/modules/sendtoafriend/mails/uk/send_to_a_friend.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/shipped.html" afterPath="$PROJECT_DIR$/mails/uk/shipped.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/shipped.txt" afterPath="$PROJECT_DIR$/mails/uk/shipped.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart.tpl" afterPath="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translations/uk/tabs.php" afterPath="$PROJECT_DIR$/translations/uk/tabs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/test.html" afterPath="$PROJECT_DIR$/mails/uk/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/test.txt" afterPath="$PROJECT_DIR$/mails/uk/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin/tinymce.inc.js" afterPath="$PROJECT_DIR$/js/admin/tinymce.inc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/views/templates/admin/products_extra.tpl" afterPath="$PROJECT_DIR$/modules/datakick/views/templates/admin/products_extra.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/progress.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/progress.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/query.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/random.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/random.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/record-builder.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/record-builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/record-exists.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/record-exists.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/record/record.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/record/record.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/refresh-currency-rates.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/refresh-currency-rates.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/refresh-currency-rates.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/refresh-currency-rates.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/registry.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/registry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/replace-accented-chars.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/replace-accented-chars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/replace-reg.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/replace-reg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/replace.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/request-handler.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/request-handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/reset-auto-increment.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/reset-auto-increment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/types/restriction-type.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/types/restriction-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restriction.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restriction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/restrictions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/resume.php" afterPath="$PROJECT_DIR$/modules/datakick/resume.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/roles.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/roles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/round.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/round.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-custom-field.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-custom-field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-endpoint.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-import-definition.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-import-definition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-list.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-mass-update.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-mass-update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-permissions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-place.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-place.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-restrictions.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-restrictions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-schedule.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-schedule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-xml-template.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/save-xml-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario1-expects.txt" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario1-expects.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario1.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario2.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario3.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario4.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario5.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario6.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario7.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario8.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/scenario8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/schedule.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/schedule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/scheduler.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/scheduler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/schema-collector.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/schema-collector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema-loader.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema-loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/schema-utils.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/schema-utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/schema-validator.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/schema-validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/schema.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/schema.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/search-index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/search-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/search-index.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/tasks/factory/search-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/service.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/session.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/set-configuration.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/set-configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/set-option.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/set-option.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/set-virtual-field.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/set-virtual-field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/sha1.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/sha1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/restrictions/shop-restriction-type.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/restrictions/shop-restriction-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/shop.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/shop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/shutdown.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/shutdown.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/split.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/split.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/sql-error.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/sql-error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/starts-with.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/starts-with.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/state.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/state.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/statement-builder.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/statement-builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/statement.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/statement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/stock-movement.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/stock-movement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/stock.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/stock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/structure.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/structure.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/substract.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/substract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/substring.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/substring.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/supplier-reference.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/supplier-reference.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/supplier-url.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/functions/supplier-url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/supplier.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/supplier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/supply-order-detail.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/supply-order-detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/supply-order.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/supply-order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/tag.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/tail.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/tail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/task-control.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/task-control.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/task-factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/task-factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/task-parameters.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/task-parameters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/task.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/task.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/tax-rules.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/tax-rules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/temp-table.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/temp-table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/times.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/times.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-currency.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-currency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-date.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-lower-case.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-lower-case.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-number.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-number.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-string.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-string.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-unix-timestamp.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-unix-timestamp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-upper-case.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/to-upper-case.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transformations.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transformations.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/trim.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/trim.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/advancedeucompliance/translations/uk.php" afterPath="$PROJECT_DIR$/modules/advancedeucompliance/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/autoupgrade/translations/uk.php" afterPath="$PROJECT_DIR$/modules/autoupgrade/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/bankwire/translations/uk.php" afterPath="$PROJECT_DIR$/modules/bankwire/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockadvertising/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockadvertising/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockbanner/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockbanner/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockbestsellers/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockbestsellers/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcart/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcart/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcategories/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcategories/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcms/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcms/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcmsinfo/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcmsinfo/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcontact/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcontact/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcontactinfos/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcontactinfos/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcurrencies/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcurrencies/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcustomerprivacy/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockcustomerprivacy/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockfacebook/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockfacebook/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocklanguages/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocklanguages/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocklayered/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocklayered/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocklink/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocklink/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockmanufacturer/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockmanufacturer/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockmyaccount/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockmyaccount/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockmyaccountfooter/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockmyaccountfooter/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewproducts/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocknewproducts/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocknewsletter/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocknewsletter/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockpaymentlogo/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockpaymentlogo/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockpermanentlinks/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockpermanentlinks/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockreinsurance/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockreinsurance/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockrss/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockrss/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocksearch/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocksearch/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocksharefb/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocksharefb/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocksocial/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocksocial/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockspecials/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockspecials/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockstore/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockstore/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocksupplier/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocksupplier/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocktags/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocktags/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocktopmenu/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blocktopmenu/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockuserinfo/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockuserinfo/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockviewed/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockviewed/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockwishlist/translations/uk.php" afterPath="$PROJECT_DIR$/modules/blockwishlist/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/carriercompare/translations/uk.php" afterPath="$PROJECT_DIR$/modules/carriercompare/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cashondelivery/translations/uk.php" afterPath="$PROJECT_DIR$/modules/cashondelivery/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cheque/translations/uk.php" afterPath="$PROJECT_DIR$/modules/cheque/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cronjobs/translations/uk.php" afterPath="$PROJECT_DIR$/modules/cronjobs/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/crossselling/translations/uk.php" afterPath="$PROJECT_DIR$/modules/crossselling/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashactivity/translations/uk.php" afterPath="$PROJECT_DIR$/modules/dashactivity/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashgoals/translations/uk.php" afterPath="$PROJECT_DIR$/modules/dashgoals/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashproducts/translations/uk.php" afterPath="$PROJECT_DIR$/modules/dashproducts/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashtrends/translations/uk.php" afterPath="$PROJECT_DIR$/modules/dashtrends/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dateofdelivery/translations/uk.php" afterPath="$PROJECT_DIR$/modules/dateofdelivery/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/editorial/translations/uk.php" afterPath="$PROJECT_DIR$/modules/editorial/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/eurovatgenerator/translations/uk.php" afterPath="$PROJECT_DIR$/modules/eurovatgenerator/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/favoriteproducts/translations/uk.php" afterPath="$PROJECT_DIR$/modules/favoriteproducts/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/feeder/translations/uk.php" afterPath="$PROJECT_DIR$/modules/feeder/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/followup/translations/uk.php" afterPath="$PROJECT_DIR$/modules/followup/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gamification/translations/uk.php" afterPath="$PROJECT_DIR$/modules/gamification/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/graphnvd3/translations/uk.php" afterPath="$PROJECT_DIR$/modules/graphnvd3/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gridhtml/translations/uk.php" afterPath="$PROJECT_DIR$/modules/gridhtml/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gsitemap/translations/uk.php" afterPath="$PROJECT_DIR$/modules/gsitemap/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/homefeatured/translations/uk.php" afterPath="$PROJECT_DIR$/modules/homefeatured/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/homeslider/translations/uk.php" afterPath="$PROJECT_DIR$/modules/homeslider/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/loyalty/translations/uk.php" afterPath="$PROJECT_DIR$/modules/loyalty/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mailalerts/translations/uk.php" afterPath="$PROJECT_DIR$/modules/mailalerts/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/newsletter/translations/uk.php" afterPath="$PROJECT_DIR$/modules/newsletter/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/onboarding/translations/uk.php" afterPath="$PROJECT_DIR$/modules/onboarding/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pagesnotfound/translations/uk.php" afterPath="$PROJECT_DIR$/modules/pagesnotfound/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/productpaymentlogos/translations/uk.php" afterPath="$PROJECT_DIR$/modules/productpaymentlogos/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/producttooltip/translations/uk.php" afterPath="$PROJECT_DIR$/modules/producttooltip/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pscleaner/translations/uk.php" afterPath="$PROJECT_DIR$/modules/pscleaner/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/referralprogram/translations/uk.php" afterPath="$PROJECT_DIR$/modules/referralprogram/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/sekeywords/translations/uk.php" afterPath="$PROJECT_DIR$/modules/sekeywords/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/sendtoafriend/translations/uk.php" afterPath="$PROJECT_DIR$/modules/sendtoafriend/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/socialsharing/translations/uk.php" afterPath="$PROJECT_DIR$/modules/socialsharing/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestcategories/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsbestcategories/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestcustomers/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsbestcustomers/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestmanufacturers/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsbestmanufacturers/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestsuppliers/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsbestsuppliers/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestvouchers/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsbestvouchers/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statscarrier/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statscarrier/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statscatalog/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statscatalog/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statscheckup/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statscheckup/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsdata/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsdata/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsequipment/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsequipment/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsforecast/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsforecast/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statslive/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statslive/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsnewsletter/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsnewsletter/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsorigin/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsorigin/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statspersonalinfos/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statspersonalinfos/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsproduct/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsproduct/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsregistrations/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsregistrations/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statssales/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statssales/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statssearch/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statssearch/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsstock/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsstock/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsvisits/translations/uk.php" afterPath="$PROJECT_DIR$/modules/statsvisits/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/themeconfigurator/translations/uk.php" afterPath="$PROJECT_DIR$/modules/themeconfigurator/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trackingfront/translations/uk.php" afterPath="$PROJECT_DIR$/modules/trackingfront/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/vatnumber/translations/uk.php" afterPath="$PROJECT_DIR$/modules/vatnumber/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/watermark/translations/uk.php" afterPath="$PROJECT_DIR$/modules/watermark/translations/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default-bootstrap/lang/uk.php" afterPath="$PROJECT_DIR$/themes/default-bootstrap/lang/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/voucher.html" afterPath="$PROJECT_DIR$/mails/uk/voucher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/voucher.txt" afterPath="$PROJECT_DIR$/mails/uk/voucher.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/voucher_new.html" afterPath="$PROJECT_DIR$/mails/uk/voucher_new.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mails/uk/voucher_new.txt" afterPath="$PROJECT_DIR$/mails/uk/voucher_new.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlink.html" afterPath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlink.txt" afterPath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlink.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlist.html" afterPath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlist.txt" afterPath="$PROJECT_DIR$/modules/blockwishlist/mails/uk/wishlist.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/type-check.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/import/transforms/type-check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/types.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/types.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/update.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/db/statements/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/services/upload-file.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/services/upload-file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/user-error.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/user-error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/types/user-restriction-type.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/restrictions/types/user-restriction-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/user.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/user.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/utils.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/uuid.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/utils/uuid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/functions/variable.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/functions/variable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/sql/version.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/sql/version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/visitor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/visitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/visitor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/visitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/warehouse.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/warehouse.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-analyze.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-analyze.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-builder-multi.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-builder-multi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-builder.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-child-info.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-child-info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-executor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-executor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/xml-feed-factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/xml-feed-factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/xml-feed.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/xml-feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/xml-file-factory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/factory/xml-file-factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/xml-file.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/tasks/xml-file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/xml-import-extractor.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/extractors/xml-import-extractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-import-validate-matching.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-import-validate-matching.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-importer.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-importer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-node-count.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-node-count.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-node-info.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-node-info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-node.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-node.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-output-in-memory.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-output-in-memory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-output-stream.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-output-stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-output.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-output.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-query-builder.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/export/xml-query-builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-reader.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-reader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-record-builder.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/import/xml-record-builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-structure.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-structure.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/schema/xml-template.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/schema/xml-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-text-info.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/analyze/xml-text-info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/xml1.xml" afterPath="$PROJECT_DIR$/modules/datakick/engine/core/classes/xml/test/xml1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/zone.php" afterPath="$PROJECT_DIR$/modules/datakick/engine/prestashop/schema/zone.php" />
     </list>
     <ignored path="migliori.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -278,24 +476,14 @@
     <favorites_list name="migliori.loc" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41372737">
+    <splitter split-orientation="horizontal" split-proportion="0.7454195">
       <split-first>
         <leaf>
-          <file leaf-file-name="order-opc.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/themes/Migliori/header.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+                <state vertical-scroll-proportion="-0.0">
+                  <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -304,84 +492,112 @@
           <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/themes/Migliori/footer.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="socialloginizer.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/socialloginizer/socialloginizer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="-16.884615">
+                  <caret line="60" column="84" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
                   <folding>
-                    <marker date="1521732075268" expanded="true" signature="41935:41975" placeholder="..." />
-                    <marker date="1521732075268" expanded="true" signature="55985:56025" placeholder="..." />
+                    <marker date="1532892264916" expanded="true" signature="2557:2622" placeholder="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="redirection_script.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/socialloginizer/views/templates/hook/redirection_script.tpl">
+          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/Migliori/product.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="0.12727273">
+                  <caret line="182" column="83" selection-start-line="182" selection-start-column="83" selection-end-line="182" selection-end-column="83" />
+                  <folding>
+                    <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#fieldset#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#3;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#1;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="authentication_block.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/socialloginizer/views/templates/hook/authentication_block.tpl">
+          <file leaf-file-name="jquery144.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buyme/js/jquery144.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shortcode.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/socialloginizer/views/templates/hook/shortcode.tpl">
+          <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buyme/js/config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="buyme.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buyme/js/buyme.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="plugin_social_mobile.tpl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/modules/socialloginizer/views/templates/hook/plugin_social_mobile.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="285" column="36" selection-start-line="285" selection-start-column="36" selection-end-line="285" selection-end-column="36" />
                   <folding>
-                    <marker date="1521732076863" expanded="true" signature="3225:3235" placeholder="..." />
-                    <marker date="1521732076863" expanded="true" signature="3376:3386" placeholder="..." />
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="custom_order.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/custom_order.js">
+          <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buyme/lib/send.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+                <state vertical-scroll-proportion="-4.0384617">
+                  <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+                  <folding>
+                    <marker date="1532899227895" expanded="true" signature="2279:2345" placeholder="..." />
+                    <marker date="1532899227895" expanded="true" signature="4506:4564" placeholder="..." />
+                    <marker date="1532899227895" expanded="true" signature="4627:4705" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/buyme/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-9.066667">
+                  <caret line="156" column="79" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/css/base.css">
+          <file leaf-file-name="smtp.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buyme/lib/smtp.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="891" column="0" selection-start-line="891" selection-start-column="0" selection-end-line="891" selection-end-column="0" />
+                <state vertical-scroll-proportion="-28.115385">
+                  <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="f.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buyme/lib/f.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-33.346153">
+                  <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -391,127 +607,31 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="shopping-cart.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart.tpl">
+          <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/Migliori/header.tpl">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="425" column="31" selection-start-line="425" selection-start-column="31" selection-end-line="425" selection-end-column="78" />
+                  <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="smartblog.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/smartblog/smartblog.php">
+          <file leaf-file-name="exportproducts.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/modules/exportproducts/exportproducts.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1521557443167" expanded="true" signature="19466:19644" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="19477:19633" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="19521:19625" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="19676:20144" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="19734:19936" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-                    <marker date="1521557443167" expanded="true" signature="19949:20129" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="20938:21135" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="20968:21124" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="21012:21116" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="21167:21635" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="21225:21427" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-                    <marker date="1521557443167" expanded="true" signature="21440:21620" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="22395:22592" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="22425:22581" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="22469:22573" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="22624:23092" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="22682:22884" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-                    <marker date="1521557443167" expanded="true" signature="22897:23077" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="23599:23796" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="23629:23785" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="23673:23777" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="23828:24296" placeholder="..." />
-                    <marker date="1521557443167" expanded="true" signature="23886:24088" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-                    <marker date="1521557443167" expanded="true" signature="24101:24281" placeholder="{...}" />
-                    <marker date="1521557443167" expanded="true" signature="24637:24671" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fields.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/translations/uk/fields.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="11.230769">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/translations/uk/admin.php">
+          <file leaf-file-name="AdminExportProducts.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/modules/exportproducts/controllers/admin/AdminExportProducts.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-11.55873">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blockcontactinfos.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="142" column="59" selection-start-line="142" selection-start-column="59" selection-end-line="142" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blockcontactinfos.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blockcontactinfos.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="56" column="17" selection-start-line="50" selection-start-column="12" selection-end-line="56" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/ecm_buyme_pro/lib/send.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lib.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/modules/ecm_buyme_pro/lib/lib.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="buyme.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/ecm_buyme_pro/buyme.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -534,12 +654,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin2526queq9/themes/default/template/footer.tpl" />
-        <option value="$PROJECT_DIR$/admin2526queq9/themes/default/template/header.tpl" />
-        <option value="$PROJECT_DIR$/modules/gamification/views/templates/hook/notification_bt.tpl" />
-        <option value="$PROJECT_DIR$/modules/massprice/views/img/index.php" />
-        <option value="$PROJECT_DIR$/callme/js/config.js" />
-        <option value="$PROJECT_DIR$/callme/lib/send.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess" />
         <option value="$PROJECT_DIR$/modules/blockcontactinfos/translations/en.php" />
         <option value="$PROJECT_DIR$/modules/blockcontactinfos/translations/uk.php" />
@@ -574,17 +688,23 @@
         <option value="$PROJECT_DIR$/modules/onepagecheckout/translations/en.php" />
         <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/order-opc-new-account.tpl" />
         <option value="$PROJECT_DIR$/modules/blockviewed/blockviewed.php" />
-        <option value="$PROJECT_DIR$/themes/Migliori/product.tpl" />
         <option value="$PROJECT_DIR$/modules/blockuserinfo/blockuserinfo.tpl" />
         <option value="$PROJECT_DIR$/themes/Migliori/modules/blockuserinfo/nav.tpl" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/themes/Migliori/modules/blockuserinfo/translations/ru.php" />
         <option value="$PROJECT_DIR$/modules/blockuserinfo/translations/uk.php" />
         <option value="$PROJECT_DIR$/modules/onepagecheckout/views/templates/front/shopping-cart.tpl" />
-        <option value="$PROJECT_DIR$/themes/Migliori/footer.tpl" />
         <option value="$PROJECT_DIR$/translations/uk/admin.php" />
         <option value="$PROJECT_DIR$/modules/blockcontactinfos/blockcontactinfos.php" />
         <option value="$PROJECT_DIR$/themes/Migliori/modules/blockcontactinfos/blockcontactinfos.tpl" />
+        <option value="$PROJECT_DIR$/themes/Migliori/footer.tpl" />
+        <option value="$PROJECT_DIR$/buyme/js/config.js" />
+        <option value="$PROJECT_DIR$/buyme/js/buyme.js" />
+        <option value="$PROJECT_DIR$/buyme/lib/smtp.php" />
+        <option value="$PROJECT_DIR$/buyme/lib/f.php" />
+        <option value="$PROJECT_DIR$/buyme/index.php" />
+        <option value="$PROJECT_DIR$/buyme/lib/send.php" />
+        <option value="$PROJECT_DIR$/themes/Migliori/product.tpl" />
       </list>
     </option>
   </component>
@@ -706,7 +826,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ecm_buyme_pro" />
+              <option name="myItemId" value="exportproducts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -724,11 +844,105 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ecm_buyme_pro" />
+              <option name="myItemId" value="exportproducts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buyme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buyme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buyme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buyme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migliori.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buyme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -739,7 +953,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../citymotors.loc/themes/default-bootstrap/product.tpl" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="gitignore&#9;null&#9;null" />
@@ -805,12 +1019,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21558245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3980424" sideWeight="0.51437217" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3970588" sideWeight="0.48562783" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -821,7 +1036,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3980424" sideWeight="0.48562783" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -870,71 +1084,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="10" selection-start-line="43" selection-start-column="0" selection-end-line="63" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom_order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/modules/blockcart/blockcart.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="168" column="38" selection-start-line="167" selection-start-column="40" selection-end-line="168" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callme/stuff/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callme/__MACOSX/templates/.__base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callme/stuff/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callme/templates/default/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callme/templates/yellow/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callme/templates/yellow/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="263" column="15" selection-start-line="224" selection-start-column="2" selection-end-line="224" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Сайти/Магазин/База з сервера з товарами/citymoto_migli (1).sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -995,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,13 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="572" column="13" selection-start-line="572" selection-start-column="13" selection-end-line="572" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1120,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="425" column="31" selection-start-line="425" selection-start-column="31" selection-end-line="425" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,49 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521557443167" expanded="true" signature="19466:19644" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="19477:19633" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="19521:19625" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="19676:20144" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="19734:19936" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-            <marker date="1521557443167" expanded="true" signature="19949:20129" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="20938:21135" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="20968:21124" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="21012:21116" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="21167:21635" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="21225:21427" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-            <marker date="1521557443167" expanded="true" signature="21440:21620" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="22395:22592" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="22425:22581" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="22469:22573" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="22624:23092" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="22682:22884" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-            <marker date="1521557443167" expanded="true" signature="22897:23077" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="23599:23796" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="23629:23785" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="23673:23777" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="23828:24296" placeholder="..." />
-            <marker date="1521557443167" expanded="true" signature="23886:24088" placeholder="{&quot;tab&quot;: \'AdminAboutUs\'...}" />
-            <marker date="1521557443167" expanded="true" signature="24101:24281" placeholder="{...}" />
-            <marker date="1521557443167" expanded="true" signature="24637:24671" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Migliori/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,8 +1276,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521732075268" expanded="true" signature="41935:41975" placeholder="..." />
-            <marker date="1521732075268" expanded="true" signature="55985:56025" placeholder="..." />
+            <marker date="1532856962778" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1532856962778" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1205,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,7 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,31 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="17" selection-start-line="50" selection-start-column="12" selection-end-line="56" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ecm_buyme_pro/buyme.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ecm_buyme_pro/lib/send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ecm_buyme_pro/lib/lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,14 +1342,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../dieselpoint.loc/themes/dieselpoint/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6953405">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dieselpoint.loc/themes/dieselpoint/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.86389416">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/socialloginizer/views/templates/hook/plugin_social_mobile.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521732076863" expanded="true" signature="3225:3235" placeholder="..." />
-            <marker date="1521732076863" expanded="true" signature="3376:3386" placeholder="..." />
+            <marker date="1521732076863" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1521732076863" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Migliori/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/exportproducts/exportproducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.230769">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/exportproducts/controllers/admin/AdminExportProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.55873">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Migliori/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.884615">
+          <caret line="60" column="84" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
+          <folding>
+            <marker date="1532892264916" expanded="true" signature="2557:2622" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../citymotors.loc/themes/default-bootstrap/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327032">
+          <caret line="251" column="94" selection-start-line="251" selection-start-column="86" selection-end-line="251" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyme/js/buyme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="285" column="36" selection-start-line="285" selection-start-column="36" selection-end-line="285" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyme/js/jquery144.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyme/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyme/lib/smtp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.115385">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyme/lib/f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.346153">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyme/lib/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0384617">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1532899227895" expanded="true" signature="2279:2345" placeholder="..." />
+            <marker date="1532899227895" expanded="true" signature="4506:4564" placeholder="..." />
+            <marker date="1532899227895" expanded="true" signature="4627:4705" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Migliori/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12727273">
+          <caret line="182" column="83" selection-start-line="182" selection-start-column="83" selection-end-line="182" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#fieldset#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#form#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.066667">
+          <caret line="156" column="79" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>

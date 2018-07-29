@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-27 00:29:14
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-30 00:21:52
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:82605b5a3d2a473438-92306136%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:268055b5e2ff0b61a32-01329990%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-      1 => 1525719478,
+      1 => 1532856963,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '82605b5a3d2a473438-92306136',
+  'nocache_hash' => '268055b5e2ff0b61a32-01329990',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b5a3d2a9ec6b4_96815787',
+  'unifunc' => 'content_5b5e2ff0e38544_13953756',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b5a3d2a9ec6b4_96815787')) {function content_5b5a3d2a9ec6b4_96815787($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5b5e2ff0e38544_13953756')) {function content_5b5e2ff0e38544_13953756($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -173,7 +173,12 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 <?php if (isset($_smarty_tpl->tpl_vars['geolocation_country']->value)&&$_smarty_tpl->tpl_vars['geolocation_country']->value) {?> <span class="bold"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['geolocation_country']->value, ENT_QUOTES, 'UTF-8', true);?>
 </span><?php }?></p>
 			</div>
-		<?php }?>		
+		<?php }?>	
+
+		<div id="mg_guest_tracking">
+			<a href="/guest-tracking"><i class="fa fa-search"></i><span><?php echo smartyTranslate(array('s'=>'Tracking your order'),$_smarty_tpl);?>
+</span></a></p>
+		</div>
 
 		<div id="page">
 			<div class="header-container">
@@ -225,8 +230,10 @@ if (!empty($_capture_buffer)) {
 "<?php if (isset($_smarty_tpl->tpl_vars['logo_image_width']->value)&&$_smarty_tpl->tpl_vars['logo_image_width']->value) {?> width="<?php echo $_smarty_tpl->tpl_vars['logo_image_width']->value;?>
 "<?php }?><?php if (isset($_smarty_tpl->tpl_vars['logo_image_height']->value)&&$_smarty_tpl->tpl_vars['logo_image_height']->value) {?> height="<?php echo $_smarty_tpl->tpl_vars['logo_image_height']->value;?>
 "<?php }?>/>
+										<span class="mg_under_logo"><?php echo smartyTranslate(array('s'=>'Means the best'),$_smarty_tpl);?>
+</span>
 									</a>
-
+								
 								</div>
 								<div class="slogan">
 									<?php echo smartyTranslate(array('s'=>'Internet store of children\'s things «Migliori»'),$_smarty_tpl);?>
