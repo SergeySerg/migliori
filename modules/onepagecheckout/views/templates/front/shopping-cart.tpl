@@ -426,7 +426,7 @@
                 {*&nbsp; {l s='or fill in the form below to finish your order.' mod='onepagecheckout'}*}
                 {**}
             {*{/if}*}
-            {if !isset($onlyCartSummary)}<a href="#" id="pay" class="button-in-cart my-checkout">Оформление заказа</a>{/if}
+            {if !isset($onlyCartSummary)}<a href="#" id="pay" class="button-in-cart my-checkout">{l s='or fill in the form below to finish your order.' mod='onepagecheckout'}</a>{/if}
         </b>
     </p>
     <p class="clear"></p>

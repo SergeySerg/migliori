@@ -55,7 +55,6 @@ $_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'Загальна вартість доставки:';
 $_MODULE['<{blockcart}prestashop>blockcart_300225ee958b6350abc51805dab83c24'] = 'Продовжити покупки';
 $_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'Оформити замовлення';
-$_MODULE['<{blockcart}prestashop>blockcart_b83dfcb4c1ff4fc7ab077c8836edbdc7'] = 'В кошику Вас чекає ПОДАРУНОК';
 
 
 return $_MODULE;

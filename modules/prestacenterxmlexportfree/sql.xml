@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sql>
+	<install>
+
+		<query><![CDATA[SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";]]></query>
+
+		<query><![CDATA[CREATE TABLE IF NOT EXISTS `@prefix@@xml_service@` (
+  `id_@xml_service@` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_@xml_service@`),
+  UNIQUE KEY (`name`)
+) ENGINE=@engine@  DEFAULT CHARSET=utf8 COMMENT='Služby, kterým je export poskytován.';]]></query>
+
+		<query><![CDATA[ALTER TABLE `@prefix@@xml_service@` ADD UNIQUE (`name`);]]></query>
+
+		<query><![CDATA[CREATE TABLE IF NOT EXISTS `@prefix@@xml_feed@` (
+  `id_@xml_feed@` int(11) NOT NULL AUTO_INCREMENT,
+  `id_@xml_service@` int(11) NOT NULL,
+  `id_lang` int(5) unsigned NOT NULL,
+  `id_currency` int(5) unsigned NOT NULL,
+  `xml_source` varchar(2500) NOT NULL,
+  `allow_empty_tags` tinyint(1) NOT NULL DEFAULT '0',
+  `filename` varchar(60) NOT NULL,
+  `filesize` int(11) NOT NULL DEFAULT '0',
+  `created` datetime NOT NULL,
+  PRIMARY KEY (`id_@xml_feed@`),
+  UNIQUE KEY (`filename`),
+  KEY `id_@xml_service@` (`id_@xml_service@`),
+  KEY `id_lang` (`id_lang`),
+  KEY `id_currency` (`id_currency`)
+) ENGINE=@engine@ DEFAULT CHARSET=utf8;]]></query>
+
+	</install>
+
+	<defaultData>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_service@` (`id_@xml_service@`, `name`) VALUES (1, 'Nákupy Google');]]></query>
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_service@` (`id_@xml_service@`, `name`) VALUES (2, 'Heureka.(cz/sk)');]]></query>
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_service@` (`id_@xml_service@`, `name`) VALUES (3, 'Zboží.cz');]]></query>
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_service@` (`id_@xml_service@`, `name`) VALUES (4, 'Pricemania.sk');]]></query>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_feed@` (`id_@xml_service@`, `id_lang`, `id_currency`, `xml_source`, `allow_empty_tags`, `filename`, `filesize`, `created`) 
+		SELECT (SELECT `id_@xml_service@` FROM `@prefix@@xml_service@` WHERE `name` = 'Nákupy Google'), 
+		IFNULL((SELECT `id_lang` FROM `@prefix@lang` WHERE `iso_code` = 'cs'), 0), 
+		IFNULL((SELECT `id_currency` FROM `@prefix@currency` WHERE `iso_code` = 'CZK'), 0), '<?xml version="1.0" encoding="utf-8" ?>\n<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">\n	<title>{shop_name}</title>\n	<link rel="self" href="{shop_url}" />\n	<updated>{update_feed}</updated>\n	\n		<entry ps_block="product">\n		<title>{name}</title>\n		<g:id>{id}</g:id>\n		<link href="{url}" />\n		<summary>{description_short}</summary>\n		<updated>{update_item}</updated> \n		<g:google_product_category></g:google_product_category>\n		<g:product_type>{categories}</g:product_type>\n		<g:image_link>{img_url}</g:image_link> \n		<g:price>{price_vat_iso}</g:price> \n		<g:condition>{condition: "new,used,refurbished"}</g:condition>\n		<g:gtin>{ean}</g:gtin>\n		<g:brand>{manufacturer}</g:brand>\n		<g:availability>in stock</g:availability>\n	    </entry>\n		\n</feed>', 0, 'google-cs-czk.xml', 0, '0000-00-00 00:00:00';]]></query>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_feed@` (`id_@xml_service@`, `id_lang`, `id_currency`, `xml_source`, `allow_empty_tags`, `filename`, `filesize`, `created`) 
+		SELECT (SELECT `id_@xml_service@` FROM `@prefix@@xml_service@` WHERE `name` = 'Nákupy Google'), 
+		IFNULL((SELECT `id_lang` FROM `@prefix@lang` WHERE `iso_code` = 'sk'), 0), 
+		IFNULL((SELECT `id_currency` FROM `@prefix@currency` WHERE `iso_code` = 'EUR'), 0), '<?xml version="1.0" encoding="utf-8" ?>\n<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">\n	<title>{shop_name}</title>\n	<link rel="self" href="{shop_url}" />\n	<updated>{update_feed}</updated>\n	\n		<entry ps_block="product">\n		<title>{name}</title>\n		<g:id>{id}</g:id>\n		<link href="{url}" />\n		<summary>{description_short}</summary>\n		<updated>{update_item}</updated> \n		<g:google_product_category></g:google_product_category>\n		<g:product_type>{categories}</g:product_type>\n		<g:image_link>{img_url}</g:image_link> \n		<g:price>{price_vat_iso}</g:price> \n		<g:condition>{condition: "new,used,refurbished"}</g:condition>\n		<g:gtin>{ean}</g:gtin>\n		<g:brand>{manufacturer}</g:brand>\n		<g:availability>in stock</g:availability>\n	    </entry>\n		\n</feed>', 0, 'google-sk-eur.xml', 0, '0000-00-00 00:00:00';]]></query>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_feed@` (`id_@xml_service@`, `id_lang`, `id_currency`, `xml_source`, `allow_empty_tags`, `filename`, `filesize`, `created`) 
+		SELECT (SELECT `id_@xml_service@` FROM `@prefix@@xml_service@` WHERE `name` = 'Nákupy Google'), 
+		IFNULL((SELECT `id_lang` FROM `@prefix@lang` WHERE `iso_code` = 'en'), 0), 
+		IFNULL((SELECT `id_currency` FROM `@prefix@currency` WHERE `iso_code` = 'EUR'), 0), '<?xml version="1.0" encoding="utf-8" ?>\n<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">\n	<title>{shop_name}</title>\n	<link rel="self" href="{shop_url}" />\n	<updated>{update_feed}</updated>\n	\n		<entry ps_block="product">\n		<title>{name}</title>\n		<g:id>{id}</g:id>\n		<link href="{url}" />\n		<summary>{description_short}</summary>\n		<updated>{update_item}</updated> \n		<g:google_product_category></g:google_product_category>\n		<g:product_type>{categories}</g:product_type>\n		<g:image_link>{img_url}</g:image_link> \n		<g:price>{price_vat_iso}</g:price> \n		<g:condition>{condition: "new,used,refurbished"}</g:condition>\n		<g:gtin>{ean}</g:gtin>\n		<g:brand>{manufacturer}</g:brand>\n		<g:availability>in stock</g:availability>\n	    </entry>\n		\n</feed>', 0, 'google-en-eur.xml', 0, '0000-00-00 00:00:00';]]></query>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_feed@` (`id_@xml_service@`, `id_lang`, `id_currency`, `xml_source`, `allow_empty_tags`, `filename`, `filesize`, `created`) 
+		SELECT (SELECT `id_@xml_service@` FROM `@prefix@@xml_service@` WHERE `name` = 'Heureka.(cz/sk)'), 
+		IFNULL((SELECT `id_lang` FROM `@prefix@lang` WHERE `iso_code` = 'cs'), 0), 
+		IFNULL((SELECT `id_currency` FROM `@prefix@currency` WHERE `iso_code` = 'CZK'), 0), '<?xml version="1.0" encoding="utf-8" ?>\n<SHOP>\n  <SHOPITEM ps_block="product">\n    <ITEM_ID>{id}</ITEM_ID>\n    <PRODUCTNAME>{name}</PRODUCTNAME>\n    <PRODUCT>{name}</PRODUCT>\n    <DESCRIPTION>{description_short}</DESCRIPTION>\n    <URL>{url}</URL>\n    <IMGURL>{img_url}</IMGURL>\n    <PRICE_VAT>{price_vat}</PRICE_VAT>\n    <MANUFACTURER>{manufacturer}</MANUFACTURER>\n    <CATEGORYTEXT>{categories}</CATEGORYTEXT>\n    <EAN>{ean}</EAN>\n    <DELIVERY_DATE>{days}</DELIVERY_DATE>\n  </SHOPITEM>\n</SHOP>', 0, 'heureka-cs-czk.xml', 0, '0000-00-00 00:00:00';]]></query>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_feed@` (`id_@xml_service@`, `id_lang`, `id_currency`, `xml_source`, `allow_empty_tags`, `filename`, `filesize`, `created`) 
+		SELECT (SELECT `id_@xml_service@` FROM `@prefix@@xml_service@` WHERE `name` = 'Heureka.(cz/sk)'),
+		IFNULL((SELECT `id_lang` FROM `@prefix@lang` WHERE `iso_code` = 'sk'), 0), 
+		IFNULL((SELECT `id_currency` FROM `@prefix@currency` WHERE `iso_code` = 'EUR'), 0), '<?xml version="1.0" encoding="utf-8" ?>\n<SHOP>\n  <SHOPITEM ps_block="product">\n    <ITEM_ID>{id}</ITEM_ID>\n    <PRODUCTNAME>{name}</PRODUCTNAME>\n    <PRODUCT>{name}</PRODUCT>\n    <DESCRIPTION>{description_short}</DESCRIPTION>\n    <URL>{url}</URL>\n    <IMGURL>{img_url}</IMGURL>\n    <PRICE_VAT>{price_vat}</PRICE_VAT>\n    <MANUFACTURER>{manufacturer}</MANUFACTURER>\n    <CATEGORYTEXT>{categories}</CATEGORYTEXT>\n    <EAN>{ean}</EAN>\n    <DELIVERY_DATE>{days}</DELIVERY_DATE>\n  </SHOPITEM>\n</SHOP>', 0, 'heureka-sk-eur.xml', 0, '0000-00-00 00:00:00';]]></query>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_feed@` (`id_@xml_service@`, `id_lang`, `id_currency`, `xml_source`, `allow_empty_tags`, `filename`, `filesize`, `created`) 
+		SELECT (SELECT `id_@xml_service@` FROM `@prefix@@xml_service@` WHERE `name` = 'Zboží.cz'),
+		IFNULL((SELECT `id_lang` FROM `@prefix@lang` WHERE `iso_code` = 'cs'), 0), 
+		IFNULL((SELECT `id_currency` FROM `@prefix@currency` WHERE `iso_code` = 'CZK'), 0), '<?xml version="1.0" encoding="utf-8" ?>\n<SHOP>\n	<SHOPITEM ps_block="product">\n		<PRODUCT>{name}</PRODUCT>\n		<EAN>{ean}</EAN>\n		<DESCRIPTION>{description_short}</DESCRIPTION>\n		<CATEGORYTEXT>{categories}</CATEGORYTEXT>\n		<URL>{url}</URL>\n		<MANUFACTURER>{manufacturer}</MANUFACTURER>\n		<ITEM_TYPE>{condition: "new,bazaar,bazaar"}</ITEM_TYPE>\n		<DELIVERY_DATE>{days}</DELIVERY_DATE>\n		<IMGURL>{img_url}</IMGURL>\n		<PRICE_VAT>{price_vat}</PRICE_VAT>\n	</SHOPITEM>\n</SHOP>', 0, 'zbozi-cs-czk.xml', 0, '0000-00-00 00:00:00';]]></query>
+
+		<query><![CDATA[INSERT IGNORE INTO `@prefix@@xml_feed@` (`id_@xml_service@`, `id_lang`, `id_currency`, `xml_source`, `allow_empty_tags`, `filename`, `filesize`, `created`) 
+		SELECT (SELECT `id_@xml_service@` FROM `@prefix@@xml_service@` WHERE `name` = 'Pricemania.sk'),
+		IFNULL((SELECT `id_lang` FROM `@prefix@lang` WHERE `iso_code` = 'sk'), 0), 
+		IFNULL((SELECT `id_currency` FROM `@prefix@currency` WHERE `iso_code` = 'EUR'), 0), '<?xml version="1.0" encoding="utf-8" ?>\n<products>\n	<product ps_block="product">\n		<id>{id}</id>\n		<name>{name}</name>\n		<description>{description_short}</description>\n		<price>{price_vat}</price>\n		<category>{categories}</category>\n		<manufacturer>{manufacturer}</manufacturer>\n		<url>{url}</url>\n		<picture>{img_url}</picture>\n		<availability>{days}</availability>\n		<ean>{ean}</ean>\n	</product>\n	</products>', 0, 'pricemania-sk-eur.xml', 0, '0000-00-00 00:00:00';]]></query>
+
+	</defaultData>
+
+	<uninstall>
+	</uninstall>
+
+	<check>
+		<query><![CDATA[SHOW TABLE STATUS LIKE '@prefix@pc_xmlfree_%']]></query>
+		<query><![CDATA[SELECT table_name as 'Name', table_rows as 'Rows' FROM information_schema.tables WHERE table_schema = '@database@' AND table_name LIKE '@prefix@pc_xmlfree_%']]></query>
+	</check>
+
+</sql>

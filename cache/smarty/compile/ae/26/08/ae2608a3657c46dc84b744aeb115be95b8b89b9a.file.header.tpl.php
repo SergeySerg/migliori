@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-07 21:48:54
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-27 00:29:14
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:74095af09f96593cd3-55815989%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:82605b5a3d2a473438-92306136%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ae2608a3657c46dc84b744aeb115be95b8b89b9a' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\header.tpl',
-      1 => 1525382368,
+      1 => 1525719478,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '74095af09f96593cd3-55815989',
+  'nocache_hash' => '82605b5a3d2a473438-92306136',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5af09f967901b1_54972503',
+  'unifunc' => 'content_5b5a3d2a9ec6b4_96815787',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5af09f967901b1_54972503')) {function content_5af09f967901b1_54972503($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_5b5a3d2a9ec6b4_96815787')) {function content_5b5a3d2a9ec6b4_96815787($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -146,6 +146,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 		<?php echo $_smarty_tpl->tpl_vars['HOOK_HEADER']->value;?>
 
 		<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 
 

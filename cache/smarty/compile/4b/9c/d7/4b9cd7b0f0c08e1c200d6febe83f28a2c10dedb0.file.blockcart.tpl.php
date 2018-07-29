@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-05-07 21:48:52
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-27 00:29:10
          compiled from "E:\Webserver\domains\migliori.loc\themes\Migliori\modules\blockcart\blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:77835af09f94bb5952-43681697%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:293365b5a3d265e2219-06463291%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4b9cd7b0f0c08e1c200d6febe83f28a2c10dedb0' => 
     array (
       0 => 'E:\\Webserver\\domains\\migliori.loc\\themes\\Migliori\\modules\\blockcart\\blockcart.tpl',
-      1 => 1525382166,
+      1 => 1525719478,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '77835af09f94bb5952-43681697',
+  'nocache_hash' => '293365b5a3d265e2219-06463291',
   'function' => 
   array (
   ),
@@ -47,15 +47,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'use_taxes' => 0,
     'display_tax_label' => 0,
     'active_overlay' => 0,
-    'shipping_cost_float' => 0,
-    'shipping_cost' => 0,
     'img_dir' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5af09f9517a4a2_61948095',
+  'unifunc' => 'content_5b5a3d26d80209_33350028',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5af09f9517a4a2_61948095')) {function content_5af09f9517a4a2_61948095($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5b5a3d26d80209_33350028')) {function content_5b5a3d26d80209_33350028($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include 'E:\\Webserver\\domains\\migliori.loc\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <!-- MODULE Block cart -->
@@ -411,24 +409,7 @@ $_smarty_tpl->tpl_vars['discount']->_loop = true;
 						</span>
 					</div>
 				<?php }?>
-				<div class="layer_cart_row">
-					<strong class="dark<?php if ($_smarty_tpl->tpl_vars['shipping_cost_float']->value==0&&(!$_smarty_tpl->tpl_vars['cart_qties']->value||$_smarty_tpl->tpl_vars['cart']->value->isVirtualCart()||!isset($_smarty_tpl->tpl_vars['cart']->value->id_address_delivery)||!$_smarty_tpl->tpl_vars['cart']->value->id_address_delivery)) {?> unvisible<?php }?>">
-						<?php echo smartyTranslate(array('s'=>'Total shipping','mod'=>'blockcart'),$_smarty_tpl);?>
-&nbsp;<?php if ($_smarty_tpl->tpl_vars['use_taxes']->value&&$_smarty_tpl->tpl_vars['display_tax_label']->value&&$_smarty_tpl->tpl_vars['show_tax']->value) {?><?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1) {?><?php echo smartyTranslate(array('s'=>'(tax excl.)','mod'=>'blockcart'),$_smarty_tpl);?>
-<?php } else { ?><?php echo smartyTranslate(array('s'=>'(tax incl.)','mod'=>'blockcart'),$_smarty_tpl);?>
-<?php }?><?php }?>
-					</strong>
-					<span class="ajax_cart_shipping_cost<?php if ($_smarty_tpl->tpl_vars['shipping_cost_float']->value==0&&(!$_smarty_tpl->tpl_vars['cart_qties']->value||$_smarty_tpl->tpl_vars['cart']->value->isVirtualCart()||!isset($_smarty_tpl->tpl_vars['cart']->value->id_address_delivery)||!$_smarty_tpl->tpl_vars['cart']->value->id_address_delivery)) {?> unvisible<?php }?>">
-						<?php if ($_smarty_tpl->tpl_vars['shipping_cost_float']->value==0) {?>
-							 <?php if ((!isset($_smarty_tpl->tpl_vars['cart']->value->id_address_delivery)||!$_smarty_tpl->tpl_vars['cart']->value->id_address_delivery)) {?><?php echo smartyTranslate(array('s'=>'To be determined','mod'=>'blockcart'),$_smarty_tpl);?>
-<?php } else { ?><?php echo smartyTranslate(array('s'=>'Free shipping!','mod'=>'blockcart'),$_smarty_tpl);?>
-<?php }?>
-						<?php } else { ?>
-							<?php echo $_smarty_tpl->tpl_vars['shipping_cost']->value;?>
-
-						<?php }?>
-					</span>
-				</div>
+				
 				<?php if ($_smarty_tpl->tpl_vars['show_tax']->value&&isset($_smarty_tpl->tpl_vars['tax_cost']->value)) {?>
 					<div class="layer_cart_row">
 						<strong class="dark"><?php echo smartyTranslate(array('s'=>'Tax','mod'=>'blockcart'),$_smarty_tpl);?>
@@ -464,14 +445,14 @@ $_smarty_tpl->tpl_vars['discount']->_loop = true;
 					</span>
 				</div>
 				<div class="button-container">
-					<span class="continue btn btn-default button exclusive-medium" title="<?php echo smartyTranslate(array('s'=>'Continue shopping','mod'=>'blockcart'),$_smarty_tpl);?>
+					<span class="continue btn btn-default button exclusive-medium mg_btn_buy mg_btn_buy_next" title="<?php echo smartyTranslate(array('s'=>'Continue shopping','mod'=>'blockcart'),$_smarty_tpl);?>
 ">
 						<span>
 							<i class="icon-chevron-left left"></i><?php echo smartyTranslate(array('s'=>'Continue shopping','mod'=>'blockcart'),$_smarty_tpl);?>
 
 						</span>
 					</span>
-					<a class="btn btn-default button button-medium"	href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink(((string)$_smarty_tpl->tpl_vars['order_process']->value),true), ENT_QUOTES, 'UTF-8', true);?>
+					<a class="btn btn-default button button-medium mg_btn_buy"	href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink(((string)$_smarty_tpl->tpl_vars['order_process']->value),true), ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo smartyTranslate(array('s'=>'Proceed to checkout','mod'=>'blockcart'),$_smarty_tpl);?>
 " rel="nofollow">
 						<span>

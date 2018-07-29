@@ -35,6 +35,7 @@ class Blockcontactinfos extends Module
 		'BLOCKCONTACTINFOS_ADDRESS',
 		'BLOCKCONTACTINFOS_PHONE',
 		'BLOCKCONTACTINFOS_PHONE2',
+		'BLOCKCONTACTINFOS_PHONE3',
 		'BLOCKCONTACTINFOS_EMAIL',
 	);
 
@@ -59,6 +60,7 @@ class Blockcontactinfos extends Module
 		Configuration::updateValue('BLOCKCONTACTINFOS_ADDRESS', trim(preg_replace('/ +/', ' ', Configuration::get('PS_SHOP_ADDR1').' '.Configuration::get('PS_SHOP_ADDR2')."\n".Configuration::get('PS_SHOP_CODE').' '.Configuration::get('PS_SHOP_CITY')."\n".Country::getNameById(Configuration::get('PS_LANG_DEFAULT'), Configuration::get('PS_SHOP_COUNTRY_ID')))));
 		Configuration::updateValue('BLOCKCONTACTINFOS_PHONE', Configuration::get('PS_SHOP_PHONE'));
 		Configuration::updateValue('BLOCKCONTACTINFOS_PHONE2', Configuration::get('PS_SHOP_PHONE2'));
+		Configuration::updateValue('BLOCKCONTACTINFOS_PHONE3', Configuration::get('PS_SHOP_PHONE3'));
 		Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL', Configuration::get('PS_SHOP_EMAIL'));
 		$this->_clearCache('blockcontactinfos.tpl');
 		return (parent::install() && $this->registerHook('header') && $this->registerHook('displayTop') && $this->registerHook('footer'));
@@ -134,6 +136,11 @@ class Blockcontactinfos extends Module
 						'type' => 'text',
 						'label' => $this->l('Phone number'),
 						'name' => 'BLOCKCONTACTINFOS_PHONE2',
+					),
+					array(
+						'type' => 'text',
+						'label' => $this->l('Phone number'),
+						'name' => 'BLOCKCONTACTINFOS_PHONE3',
 					),
 					array(
 						'type' => 'text',
