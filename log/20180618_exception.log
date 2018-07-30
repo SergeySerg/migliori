@@ -1,0 +1,4 @@
+*ERROR* 	2018/06/18 - 15:33:59: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'migliori_db' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/06/18 - 15:34:01: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'migliori_db' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/06/18 - 15:34:09: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'migliori_db' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/06/18 - 15:34:10: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'migliori_db' at line 102 in file classes/db/DbPDO.php
