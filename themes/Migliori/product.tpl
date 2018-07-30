@@ -522,6 +522,25 @@
 			</section>
 			<!--end  More info -->
 		{/if}
+<<<<<<< HEAD
+
+		{if isset($packItems) && $packItems|@count > 0}
+		<section id="blockpack">
+			<h3 class="page-product-heading">{l s='Pack content'}</h3>
+			{include file="$tpl_dir./product-list.tpl" products=$packItems}
+		</section>
+		{/if}
+		{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}
+		{if (isset($HOOK_PRODUCT_TAB) && $HOOK_PRODUCT_TAB) || (isset($HOOK_PRODUCT_TAB_CONTENT) && $HOOK_PRODUCT_TAB_CONTENT)}
+		<!--HOOK_PRODUCT_TAB -->
+		<section class="page-product-box">
+			{$HOOK_PRODUCT_TAB}
+			{if isset($HOOK_PRODUCT_TAB_CONTENT) && $HOOK_PRODUCT_TAB_CONTENT}{$HOOK_PRODUCT_TAB_CONTENT}{/if}
+		</section>
+		<!--end HOOK_PRODUCT_TAB -->
+		{/if}
+=======
+>>>>>>> 5b9a03bfd3270309eab8f621c490553341a7fbcc
 		{if isset($accessories) && $accessories}
 			<!--Accessories -->
 			<section class="page-product-box">
@@ -581,7 +600,13 @@
 			</section>
 			<!--end Accessories -->
 		{/if}
+<<<<<<< HEAD
+
 		{*{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}*}
+
+=======
+		{*{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}*}
+>>>>>>> 5b9a03bfd3270309eab8f621c490553341a7fbcc
 
 		{if isset($packItems) && $packItems|@count > 0}
 		<section id="blockpack">

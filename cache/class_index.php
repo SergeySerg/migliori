@@ -2113,7 +2113,7 @@
   ),
   'Dispatcher' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Dispatcher.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2629,7 +2629,7 @@
   ),
   'Link' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Link.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4135,7 +4135,7 @@
   ),
   'Validate' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Validate.php',
     'type' => 'class',
     'override' => false,
   ),
