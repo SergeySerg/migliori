@@ -818,6 +818,7 @@ $_LANG['product_3dd42bfc8345e82c43b4a40a3426ec49'] = 'Артикул';
 $_LANG['product_476efcbaed950dd513ffc08e4e9a632f'] = 'Пожалуйста подождите...';
 $_LANG['product_54c02ba7929b1fda4847991a45b58a48'] = 'Модификация товара';
 $_LANG['product_54d3b260d7e0e3377ff04b75bf564982'] = 'В том числе';
+$_LANG['product_5c1e46c7bf74e65d9b5274dc767d8524'] = 'Купить в один клик';
 $_LANG['product_63a78ed4647f7c63c2929e35ec1c95e3'] = 'Настроить';
 $_LANG['product_656c3be690ee43df4b845bd2a2ebe587'] = 'Новый товар';
 $_LANG['product_694e8d1f2ee056f98ee488bdc4982d73'] = 'Количество';

@@ -540,6 +540,7 @@ span.view_scroll_spacer {
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
+    cursor: pointer;
     background: #c1996b; }
     /* .box-info-product .exclusive:before {
       font-family: "FontAwesome";
